@@ -8,13 +8,13 @@ website:
   twitter-card:
     site: "@fgazzelloni"
   open-graph: true
-  #site-url: https://realworlddatascience.net/
-  #repo-url: https://github.com/realworlddatascience/realworlddatascience.github.io
+  site-url: https://github.com/Fgazzelloni/UPDVwR
+  repo-url: https://github.com/Fgazzelloni/UPDVwR
   repo-actions: [edit, issue]
   #google-analytics: "G-1TTWB7YTR6"
   navbar:
     background: "#f0eeeb"
-    logo: images/map21-favicon.png
+    logo: images/map21.png
     logo-alt: "Unlocking the power of data visualization with R"
     title: false
     collapse-below: lg
@@ -51,9 +51,11 @@ website:
       contents: 
         - mapchallenges/index.qmd
         - mapchallenges/cases/index.qmd
+        
 
   page-navigation: true
-  back-to-top-navigation: false
+  
+  # back-to-top-navigation: false
 
   page-footer:
     background: "#000000"
