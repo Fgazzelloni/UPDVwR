@@ -1,1 +1,14 @@
-
+---
+title: "viz1"
+description: |
+  what?
+categories: 
+  - viz
+  - data viz
+  - other categories
+author: FG
+date: 08/03/2023
+image: images/map21.png
+image-alt: some graphs.
+toc: true
+---

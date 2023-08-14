@@ -1,1 +1,18 @@
-
+---
+pagetitle: ChartChallenges | Unlocking the power of data visualization with R
+title: ChartChallenges
+subtitle: How to make ChartChallenges visualizations
+search: false
+listing:
+  contents: 
+  - cases
+  - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 30
+  feed: true
+---
+The content is in development. Interested in contributing to Unlocking the power of data visualization with R? [Check out our call for contributions](/contributor-docs/call-for-contributions.qmd).
