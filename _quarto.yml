@@ -1,0 +1,93 @@
+project:
+  type: website
+
+website:
+  title: "Unlocking the power of data visualization with R"
+  image: images/map22.png
+  favicon: images/map21-favicon.png
+  twitter-card:
+    site: "@fgazzelloni"
+  open-graph: true
+  #site-url: https://realworlddatascience.net/
+  #repo-url: https://github.com/realworlddatascience/realworlddatascience.github.io
+  repo-actions: [edit, issue]
+  #google-analytics: "G-1TTWB7YTR6"
+  navbar:
+    background: "#f0eeeb"
+    logo: images/map21-favicon.png
+    logo-alt: "Unlocking the power of data visualization with R"
+    title: false
+    collapse-below: lg
+    right:
+      - tidytuesday/index.qmd
+      - chartchallenges/index.qmd
+      - mapchallenges/index.qmd
+      - text: "About UPDVwR"
+        menu: 
+        - text: "Who we are"
+          href: about.qmd
+        - text: "How to contribute"
+          href: contributor-docs/call-for-contributions.qmd
+        - text: "Contact us"
+          href: contact.qmd
+  sidebar: 
+    - title: "About us"
+      contents:
+        - about.qmd
+        - sponsors.qmd
+        - contact.qmd
+    - title: "Call for contributions"
+      contents:
+        - contributor-docs/call-for-contributions.qmd
+    - title: "tidytuesday"
+      contents:
+        - tidytuesday/index.qmd
+        - tidytuesday/cases/index.qmd
+    - title: "chartchallenges"
+      contents:
+        - chartchallenges/index.qmd
+        - chartchallenges/cases/index.qmd
+    - title: "mapchallenges"
+      contents: 
+        - mapchallenges/index.qmd
+        - mapchallenges/cases/index.qmd
+
+  page-navigation: true
+  back-to-top-navigation: false
+
+  page-footer:
+    background: "#000000"
+    left: |
+      Copyright &copy; 2023 [FG]()
+    center:  
+      - href: https://github.com/fgazzelloni
+        icon: github
+        aria-label: GitHub
+      - href: https://twitter.com/fgazzelloni
+        icon: twitter
+        aria-label: Twitter
+      - href: https://fosstodon.org/@fgazzelloni
+        icon: mastodon
+        aria-label: Mastodon
+      - href: https://www.linkedin.com/in/federicagazzelloni
+        icon: linkedin
+        aria-label: LinkedIn
+      - href: feeds.html
+        icon: rss
+        aria-label: UPDVwR rss
+    right: |
+      [Terms & Conditions](/ts-and-cs.qmd)
+
+format:
+  html:
+    theme: [lux, rwds.scss]
+    css: rwds.css
+    toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px
+
+execute: 
+  freeze: auto
+
