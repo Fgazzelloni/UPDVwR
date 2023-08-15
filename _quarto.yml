@@ -3,8 +3,8 @@ project:
 
 website:
   title: "Unlocking the power of data visualization with R"
-  image: images/map22.png
-  favicon: images/map21-favicon.png
+  image: images/UPDVwR.png
+  favicon: images/UPDVwR-favicon.png
   twitter-card:
     site: "@fgazzelloni"
   open-graph: true
@@ -14,7 +14,7 @@ website:
   #google-analytics: "G-1TTWB7YTR6"
   navbar:
     background: "#f0eeeb"
-    logo: images/map21.png
+    logo: images/UPDVwR.png
     logo-alt: "Unlocking the power of data visualization with R"
     title: false
     collapse-below: lg
@@ -22,16 +22,16 @@ website:
       - tidytuesday/index.qmd
       - chartchallenges/index.qmd
       - mapchallenges/index.qmd
-      - text: "About UPDVwR"
+      - text: "About"
         menu: 
-        - text: "Who we are"
+        - text: "Who I am"
           href: about.qmd
         - text: "How to contribute"
           href: contributor-docs/call-for-contributions.qmd
         - text: "Contact us"
           href: contact.qmd
   sidebar: 
-    - title: "About us"
+    - title: "About the Author"
       contents:
         - about.qmd
         - sponsors.qmd
@@ -42,15 +42,21 @@ website:
     - title: "tidytuesday"
       contents:
         - tidytuesday/index.qmd
-        - tidytuesday/cases/index.qmd
+        - tidytuesday/cases2021/index.qmd
+        - tidytuesday/cases2022/index.qmd
+        - tidytuesday/cases2023/index.qmd
     - title: "chartchallenges"
       contents:
         - chartchallenges/index.qmd
-        - chartchallenges/cases/index.qmd
+        - chartchallenges/cases2021/index.qmd
+        - chartchallenges/cases2022/index.qmd
+        - chartchallenges/cases2023/index.qmd
     - title: "mapchallenges"
       contents: 
         - mapchallenges/index.qmd
-        - mapchallenges/cases/index.qmd
+        - mapchallenges/cases2021/index.qmd
+        - mapchallenges/cases2022/index.qmd
+        - mapchallenges/cases2023/index.qmd
         
 
   page-navigation: true
@@ -60,7 +66,7 @@ website:
   page-footer:
     background: "#000000"
     left: |
-      Copyright &copy; 2023 [FG]()
+      Copyright &copy; 2023 [FG](https://github.com/fgazzelloni)
     center:  
       - href: https://github.com/fgazzelloni
         icon: github

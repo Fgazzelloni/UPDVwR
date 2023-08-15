@@ -1,0 +1,13 @@
+---
+title: "30DayMapChallenge 2022"
+image: images/map21.png
+listing: 
+  contents: posts2022
+  sort: "date desc"
+  type: grid
+  image-height: "200"
+  categories: true
+page-layout: full
+title-block-banner: false
+---
+The content is in development. Interested in contributing to Unlocking the power of data visualization with R? [Check out our call for contributions](/contributor-docs/call-for-contributions.qmd).

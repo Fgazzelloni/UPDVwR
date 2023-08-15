@@ -1,14 +1,102 @@
 [
   {
+    "listing": "/mapchallenges/cases2021/index.html",
+    "items": []
+  },
+  {
     "listing": "/mapchallenges/index.html",
+    "items": [
+      "/mapchallenges/cases2021/index.html",
+      "/mapchallenges/cases2022/index.html",
+      "/mapchallenges/cases2023/index.html"
+    ]
+  },
+  {
+    "listing": "/mapchallenges/cases2023/index.html",
+    "items": []
+  },
+  {
+    "listing": "/mapchallenges/cases2022/index.html",
+    "items": []
+  },
+  {
+    "listing": "/chartchallenges/cases2021/index.html",
     "items": []
   },
   {
     "listing": "/chartchallenges/index.html",
+    "items": [
+      "/chartchallenges/cases2021/index.html",
+      "/chartchallenges/cases2022/index.html",
+      "/chartchallenges/cases2023/index.html"
+    ]
+  },
+  {
+    "listing": "/chartchallenges/cases2023/index.html",
     "items": []
   },
   {
+    "listing": "/chartchallenges/cases2022/index.html",
+    "items": []
+  },
+  {
+    "listing": "/tidytuesday/cases2021/index.html",
+    "items": [
+      "/tidytuesday/cases2021/posts2021/w52_starbucks/w52_strabucks.html",
+      "/tidytuesday/cases2021/posts2021/w51_spice_girls/w51_spice_girls.html",
+      "/tidytuesday/cases2021/posts2021/w50_spiders/w50_spiders.html",
+      "/tidytuesday/cases2021/posts2021/w49_world_cup_cricket/w49_world_cup_cricket.html",
+      "/tidytuesday/cases2021/posts2021/w48_dr_who/w48_dr_who.html",
+      "/tidytuesday/cases2021/posts2021/w46_afrilearndata/w46_afrilearndata.html",
+      "/tidytuesday/cases2021/posts2021/w45_maps/w45_maps.html",
+      "/tidytuesday/cases2021/posts2021/w44_ultra_trail_running/w44_ultra_trail_running.html",
+      "/tidytuesday/cases2021/posts2021/w43_big_pumpkins/w43_big_pumpkins.html",
+      "/tidytuesday/cases2021/posts2021/w42_seafood/w42-seafood.html",
+      "/tidytuesday/cases2021/posts2021/w41_nurses/w41_nurses.html",
+      "/tidytuesday/cases2021/posts2021/w40_NBER_papers/w40_NBER_papers.html",
+      "/tidytuesday/cases2021/posts2021/w39_emmy_awards/w39_emmy_awards.html",
+      "/tidytuesday/cases2021/posts2021/w38_billboard/w38_billboard.html",
+      "/tidytuesday/cases2021/posts2021/w37_formula1/w37_formula1.html",
+      "/tidytuesday/cases2021/posts2021/w36_bird_baths/w36_bird_baths.html",
+      "/tidytuesday/cases2021/posts2021/w35_lemurs/w35_lemurs.html",
+      "/tidytuesday/cases2021/posts2021/w34_star_trek/w34_star_trek.html",
+      "/tidytuesday/cases2021/posts2021/w33_bea_Infrastructure_Investment/w33_bea_Infrastructure_Investment.html",
+      "/tidytuesday/cases2021/posts2021/w32_paralympic/w32_paralympic.html",
+      "/tidytuesday/cases2021/posts2021/w31_olympic_medals/w31_olympic_medals.html",
+      "/tidytuesday/cases2021/posts2021/w30_drought/w30_drought.html",
+      "/tidytuesday/cases2021/posts2021/w29_scoobydoo/w29_scoobydoo.html",
+      "/tidytuesday/cases2021/posts2021/w28_independence_days/w28_independence_days.html",
+      "/tidytuesday/cases2021/posts2021/w27_animal_rescues/w27_animal_rescues.html",
+      "/tidytuesday/cases2021/posts2021/w26_public_park_access/w26_public_park_access.html",
+      "/tidytuesday/cases2021/posts2021/w25_du_bois/w25_du_bois.html",
+      "/tidytuesday/cases2021/posts2021/w24_great_lakes_fish/w24_great_lakes_fish.html",
+      "/tidytuesday/cases2021/posts2021/w23_survivors/w23_survivors.html",
+      "/tidytuesday/cases2021/posts2021/w22_mario_kart_world/w22_mario_kart_world.html",
+      "/tidytuesday/cases2021/posts2021/w21_ask_a_manager_survey/w21_ask_a_manager_survey.html",
+      "/tidytuesday/cases2021/posts2021/w20_us_broadband/w20_us_broadband.html",
+      "/tidytuesday/cases2021/posts2021/w19_water_access/w19_water_access.html",
+      "/tidytuesday/cases2021/posts2021/w18_ceo_departures/w18_ceo_departures.html",
+      "/tidytuesday/cases2021/posts2021/w17_netflix/w17_netflix.html",
+      "/tidytuesday/cases2021/posts2021/w16_US_Post_office/w16_US_Post_office.html",
+      "/tidytuesday/cases2021/posts2021/w15_global_deforestation/w15_global_deforestation.html",
+      "/tidytuesday/cases2021/posts2021/w14_the_pudding/w14_the_pudding.html",
+      "/tidytuesday/cases2021/posts2021/w13_UN_votes/w13_UN_votes.html"
+    ]
+  },
+  {
     "listing": "/tidytuesday/index.html",
+    "items": [
+      "/tidytuesday/cases2021/index.html",
+      "/tidytuesday/cases2022/index.html",
+      "/tidytuesday/cases2023/index.html"
+    ]
+  },
+  {
+    "listing": "/tidytuesday/cases2023/index.html",
+    "items": []
+  },
+  {
+    "listing": "/tidytuesday/cases2022/index.html",
     "items": []
   }
 ]

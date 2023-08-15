@@ -3,10 +3,11 @@ pagetitle: TidyTuesday | Unlocking the power of data visualization with R
 title: TidyTuesday
 subtitle: How to make TidyTuesday visualizations
 search: false
-listing:
+listing: 
   contents: 
-  - cases
-  - "!index.qmd"
+  - cases2021/index.qmd
+  - cases2022/index.qmd
+  - cases2023/index.qmd
   sort: "date desc"
   type: grid
   categories: true

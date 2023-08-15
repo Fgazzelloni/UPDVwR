@@ -10,13 +10,85 @@
 <atom:link href="https://github.com/Fgazzelloni/UPDVwR/chartchallenges/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://github.com/Fgazzelloni/UPDVwR/images/map22.png</url>
+<url>https://github.com/Fgazzelloni/UPDVwR/images/UPDVwR.png</url>
 <title>Unlocking the power of data visualization with R</title>
 <link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/index.html</link>
-<height>115</height>
+<height>144</height>
 <width>144</width>
 </image>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Mon, 14 Aug 2023 09:44:40 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Aug 2023 11:31:36 GMT</lastBuildDate>
+<item>
+  <title>30DayChartChallenge 2021</title>
+  <link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2021/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>The content is in development. Interested in contributing to Unlocking the power of data visualization with R? <a href="../../contributor-docs/call-for-contributions.html">Check out our call for contributions</a>.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2021/index.html</guid>
+  <pubDate>Tue, 15 Aug 2023 11:31:36 GMT</pubDate>
+  <media:content url="https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2021/images/map21.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>30DayChartChallenge 2022</title>
+  <link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2022/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>The content is in development. Interested in contributing to Unlocking the power of data visualization with R? <a href="../../contributor-docs/call-for-contributions.html">Check out our call for contributions</a>.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2022/index.html</guid>
+  <pubDate>Tue, 15 Aug 2023 11:31:36 GMT</pubDate>
+  <media:content url="https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2022/images/map21.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>30DayChartChallenge 2023</title>
+  <link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2023/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>The content is in development. Interested in contributing to Unlocking the power of data visualization with R? <a href="../../contributor-docs/call-for-contributions.html">Check out our call for contributions</a>.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2023/index.html</guid>
+  <pubDate>Tue, 15 Aug 2023 11:31:36 GMT</pubDate>
+  <media:content url="https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2023/images/map21.png" medium="image" type="image/png"/>
+</item>
 </channel>
 </rss>

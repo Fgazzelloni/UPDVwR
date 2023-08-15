@@ -1,51 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/Fgazzelloni/UPDVwR/mapchallenges/cases/index.html</loc>
-    <lastmod>2023-08-14T09:44:15.025Z</lastmod>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/mapchallenges/cases2021/index.html</loc>
+    <lastmod>2023-08-15T11:31:32.041Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/mapchallenges/index.html</loc>
-    <lastmod>2023-08-14T09:44:15.490Z</lastmod>
+    <lastmod>2023-08-15T11:31:33.220Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/mapchallenges/cases2023/index.html</loc>
+    <lastmod>2023-08-15T11:31:33.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/mapchallenges/cases2022/index.html</loc>
+    <lastmod>2023-08-15T11:31:34.582Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/contact.html</loc>
-    <lastmod>2023-08-14T09:44:15.998Z</lastmod>
+    <lastmod>2023-08-15T11:31:35.091Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/sponsors.html</loc>
-    <lastmod>2023-08-14T09:44:16.710Z</lastmod>
+    <lastmod>2023-08-15T11:31:35.593Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases/index.html</loc>
-    <lastmod>2023-08-14T09:44:43.556Z</lastmod>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2021/index.html</loc>
+    <lastmod>2023-08-15T11:31:36.339Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/index.html</loc>
-    <lastmod>2023-08-14T09:44:40.600Z</lastmod>
+    <lastmod>2023-08-15T11:31:37.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2023/index.html</loc>
+    <lastmod>2023-08-15T11:31:38.004Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2022/index.html</loc>
+    <lastmod>2023-08-15T11:31:39.120Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/index.html</loc>
-    <lastmod>2023-08-14T09:44:27.536Z</lastmod>
+    <lastmod>2023-08-15T11:31:39.886Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/contributor-docs/call-for-contributions.html</loc>
-    <lastmod>2023-08-14T09:44:19.200Z</lastmod>
+    <lastmod>2023-08-15T11:31:40.486Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/about.html</loc>
-    <lastmod>2023-08-14T09:44:19.965Z</lastmod>
+    <lastmod>2023-08-15T11:31:41.150Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases/index.html</loc>
-    <lastmod>2023-08-14T09:44:33.767Z</lastmod>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w46_afrilearndata/w46_afrilearndata.html</loc>
+    <lastmod>2023-08-15T11:31:42.357Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w15_global_deforestation/w15_global_deforestation.html</loc>
+    <lastmod>2023-08-15T11:31:43.702Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w34_star_trek/w34_star_trek.html</loc>
+    <lastmod>2023-08-15T11:31:45.203Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w24_great_lakes_fish/w24_great_lakes_fish.html</loc>
+    <lastmod>2023-08-15T11:31:46.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w41_nurses/w41_nurses.html</loc>
+    <lastmod>2023-08-15T11:31:47.694Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w18_ceo_departures/w18_ceo_departures.html</loc>
+    <lastmod>2023-08-15T11:31:48.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w48_dr_who/w48_dr_who.html</loc>
+    <lastmod>2023-08-15T11:31:50.177Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w39_emmy_awards/w39_emmy_awards.html</loc>
+    <lastmod>2023-08-15T11:31:51.357Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w21_ask_a_manager_survey/w21_ask_a_manager_survey.html</loc>
+    <lastmod>2023-08-15T11:31:52.501Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w17_netflix/w17_netflix.html</loc>
+    <lastmod>2023-08-15T11:31:53.587Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w28_independence_days/w28_independence_days.html</loc>
+    <lastmod>2023-08-15T11:31:54.636Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w31_olympic_medals/w31_olympic_medals.html</loc>
+    <lastmod>2023-08-15T11:31:55.902Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w23_survivors/w23_survivors.html</loc>
+    <lastmod>2023-08-15T11:31:57.320Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w30_drought/w30_drought.html</loc>
+    <lastmod>2023-08-15T11:31:59.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w26_public_park_access/w26_public_park_access.html</loc>
+    <lastmod>2023-08-15T11:32:00.566Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w22_mario_kart_world/w22_mario_kart_world.html</loc>
+    <lastmod>2023-08-15T11:32:01.703Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w20_us_broadband/w20_us_broadband.html</loc>
+    <lastmod>2023-08-15T11:32:03.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w43_big_pumpkins/w43_big_pumpkins.html</loc>
+    <lastmod>2023-08-15T11:32:04.876Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w49_world_cup_cricket/w49_world_cup_cricket.html</loc>
+    <lastmod>2023-08-15T11:32:06.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w38_billboard/w38_billboard.html</loc>
+    <lastmod>2023-08-15T11:32:07.234Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w42_seafood/w42-seafood.html</loc>
+    <lastmod>2023-08-15T11:32:08.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w45_maps/w45_maps.html</loc>
+    <lastmod>2023-08-15T11:32:09.602Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w36_bird_baths/w36_bird_baths.html</loc>
+    <lastmod>2023-08-15T11:32:10.769Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w16_US_Post_office/w16_US_Post_office.html</loc>
+    <lastmod>2023-08-15T11:32:12.353Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w25_du_bois/w25_du_bois.html</loc>
+    <lastmod>2023-08-15T11:32:13.508Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w32_paralympic/w32_paralympic.html</loc>
+    <lastmod>2023-08-15T11:32:15.316Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w14_the_pudding/w14_the_pudding.html</loc>
+    <lastmod>2023-08-15T11:32:16.809Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w13_UN_votes/w13_UN_votes.html</loc>
+    <lastmod>2023-08-15T11:32:17.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w19_water_access/w19_water_access.html</loc>
+    <lastmod>2023-08-15T11:32:19.378Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w40_NBER_papers/w40_NBER_papers.html</loc>
+    <lastmod>2023-08-15T11:32:20.853Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w37_formula1/w37_formula1.html</loc>
+    <lastmod>2023-08-15T11:32:22.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w52_starbucks/w52_strabucks.html</loc>
+    <lastmod>2023-08-15T11:32:23.640Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w50_spiders/w50_spiders.html</loc>
+    <lastmod>2023-08-15T11:32:24.767Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w29_scoobydoo/w29_scoobydoo.html</loc>
+    <lastmod>2023-08-15T11:32:25.826Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w27_animal_rescues/w27_animal_rescues.html</loc>
+    <lastmod>2023-08-15T11:32:26.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w35_lemurs/w35_lemurs.html</loc>
+    <lastmod>2023-08-15T11:32:28.472Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w44_ultra_trail_running/w44_ultra_trail_running.html</loc>
+    <lastmod>2023-08-15T11:32:30.210Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w33_bea_Infrastructure_Investment/w33_bea_Infrastructure_Investment.html</loc>
+    <lastmod>2023-08-15T11:32:31.993Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w51_spice_girls/w51_spice_girls.html</loc>
+    <lastmod>2023-08-15T11:32:32.838Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/index.html</loc>
+    <lastmod>2023-08-15T11:32:34.278Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/index.html</loc>
-    <lastmod>2023-08-14T09:44:30.506Z</lastmod>
+    <lastmod>2023-08-15T11:32:34.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/index.html</loc>
+    <lastmod>2023-08-15T11:32:35.471Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/index.html</loc>
+    <lastmod>2023-08-15T11:32:36.108Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Fgazzelloni/UPDVwR/ts-and-cs.html</loc>
-    <lastmod>2023-08-14T09:44:21.242Z</lastmod>
+    <lastmod>2023-08-15T11:32:36.528Z</lastmod>
   </url>
 </urlset>

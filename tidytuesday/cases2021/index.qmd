@@ -1,0 +1,13 @@
+---
+title: "TidyTuesday 2021"
+image: images/collage2021.png
+
+listing:
+  contents: posts2021
+  sort: "date desc"
+  type: grid
+  image-height: "200"
+  categories: true
+page-layout: full
+title-block-banner: false
+---
