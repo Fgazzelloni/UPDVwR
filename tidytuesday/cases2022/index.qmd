@@ -1,6 +1,6 @@
 ---
 title: "TidyTuesday 2022"
-image: images/map21.png
+image: images/collage2022.png
 listing: 
   contents: posts2022
   sort: "date desc"

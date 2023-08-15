@@ -3,6 +3,6 @@ title: "Unlocking the Power of Data Visualization with R"
 ---
 
 
-Welcome to `"Unlocking the Power of Data Visualization with R"` where I am proudly showcasing the vibrant contributions to #R4DS community to the `#TidyTuesday`, `#30DayChartChallenge`, and `#30DayMapChallenge` contributions spanning 2021, 2022, and 2023. This platform serves as your gateway to exploring an engaging journey of data exploration, featuring a diverse collection of visualizations created using the `R programming language`. Dive into the digital gallery to discover insights, find inspiration, and learn from detailed explanations and code for each submission. 
+Welcome to `"Unlocking the Power of Data Visualization with R"` where I am proudly showcasing the vibrant contributions to #R4DS community to the `#TidyTuesday`, `#30DayChartChallenge`, and `#30DayMapChallenge` spanning 2021, 2022, and 2023. This platform serves as your gateway to exploring an engaging journey of data exploration, featuring a diverse collection of visualizations created using the `R programming language`. Dive into the digital gallery to discover insights, find inspiration, and learn from detailed explanations and code for each submission. 
 
 > Whether you're a seasoned data professional or just starting out, join me in unraveling the art and impact of data visualization.

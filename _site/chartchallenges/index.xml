@@ -6,21 +6,21 @@
       version="2.0">
 <channel>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/index.html</link>
-<atom:link href="https://github.com/Fgazzelloni/UPDVwR/chartchallenges/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/index.html</link>
+<atom:link href="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://github.com/Fgazzelloni/UPDVwR/images/UPDVwR.png</url>
+<url>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/index.html</link>
+<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/index.html</link>
 <height>144</height>
 <width>144</width>
 </image>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Tue, 15 Aug 2023 11:31:36 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Aug 2023 15:19:03 GMT</lastBuildDate>
 <item>
   <title>30DayChartChallenge 2021</title>
-  <link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2021/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/index.html</link>
   <description><![CDATA[ 
 
 
@@ -38,13 +38,13 @@
 No matching items
 </div>
 </div> ]]></description>
-  <guid>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2021/index.html</guid>
-  <pubDate>Tue, 15 Aug 2023 11:31:36 GMT</pubDate>
-  <media:content url="https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2021/images/map21.png" medium="image" type="image/png"/>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/index.html</guid>
+  <pubDate>Tue, 15 Aug 2023 15:19:03 GMT</pubDate>
+  <media:content url="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/images/map21.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>30DayChartChallenge 2022</title>
-  <link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2022/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/index.html</link>
   <description><![CDATA[ 
 
 
@@ -62,13 +62,13 @@ No matching items
 No matching items
 </div>
 </div> ]]></description>
-  <guid>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2022/index.html</guid>
-  <pubDate>Tue, 15 Aug 2023 11:31:36 GMT</pubDate>
-  <media:content url="https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2022/images/map21.png" medium="image" type="image/png"/>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/index.html</guid>
+  <pubDate>Tue, 15 Aug 2023 15:19:03 GMT</pubDate>
+  <media:content url="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/images/map21.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>30DayChartChallenge 2023</title>
-  <link>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2023/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/index.html</link>
   <description><![CDATA[ 
 
 
@@ -86,9 +86,9 @@ No matching items
 No matching items
 </div>
 </div> ]]></description>
-  <guid>https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2023/index.html</guid>
-  <pubDate>Tue, 15 Aug 2023 11:31:36 GMT</pubDate>
-  <media:content url="https://github.com/Fgazzelloni/UPDVwR/chartchallenges/cases2023/images/map21.png" medium="image" type="image/png"/>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/index.html</guid>
+  <pubDate>Tue, 15 Aug 2023 15:19:03 GMT</pubDate>
+  <media:content url="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/images/map21.png" medium="image" type="image/png"/>
 </item>
 </channel>
 </rss>
