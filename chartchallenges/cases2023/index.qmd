@@ -1,6 +1,6 @@
 ---
 title: "30DayChartChallenge 2023"
-image: images/map21.png
+image: images/UPDVwR.png
 listing: 
   contents: posts2021
   sort: "date desc"

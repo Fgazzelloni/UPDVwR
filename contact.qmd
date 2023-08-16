@@ -1,1 +1,26 @@
+---
+title: "Contacts"
+sidebar: false
+page-layout: article
+toc: false
+title-block-banner: true
+---
+
+
+## Portoflios
+<br>
+**GitHub:** [@fgazzelloni](https://github.com/fgazzelloni)
+
+**Blog:** [Federica Gazzelloni's Blog](https://federicagazzelloni.netlify.app/)
+
+## Social Networks
+<br>
+**Email:** [fede.gazzelloni@gmail.com](mailto:fede.gazzelloni@gmail.com)
+
+**Twitter:** [@fgazzelloni](https://twitter.com/fgazzelloni)
+
+**LinkedIn:** [Federica Gazzelloni](https://www.linkedin.com/in/federicagazzelloni)
+
+**Mastodon:** [@fgazzelloni](https://fosstodon.org/@fgazzelloni)
+
 

@@ -1,6 +1,6 @@
 ---
 title: "30DayMapChallenge 2022"
-image: images/map21.png
+image: images/map_collage_2022.png
 listing: 
   contents: posts2022
   sort: "date desc"
