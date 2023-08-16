@@ -6,21 +6,21 @@
       version="2.0">
 <channel>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/index.html</link>
-<atom:link href="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/index.html</link>
+<atom:link href="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
+<url>https://github.com/Fgazzelloni/UPDVwR/images/UPDVwR.png</url>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/index.html</link>
+<link>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/index.html</link>
 <height>144</height>
 <width>144</width>
 </image>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Tue, 15 Aug 2023 15:19:43 GMT</lastBuildDate>
+<lastBuildDate>Wed, 16 Aug 2023 14:55:51 GMT</lastBuildDate>
 <item>
   <title>TidyTuesday 2021</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/index.html</link>
+  <link>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/index.html</link>
   <description><![CDATA[ 
 
 
@@ -35,7 +35,7 @@
 <a href="../../tidytuesday/cases2021/posts2021/w52_starbucks/w52_strabucks.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w52_starbucks/w52_starbucks.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w52_starbucks/w52_starbucks.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -60,7 +60,7 @@ Dec 21, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w51_spice_girls/w51_spice_girls.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w51_spice_girls/w51_spice_girls.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w51_spice_girls/w51_spice_girls.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -85,7 +85,7 @@ Dec 14, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w50_spiders/w50_spiders.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w50_spiders/w50_spiders.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w50_spiders/w50_spiders.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -110,7 +110,7 @@ Dec 7, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w49_world_cup_cricket/w49_world_cup_cricket.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w49_world_cup_cricket/w49_world_cup_cricket.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w49_world_cup_cricket/w49_world_cup_cricket.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -135,7 +135,7 @@ Nov 30, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w48_dr_who/w48_dr_who.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w48_dr_who/w48_dr_who.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w48_dr_who/w48_dr_who.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -160,7 +160,7 @@ Nov 23, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w46_afrilearndata/w46_afrilearndata.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w46_afrilearndata/w46_afrilearndata.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w46_afrilearndata/w46_afrilearndata.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -185,7 +185,7 @@ Nov 9, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w45_maps/w45_maps.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w45_maps/w45_maps.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w45_maps/w45_maps.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -210,7 +210,7 @@ Nov 2, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w44_ultra_trail_running/w44_ultra_trail_running.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w44_ultra_trail_running/w44_ultra_trail_running.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w44_ultra_trail_running/w44_ultra_trail_running.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -235,7 +235,7 @@ Oct 26, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w43_big_pumpkins/w43_big_pumpkins.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w43_big_pumpkins/w43_big_pumpkins.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w43_big_pumpkins/w43_big_pumpkins.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -260,7 +260,7 @@ Oct 19, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w42_seafood/w42-seafood.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w42_seafood/w42_seafood.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w42_seafood/w42_seafood.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -285,7 +285,7 @@ Oct 12, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w41_nurses/w41_nurses.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w41_nurses/w41_nurses.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w41_nurses/w41_nurses.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -310,7 +310,7 @@ Oct 5, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w40_NBER_papers/w40_NBER_papers.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w40_NBER_papers/w40_NBER_Papers.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w40_NBER_papers/w40_NBER_Papers.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -335,7 +335,7 @@ Sep 28, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w39_emmy_awards/w39_emmy_awards.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w39_emmy_awards/w39_emmy_awards.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w39_emmy_awards/w39_emmy_awards.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -360,7 +360,7 @@ Sep 21, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w38_billboard/w38_billboard.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w38_billboard/w38_billboard.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w38_billboard/w38_billboard.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -385,7 +385,7 @@ Sep 14, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w37_formula1/w37_formula1.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w37_formula1/w37_formula1.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w37_formula1/w37_formula1.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -410,7 +410,7 @@ Sep 7, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w36_bird_baths/w36_bird_baths.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w36_bird_baths/w36_bird_baths.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w36_bird_baths/w36_bird_baths.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -435,7 +435,7 @@ Aug 31, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w35_lemurs/w35_lemurs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w35_lemurs/w35_lemurs.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w35_lemurs/w35_lemurs.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -460,7 +460,7 @@ Aug 24, 2021
 <a href="../../tidytuesday/cases2021/posts2021/w34_star_trek/w34_star_trek.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w34_star_trek/w34_star_trek.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/posts2021/w34_star_trek/w34_star_trek.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -881,11 +881,11 @@ Apr 27, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="34" data-listing-date-sort="1618869600000" data-listing-file-modified-sort="1692101264364" data-listing-reading-time-sort="1.865">
+<div class="g-col-1" data-index="34" data-listing-date-sort="1618869600000" data-listing-file-modified-sort="1692134669774" data-listing-reading-time-sort="1.865">
 <a href="../../tidytuesday/cases2021/posts2021/w17_netflix/w17_netflix.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="../../tidytuesday/cases2021/posts2021/w17_netflix/ww17_netflix.png" class="thumbnail-image card-img" style="height: 200;">
+<img data-src="../../tidytuesday/cases2021/posts2021/w17_netflix/w17_netflix.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1012,13 +1012,13 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/index.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:19:43 GMT</pubDate>
-  <media:content url="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/images/collage2021.png" medium="image" type="image/png" height="81" width="144"/>
+  <guid>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/index.html</guid>
+  <pubDate>Wed, 16 Aug 2023 14:55:51 GMT</pubDate>
+  <media:content url="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2021/images/collage2021.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>TidyTuesday 2022</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/index.html</link>
+  <link>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/index.html</link>
   <description><![CDATA[ 
 
 
@@ -1034,7 +1034,7 @@ No matching items
 <a href="../../tidytuesday/cases2022/posts2022/w52_star_trek_timelines/w52_star_trek_timeline.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w52_star_trek_timelines/w52_star_trek_timeline.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w52_star_trek_timelines/w52_star_trek_timeline.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1059,7 +1059,7 @@ Dec 27, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w8_wfi/w8_wfi.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w8_wfi/w8_wifi.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w8_wfi/w8_wifi.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1084,7 +1084,7 @@ Dec 20, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w51_weather_forecast_accuracy/w51_weather_forecast_accuracy.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w51_weather_forecast_accuracy/w51_weather_forecast_accuray.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w51_weather_forecast_accuracy/w51_weather_forecast_accuray.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1109,7 +1109,7 @@ Dec 20, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w50_retail_sales/w50_retail_sales.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w50_retail_sales/w50_retail_sales.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w50_retail_sales/w50_retail_sales.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1134,7 +1134,7 @@ Dec 13, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w49_elevators/w49_elevators.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w49_elevators/w49_elevators.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w49_elevators/w49_elevators.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1159,7 +1159,7 @@ Dec 6, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w48_FIFA_World_Cup/w48_fifa_world_cup.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w48_FIFA_World_Cup/w48_fifa_world_cup.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w48_FIFA_World_Cup/w48_fifa_world_cup.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1184,7 +1184,7 @@ Nov 29, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w47_uk_museums/w47_uk_museums.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w47_uk_museums/w47_uk_museums.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w47_uk_museums/w47_uk_museums.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1209,7 +1209,7 @@ Nov 22, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w46_web_page_metrics/w46_web_page_metrics.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w46_web_page_metrics/w46_web_page_metrics.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w46_web_page_metrics/w46_web_page_metrics.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1234,7 +1234,7 @@ Nov 15, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w45_radio_stations/w45_radio_stations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w45_radio_stations/w45_radio_stations.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w45_radio_stations/w45_radio_stations.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1259,7 +1259,7 @@ Nov 8, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w5_dogs/w5_dogs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w5_dogs/w5_dogs.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w5_dogs/w5_dogs.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1284,7 +1284,7 @@ Nov 8, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w44_horror_movies/w44_horror_movies.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w44_horror_movies/w44_horror_movies.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w44_horror_movies/w44_horror_movies.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1309,7 +1309,7 @@ Nov 1, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w43_gbb/w43_gbb.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w43_gbb/w43_gbb.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w43_gbb/w43_gbb.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1334,7 +1334,7 @@ Oct 25, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w42_stranger_things_dialogue/w42_stranger_things_dialogue.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w42_stranger_things_dialogue/w42_stranger_things_dialogue.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w42_stranger_things_dialogue/w42_stranger_things_dialogue.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1359,7 +1359,7 @@ Oct 18, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w41_yarn/w41_yarn.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w41_yarn/w41_yarn.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w41_yarn/w41_yarn.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1384,7 +1384,7 @@ Oct 11, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w40_product_hunt/w40_product_hunt.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w40_product_hunt/w40_product_hunt.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w40_product_hunt/w40_product_hunt.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1409,7 +1409,7 @@ Oct 4, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w39_us_artists/w39_us_artists.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w39_us_artists/w39_us_artists.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w39_us_artists/w39_us_artists.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1434,7 +1434,7 @@ Sep 27, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w38_hydro_wastewater/w38_hydro_wastewater.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w38_hydro_wastewater/w38_hydro_waterwaster.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w38_hydro_wastewater/w38_hydro_waterwaster.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1459,7 +1459,7 @@ Sep 20, 2022
 <a href="../../tidytuesday/cases2022/posts2022/w37_bigfoot/w37_bigfoot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w37_bigfoot/w37_bigfoot.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/posts2022/w37_bigfoot/w37_bigfoot.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -2336,13 +2336,13 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/index.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:19:43 GMT</pubDate>
-  <media:content url="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/images/collage2022.png" medium="image" type="image/png" height="81" width="144"/>
+  <guid>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/index.html</guid>
+  <pubDate>Wed, 16 Aug 2023 14:55:51 GMT</pubDate>
+  <media:content url="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2022/images/collage2022.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>TidyTuesday 2023</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/index.html</link>
+  <link>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/index.html</link>
   <description><![CDATA[ 
 
 
@@ -2354,15 +2354,675 @@ No matching items
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1692117596717" data-listing-reading-time-sort="0.09">
+<a href="../../tidytuesday/cases2023/posts2023/w24_SAFIS/w24_SAFIS.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 200;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SAFIS
+</h5>
+<div class="card-text listing-description">
+<!-- desc(5A0113B34292)[max=175]:tidytuesday/cases2023/posts2023/w24_SAFIS/w24_SAFIS.html -->
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Federica Gazzelloni
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1692117596756" data-listing-reading-time-sort="10.6">
+<a href="../../tidytuesday/cases2023/posts2023/w28_GlST/w28_GlST.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 200;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GIST
+</h5>
+<div class="card-text listing-description">
+<!-- desc(5A0113B34292)[max=175]:tidytuesday/cases2023/posts2023/w28_GlST/w28_GlST.html -->
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Federica Gazzelloni
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1692117596757" data-listing-reading-time-sort="0.09">
+<a href="../../tidytuesday/cases2023/posts2023/w27_HstM/w27_HstM.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 200;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+HstM
+</h5>
+<div class="card-text listing-description">
+<!-- desc(5A0113B34292)[max=175]:tidytuesday/cases2023/posts2023/w27_HstM/w27_HstM.html -->
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Federica Gazzelloni
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1692117596959" data-listing-reading-time-sort="0.09">
+<a href="../../tidytuesday/cases2023/posts2023/w25_UFSR/w25_UFSR.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 200;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+UFSR
+</h5>
+<div class="card-text listing-description">
+<!-- desc(5A0113B34292)[max=175]:tidytuesday/cases2023/posts2023/w25_UFSR/w25_UFSR.html -->
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Federica Gazzelloni
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1692117596960" data-listing-reading-time-sort="0.09">
+<a href="../../tidytuesday/cases2023/posts2023/w26_USPP/w26_USPP.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 200;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+USPP
+</h5>
+<div class="card-text listing-description">
+<!-- desc(5A0113B34292)[max=175]:tidytuesday/cases2023/posts2023/w26_USPP/w26_USPP.html -->
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Federica Gazzelloni
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1685397600000" data-listing-file-modified-sort="1692118928563" data-listing-reading-time-sort="0.005">
+<a href="../../tidytuesday/cases2023/posts2023/w22_VrOP/w22_VrOP.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w22_VrOP/w22_VrOP.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Verified Oldest People
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
+</div>
+<div class="listing-date">
+May 30, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-date-sort="1684792800000" data-listing-file-modified-sort="1692118928562" data-listing-reading-time-sort="0.09">
+<a href="../../tidytuesday/cases2023/posts2023/w21_CnPS/w21_CnPS.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w21_CnPS/w21_CnPS.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Central Park Squirrels
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+May 23, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-date-sort="1684188000000" data-listing-file-modified-sort="1692118928561" data-listing-reading-time-sort="0.09">
+<a href="../../tidytuesday/cases2023/posts2023/w20_Trnd/w20_Trnd.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w20_Trnd/w20_Trnd.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tornados
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+May 16, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-date-sort="1683583200000" data-listing-file-modified-sort="1692118978725" data-listing-reading-time-sort="0.095">
+<a href="../../tidytuesday/cases2023/posts2023/w19_ChlC/w19_ChlC.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w19_ChlC/w19_ChlC.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Childcare Costs
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+May 9, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-date-sort="1682978400000" data-listing-file-modified-sort="1692118928560" data-listing-reading-time-sort="4.89">
+<a href="../../tidytuesday/cases2023/posts2023/w18_ThPP/w18_ThPP.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w18_ThPP/w18_ThPP.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Portal Project
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+May 2, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-date-sort="1682373600000" data-listing-file-modified-sort="1692118928559" data-listing-reading-time-sort="4.185">
+<a href="../../tidytuesday/cases2023/posts2023/w17_LndM/w17_LndM.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w17_LndM/w17_LndM.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+London Marathon
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 25, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-date-sort="1681768800000" data-listing-file-modified-sort="1692118928558" data-listing-reading-time-sort="2.855">
+<a href="../../tidytuesday/cases2023/posts2023/w16_NlFC/w16_NlFC.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w16_NlFC/w16_NlFC.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Neolithic Founder Crops
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 18, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-listing-date-sort="1681164000000" data-listing-file-modified-sort="1692118928558" data-listing-reading-time-sort="4.285">
+<a href="../../tidytuesday/cases2023/posts2023/w15_UEPD/w15_UEPD.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w15_UEPD/w15_UEPD.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+US Egg Production Data
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 11, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-listing-date-sort="1680559200000" data-listing-file-modified-sort="1692118928557" data-listing-reading-time-sort="2.47">
+<a href="../../tidytuesday/cases2023/posts2023/w14_PLMD/w14_PLMD.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w14_PLMD/w14_PLMD.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Premier League Match Data
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 4, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-listing-date-sort="1679954400000" data-listing-file-modified-sort="1692118928557" data-listing-reading-time-sort="1.915">
+<a href="../../tidytuesday/cases2023/posts2023/w13_TmZn/w13_TmZn.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w13_TmZn/w13_TmZn.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Time Zones
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 28, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-listing-date-sort="1679353200000" data-listing-file-modified-sort="1692118928556" data-listing-reading-time-sort="0.525">
+<a href="../../tidytuesday/cases2023/posts2023/w12_PrgL/w12_PrgL.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w12_PrgL/w12_PrgL.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Programming Languages
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 21, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-listing-date-sort="1678748400000" data-listing-file-modified-sort="1692118928556" data-listing-reading-time-sort="8.95">
+<a href="../../tidytuesday/cases2023/posts2023/w11_ErDD/w11_ErDD.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w11_ErDD/w11_ErDD.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+European Drug Development
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 14, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17" data-listing-date-sort="1678143600000" data-listing-file-modified-sort="1692118928555" data-listing-reading-time-sort="2.165">
+<a href="../../tidytuesday/cases2023/posts2023/w10_NmiA/w10_NmiA.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/posts2023/w10_NmiA/w10_NmiA.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Numbats in Australia
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 7, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-listing-date-sort="1677538800000" data-listing-file-modified-sort="1692118928554" data-listing-reading-time-sort="1">
+<a href="../../tidytuesday/cases2023/posts2023/w9_AfLS/w9_AfLS.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w9_AfLS/w9_AfLS.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+African Language Sentiment
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Feb 28, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="19" data-listing-date-sort="1676934000000" data-listing-file-modified-sort="1692118928554" data-listing-reading-time-sort="0.76">
+<a href="../../tidytuesday/cases2023/posts2023/w8_BbRP/w8_BbRP.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w8_BbRP/w8_BbRP.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bob Ross Paintings
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Feb 21, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="20" data-listing-date-sort="1676329200000" data-listing-file-modified-sort="1692118928553" data-listing-reading-time-sort="0.645">
+<a href="../../tidytuesday/cases2023/posts2023/w7_HlAG/w7_HlAG.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w7_HlAG/w7_HlAG.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hollywood Age Gaps
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Feb 14, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="21" data-listing-date-sort="1675724400000" data-listing-file-modified-sort="1692118928552" data-listing-reading-time-sort="2.895">
+<a href="../../tidytuesday/cases2023/posts2023/w6_BTSP/w6_BTSP.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w6_BTSP/w6_BTSP.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Big Tech Stock Prices
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Feb 7, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="22" data-listing-date-sort="1675119600000" data-listing-file-modified-sort="1692118928551" data-listing-reading-time-sort="2.02">
+<a href="../../tidytuesday/cases2023/posts2023/w5_PCUK/w5_PCUK.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w5_PCUK/w5_PCUK.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pet Cats UK
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 31, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="23" data-listing-date-sort="1674514800000" data-listing-file-modified-sort="1692118928549" data-listing-reading-time-sort="2.58">
+<a href="../../tidytuesday/cases2023/posts2023/w4_Alnd/w4_Alnd.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w4_Alnd/w4_Alnd.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alone data
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 24, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="24" data-listing-date-sort="1673910000000" data-listing-file-modified-sort="1692118928548" data-listing-reading-time-sort="3.185">
+<a href="../../tidytuesday/cases2023/posts2023/w3_Arhd/w3_Arhd.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w3_Arhd/w3_Arhd.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Art history data
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 17, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="25" data-listing-date-sort="1673305200000" data-listing-file-modified-sort="1692118928547" data-listing-reading-time-sort="2.785">
+<a href="../../tidytuesday/cases2023/posts2023/w2_BFWd/w2_BFWd.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w2_BFWd/w2_BFWd.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bird FeederWatch data
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 10, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="26" data-listing-date-sort="1672700400000" data-listing-file-modified-sort="1692118928547" data-listing-reading-time-sort="2.815">
+<a href="../../tidytuesday/cases2023/posts2023/w1_Byodts2/w1_Byodts2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../tidytuesday/cases2023/posts2023/w1_Byodts2/w1_Byodts2.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bring your own data to start 2023!
+</h5>
+<div class="card-text listing-description">
+Networks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 3, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/index.html</guid>
-  <pubDate>Tue, 15 Aug 2023 15:19:43 GMT</pubDate>
-  <media:content url="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/images/map21.png" medium="image" type="image/png"/>
+  <guid>https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/index.html</guid>
+  <pubDate>Wed, 16 Aug 2023 14:55:51 GMT</pubDate>
+  <media:content url="https://github.com/Fgazzelloni/UPDVwR/tidytuesday/cases2023/images/collage2023.png" medium="image" type="image/png" height="122" width="144"/>
 </item>
 </channel>
 </rss>

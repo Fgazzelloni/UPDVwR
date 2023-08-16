@@ -2,7 +2,7 @@
 title: "NETFLIX & Upwards"
 subtitle: "Welcome to TidyTuesday 2021 week 17"
 date: "2021-04-20"
-image: "ww17_netflix.png"
+image: "w17_netflix.png"
 image-alt: ""
 description: "Networks"
 output: html_document

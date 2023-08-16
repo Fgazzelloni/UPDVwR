@@ -1,8 +1,8 @@
 ---
 title: "TidyTuesday 2023"
-image: images/map21.png
+image: images/collage2023.png
 listing: 
-  contents: posts2021
+  contents: posts2023
   sort: "date desc"
   type: grid
   image-height: "200"
