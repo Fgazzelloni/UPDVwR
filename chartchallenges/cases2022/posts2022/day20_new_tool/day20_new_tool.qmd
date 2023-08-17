@@ -1,0 +1,31 @@
+---
+title: 'New Tool'
+subtitle: 'Welcome to #30DayChartChallenge 2022 day 20'
+date: '2022-04-20'
+image: 'day20_new_tool.png'
+image-alt: ''
+description: 'Networks'
+output: html_document
+execute: 
+   eval: false
+---
+
+
+
+```{r}
+
+library(tidyverse)
+
+peace <- read_csv("R_general_resources/EDA/30DayChartChallenge/data/Edition_2022/day20_new_tool/un-peacekeeping-forces.csv")
+```
+
+```{r}
+df <- peace%>%select(-Entity,-Code)%>%
+  janitor::clean_names()%>%
+  rename(peacekeeping_n=size_of_total_peacekeeping_force_united_nations_peacekeeping)
+```
+
+```{r}
+write_csv(df,"peacekeeping.csv")
+```
+

@@ -9,7 +9,7 @@ title-block-banner: true
 > Every aspect of this effort is powered by self-sponsored learning, resulting in the creation of amazing data visualizations. From start to finish, this journey is a testament to dedication, passion, and inspiration, all within the incredible world of data visualization.
 
 
-## Short-Listed and Awards
+## Nominations and Awards
 
 - June, 2022 Short Listed to 9th edition of **Datastories Exposition**
 - December, 2022 awarded $500 by **Foursquare Map Month Competition** Winner

@@ -1,0 +1,187 @@
+---
+title: '3-dimensional'
+subtitle: 'Welcome to #30DayChartChallenge 2022 day 14'
+date: '2022-04-14'
+image: 'day14_3-dimensional.png'
+image-alt: ''
+description: 'Networks'
+output: html_document
+execute: 
+   eval: false
+---
+
+
+
+
+```{r }
+library(tidyverse)
+```
+
+Employed scientists and engineers, by sex and occupation: 2019
+```{r}
+scientists <- readxl::read_excel("~/Documents/R/WomenInSTEM/nsb20212-tabslbr-024_scientists.xlsx",
+                                 na = "0", skip = 3)
+# View(scientists)
+```
+
+
+```{r}
+scientists1 <- scientists[-1,]%>%
+  janitor::clean_names() %>%#names
+  rename(female_perc=x4,male_perc=x6) %>%
+  mutate(female=ifelse(female=="s",0,female),
+         female_perc=ifelse(female_perc=="s",0,female_perc),
+         male=ifelse(male=="s",0,male),
+         male_perc=ifelse(male_perc=="s",0,male_perc),
+         total=ifelse(total=="s",0,total)) %>%
+  mutate(across(-occupation,as.numeric)) %>% 
+  filter(!occupation%in%c("All occupations")) 
+```
+
+
+
+```{r}
+df<- scientists1%>%
+  select(female,male,total) %>%
+  filter(female>0,male>0,total>0)%>%
+  log10()
+
+
+col_df <-scientists1 %>%
+  pivot_longer(cols = c(total,female,male),names_to="names",values_to="values")%>%
+  distinct()
+# Add a new column with color
+mycolors <- c('royalblue1', 'darkcyan', 'oldlace')
+#scientists1$color <- mycolors
+
+library(rgl)
+plot3d( 
+  x=df$female, 
+  y=df$male, 
+  z=df$total, 
+  col = mycolors,
+  aspect=0.5,
+  lwd=2,
+  type = 'h', 
+  radius = .1,
+  xlab="Female", ylab="Male", zlab="Total")
+
+
+
+```
+
+```{r}
+library(rayshader)
+
+plot<-scientists1%>%
+   filter(female>0,female_perc>0.00001,total>0) %>%
+  ggplot() + 
+  geom_jitter(aes(x=total, y=female, color=log10(total))) + 
+  scale_x_log10()+
+  scale_y_log10()+
+  scale_color_continuous(limits = c(0, 8))
+
+ 
+
+plot_gg(plot, 
+        #width = 3.5, 
+        multicore = TRUE,
+        windowsize = c(800, 800))
+        
+# zoom = (0.85, phi = 35, 
+#         theta = 30, sunangle = 225, 
+#         soliddepth = -100)
+```
+
+```{r}
+gg = scientists1%>%
+   filter(female>0,male>0.00001,total>0) %>%
+  pivot_longer(cols = c(female,male),names_to="gender",values_to="values") %>%
+  ggplot(aes(x=total, y=values)) +
+  stat_density_2d(aes(fill = stat(nlevel)), 
+                  geom = "polygon",
+                  n = 100,bins = 10,contour = TRUE) +
+  facet_wrap(gender~.) +
+  scale_fill_viridis_c(option = "A")
+plot_gg(gg,multicore=TRUE,width=5,height=5,scale=250)
+```
+
+
+```{r}
+employed <- readxl::read_excel(here::here("WomenInStem/nsb20212-tabslbr-025_employed.xlsx"), 
+                               na = "0", 
+                               skip = 3)
+# View(employed)
+```
+
+```{r}
+employed1 <- employed[-1,] %>%
+  janitor::clean_names()%>%#names
+  rename(female_perc=x4,male_perc=x6,education=field_of_s_e_highest_degree) %>%
+  mutate(female=ifelse(female=="s",0,female),
+         female_perc=ifelse(female_perc=="s",0,female_perc),
+         male=ifelse(male=="s",0,male),
+         male_perc=ifelse(male_perc=="s",0,male_perc),
+         total=ifelse(total=="s",0,total)) %>%
+  mutate(across(-education,as.numeric)) %>%
+  arrange(education) 
+  
+```
+
+
+```{r}
+gg1 <-employed1 %>%
+  pivot_longer(cols = c(female,male),names_to="gender",values_to="values") %>%
+  ggplot(aes(x=total, y=values)) +
+  stat_density_2d(aes(fill = stat(nlevel)), 
+                  geom = "polygon",
+                  n = 100,bins = 10,contour = TRUE) +
+  facet_wrap(gender~.) +
+  scale_fill_viridis_c(option = "B") +
+  labs(title="STEM education by gender",
+       caption="Dataviz: Federica Gazzelloni")+
+  ggthemes::theme_economist_white()+
+  theme(legend.position =c(0.2,-0.05),
+        legend.direction = "horizontal")
+library(rayshader)
+plot_gg(gg1,
+        multicore=TRUE,
+        #invert=TRUE,
+        width=5,height=5,
+        scale=250)
+Sys.sleep(0.2)
+
+render_snapshot(clear = TRUE)
+```
+
+
+
+```{r}
+tempfilehdr = tempfile(fileext = ".hdr")
+download.file("https://www.tylermw.com/data/venice_sunset_2k.hdr",tempfilehdr)
+plot_gg(gg1, 
+        width = 5, height = 5, 
+        scale = 250, 
+        multicore = TRUE, 
+        windowsize = c(1200, 960))
+        
+
+
+
+Sys.sleep(0.2)
+# render_depth(focallength = 100,clear=TRUE)
+
+render_highquality(samples = 256, 
+                   aperture=30, 
+                   light = FALSE, 
+                   focal_distance = 1700,
+                   obj_material = rayrender::dielectric(attenuation = c(1,1,0.3)/200), 
+                   ground_material = rayrender::diffuse(checkercolor = "grey80",
+                                                        sigma=90,
+                                                        checkerperiod = 100),
+                   environment_light = tempfilehdr, 
+                   camera_lookat = c(0,-150,0))
+```
+
+
+

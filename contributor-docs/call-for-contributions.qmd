@@ -1,1 +1,10 @@
+---
+title: "Call for Contributions"
+sidebar: false
+page-layout: article
+toc: false
+title-block-banner: true
+---
 
+
+Your participation, valuable suggestions, and constructive feedback are warmly welcomed and highly appreciated.

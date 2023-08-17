@@ -1,667 +1,1139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day25_interactive/day25_interactive.html</loc>
+    <lastmod>2023-08-17T12:32:46.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day20_movement/day20_movement.html</loc>
+    <lastmod>2023-08-17T12:32:47.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day22_boundaries/day22_boundaries.html</loc>
+    <lastmod>2023-08-17T12:32:48.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day5_osm/day5_osm.html</loc>
+    <lastmod>2023-08-17T12:32:50.339Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day23_ghsl_data/day23_ghsl_data.html</loc>
+    <lastmod>2023-08-17T12:32:51.340Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day24_historical/day24_historical.html</loc>
+    <lastmod>2023-08-17T12:32:52.363Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day8_blue/day8_blue.html</loc>
+    <lastmod>2023-08-17T12:32:53.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day1_points/day1_points.html</loc>
+    <lastmod>2023-08-17T12:32:54.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day7_green/day7_green.html</loc>
+    <lastmod>2023-08-17T12:32:55.774Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day4_hexagons/day4_hexagons.html</loc>
+    <lastmod>2023-08-17T12:32:56.907Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day14_newtool/day14_newtool.html</loc>
+    <lastmod>2023-08-17T12:32:57.868Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day21_elevation/day21_elevation.html</loc>
+    <lastmod>2023-08-17T12:32:58.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day3_polygons/day3_polygons.html</loc>
+    <lastmod>2023-08-17T12:33:00.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day9_monochrome/day9_monochrome.html</loc>
+    <lastmod>2023-08-17T12:33:00.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day28_earth_not_flat/day28_earth_not_flat.html</loc>
+    <lastmod>2023-08-17T12:33:01.927Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day27_heatmap/day27_heatmap.html</loc>
+    <lastmod>2023-08-17T12:33:03.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day26_choropleth/day26_choropleth.html</loc>
+    <lastmod>2023-08-17T12:33:03.903Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day12_population/day12_population.html</loc>
+    <lastmod>2023-08-17T12:33:04.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day18_water/day18_water.html</loc>
+    <lastmod>2023-08-17T12:33:05.850Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day6_red/day6_red.html</loc>
+    <lastmod>2023-08-17T12:33:06.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day13_naturalearth/day13_naturalearth.html</loc>
+    <lastmod>2023-08-17T12:33:08.070Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day16_urban_rural/day16_urban_rural.html</loc>
+    <lastmod>2023-08-17T12:33:09.049Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day17_land/day17_land.html</loc>
+    <lastmod>2023-08-17T12:33:10.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day2_lines/day2_lines.html</loc>
+    <lastmod>2023-08-17T12:33:11.244Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day19_islands/day19_islands.html</loc>
+    <lastmod>2023-08-17T12:33:12.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day10_raster/day10_raster.html</loc>
+    <lastmod>2023-08-17T12:33:13.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/posts2021/day11_3D/day11_3D.html</loc>
+    <lastmod>2023-08-17T12:33:14.580Z</lastmod>
+  </url>
+  <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</loc>
-    <lastmod>2023-08-16T18:27:30.094Z</lastmod>
+    <lastmod>2023-08-17T12:33:15.744Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.html</loc>
-    <lastmod>2023-08-16T18:27:30.643Z</lastmod>
+    <lastmod>2023-08-17T12:33:16.672Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/index.html</loc>
-    <lastmod>2023-08-16T18:27:31.679Z</lastmod>
+    <lastmod>2023-08-17T12:33:17.246Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/index.html</loc>
-    <lastmod>2023-08-16T18:27:32.382Z</lastmod>
+    <lastmod>2023-08-17T12:33:18.817Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day20_my_favourite/day20_my_favourite.html</loc>
+    <lastmod>2023-08-17T12:33:20.034Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day9_space/day9_space.html</loc>
+    <lastmod>2023-08-17T12:33:20.538Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day7_raster/day7_raster.html</loc>
+    <lastmod>2023-08-17T12:33:21.730Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day24_fantasy/day24_fantasy.html</loc>
+    <lastmod>2023-08-17T12:33:22.641Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day1_points/day1_points.html</loc>
+    <lastmod>2023-08-17T12:33:23.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day4_color_friday_green/day4_color_friday_green.html</loc>
+    <lastmod>2023-08-17T12:33:24.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day12_scale/day12_scale.html</loc>
+    <lastmod>2023-08-17T12:33:25.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day28_3D/day28_3D.html</loc>
+    <lastmod>2023-08-17T12:33:26.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day16_minimal/day16_minimal.html</loc>
+    <lastmod>2023-08-17T12:33:27.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day15_food_drink/day15_food_drink.html</loc>
+    <lastmod>2023-08-17T12:33:28.659Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day3_polygons/day3_polygons.html</loc>
+    <lastmod>2023-08-17T12:33:29.939Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day14_hexagons/day14_hexagons.html</loc>
+    <lastmod>2023-08-17T12:33:30.879Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day29_out_comfort_zone/day29_out_comfort_zone.html</loc>
+    <lastmod>2023-08-17T12:33:32.045Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day17_a_map_without_computer/day17_a_map_without_computer.html</loc>
+    <lastmod>2023-08-17T12:33:32.628Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day5_ukraine/day5_ukraine.html</loc>
+    <lastmod>2023-08-17T12:33:33.461Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day21_kontur_pop_dataset/day21_kontur_pop_dataset.html</loc>
+    <lastmod>2023-08-17T12:33:34.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day13_5_minutes_map/day13_5_minutes_map.html</loc>
+    <lastmod>2023-08-17T12:33:35.501Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day27_music/day27_music.html</loc>
+    <lastmod>2023-08-17T12:33:36.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day23_movement/day23_movement.html</loc>
+    <lastmod>2023-08-17T12:33:37.750Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day30_remix/day30_remix.html</loc>
+    <lastmod>2023-08-17T12:33:38.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day10_a_bad_map/day10_a_bad_map.html</loc>
+    <lastmod>2023-08-17T12:33:39.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day6_network/day6_network.html</loc>
+    <lastmod>2023-08-17T12:33:40.620Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day2_lines/day2_lines.html</loc>
+    <lastmod>2023-08-17T12:33:41.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day22_null/day22_null.html</loc>
+    <lastmod>2023-08-17T12:33:42.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day18_color_friday_blue/day18_color_friday_blue.html</loc>
+    <lastmod>2023-08-17T12:33:43.870Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day11_color_friday_red/day11_color_friday_red.html</loc>
+    <lastmod>2023-08-17T12:33:44.794Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day19_globe/day19_globe.html</loc>
+    <lastmod>2023-08-17T12:33:45.981Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day8_openstreetmap/day8_openstreetmap.html</loc>
+    <lastmod>2023-08-17T12:33:46.999Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day26_islands/day26_islands.html</loc>
+    <lastmod>2023-08-17T12:33:47.789Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/posts2022/day25_color_friday_2_colors/day25_color_friday_2_colors.html</loc>
+    <lastmod>2023-08-17T12:33:48.624Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/LICENSE.html</loc>
+    <lastmod>2023-08-17T12:33:49.239Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/contact.html</loc>
-    <lastmod>2023-08-16T18:27:33.209Z</lastmod>
+    <lastmod>2023-08-17T12:33:49.740Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/sponsors.html</loc>
-    <lastmod>2023-08-16T18:27:33.932Z</lastmod>
+    <lastmod>2023-08-17T12:33:50.238Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day20_upwards/day20_upwards.html</loc>
-    <lastmod>2023-08-16T18:27:35.121Z</lastmod>
+    <lastmod>2023-08-17T12:33:51.506Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day29_deviations/day29_deviations.html</loc>
-    <lastmod>2023-08-16T18:27:36.076Z</lastmod>
+    <lastmod>2023-08-17T12:33:52.325Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day23_tiles/day23_tiles.html</loc>
-    <lastmod>2023-08-16T18:27:36.975Z</lastmod>
+    <lastmod>2023-08-17T12:33:53.165Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day5_slope/day5_slope.html</loc>
-    <lastmod>2023-08-16T18:27:38.047Z</lastmod>
+    <lastmod>2023-08-17T12:33:54.427Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day22_animation/day22_animation.html</loc>
-    <lastmod>2023-08-16T18:27:39.025Z</lastmod>
+    <lastmod>2023-08-17T12:33:55.299Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day21_downwards/day21_downwards.html</loc>
-    <lastmod>2023-08-16T18:27:39.906Z</lastmod>
+    <lastmod>2023-08-17T12:33:56.591Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day19_global_change/day19_global_change.html</loc>
-    <lastmod>2023-08-16T18:27:40.875Z</lastmod>
+    <lastmod>2023-08-17T12:33:57.548Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day12_strips/day12_strips.html</loc>
-    <lastmod>2023-08-16T18:27:41.906Z</lastmod>
+    <lastmod>2023-08-17T12:33:58.557Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day9_statistics/day9_statistics.html</loc>
-    <lastmod>2023-08-16T18:27:42.648Z</lastmod>
+    <lastmod>2023-08-17T12:33:59.675Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day13_correlation/day13_correlation.html</loc>
-    <lastmod>2023-08-16T18:27:43.413Z</lastmod>
+    <lastmod>2023-08-17T12:34:00.800Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day18_connections/day18_connections.html</loc>
-    <lastmod>2023-08-16T18:27:44.192Z</lastmod>
+    <lastmod>2023-08-17T12:34:01.723Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day6_experimental/day6_experimental.html</loc>
-    <lastmod>2023-08-16T18:27:45.032Z</lastmod>
+    <lastmod>2023-08-17T12:34:02.546Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day10_abstract/day10_abstract.html</loc>
-    <lastmod>2023-08-16T18:27:45.764Z</lastmod>
+    <lastmod>2023-08-17T12:34:03.933Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day26_trends/day26_trends.html</loc>
-    <lastmod>2023-08-16T18:27:46.589Z</lastmod>
+    <lastmod>2023-08-17T12:34:04.799Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day16_tree/day16_tree.html</loc>
-    <lastmod>2023-08-16T18:27:47.296Z</lastmod>
+    <lastmod>2023-08-17T12:34:06.026Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day3_historical/day3_historical.html</loc>
-    <lastmod>2023-08-16T18:27:47.965Z</lastmod>
+    <lastmod>2023-08-17T12:34:06.978Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day25_demographic/day25_demographic.html</loc>
-    <lastmod>2023-08-16T18:27:48.792Z</lastmod>
+    <lastmod>2023-08-17T12:34:07.967Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day17_pop_culture/day17_pop_culture.html</loc>
-    <lastmod>2023-08-16T18:27:49.530Z</lastmod>
+    <lastmod>2023-08-17T12:34:09.109Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day14_space/day14_space.html</loc>
-    <lastmod>2023-08-16T18:27:50.318Z</lastmod>
+    <lastmod>2023-08-17T12:34:10.066Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day24_monochrome/day24_monochrome.html</loc>
-    <lastmod>2023-08-16T18:27:51.101Z</lastmod>
+    <lastmod>2023-08-17T12:34:11.325Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day4_magical/day4_magical.html</loc>
-    <lastmod>2023-08-16T18:27:51.947Z</lastmod>
+    <lastmod>2023-08-17T12:34:12.369Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day11_circular/day11_circular.html</loc>
-    <lastmod>2023-08-16T18:27:52.706Z</lastmod>
+    <lastmod>2023-08-17T12:34:13.491Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day1_part-to-whole/day1_part-to-whole.html</loc>
-    <lastmod>2023-08-16T18:27:53.583Z</lastmod>
+    <lastmod>2023-08-17T12:34:14.506Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day8_animals/day8_animals.html</loc>
-    <lastmod>2023-08-16T18:27:54.225Z</lastmod>
+    <lastmod>2023-08-17T12:34:15.694Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day30_3D/day30_3D.html</loc>
-    <lastmod>2023-08-16T18:27:54.977Z</lastmod>
+    <lastmod>2023-08-17T12:34:16.627Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day2_pictogram/day2_pictogram.html</loc>
-    <lastmod>2023-08-16T18:27:55.782Z</lastmod>
+    <lastmod>2023-08-17T12:34:17.815Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day15_multivariate/day15_multivariate.html</loc>
-    <lastmod>2023-08-16T18:27:56.500Z</lastmod>
+    <lastmod>2023-08-17T12:34:18.704Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day7_physical/day7_physical.html</loc>
-    <lastmod>2023-08-16T18:27:57.188Z</lastmod>
+    <lastmod>2023-08-17T12:34:19.942Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day27_educational/day27_educational.html</loc>
-    <lastmod>2023-08-16T18:27:57.945Z</lastmod>
+    <lastmod>2023-08-17T12:34:20.933Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/posts2021/day28_future/day28_future.html</loc>
-    <lastmod>2023-08-16T18:27:58.773Z</lastmod>
+    <lastmod>2023-08-17T12:34:21.882Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2021/index.html</loc>
-    <lastmod>2023-08-16T18:27:59.671Z</lastmod>
+    <lastmod>2023-08-17T12:34:23.346Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/index.html</loc>
-    <lastmod>2023-08-16T18:28:00.446Z</lastmod>
+    <lastmod>2023-08-17T12:34:23.981Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/index.html</loc>
-    <lastmod>2023-08-16T18:28:00.937Z</lastmod>
+    <lastmod>2023-08-17T12:34:25.066Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day8_humans/day8_humans.html</loc>
+    <lastmod>2023-08-17T12:34:26.176Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day7_hazard/day7_hazard.html</loc>
+    <lastmod>2023-08-17T12:34:27.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day24_theme_day/day24_theme_day.html</loc>
+    <lastmod>2023-08-17T12:34:28.246Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day30_data_day/day30_data_day.html</loc>
+    <lastmod>2023-08-17T12:34:29.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day27_good_bad/day27_good_bad.html</loc>
+    <lastmod>2023-08-17T12:34:30.597Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day23_tiles/day23_tiles.html</loc>
+    <lastmod>2023-08-17T12:34:31.584Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day18_data_day/day18_data_day.html</loc>
+    <lastmod>2023-08-17T12:34:32.778Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day26_local_change/day26_local_change.html</loc>
+    <lastmod>2023-08-17T12:34:33.707Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day16_family/day16_family.html</loc>
+    <lastmod>2023-08-17T12:34:34.729Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day25_gobal_change/day25_gobal_change.html</loc>
+    <lastmod>2023-08-17T12:34:35.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day9_high_low/day9_high_low.html</loc>
+    <lastmod>2023-08-17T12:34:36.587Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day5_slope/day5_slope.html</loc>
+    <lastmod>2023-08-17T12:34:37.799Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day2_waffle/day2_waffle.html</loc>
+    <lastmod>2023-08-17T12:34:38.750Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day6_data_day/day6_data_day.html</loc>
+    <lastmod>2023-08-17T12:34:40.022Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day28_trend/day28_trend.html</loc>
+    <lastmod>2023-08-17T12:34:40.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day13_popculture/day13_popculture.html</loc>
+    <lastmod>2023-08-17T12:34:42.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day3_fauna_flora/day3_fauna_flora.html</loc>
+    <lastmod>2023-08-17T12:34:43.136Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day22_greenenergy/day22_greenenergy.html</loc>
+    <lastmod>2023-08-17T12:34:44.314Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day17_networks/day17_networks.html</loc>
+    <lastmod>2023-08-17T12:34:45.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day14_new_tool/day14_new_tool.html</loc>
+    <lastmod>2023-08-17T12:34:46.374Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day11_circular/day11_circular.html</loc>
+    <lastmod>2023-08-17T12:34:47.302Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day1_part-to-whole/day1_part-to-whole.html</loc>
+    <lastmod>2023-08-17T12:34:48.566Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day29_monochrome/day29_monochrome.html</loc>
+    <lastmod>2023-08-17T12:34:49.525Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day12_theme_day/day12_theme_day.html</loc>
+    <lastmod>2023-08-17T12:34:50.771Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day20_correlation/day20_correlation.html</loc>
+    <lastmod>2023-08-17T12:34:51.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day10_hybrid/day10_hybrid.html</loc>
+    <lastmod>2023-08-17T12:34:52.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day21_down_upwards/day21_down_upwards.html</loc>
+    <lastmod>2023-08-17T12:34:53.711Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day19_anthropocene/day19_anthropocene.html</loc>
+    <lastmod>2023-08-17T12:34:54.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day15_positive_negative/day15_positive_negative.html</loc>
+    <lastmod>2023-08-17T12:34:55.924Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2023/posts2023/day4_historical/day4_historical.html</loc>
+    <lastmod>2023-08-17T12:34:57.058Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/index.html</loc>
-    <lastmod>2023-08-16T18:28:01.454Z</lastmod>
+    <lastmod>2023-08-17T12:34:58.254Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day24_theme_day/day24_theme_day.html</loc>
+    <lastmod>2023-08-17T12:34:59.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day14_3-dimensional/day14_3-dimensional.html</loc>
+    <lastmod>2023-08-17T12:35:00.561Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day4_flora/day4_flora.html</loc>
+    <lastmod>2023-08-17T12:35:01.435Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day23_tiles/day23_tiles.html</loc>
+    <lastmod>2023-08-17T12:35:02.602Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day29_storytelling/day29_storytelling.html</loc>
+    <lastmod>2023-08-17T12:35:03.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day10_experimental/day10_experimental.html</loc>
+    <lastmod>2023-08-17T12:35:04.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day30_un_pop/day30_UNPOP.html</loc>
+    <lastmod>2023-08-17T12:35:05.636Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day17_connections/day17_connections.html</loc>
+    <lastmod>2023-08-17T12:35:06.833Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day5_slope/day5_slope.html</loc>
+    <lastmod>2023-08-17T12:35:07.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day22_animation/day22_animation.html</loc>
+    <lastmod>2023-08-17T12:35:08.712Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day27_future/day27_future.html</loc>
+    <lastmod>2023-08-17T12:35:10.031Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day19_global_change/day19_global_change.html</loc>
+    <lastmod>2023-08-17T12:35:10.939Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day6_data_day/day6_data_day.html</loc>
+    <lastmod>2023-08-17T12:35:12.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day1_part_to_whole/day1_part_to_whole.html</loc>
+    <lastmod>2023-08-17T12:35:13.197Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day9_statistics/day9_statistics.html</loc>
+    <lastmod>2023-08-17T12:35:14.383Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day13_correlation/day13_correlation.html</loc>
+    <lastmod>2023-08-17T12:35:15.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day26_interactive/day26_interactive.html</loc>
+    <lastmod>2023-08-17T12:35:16.235Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day3_historical/day3_historical.html</loc>
+    <lastmod>2023-08-17T12:35:17.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day11_circular/day11_circular.html</loc>
+    <lastmod>2023-08-17T12:35:17.987Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day28_deviations/day28_deviations.html</loc>
+    <lastmod>2023-08-17T12:35:19.312Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day20_new_tool/day20_new_tool.html</loc>
+    <lastmod>2023-08-17T12:35:20.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day16_environment/day16_environment.html</loc>
+    <lastmod>2023-08-17T12:35:21.572Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day18_oecd/day18_oecd.html</loc>
+    <lastmod>2023-08-17T12:35:22.405Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day12_theme_day/day12_theme_day.html</loc>
+    <lastmod>2023-08-17T12:35:23.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day8_mountains/day8_mountains.html</loc>
+    <lastmod>2023-08-17T12:35:24.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day21_down_upwards/day21_down_upwards.html</loc>
+    <lastmod>2023-08-17T12:35:25.337Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day2_pictogram/day2_pictogram.html</loc>
+    <lastmod>2023-08-17T12:35:26.501Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day15_multivariate/day15_multivariate.html</loc>
+    <lastmod>2023-08-17T12:35:27.711Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day7_physical/day7_physical.html</loc>
+    <lastmod>2023-08-17T12:35:28.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/chartchallenges/cases2022/posts2022/day25_trend/day25_trend.html</loc>
+    <lastmod>2023-08-17T12:35:29.819Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/index.html</loc>
-    <lastmod>2023-08-16T18:28:01.934Z</lastmod>
+    <lastmod>2023-08-17T12:35:30.601Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/contributor-docs/call-for-contributions.html</loc>
-    <lastmod>2023-08-16T18:28:02.618Z</lastmod>
+    <lastmod>2023-08-17T12:35:31.225Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/about.html</loc>
-    <lastmod>2023-08-16T18:28:03.192Z</lastmod>
+    <lastmod>2023-08-17T12:35:31.734Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w46_afrilearndata/w46_afrilearndata.html</loc>
-    <lastmod>2023-08-16T18:28:04.084Z</lastmod>
+    <lastmod>2023-08-17T12:35:32.772Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w15_global_deforestation/w15_global_deforestation.html</loc>
-    <lastmod>2023-08-16T18:28:04.801Z</lastmod>
+    <lastmod>2023-08-17T12:35:33.908Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w34_star_trek/w34_star_trek.html</loc>
-    <lastmod>2023-08-16T18:28:05.656Z</lastmod>
+    <lastmod>2023-08-17T12:35:34.885Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w24_great_lakes_fish/w24_great_lakes_fish.html</loc>
-    <lastmod>2023-08-16T18:28:06.495Z</lastmod>
+    <lastmod>2023-08-17T12:35:35.979Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w41_nurses/w41_nurses.html</loc>
-    <lastmod>2023-08-16T18:28:07.323Z</lastmod>
+    <lastmod>2023-08-17T12:35:37.041Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w18_ceo_departures/w18_ceo_departures.html</loc>
-    <lastmod>2023-08-16T18:28:08.155Z</lastmod>
+    <lastmod>2023-08-17T12:35:38.278Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w48_dr_who/w48_dr_who.html</loc>
-    <lastmod>2023-08-16T18:28:09.029Z</lastmod>
+    <lastmod>2023-08-17T12:35:39.250Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w39_emmy_awards/w39_emmy_awards.html</loc>
-    <lastmod>2023-08-16T18:28:09.759Z</lastmod>
+    <lastmod>2023-08-17T12:35:40.665Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w21_ask_a_manager_survey/w21_ask_a_manager_survey.html</loc>
-    <lastmod>2023-08-16T18:28:10.667Z</lastmod>
+    <lastmod>2023-08-17T12:35:41.704Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w17_netflix/w17_netflix.html</loc>
-    <lastmod>2023-08-16T18:28:11.306Z</lastmod>
+    <lastmod>2023-08-17T12:35:42.862Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w28_independence_days/w28_independence_days.html</loc>
-    <lastmod>2023-08-16T18:28:12.048Z</lastmod>
+    <lastmod>2023-08-17T12:35:43.738Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w31_olympic_medals/w31_olympic_medals.html</loc>
-    <lastmod>2023-08-16T18:28:12.891Z</lastmod>
+    <lastmod>2023-08-17T12:35:45.209Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w23_survivors/w23_survivors.html</loc>
-    <lastmod>2023-08-16T18:28:13.850Z</lastmod>
+    <lastmod>2023-08-17T12:35:46.129Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w30_drought/w30_drought.html</loc>
-    <lastmod>2023-08-16T18:28:14.717Z</lastmod>
+    <lastmod>2023-08-17T12:35:47.535Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w26_public_park_access/w26_public_park_access.html</loc>
-    <lastmod>2023-08-16T18:28:15.624Z</lastmod>
+    <lastmod>2023-08-17T12:35:48.268Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w22_mario_kart_world/w22_mario_kart_world.html</loc>
-    <lastmod>2023-08-16T18:28:16.373Z</lastmod>
+    <lastmod>2023-08-17T12:35:49.061Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w20_us_broadband/w20_us_broadband.html</loc>
-    <lastmod>2023-08-16T18:28:17.158Z</lastmod>
+    <lastmod>2023-08-17T12:35:49.854Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w43_big_pumpkins/w43_big_pumpkins.html</loc>
-    <lastmod>2023-08-16T18:28:18.003Z</lastmod>
+    <lastmod>2023-08-17T12:35:50.647Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w49_world_cup_cricket/w49_world_cup_cricket.html</loc>
-    <lastmod>2023-08-16T18:28:18.826Z</lastmod>
+    <lastmod>2023-08-17T12:35:51.649Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w38_billboard/w38_billboard.html</loc>
-    <lastmod>2023-08-16T18:28:19.735Z</lastmod>
+    <lastmod>2023-08-17T12:35:52.395Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w42_seafood/w42-seafood.html</loc>
-    <lastmod>2023-08-16T18:28:20.502Z</lastmod>
+    <lastmod>2023-08-17T12:35:53.241Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w45_maps/w45_maps.html</loc>
-    <lastmod>2023-08-16T18:28:21.223Z</lastmod>
+    <lastmod>2023-08-17T12:35:53.965Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w36_bird_baths/w36_bird_baths.html</loc>
-    <lastmod>2023-08-16T18:28:22.074Z</lastmod>
+    <lastmod>2023-08-17T12:35:54.830Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w16_US_Post_office/w16_US_Post_office.html</loc>
-    <lastmod>2023-08-16T18:28:22.861Z</lastmod>
+    <lastmod>2023-08-17T12:35:55.580Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w25_du_bois/w25_du_bois.html</loc>
-    <lastmod>2023-08-16T18:28:23.788Z</lastmod>
+    <lastmod>2023-08-17T12:35:56.377Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w32_paralympic/w32_paralympic.html</loc>
-    <lastmod>2023-08-16T18:28:24.776Z</lastmod>
+    <lastmod>2023-08-17T12:35:57.510Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w14_the_pudding/w14_the_pudding.html</loc>
-    <lastmod>2023-08-16T18:28:25.613Z</lastmod>
+    <lastmod>2023-08-17T12:35:58.243Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w13_UN_votes/w13_UN_votes.html</loc>
-    <lastmod>2023-08-16T18:28:26.516Z</lastmod>
+    <lastmod>2023-08-17T12:35:59.010Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w19_water_access/w19_water_access.html</loc>
-    <lastmod>2023-08-16T18:28:27.233Z</lastmod>
+    <lastmod>2023-08-17T12:35:59.759Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w40_NBER_papers/w40_NBER_papers.html</loc>
-    <lastmod>2023-08-16T18:28:28.102Z</lastmod>
+    <lastmod>2023-08-17T12:36:00.532Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w37_formula1/w37_formula1.html</loc>
-    <lastmod>2023-08-16T18:28:28.944Z</lastmod>
+    <lastmod>2023-08-17T12:36:01.395Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w52_starbucks/w52_strabucks.html</loc>
-    <lastmod>2023-08-16T18:28:29.677Z</lastmod>
+    <lastmod>2023-08-17T12:36:02.061Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w50_spiders/w50_spiders.html</loc>
-    <lastmod>2023-08-16T18:28:30.640Z</lastmod>
+    <lastmod>2023-08-17T12:36:02.903Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w29_scoobydoo/w29_scoobydoo.html</loc>
-    <lastmod>2023-08-16T18:28:31.408Z</lastmod>
+    <lastmod>2023-08-17T12:36:03.705Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w27_animal_rescues/w27_animal_rescues.html</loc>
-    <lastmod>2023-08-16T18:28:32.219Z</lastmod>
+    <lastmod>2023-08-17T12:36:04.644Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w35_lemurs/w35_lemurs.html</loc>
-    <lastmod>2023-08-16T18:28:33.104Z</lastmod>
+    <lastmod>2023-08-17T12:36:05.427Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w44_ultra_trail_running/w44_ultra_trail_running.html</loc>
-    <lastmod>2023-08-16T18:28:34.118Z</lastmod>
+    <lastmod>2023-08-17T12:36:06.288Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w33_bea_Infrastructure_Investment/w33_bea_Infrastructure_Investment.html</loc>
-    <lastmod>2023-08-16T18:28:35.272Z</lastmod>
+    <lastmod>2023-08-17T12:36:07.326Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/posts2021/w51_spice_girls/w51_spice_girls.html</loc>
-    <lastmod>2023-08-16T18:28:36.100Z</lastmod>
+    <lastmod>2023-08-17T12:36:08.071Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2021/index.html</loc>
-    <lastmod>2023-08-16T18:28:37.144Z</lastmod>
+    <lastmod>2023-08-17T12:36:09.096Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/index.html</loc>
-    <lastmod>2023-08-16T18:28:37.805Z</lastmod>
+    <lastmod>2023-08-17T12:36:09.728Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/index.html</loc>
-    <lastmod>2023-08-16T18:28:38.990Z</lastmod>
+    <lastmod>2023-08-17T12:36:10.939Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w22_VrOP/w22_VrOP.html</loc>
-    <lastmod>2023-08-16T18:28:39.373Z</lastmod>
+    <lastmod>2023-08-17T12:36:11.392Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w1_Byodts2/w1_Byodts2.html</loc>
-    <lastmod>2023-08-16T18:28:40.152Z</lastmod>
+    <lastmod>2023-08-17T12:36:12.498Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w13_TmZn/w13_TmZn.html</loc>
-    <lastmod>2023-08-16T18:28:41.000Z</lastmod>
+    <lastmod>2023-08-17T12:36:13.225Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w18_ThPP/w18_ThPP.html</loc>
-    <lastmod>2023-08-16T18:28:41.745Z</lastmod>
+    <lastmod>2023-08-17T12:36:13.995Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w19_ChlC/w19_ChlC.html</loc>
-    <lastmod>2023-08-16T18:28:42.411Z</lastmod>
+    <lastmod>2023-08-17T12:36:14.672Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w11_ErDD/w11_ErDD.html</loc>
-    <lastmod>2023-08-16T18:28:43.264Z</lastmod>
+    <lastmod>2023-08-17T12:36:15.468Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w24_SAFIS/w24_SAFIS.html</loc>
-    <lastmod>2023-08-16T18:28:44.040Z</lastmod>
+    <lastmod>2023-08-17T12:36:16.124Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w12_PrgL/w12_PrgL.html</loc>
-    <lastmod>2023-08-16T18:28:44.755Z</lastmod>
+    <lastmod>2023-08-17T12:36:16.913Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w16_NlFC/w16_NlFC.html</loc>
-    <lastmod>2023-08-16T18:28:45.596Z</lastmod>
+    <lastmod>2023-08-17T12:36:17.834Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w6_BTSP/w6_BTSP.html</loc>
-    <lastmod>2023-08-16T18:28:46.360Z</lastmod>
+    <lastmod>2023-08-17T12:36:18.555Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w8_BbRP/w8_BbRP.html</loc>
-    <lastmod>2023-08-16T18:28:47.056Z</lastmod>
+    <lastmod>2023-08-17T12:36:19.234Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w15_UEPD/w15_UEPD.html</loc>
-    <lastmod>2023-08-16T18:28:47.841Z</lastmod>
+    <lastmod>2023-08-17T12:36:20.048Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w3_Arhd/w3_Arhd.html</loc>
-    <lastmod>2023-08-16T18:28:48.619Z</lastmod>
+    <lastmod>2023-08-17T12:36:20.762Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w7_HlAG/w7_HlAG.html</loc>
-    <lastmod>2023-08-16T18:28:49.357Z</lastmod>
+    <lastmod>2023-08-17T12:36:21.490Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w14_PLMD/w14_PLMD.html</loc>
-    <lastmod>2023-08-16T18:28:50.092Z</lastmod>
+    <lastmod>2023-08-17T12:36:22.322Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w28_GlST/w28_GlST.html</loc>
-    <lastmod>2023-08-16T18:28:51.243Z</lastmod>
+    <lastmod>2023-08-17T12:36:23.383Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w27_HstM/w27_HstM.html</loc>
-    <lastmod>2023-08-16T18:28:52.418Z</lastmod>
+    <lastmod>2023-08-17T12:36:24.347Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w9_AfLS/w9_AfLS.html</loc>
-    <lastmod>2023-08-16T18:28:53.515Z</lastmod>
+    <lastmod>2023-08-17T12:36:25.529Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w21_CnPS/w21_CnPS.html</loc>
-    <lastmod>2023-08-16T18:28:54.485Z</lastmod>
+    <lastmod>2023-08-17T12:36:26.329Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w2_BFWd/w2_BFWd.html</loc>
-    <lastmod>2023-08-16T18:28:55.350Z</lastmod>
+    <lastmod>2023-08-17T12:36:27.113Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w5_PCUK/w5_PCUK.html</loc>
-    <lastmod>2023-08-16T18:28:56.144Z</lastmod>
+    <lastmod>2023-08-17T12:36:27.820Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w4_Alnd/w4_Alnd.html</loc>
-    <lastmod>2023-08-16T18:28:56.862Z</lastmod>
+    <lastmod>2023-08-17T12:36:28.569Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w25_UFSR/w25_UFSR.html</loc>
-    <lastmod>2023-08-16T18:28:57.607Z</lastmod>
+    <lastmod>2023-08-17T12:36:29.409Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w26_USPP/w26_USPP.html</loc>
-    <lastmod>2023-08-16T18:28:58.344Z</lastmod>
+    <lastmod>2023-08-17T12:36:30.026Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w10_NmiA/w10_NmiA.html</loc>
-    <lastmod>2023-08-16T18:28:59.111Z</lastmod>
+    <lastmod>2023-08-17T12:36:30.812Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w17_LndM/w17_LndM.html</loc>
-    <lastmod>2023-08-16T18:28:59.952Z</lastmod>
+    <lastmod>2023-08-17T12:36:31.642Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2023/posts2023/w20_Trnd/w20_Trnd.html</loc>
-    <lastmod>2023-08-16T18:29:00.607Z</lastmod>
+    <lastmod>2023-08-17T12:36:32.311Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/index.html</loc>
-    <lastmod>2023-08-16T18:29:01.951Z</lastmod>
+    <lastmod>2023-08-17T12:36:33.498Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w45_radio_stations/w45_radio_stations.html</loc>
-    <lastmod>2023-08-16T18:29:02.771Z</lastmod>
+    <lastmod>2023-08-17T12:36:34.364Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w25_juneteenth/w25_juneteenth.html</loc>
-    <lastmod>2023-08-16T18:29:03.680Z</lastmod>
+    <lastmod>2023-08-17T12:36:35.305Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w21_rugby/w21_women_rugby.html</loc>
-    <lastmod>2023-08-16T18:29:04.449Z</lastmod>
+    <lastmod>2023-08-17T12:36:36.133Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w26_paygap/w26_paygap.html</loc>
-    <lastmod>2023-08-16T18:29:05.294Z</lastmod>
+    <lastmod>2023-08-17T12:36:37.060Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w35_pell/w35_pell.html</loc>
-    <lastmod>2023-08-16T18:29:06.043Z</lastmod>
+    <lastmod>2023-08-17T12:36:37.809Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w5_dogs/w5_dogs.html</loc>
-    <lastmod>2023-08-16T18:29:06.931Z</lastmod>
+    <lastmod>2023-08-17T12:36:38.523Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w39_us_artists/w39_us_artists.html</loc>
-    <lastmod>2023-08-16T18:29:07.676Z</lastmod>
+    <lastmod>2023-08-17T12:36:39.244Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w10_erasmus/w10_erasmus.html</loc>
-    <lastmod>2023-08-16T18:29:08.433Z</lastmod>
+    <lastmod>2023-08-17T12:36:39.975Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w40_product_hunt/w40_product_hunt.html</loc>
-    <lastmod>2023-08-16T18:29:09.228Z</lastmod>
+    <lastmod>2023-08-17T12:36:40.886Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w12_babynames/w12_babynames.html</loc>
-    <lastmod>2023-08-16T18:29:09.939Z</lastmod>
+    <lastmod>2023-08-17T12:36:41.614Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w18_solar_wind/w18_solarwind.html</loc>
-    <lastmod>2023-08-16T18:29:10.683Z</lastmod>
+    <lastmod>2023-08-17T12:36:42.308Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w14_digital_pub/w14_digital_publications.html</loc>
-    <lastmod>2023-08-16T18:29:11.489Z</lastmod>
+    <lastmod>2023-08-17T12:36:43.097Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w32_ferriswheels/w32_ferriswheels.html</loc>
-    <lastmod>2023-08-16T18:29:12.547Z</lastmod>
+    <lastmod>2023-08-17T12:36:44.037Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w42_stranger_things_dialogue/w42_stranger_things_dialogue.html</loc>
-    <lastmod>2023-08-16T18:29:13.308Z</lastmod>
+    <lastmod>2023-08-17T12:36:44.797Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w50_retail_sales/w50_retail_sales.html</loc>
-    <lastmod>2023-08-16T18:29:14.126Z</lastmod>
+    <lastmod>2023-08-17T12:36:45.683Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w48_FIFA_World_Cup/w48_fifa_world_cup.html</loc>
-    <lastmod>2023-08-16T18:29:14.959Z</lastmod>
+    <lastmod>2023-08-17T12:36:46.407Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w20_eurovision/w20_eurovision.html</loc>
-    <lastmod>2023-08-16T18:29:15.700Z</lastmod>
+    <lastmod>2023-08-17T12:36:47.116Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w19_nyt/w19_nyt.html</loc>
-    <lastmod>2023-08-16T18:29:16.509Z</lastmod>
+    <lastmod>2023-08-17T12:36:47.867Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w38_hydro_wastewater/w38_hydro_wastewater.html</loc>
-    <lastmod>2023-08-16T18:29:17.255Z</lastmod>
+    <lastmod>2023-08-17T12:36:48.631Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w28_european_flights/w28_european_flights.html</loc>
-    <lastmod>2023-08-16T18:29:18.105Z</lastmod>
+    <lastmod>2023-08-17T12:36:49.425Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w1_your_own_data/w1_your_own_data.html</loc>
-    <lastmod>2023-08-16T18:29:18.887Z</lastmod>
+    <lastmod>2023-08-17T12:36:50.174Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w2_bees/w2_bees.html</loc>
-    <lastmod>2023-08-16T18:29:19.771Z</lastmod>
+    <lastmod>2023-08-17T12:36:50.989Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w34_chips/w34_chips.html</loc>
-    <lastmod>2023-08-16T18:29:20.491Z</lastmod>
+    <lastmod>2023-08-17T12:36:51.819Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w29_technology/w29_technology.html</loc>
-    <lastmod>2023-08-16T18:29:21.262Z</lastmod>
+    <lastmod>2023-08-17T12:36:52.685Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w37_bigfoot/w37_bigfoot.html</loc>
-    <lastmod>2023-08-16T18:29:22.078Z</lastmod>
+    <lastmod>2023-08-17T12:36:53.387Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w16_crosswords/w16_crossword.html</loc>
-    <lastmod>2023-08-16T18:29:22.873Z</lastmod>
+    <lastmod>2023-08-17T12:36:54.218Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w41_yarn/w41_yarn.html</loc>
-    <lastmod>2023-08-16T18:29:23.741Z</lastmod>
+    <lastmod>2023-08-17T12:36:55.021Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w27_rentals/w27_rentals.html</loc>
-    <lastmod>2023-08-16T18:29:24.540Z</lastmod>
+    <lastmod>2023-08-17T12:36:55.748Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w8_wfi/w8_wfi.html</loc>
-    <lastmod>2023-08-16T18:29:25.257Z</lastmod>
+    <lastmod>2023-08-17T12:36:56.474Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w23_pride/w23_pride.html</loc>
-    <lastmod>2023-08-16T18:29:26.097Z</lastmod>
+    <lastmod>2023-08-17T12:36:57.308Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w17_hidden_gems/w17_hiddengems.html</loc>
-    <lastmod>2023-08-16T18:29:26.937Z</lastmod>
+    <lastmod>2023-08-17T12:36:58.010Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w4_board_games/w4_board_games.html</loc>
-    <lastmod>2023-08-16T18:29:27.729Z</lastmod>
+    <lastmod>2023-08-17T12:36:58.867Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w36_lego/w36_lego.html</loc>
-    <lastmod>2023-08-16T18:29:28.550Z</lastmod>
+    <lastmod>2023-08-17T12:36:59.564Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w46_web_page_metrics/w46_web_page_metrics.html</loc>
-    <lastmod>2023-08-16T18:29:29.333Z</lastmod>
+    <lastmod>2023-08-17T12:37:00.265Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w44_horror_movies/w44_horror_movies.html</loc>
-    <lastmod>2023-08-16T18:29:30.044Z</lastmod>
+    <lastmod>2023-08-17T12:37:00.996Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w24_drought/w24_drought.html</loc>
-    <lastmod>2023-08-16T18:29:30.883Z</lastmod>
+    <lastmod>2023-08-17T12:37:01.761Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w13_sports/w13_sports.html</loc>
-    <lastmod>2023-08-16T18:29:31.596Z</lastmod>
+    <lastmod>2023-08-17T12:37:02.395Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w11_vignettes/w11_vignettes.html</loc>
-    <lastmod>2023-08-16T18:29:32.321Z</lastmod>
+    <lastmod>2023-08-17T12:37:03.425Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w47_uk_museums/w47_uk_museums.html</loc>
-    <lastmod>2023-08-16T18:29:33.092Z</lastmod>
+    <lastmod>2023-08-17T12:37:04.078Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w9_stations/w9_stations.html</loc>
-    <lastmod>2023-08-16T18:29:33.947Z</lastmod>
+    <lastmod>2023-08-17T12:37:05.011Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w52_star_trek_timelines/w52_star_trek_timeline.html</loc>
-    <lastmod>2023-08-16T18:29:34.862Z</lastmod>
+    <lastmod>2023-08-17T12:37:05.759Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w6_airforce/w6_airmen_dubois_challenge.html</loc>
-    <lastmod>2023-08-16T18:29:35.712Z</lastmod>
+    <lastmod>2023-08-17T12:37:06.547Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w15_indoor_pollution/w15_indoor_air_pollution.html</loc>
-    <lastmod>2023-08-16T18:29:36.422Z</lastmod>
+    <lastmod>2023-08-17T12:37:07.264Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w7_dubois/w7_dubois.html</loc>
-    <lastmod>2023-08-16T18:29:37.143Z</lastmod>
+    <lastmod>2023-08-17T12:37:08.064Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w30_BYOD/w30_BYOD.html</loc>
-    <lastmod>2023-08-16T18:29:37.942Z</lastmod>
+    <lastmod>2023-08-17T12:37:08.752Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w33_psychometrics/w33_psychometrics.html</loc>
-    <lastmod>2023-08-16T18:29:38.763Z</lastmod>
+    <lastmod>2023-08-17T12:37:09.695Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w43_gbb/w43_gbb.html</loc>
-    <lastmod>2023-08-16T18:29:39.563Z</lastmod>
+    <lastmod>2023-08-17T12:37:10.389Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w51_weather_forecast_accuracy/w51_weather_forecast_accuracy.html</loc>
-    <lastmod>2023-08-16T18:29:40.389Z</lastmod>
+    <lastmod>2023-08-17T12:37:11.217Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w49_elevators/w49_elevators.html</loc>
-    <lastmod>2023-08-16T18:29:41.204Z</lastmod>
+    <lastmod>2023-08-17T12:37:12.047Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w3_chocolate/w3_chocolate.html</loc>
-    <lastmod>2023-08-16T18:29:42.149Z</lastmod>
+    <lastmod>2023-08-17T12:37:12.876Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w31_frogs/w31_frogs.html</loc>
-    <lastmod>2023-08-16T18:29:42.795Z</lastmod>
+    <lastmod>2023-08-17T12:37:13.547Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/tidytuesday/cases2022/posts2022/w22_reputation/w22_reputation.html</loc>
-    <lastmod>2023-08-16T18:29:43.624Z</lastmod>
+    <lastmod>2023-08-17T12:37:14.419Z</lastmod>
   </url>
   <url>
     <loc>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/ts-and-cs.html</loc>
-    <lastmod>2023-08-16T18:29:44.060Z</lastmod>
+    <lastmod>2023-08-17T12:37:14.862Z</lastmod>
   </url>
 </urlset>

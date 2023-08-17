@@ -1,0 +1,11 @@
+---
+title: 'Color friday 2 colors'
+subtitle: 'Welcome to #30DayMapChallenge 2022 day 25'
+date: '2022-11-25'
+image: 'day25_color_friday_2_colors.png'
+image-alt: ''
+description: 'Networks'
+output: html_document
+execute: 
+   eval: false
+---

@@ -1,0 +1,11 @@
+---
+title: 'A bad map'
+subtitle: 'Welcome to #30DayMapChallenge 2022 day 10'
+date: '2022-11-10'
+image: 'day10_a_bad_map.png'
+image-alt: ''
+description: 'Networks'
+output: html_document
+execute: 
+   eval: false
+---

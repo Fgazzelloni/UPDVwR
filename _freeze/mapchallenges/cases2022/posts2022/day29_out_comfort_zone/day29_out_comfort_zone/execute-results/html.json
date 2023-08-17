@@ -1,0 +1,16 @@
+{
+  "hash": "fbf94f04c871c565dc8a81e4afadd30d",
+  "result": {
+    "markdown": "---\ntitle: 'Out of comfort zone'\nsubtitle: 'Welcome to #30DayMapChallenge 2022 day 29'\ndate: '2022-11-29'\nimage: 'day29_out_comfort_zone.png'\nimage-alt: ''\ndescription: 'Networks'\noutput: html_document\nexecute: \n   eval: false\n---\n\n\n\n\n## Foursquare Map Month Competition Winner\n\n### Map made with https://studio.foursquare.com/\n\n- link: https://studio.foursquare.com/public/1525b083-1b3d-46ec-a661-0833ca5e87cb\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(cowplot)\nggdraw()+\n  draw_image(\"basemap.png\")+\n  draw_image(\"legend1.png\",\n             scale=0.5,\n             x=-0.43,y=0)+\n  draw_label(\"United States of America precipitations\",\n             x=0.5,y=0.93,\n             size=18,\n             color=\"black\") +\n  draw_label(\"Permanent amount of precipitations on Global Railways\\n#30DayMapchallenge 2022 Day 29: Out of my comfort zone | Tool: studio.foursquare.com | Map: @fgazzelloni\",\n             x=0.5,y=0.05,\n             size=9,\n             color=\"black\") \nggsave(\"test.png\",\n       bg=\"white\",\n       width=8.92,\n       height=5.9)\n```\n:::\n",
+    "supporting": [
+      "day29_out_comfort_zone_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

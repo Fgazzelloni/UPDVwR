@@ -1,0 +1,200 @@
+---
+title: 'Blue'
+subtitle: 'Welcome to #30DayMapChallenge 2021 day 8'
+date: '2021-11-8'
+image: 'day8_blue.png'
+image-alt: ''
+description: 'Networks'
+output: html_document
+execute: 
+   eval: false
+---
+
+
+This is day 8 - blue for #30DayMapChallenge.
+I am looking at the [ggplot2-book](https://ggplot2-book.org/maps.html) map chapter.
+In this case I'd like to understand how to make modification of a .tif image positioning it inside a ggplot.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+Load the {ozmaps} for the geometry of Australia.
+
+```{r}
+library(ozmaps)
+library(sf)
+
+oz_states <- ozmaps::ozmap_states
+oz_states
+
+st_crs(oz_states) = st_crs(4283)
+
+oz_states%>%
+ggplot()+
+  geom_sf()+
+  coord_sf()
+```
+
+
+
+```{r}
+tmap::tm_shape(oz_states) +
+    tmap::tm_polygons() 
+```
+
+## First sat vis of Australia
+
+Then, select the raster images from source.
+
+See which raster images are available with loading the {bomrang} package and using the syntax below.
+
+Once you have found the file name, you can obtain the file searching on google tab with this string:
+"ftp://ftp.bom.gov.au/anon/gen/gms/" with the final name of the file
+
+
+For example google this, it might take a little while: ftp://ftp.bom.gov.au/anon/gen/gms/IDE00422.202001072100.tif
+
+It pops up a window asking you to identify as a "guest", (it might probably saying that it couldn't connect you, but then split all the pictures. You need to search for the desired picture, if it didn't prompt with the one you were searching for, mind it is  .tif type of file and you might need to choose a picture from your current year, such as 2021 - as the pictures from 2020 are not available anymore.)
+
+```{r}
+
+# sf::gdal_read() 
+# bomrang::get_available_imagery()
+
+# with - bomrang - find the avalable images
+files <- bomrang::get_available_imagery() %>%
+  stringr::str_subset("202001072100") 
+
+# use curl_download() to obtain a single file, and purrr to 
+# vectorise this operation
+purrr::walk2(
+  .x = paste0("ftp://ftp.bom.gov.au/anon/gen/gms/", files),
+  .y = file.path("raster", files),
+  .f = ~ download.file(url = .x, destfile = .y)
+)
+```
+
+Set the path of the image that you have downloaded and saved inside a "raster" folder in you project subfolder.
+
+```{r}
+img_vis  <- file.path("/Users/federica/Documents/R/R_general_resources/30DayMapChallenge/day8_blue/raster", "IDE00422.202111072100.tiff")
+img_inf <- file.path("/Users/federica/Documents/R/R_general_resources/30DayMapChallenge/day8_blue/raster", "IDE00421.202111072100.tiff")
+```
+
+Read the picture with {stars}, it releases information about the picture but we miss the coordinates??
+
+```{r}
+library(stars)
+sat_vis <- read_stars(img_vis, RasterIO = list(nBufXSize = 600, nBufYSize = 600))
+sat_inf <- read_stars(img_inf, RasterIO = list(nBufXSize = 600, nBufYSize = 600))
+```
+
+
+A ggplot can be made with the image using a `geom_stars()`
+
+```{r}
+blue_world <- ggplot() + 
+  geom_stars(data = sat_vis) + 
+  coord_equal()
+
+blue_world
+```
+
+The image can be easily modified:
+
+```{r}
+final <- blue_world +
+  labs(title="Globe Observer",
+       subtitle="Sat View of Australia\n#30DayMapChalleng Day 8 - Blue",
+       caption="Datasource:Australian Bureau of Meterorology (BOM)\nInfographic: Federica Gazzelloni")+
+  ggthemes::theme_map()+
+  theme(legend.position = "none",
+        plot.background = element_rect(color="#1a1c3d",fill="#1a1c3d"),
+        plot.title = element_text(color="#9a9ddb",size=35),
+        plot.subtitle = element_text(color="#9a9ddb",size=15),
+        plot.caption = element_text(color="#9a9ddb",size=12))
+```
+
+
+```{r}
+# save final plot
+ragg::agg_png("~/Documents/R/R_general_resources/30DayMapChallenge/day8_blue/blue.png",
+              res = 320, width = 11, height = 8, units = "in")
+final
+dev.off()
+```
+
+
+## Second sat vis of Australia
+
+
+```{r}
+library(showtext)
+library(extrafont)
+fonts()
+loadfonts()
+font_add_google("Gochi Hand", "gochi")
+font_add_google("Schoolbell", "bell")
+font_add_google('Syncopate', 'Syncopate')
+showtext_opts(dpi = 320)
+showtext_auto(enable = T)
+```
+
+Choose the image and download it with `curl_download()`
+
+```{r}
+files <- bomrang::get_available_imagery() %>%
+  stringr::str_subset("202001072100") 
+curl::curl_download("raster/ftp://ftp.bom.gov.au/anon/gen/gms/IDE00422.202111082100.tif",
+                    "sat_vis.tif")
+img_vis  <- file.path("/Users/federica/Documents/R/R_general_resources/Maps/raster", "IDE00422.202111082100.tif")
+library(stars)
+sat_vis <- read_stars(img_vis, RasterIO = list(nBufXSize = 600, nBufYSize = 600))
+#sat_inf <- read_stars(img_inf, RasterIO = list(nBufXSize = 600, nBufYSize = 600))
+oz_states <- st_transform(oz_states, crs = st_crs(sat_vis))
+cities <- oz_capitals %>% 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326, remove = FALSE)
+cities <- st_transform(cities, st_crs(sat_vis))
+```
+
+
+
+```{r}
+final2 <- ggplot() + 
+  geom_stars(data = sat_vis, show.legend = FALSE) +
+  geom_sf(data = oz_states, fill = "#6354c4", color = "#a7c2cc",size=0.3) + 
+  geom_sf(data = cities, color = "#15191f") + 
+  coord_sf() + 
+  theme_void() + 
+  #scale_fill_gradient(low = "black", high = "white")+
+  geom_sf_text(data = cities, mapping = aes(label = city),color="#ced9eb",check_overlap = T,family="gochi") +
+   labs(title="Globe Observer",
+       subtitle="Sat View of Australia\n#30DayMapChalleng Day 8 - Blue",
+       caption="Datasource:Australian Bureau of Meterorology (BOM)\nInfographic: Federica Gazzelloni")+
+  ggthemes::theme_map()+
+  theme(text=element_text(family="gochi"),
+        legend.position = "none",
+        plot.background = element_rect(color="#1a1c3d",fill="#1a1c3d"),
+        plot.title = element_text(color="#9a9ddb",size=35,family="Syncopate",hjust=0.5),
+        plot.title.position = "panel",
+        plot.subtitle = element_text(color="#9a9ddb",size=15,vjust=-1,hjust=0.07),
+        plot.caption = element_text(color="#9a9ddb",size=12,hjust=0.8))
+```
+
+
+
+```{r}
+# save final plot
+ragg::agg_png("~/Documents/R/R_general_resources/30DayMapChallenge/day8_blue/blue2.png",
+              res = 320, width = 11, height = 8, units = "in")
+final2
+dev.off()
+```
+
+
+

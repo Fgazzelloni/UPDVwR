@@ -1,0 +1,14 @@
+{
+  "hash": "efccf6894e93b3ea233faa077f146350",
+  "result": {
+    "markdown": "---\ntitle: 'Music'\nsubtitle: 'Welcome to #30DayMapChallenge 2022 day 27'\ndate: '2022-11-27'\nimage: 'day27_music.png'\nimage-alt: ''\ndescription: 'Networks'\noutput: html_document\nexecute: \n   eval: false\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(sf)\n\n\n# set the fonts\nlibrary(showtext)\nlibrary(sysfonts)\nlibrary(extrafont)\nshowtext::showtext_auto()\nshowtext::showtext_opts(dpi=320)\nfont_add_google(name=\"Syne Mono\",\n                family=\"Syne Mono\")\n\n\n\n\nartists <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-27/artists.csv')\n\nstates <- map_data(\"state\")\n\nstates <- rnaturalearth::ne_states(country =\"united states of america\",\n                                   returnclass = \"sf\") %>%\n  filter(!name==\"Alaska\")\n\n\nstates%>%\n  ggplot()+\n  geom_sf()\n\n\nmy_states <- artists%>%\n  count(state)%>%\n  pull(state)\n\nartists1 <- artists%>%\n  rename(name=state)%>%\n  group_by(race) %>%\n  mutate(artists_avg=log10(mean(artists_n,na.rm = TRUE)))%>%\n  ungroup()\n\nartists1%>%DataExplorer::profile_missing()\n\nfull <- states %>%\n  filter(name%in%my_states) %>%\n  merge(artists1,by=\"name\")\n  \nfull %>%\n  ggplot()+\n  geom_sf(aes(fill=artists_avg))+\n  scico::scale_fill_scico(\"N.Artists\")+\n  coord_sf(xlim = c(-130,-60))+\n  labs(title=\"US Artists\",\n       subtitle=\"states distribution by avg numbers (log tranf)\",\n       caption = \"#30DayMapChallenge 2022 Day 27: Music\\nDataSource: #TidyTuesday 2022 week 39 US Artists | Map: Federica Gazzelloni (@fgazzelloni)\")+\n  ggthemes::theme_map()+\n  theme(text = element_text(family=\"Syne Mono\"),\n        legend.background = element_blank(),\n        plot.background = element_rect(color=\"#6b493e\",linewidth=1.5))\n\n\nggsave(\"day27_music.png\",\n       dpi=280, \n       width = 8.47,\n       height =5.07)\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

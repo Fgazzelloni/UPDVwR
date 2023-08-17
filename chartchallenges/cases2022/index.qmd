@@ -1,6 +1,6 @@
 ---
 title: "30DayChartChallenge 2022"
-image: images/UPDVwR.png
+image: images/chart_collage_2022.png
 listing: 
   contents: posts2022
   sort: "date desc"
@@ -10,4 +10,4 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
-The content is in development. Interested in contributing to Unlocking the power of data visualization with R? [Check out our call for contributions](/contributor-docs/call-for-contributions.qmd).
+

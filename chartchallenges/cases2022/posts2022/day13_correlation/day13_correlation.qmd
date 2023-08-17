@@ -1,0 +1,126 @@
+---
+title: 'Correlation'
+subtitle: 'Welcome to #30DayChartChallenge 2022 day 13'
+date: '2022-04-13'
+image: 'day13_correlation.png'
+image-alt: ''
+description: 'Networks'
+output: html_document
+execute: 
+   eval: false
+---
+
+
+
+### STEM is science, technology, engineering, and mathematics.
+sources:
+- https://ncses.nsf.gov/pubs/nsb20221/u-s-and-global-stem-education-and-labor-force
+- https://ncses.nsf.gov/pubs/nsb20212/data
+
+
+extraresources:
+- https://www.bls.gov/oes/topics.htm#stem
+- https://www.aauw.org/resources/research/the-stem-gap/
+- https://ngcproject.org/resources/state-girls-and-women-stem
+- https://blog.dol.gov/2022/02/10/women-and-girls-in-growing-stem-jobs
+- https://www.stemwomen.com/blog/2021/01/women-in-stem-percentages-of-women-in-stem-statistics
+
+
+```{r }
+library(tidyverse)
+```
+
+Employed scientists and engineers, by sex and occupation: 2019
+```{r}
+scientists <- readxl::read_excel("~/Documents/R/WomenInSTEM/nsb20212-tabslbr-024_scientists.xlsx",
+                                 na = "0", skip = 3)
+# View(scientists)
+```
+
+
+```{r}
+scientists1 <- scientists[-1,]%>%
+  janitor::clean_names() %>%#names
+  rename(female_perc=x4,male_perc=x6) %>%
+  mutate(female=ifelse(female=="s",0,female),
+         female_perc=ifelse(female_perc=="s",0,female_perc),
+         male=ifelse(male=="s",0,male),
+         male_perc=ifelse(male_perc=="s",0,male_perc),
+         total=ifelse(total=="s",0,total)) %>%
+  mutate(across(-occupation,as.numeric)) %>% 
+  filter(!occupation%in%c("All occupations")) 
+
+
+scientists1%>%
+  group_by(occupation)%>%
+  summarise_all(funs(mean)) %>%
+  ungroup() %>%
+  summary()
+
+```
+
+
+```{r}
+scientists2 <- scientists1%>%
+#   mutate(occupation=case_when(occupation=="Accountants, auditors, and other financial specialists"~"Financial # specialists"),
+#          occupation=="Accounting clerks and bookkeepers"~"Accounting clerks",
+#          occupation=="Aerospace, aeronautical, or astronautical engineers"~"Aerospace engineers",
+#          occupation=="Atmospheric and space scientists"~"Space scientists",
+#          occupation=="Biochemists and biophysicists"~"Biochemists",
+#          occupation=="Biological and medical scientists"~"Medical scientists",
+#          occupation=="Bioengineers or biomedical engineers"~"Bioengineers",
+#          occupation=="Business, commerce, and marketing"~"Business",
+#          TRUE~occupation)
+  filter(occupation %in% c("Actuaries","Aerospace, aeronautical, or astronautical engineers",
+                           "Chemical engineers","Biological and medical scientists",
+                           "Computer and information scientists","Computer network architects",
+                           "Earth, atmospheric, and ocean scientists","Economics",
+                           "Earth, environmental, and marine sciences","Electrical and electronics engineers",
+                           "Industrial engineers","Marine engineers and naval architects",
+                           "Mathematics and statistics","Mechanical engineers",
+                           "Nuclear engineers","Physical and related scientists",
+                           "Physics","Statisticians","Transportation and material moving occupations")) %>%
+  arrange(occupation) 
+
+```
+
+
+```{r}
+scientists1 %>%  
+  filter(female>0,female_perc>0.00001,total>0) %>%
+ggplot(aes(x=total,y=female)) +
+  geom_smooth(method = "lm", se=FALSE, linetype="dashed",color="grey65")+
+   geom_jitter(aes(size=female_perc),
+               color="violet",
+               alpha=0.3,
+               shape=21,
+               fill="pink") +
+  geom_text(data=scientists2,
+            aes(label=occupation),
+            hjust="right",
+            vjust="top",
+            inherit.aes = TRUE,
+            check_overlap = T,
+            color="grey90",
+            family="Roboto Condensed",
+            fontface="bold")+
+  #xlim(0,15000)+
+  scale_x_log10(expand=expansion(add=c(0,-0.5)))+
+  scale_y_log10(expand=expansion(add=c(0,0))) +
+  labs(title="Women employed as Scientists in 2019",
+       subtitle="log scale by selected occupations",
+       caption="#30DayChartChallenge 2022 day13 - Correlation\nDataSource: NSF SCIENCE & ENGINEERING INDICATORS\nDataViz: Federica Gazzelloni",
+       size="Value(%)") +
+  hrbrthemes::theme_ft_rc()+
+  theme(legend.position = c(0.5,0.95),
+        legend.direction = "horizontal") 
+
+```
+
+
+```{r}
+ggsave("day13_correlation2.png",
+       dpi=320,
+       width = 9, height = 6)
+```
+

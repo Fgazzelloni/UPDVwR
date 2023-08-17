@@ -1,0 +1,11 @@
+---
+title: 'A map without computer'
+subtitle: 'Welcome to #30DayMapChallenge 2022 day 17'
+date: '2022-11-17'
+image: 'day17_a_map_without_computer.png'
+image-alt: ''
+description: 'Networks'
+output: html_document
+execute: 
+   eval: false
+---

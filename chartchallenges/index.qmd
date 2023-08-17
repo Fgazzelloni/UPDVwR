@@ -1,7 +1,7 @@
 ---
 pagetitle: ChartChallenges | Unlocking the power of data visualization with R
 title: ChartChallenges
-subtitle: How to make ChartChallenges visualizations
+subtitle: How to make Data visualizations
 search: false
 listing:
   contents: 
@@ -16,4 +16,6 @@ listing:
   page-size: 30
   feed: true
 ---
-The content is in development. Interested in contributing to Unlocking the power of data visualization with R? [Check out our call for contributions](/contributor-docs/call-for-contributions.qmd).
+Here, I share a collection of chats that I've made using R. The project is called **#30DayChartChallenge** and it is taken every year in April. Each day brings a new chart, revealing different aspects of selected data through data visualization. It's a creative journey that transforms numbers and information into eye-catching charts
+
+Explore this collection with me as we dive into charts that tell unique stories. 

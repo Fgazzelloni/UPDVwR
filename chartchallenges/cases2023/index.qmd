@@ -1,8 +1,8 @@
 ---
 title: "30DayChartChallenge 2023"
-image: images/UPDVwR.png
+image: images/chart_collage_2023.png
 listing: 
-  contents: posts2021
+  contents: posts2023
   sort: "date desc"
   type: grid
   image-height: "200"
@@ -10,4 +10,4 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
-The content is in development. Interested in contributing to Unlocking the power of data visualization with R? [Check out our call for contributions](/contributor-docs/call-for-contributions.qmd).
+
