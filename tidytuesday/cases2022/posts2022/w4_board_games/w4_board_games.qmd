@@ -1,15 +1,14 @@
 ---
 title: 'Board games'
-subtitle: 'Welcome to TidyTuesday 2022 week 4'
+subtitle: 'Welcome to #TidyTuesday 2022 day 4'
 date: '2022-01-25'
-image: "w4_board_games.png"
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w4_board_games/w4_board_games.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
 execute: 
    eval: false
 ---
-
 
 
 ## Overview

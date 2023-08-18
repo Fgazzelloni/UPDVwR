@@ -1,15 +1,14 @@
 ---
 title: 'UK Museums'
-subtitle: 'Welcome to TidyTuesday 2022 week 47'
+subtitle: 'Welcome to #TidyTuesday 2022 day 47'
 date: '2022-11-22'
-image: "w47_uk_museums.png"
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w47_uk_museums/w47_uk_museums.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
 execute: 
    eval: false
 ---
-
 
 
 

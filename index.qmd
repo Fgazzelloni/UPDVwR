@@ -1,8 +1,33 @@
 ---
 title: "Unlocking the Power of Data Visualization with R"
+page-layout: article
+section-divs: false
+editor: source
+sidebar: false
+search: false
+description: | 
+  A full list of Data Visualizations with code made with the R programming language.
+image: images/UPDVwR-logo-150px.png
+#listing:
+#  - id: latest-content
+#    contents: 
+#    - /tidytuesday
+#    - /chartchallenges
+#    - /mapchallenges
+#    - "!index.qmd"
+#    sort: "date desc"
+#    type: grid
+#    categories: false
+#    sort-ui: false
+#    filter-ui: false
+#    max-items: 3
+#    feed: false
+    
+toc: false 
 ---
 
 
-Welcome to `"Unlocking the Power of Data Visualization with R"` where I am proudly showcasing the vibrant contributions to #R4DS community to the `#TidyTuesday`, `#30DayChartChallenge`, and `#30DayMapChallenge` spanning 2021, 2022, and 2023. This platform serves as your gateway to exploring an engaging journey of data exploration, featuring a diverse collection of visualizations created using the `R programming language`. Dive into the digital gallery to discover insights, find inspiration, and learn from detailed explanations and code for each submission. 
+Welcome to `Unlocking the Power of Data Visualization with R`, where I proudly showcase my contributions to the `#R4DS community` through the `#TidyTuesday`, `#30DayChartChallenge`, and `#30DayMapChallenge` competitions, for 2021, 2022, and 2023. This platform is your gateway to data exploration, featuring a diverse collection of data visualizations created using the `R programming language`. Take a deep dive into the digital gallery, click on the image to discover insights, find inspiration, and learn from detailed explanations and code for each submission.
 
-> Whether you're a seasoned data professional or just starting out, join me in unraveling the art and impact of data visualization.
+> Whether you're an experienced data professional or just starting out, join me in this jouney through the art of data visualization.
+

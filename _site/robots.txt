@@ -1,1 +1,1 @@
-Sitemap: https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/sitemap.xml
+Sitemap: https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization/sitemap.xml

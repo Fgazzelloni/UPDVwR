@@ -11,7 +11,7 @@ website:
   site-url: https://github.com/Fgazzelloni/UPDVwR
   repo-url: https://github.com/Fgazzelloni/UPDVwR
   repo-actions: [edit, issue]
-  #google-analytics: "G-1TTWB7YTR6"
+  google-analytics: "G-55K190Q6RX"
   navbar:
     background: "#f0eeeb"
     logo: images/UPDVwR.png
@@ -28,7 +28,7 @@ website:
           href: about.qmd
         - text: "How to contribute"
           href: contributor-docs/call-for-contributions.qmd
-        - text: "Contact us"
+        - text: "Contacts"
           href: contact.qmd
   sidebar: 
     - title: "About the Author"
@@ -66,7 +66,7 @@ website:
   page-footer:
     background: "#000000"
     left: |
-      Copyright &copy; 2023 [FG](https://github.com/fgazzelloni)
+      Copyright &copy; 2023 [FG](https://federicagazzelloni.netlify.app/)
     center:  
       - href: https://github.com/fgazzelloni
         icon: github

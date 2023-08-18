@@ -1,15 +1,14 @@
 ---
 title: 'Horror Movies'
-subtitle: 'Welcome to TidyTuesday 2022 week 44'
+subtitle: 'Welcome to #TidyTuesday 2022 day 44'
 date: '2022-11-01'
-image: "w44_horror_movies.png"
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w44_horror_movies/w44_horror_movies.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
 execute: 
    eval: false
 ---
-
 
 
 ```{r}

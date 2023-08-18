@@ -1,15 +1,14 @@
 ---
 title: 'Bigfoot'
-subtitle: 'Welcome to TidyTuesday 2022 week 37'
+subtitle: 'Welcome to #TidyTuesday 2022 day 37'
 date: '2022-09-13'
-image: "w37_bigfoot.png"
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w37_bigfoot/w37_bigfoot.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
 execute: 
    eval: false
 ---
-
 ```{r}
 setwd("~/Documents/R/R_general_resources/TidyTuesday/data/2022/w37_bigfoot")
 library(tidyverse)

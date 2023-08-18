@@ -2,8 +2,7 @@
 title: 'Ultra Trail Running'
 subtitle: 'Welcome to TidyTuesday 2021 week 44'
 date: '2021-10-26'
-image: 'w44_ultra_trail_running.png'
-image-alt: ''
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/ab924a20bbe270bab306f4b13df0daaa6e53ffeb/data/2021/w44_ultra_trail_running/w44_ultra_trail_running.png'
 description: 'Networks'
 output: html_document
 execute: 

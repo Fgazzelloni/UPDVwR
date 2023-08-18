@@ -1,15 +1,14 @@
 ---
 title: 'Radio Stations'
-subtitle: 'Welcome to TidyTuesday 2022 week 45'
+subtitle: 'Welcome to #TidyTuesday 2022 day 45'
 date: '2022-11-08'
-image: "w45_radio_stations.png"
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w45_radio_stations/w45_radio_stations.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
 execute: 
    eval: false
 ---
-
 
 
 

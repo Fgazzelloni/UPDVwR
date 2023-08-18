@@ -638,7 +638,7 @@ div.quarto-post a {
 
 .quarto-grid-item img.thumbnail-image {
   object-fit: cover;
-  height: 188px !important;
+  height: 100%!important; # 188px !important;
 }
 
 

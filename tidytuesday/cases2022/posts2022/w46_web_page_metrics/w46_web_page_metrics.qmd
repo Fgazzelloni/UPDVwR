@@ -1,15 +1,14 @@
 ---
 title: 'Web page metrics'
-subtitle: 'Welcome to TidyTuesday 2022 week 46'
+subtitle: 'Welcome to #TidyTuesday 2022 day 46'
 date: '2022-11-15'
-image: "w46_web_page_metrics.png"
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w46_web_page_metrics/w46_web_page_metrics.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
 execute: 
    eval: false
 ---
-
 
 
 ```{r}

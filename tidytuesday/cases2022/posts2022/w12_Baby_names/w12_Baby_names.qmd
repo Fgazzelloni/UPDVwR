@@ -1,0 +1,67 @@
+---
+title: 'Baby names'
+subtitle: 'Welcome to #TidyTuesday 2022 day 12'
+date: '2022-03-22'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w12_babynames/w12_wordcloud.png'
+image-alt: ''
+description: 'Networks'
+output: html_document
+execute: 
+   eval: false
+---
+
+Source: https://r-graph-gallery.com/wordcloud
+
+```{r}
+
+library(tidyverse)
+
+babynames <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-03-22/babynames.csv')
+
+df <- babynames %>%
+  arrange(-n) %>%
+  select(name,n,prop) %>%
+  group_by(name) %>%
+  summarise(n=sum(n),prop=sum(prop))%>%
+  ungroup() %>%
+  arrange(-n) %>%
+  slice(1:200)
+
+library(wordcloud)
+set.seed(123)
+
+par(bg="black") 
+wordcloud(df2$word ,size= df2$freq, 
+          col=terrain.colors(length(df2$word),alpha=0.9), 
+          rot.per=0.3)
+
+
+
+library(wordcloud2) 
+
+# install webshot
+library(webshot)
+webshot::install_phantomjs()
+
+
+df2 <- df %>%
+  rename(word=name,freq=n)
+
+
+
+# Make the graph
+my_graph <- wordcloud2(df2, size=1.5,
+                       backgroundColor = "black")
+
+
+# save it in html
+library("htmlwidgets")
+saveWidget(my_graph,"data/2022/w12_babynames/tmp.html",selfcontained = F)
+
+# and in png or pdf
+webshot("data/2022/w12_babynames/tmp.html",
+        "data/2022/w12_babynames/fig_1.png", 
+        delay =5, vwidth = 980, vheight=950)
+
+
+```
