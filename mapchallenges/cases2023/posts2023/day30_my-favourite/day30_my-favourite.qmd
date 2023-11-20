@@ -1,0 +1,11 @@
+---
+title: 'My Favourite'
+subtitle: 'Welcome to #30DayMapChallenge 2023 day 30'
+date: '2023-11-30'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day30_my-favourite/day30_my-favourite.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---

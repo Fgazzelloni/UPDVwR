@@ -1,0 +1,11 @@
+---
+title: 'Outdoors'
+subtitle: 'Welcome to #30DayMapChallenge 2023 day 20'
+date: '2023-11-20'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---

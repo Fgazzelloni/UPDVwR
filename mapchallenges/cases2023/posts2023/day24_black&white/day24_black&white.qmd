@@ -1,0 +1,11 @@
+---
+title: 'Black&White'
+subtitle: 'Welcome to #30DayMapChallenge 2023 day 24'
+date: '2023-11-24'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&white/day24_black&white.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---

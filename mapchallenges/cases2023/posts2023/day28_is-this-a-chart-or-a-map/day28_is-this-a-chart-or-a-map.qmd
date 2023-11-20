@@ -1,0 +1,11 @@
+---
+title: 'Is This A Chart Or A Map'
+subtitle: 'Welcome to #30DayMapChallenge 2023 day 28'
+date: '2023-11-28'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---

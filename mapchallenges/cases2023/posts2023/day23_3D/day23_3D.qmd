@@ -1,0 +1,11 @@
+---
+title: '3d'
+subtitle: 'Welcome to #30DayMapChallenge 2023 day 23'
+date: '2023-11-23'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---

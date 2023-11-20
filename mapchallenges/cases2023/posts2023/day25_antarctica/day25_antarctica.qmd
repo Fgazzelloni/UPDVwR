@@ -1,0 +1,11 @@
+---
+title: 'Antarctica'
+subtitle: 'Welcome to #30DayMapChallenge 2023 day 25'
+date: '2023-11-25'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---

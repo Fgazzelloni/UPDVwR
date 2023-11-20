@@ -8,7 +8,7 @@ website:
   twitter-card:
     site: "@fgazzelloni"
   open-graph: true
-  site-url: https://github.com/Fgazzelloni/UPDVwR
+  site-url: https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/
   repo-url: https://github.com/Fgazzelloni/UPDVwR
   repo-actions: [edit, issue]
   google-analytics: "G-55K190Q6RX"

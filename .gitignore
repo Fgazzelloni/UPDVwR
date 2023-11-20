@@ -3,4 +3,5 @@
 R
 render
 *.html
+.DS_Store
 

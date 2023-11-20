@@ -1,0 +1,11 @@
+---
+title: 'Raster'
+subtitle: 'Welcome to #30DayMapChallenge 2023 day 21'
+date: '2023-11-21'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---
