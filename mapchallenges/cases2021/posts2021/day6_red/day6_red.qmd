@@ -2,7 +2,7 @@
 title: 'Red'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 6'
 date: '2021-11-6'
-image: 'day6_red.gif'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day6_red/day6_red.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

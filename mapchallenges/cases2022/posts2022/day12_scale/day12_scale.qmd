@@ -2,7 +2,7 @@
 title: 'Scale'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 12'
 date: '2022-11-12'
-image: 'day12_scale.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day12_scale/day12_scale.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

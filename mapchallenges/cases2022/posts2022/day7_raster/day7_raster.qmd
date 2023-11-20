@@ -2,7 +2,7 @@
 title: 'Raster'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 7'
 date: '2022-11-7'
-image: 'day7_raster.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day7_raster/day7_raster.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

@@ -2,7 +2,7 @@
 title: 'My favourite'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 20'
 date: '2022-11-20'
-image: 'day20_my_favourite.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day20_my_favourite/day20_my_favourite.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

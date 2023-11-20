@@ -2,7 +2,7 @@
 title: 'Ukraine'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 5'
 date: '2022-11-5'
-image: 'day5_ukraine.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day5_ukraine/day5_ukraine.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

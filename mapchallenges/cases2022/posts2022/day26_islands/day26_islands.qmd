@@ -2,7 +2,7 @@
 title: 'Islands'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 26'
 date: '2022-11-26'
-image: 'day26_islands.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

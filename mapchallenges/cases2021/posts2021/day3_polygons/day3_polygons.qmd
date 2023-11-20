@@ -2,7 +2,7 @@
 title: 'Polygons'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 3'
 date: '2021-11-3'
-image: 'day3_polygons.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day3_polygons/day3_polygons.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

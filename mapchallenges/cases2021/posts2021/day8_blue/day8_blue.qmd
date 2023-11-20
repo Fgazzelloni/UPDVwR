@@ -2,7 +2,7 @@
 title: 'Blue'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 8'
 date: '2021-11-8'
-image: 'day8_blue.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day8_blue/day8_blue.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

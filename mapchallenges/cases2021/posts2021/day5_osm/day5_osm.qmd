@@ -2,7 +2,7 @@
 title: 'Osm'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 5'
 date: '2021-11-5'
-image: 'day5_osm.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day5_osm/day5_osm.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

@@ -2,7 +2,7 @@
 title: 'Points'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 1'
 date: '2021-11-1'
-image: 'day1_points.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day1_points/day1_points.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

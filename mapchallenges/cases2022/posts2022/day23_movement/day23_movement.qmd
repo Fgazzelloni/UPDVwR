@@ -2,7 +2,7 @@
 title: 'Movement'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 23'
 date: '2022-11-23'
-image: 'day23_movement.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day23_movement/day23_movement.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

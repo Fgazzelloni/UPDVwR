@@ -2,7 +2,7 @@
 title: 'Kontur population dataset'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 21'
 date: '2022-11-21'
-image: 'day21_kontur_pop_dataset.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day21_kontur_pop_dataset/day21_kontur_pop_dataset.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

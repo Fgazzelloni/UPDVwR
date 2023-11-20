@@ -2,7 +2,7 @@
 title: 'Music'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 27'
 date: '2022-11-27'
-image: 'day27_music.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day27_music/day27_music.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

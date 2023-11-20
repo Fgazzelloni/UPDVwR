@@ -2,7 +2,7 @@
 title: 'Openstreetmap'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 8'
 date: '2022-11-8'
-image: 'day8_openstreetmap.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day8_openstreetmap/day8_openstreetmap.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

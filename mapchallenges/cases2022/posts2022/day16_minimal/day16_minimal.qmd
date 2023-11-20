@@ -2,7 +2,7 @@
 title: 'Minimal'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 16'
 date: '2022-11-16'
-image: 'day16_minimal.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day16_minimal/day16_minimal.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

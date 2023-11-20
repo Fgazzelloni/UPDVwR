@@ -2,7 +2,7 @@
 title: 'Newtool'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 14'
 date: '2021-11-14'
-image: 'day14_newtool.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day14_newtool/day14_newtool.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

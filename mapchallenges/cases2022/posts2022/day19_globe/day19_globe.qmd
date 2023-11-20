@@ -2,7 +2,7 @@
 title: 'Globe'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 19'
 date: '2022-11-19'
-image: 'day19_globe.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day19_globe/day19_globe.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

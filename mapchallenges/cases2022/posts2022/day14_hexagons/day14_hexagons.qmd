@@ -2,7 +2,7 @@
 title: 'Hexagons'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 14'
 date: '2022-11-14'
-image: 'day14_hexagons.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day14_hexagons/day14_hexagons.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

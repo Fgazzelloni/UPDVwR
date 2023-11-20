@@ -2,7 +2,7 @@
 title: '3d'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 28'
 date: '2022-11-28'
-image: 'day28_3D.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

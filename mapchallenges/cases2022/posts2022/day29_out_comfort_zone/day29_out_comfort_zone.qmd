@@ -2,7 +2,7 @@
 title: 'Out of comfort zone'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 29'
 date: '2022-11-29'
-image: 'day29_out_comfort_zone.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day29_out_comfort_zone/day29_out_comfort_zone.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

@@ -2,7 +2,7 @@
 title: 'Color friday green'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 4'
 date: '2022-11-4'
-image: 'day4_color_friday_green.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day4_color_friday_green/day4_color_friday_green.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

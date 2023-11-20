@@ -2,7 +2,7 @@
 title: 'Null'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 22'
 date: '2022-11-22'
-image: 'day22_null.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day22_null/day22_null.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

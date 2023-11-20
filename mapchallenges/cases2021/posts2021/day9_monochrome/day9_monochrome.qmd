@@ -2,7 +2,7 @@
 title: 'Monochrome'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 9'
 date: '2021-11-9'
-image: 'day9_monochrome.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day9_monochrome/day9_monochrome.png'
 image-alt: ''
 description: 'Networks'
 output: html_document

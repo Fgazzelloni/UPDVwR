@@ -2,7 +2,7 @@
 title: 'Space'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 9'
 date: '2022-11-9'
-image: 'day9_space.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day9_space/day9_space.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
