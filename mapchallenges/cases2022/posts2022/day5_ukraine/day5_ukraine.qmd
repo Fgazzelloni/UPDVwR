@@ -4,44 +4,58 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 5'
 date: '2022-11-5'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day5_ukraine/day5_ukraine.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
-### ukraine war data
+# Overview
+
+Map of `Ukraine`, data from `Geodata.`
+
+
+### Ukraine war data
 
 - https://data.humdata.org/
 
 ```{r}
-
 unzip("data/ukr-border-crossings-090622-2.zip",exdir = "data/conflict")
+```
 
+
+```{r}
 library(sf)
 library(tidyverse)
 library(rgdal)
 library(raster)
 library(ggspatial)
+```
 
-# geodata
+### Geodata
+```{r}
 ykr <- raster::getData('GADM', country = "UKR", level = 1)
-
 load("gadm36_UKR_1_sp.rds")
 df <-gadm36_UKR_1_sp %>%st_as_sf()
+```
 
+
+```{r}
 rosm::osm.types()
+```
 
+
+```{r}
 quartz()
 ggplot() +
    annotation_map_tile(type = "osm") +
    layer_spatial(df)
  ggsave("base_map.png")
+```
 
 
-
-
-#### extras #######
+Extras:
+```{r}
 sf_data <- ykr %>% # class sp
    sf::st_as_sf() %>%
    st_transform(crs=4326)

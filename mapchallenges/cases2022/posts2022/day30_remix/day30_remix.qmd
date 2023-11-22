@@ -4,89 +4,146 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 30'
 date: '2022-11-30'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day30_remix/day30_remix.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
+Improving map Islands (day 26) with `Campsites in Urupukapuka Island no dogs allowed`. Data is from the `New Zealand Hydrographic Authority` & data.govt.nz.
+
+
+
+Set the fonts
 ```{r}
-
-
-# set the fonts
 library(showtext)
 library(sysfonts)
 library(extrafont)
 showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name="Poor Story",family="Poor Story")
+```
 
+
+```{r}
 library(leaflet)
 # library(leaflet.extras)
 # library(leaflet.providers)
+```
 
+
+```{r}
 # fileid<- "d069b4c5-ec5b-c750-45aa-0a13f57dc35a"
 #Geographic Bounding Box
 # bbox<- c(174.064747966174,.345239694,-35.2867580621,-35.1399271488)
+```
 
 
+```{r}
 library(tidyverse)
 library(rgdal)
 library(sf)
+```
+
+
+```{r}
 # Department of Conservation (DOC) - Campsites. Dataset shows all campsites.
 # https://catalogue.data.govt.nz/dataset/doc-campsites3
-shp <- readOGR("data/DOC_Campsites")
+```
 
+
+```{r}
+shp <- readOGR("data/DOC_Campsites")
+```
+
+
+```{r}
 plot(shp)
-shp%>%View
+```
+
+
+```{r}
+# shp%>%View
+```
+
+
+```{r}
 shp@proj4string
+```
+
+
+```{r}
 shp@data%>%
   ggplot()+
   geom_point(aes(x,y))
-  
+```
+
+
+```{r}
 df <- shp@data %>%
   st_as_sf(coords=c("x","y"),
            crs="+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0
 +units=m +no_defs") %>%
   sf::st_transform(crs = "+proj=longlat +datum=WGS84")  %>%
-  tibble() 
+  tibble()
+```
 
 
+```{r}
 df1 <- shp@data %>%
   st_as_sf(coords=c("x","y"),
            crs="+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0
 +units=m +no_defs") %>%
   sf::st_transform(crs = "+proj=longlat +datum=WGS84")  %>%
   st_coordinates() %>%
-  bind_cols(df) 
+  bind_cols(df)
+```
 
 
+```{r}
 df2<- df1%>%
   mutate(dogs=ifelse(dogsAllowe=="No dogs","no","yes"),
          .after=Y)
+```
 
-df1%>%View
+
+```{r}
+# df1%>%View
+```
+
+
+```{r}
 table(df2$dogs)
 table(df2$campsiteCa)
+```
 
+
+```{r}
 getColor <- function(df2) {
   sapply(df2$dogs, function(dogs) {
     ifelse(dogs == "yes","green","red")})
     }
+```
 
+
+```{r}
 icons <- awesomeIcons(
   icon = 'ios-close',
   iconColor = 'black',
   library = 'ion',
   markerColor = getColor(df2)
 )
+```
 
 
-
-
+```{r}
 tile <- "http://tiles-{s}.data-cdn.linz.govt.nz/services;key=0661036048984cf88489c5930d0c2e98/tiles/v4/layer=NZ512501/EPSG:3857/{z}/{x}/{y}.png"
+```
 
+
+```{r}
 islands_mixup <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>% 
   # -35.20870804, 174.22736660.
   setView(174.22736660,-35.20870804,zoom=14) %>%
@@ -105,21 +162,26 @@ islands_mixup <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
   addMeasure()%>%
   addMiniMap()
 
-islands_mixup  
+islands_mixup
+```
 
 
+```{r}
 ## load packages
 library(htmlwidgets)
 library(webshot)
+```
 
 
+```{r}
 ## save html to png
 saveWidget(islands_mixup, "temp.html", selfcontained = FALSE)
 webshot("temp.html", file = "data/islands_mixup.png",
         cliprect = "viewport")
+```
 
 
-
+```{r}
 library(cowplot)
 ggdraw()+
   draw_image("data/islands_mixup.png")+
@@ -134,12 +196,14 @@ ggdraw()+
              x=0.5,y=0.90,
              lineheight = 1.2,
              fontfamily = "Poor Story",
-             size=5) 
+             size=5)
+```
 
+
+```{r}
 ggsave("day30_remix.png",
        dpi=200,
        width = 6.83,
        height =5.26 )
-
 ```
 

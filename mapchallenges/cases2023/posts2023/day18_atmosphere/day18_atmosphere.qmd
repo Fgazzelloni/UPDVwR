@@ -14,6 +14,10 @@ execute:
 
 # Overview
 
+Whispers of the Breeze: `Italy's Today Wind Speed`". Data is from `{rWind}`.
+
+
+
 This challenge is all about wind movements. The selected area is Italy, also some parts of the surrounding territories can be seen. I am going to use the {rWind} package for downloading the information about wind speed and direction vectors (u,v) for today, Nov 18, 2023. 
 
 In order to be able to interpolate the information from {rWind}, I'll use the {oce} package which provide a type of interpolating function for calculating the Barnes interpolation with: `oce::interpBarnes()` function.

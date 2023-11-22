@@ -16,6 +16,7 @@ listing:
   page-size: 30
   feed: true
 ---
+
 Here, I share a collection of maps that I've made using R. The project is called **#30DayMapChallenge** and it is taken every year in November. Each day brings a new map, revealing different aspects of our world through data visualization. It's a creative journey that transforms numbers and information into eye-catching maps.
 
 Explore this collection with me as we dive into maps that tell unique stories. 

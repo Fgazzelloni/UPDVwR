@@ -2,6 +2,8 @@
   {
     "listing": "/mapchallenges/cases2021/index.html",
     "items": [
+      "/mapchallenges/cases2021/posts2021/day30_metamapping/day30_metamapping.html",
+      "/mapchallenges/cases2021/posts2021/day29_null/day29_null.html",
       "/mapchallenges/cases2021/posts2021/day28_earth_not_flat/day28_earth_not_flat.html",
       "/mapchallenges/cases2021/posts2021/day27_heatmap/day27_heatmap.html",
       "/mapchallenges/cases2021/posts2021/day26_choropleth/day26_choropleth.html",
@@ -87,7 +89,7 @@
       "/mapchallenges/cases2022/posts2022/day24_fantasy/day24_fantasy.html",
       "/mapchallenges/cases2022/posts2022/day23_movement/day23_movement.html",
       "/mapchallenges/cases2022/posts2022/day22_null/day22_null.html",
-      "/mapchallenges/cases2022/posts2022/day21_kontur_pop_dataset/day21_kontur_pop_dataset.html",
+      "/mapchallenges/cases2022/posts2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.html",
       "/mapchallenges/cases2022/posts2022/day20_my_favourite/day20_my_favourite.html",
       "/mapchallenges/cases2022/posts2022/day19_globe/day19_globe.html",
       "/mapchallenges/cases2022/posts2022/day18_color_friday_blue/day18_color_friday_blue.html",
@@ -95,7 +97,7 @@
       "/mapchallenges/cases2022/posts2022/day16_minimal/day16_minimal.html",
       "/mapchallenges/cases2022/posts2022/day15_food_drink/day15_food_drink.html",
       "/mapchallenges/cases2022/posts2022/day14_hexagons/day14_hexagons.html",
-      "/mapchallenges/cases2022/posts2022/day13_5_minutes_map/day13_5_minutes_map.html",
+      "/mapchallenges/cases2022/posts2022/day13_5_minute_map/day13_5_minute_map.html",
       "/mapchallenges/cases2022/posts2022/day12_scale/day12_scale.html",
       "/mapchallenges/cases2022/posts2022/day11_color_friday_red/day11_color_friday_red.html",
       "/mapchallenges/cases2022/posts2022/day10_a_bad_map/day10_a_bad_map.html",

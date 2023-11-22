@@ -2,14 +2,18 @@
 title: 'Red'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 6'
 date: '2021-11-6'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day6_red/day6_red.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day6_red/drought_red.gif'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+
+# Overview
+
+This `US Drought map` shows available values by County - Jan to July 2021, data is from `TidyTuesday` 2021 week 30.
 
 ```{r data}
 library(tidyverse)

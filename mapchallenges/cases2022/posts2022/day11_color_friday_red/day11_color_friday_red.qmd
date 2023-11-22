@@ -1,23 +1,25 @@
 ---
-title: 'Color friday red'
+title: 'Colour Friday: Red'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 11'
 date: '2022-11-11'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day11_color_friday_red/day11_color_friday_red.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day11_color_friday_red/day11_color_friday_map.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+
+This red map is a map of the `US FM Boosters - FB Radio Stations`. Data is from `TidyTuesday` 2022 week 45  Radio Stations by the `FM Service Contour Data Points (fcc.gov)`.
 
 ```{r}
-
 library(tidyverse)
 raw_contour <- read_delim(
   "data/FM_service_contour_current.txt",
-  delim = "|"
-)
+  delim = "|")
 
 conv_contour <- raw_contour |>
   select(-last_col()) |>
@@ -83,8 +85,11 @@ df_coords5_FB <- df_coords4 %>%
 
 # save(df_coords5,file="rdata/df_coords5_FB.RData")
 # load("rdata/df_coords5_FB.RData")
+```
 
-library(sf) # spatiotemporal
+
+```{r}
+library(sf) # simple feature
 world <- sf::st_as_sf(maps::map("world", plot = FALSE, fill = TRUE))
 states <- sf::st_as_sf(maps::map("state", plot = FALSE, fill = TRUE))
 
@@ -100,9 +105,10 @@ library(extrafont)
 showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name="Xanh Mono",family="Xanh Mono")
+```
 
 
-
+```{r}
 library(ggnewscale)
 
 ggplot() +

@@ -2,13 +2,18 @@
 title: 'Movement'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 20'
 date: '2021-11-20'
-image: 'day20_movement.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day20_movement/movement.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+
+# Overview
+
+This map of `Italy` shows the `Alitalia Flights`, data is from `openflights`.
 
 
 ## Datasource:
@@ -31,8 +36,9 @@ library(tidyverse)
 it <- rgeoboundaries::gb_adm0("italy")
 ```
 
+Italy Boundary Box:
 
-it: xmin: 6.626621 ymin: 35.49285 xmax: 18.52038 ymax: 47.09178
+IT: xmin: 6.626621 ymin: 35.49285 xmax: 18.52038 ymax: 47.09178
 
 ```{r}
 flights_fortified <- readRDS("~/Documents/R/R_general_resources/30DayMapChallenge/day20_movement/data/flights_fortified.rds")

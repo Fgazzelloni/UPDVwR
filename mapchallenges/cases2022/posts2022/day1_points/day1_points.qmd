@@ -4,16 +4,20 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 1'
 date: '2022-11-1'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day1_points/day1_points.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
-## Load the libraries
+`Malaria prevalence in children`, data recorded at villages in The `Gambia, Africa`. Data is from `{geoR}` package.
+
+
+
+Load the libraries
 ```{r}
-
 library(tidyverse)
 library(geoR)
 library(sf)
@@ -27,13 +31,17 @@ library(extrafont)
 showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name = "Mukta",family="Mukta")
+```
 
-
-# load data and transform UTM coords into Lat and Long 
-# data(package="geoR")
+Load data and transform UTM coords into Lat and Long 
+```{r}
+data(package="geoR")
 # ?gambia
-# gambia %>% head
+gambia %>% head
+```
 
+
+```{r}
 gambia1 <- gambia %>%
   select(x,y) %>%
   sf::st_as_sf(coords = c(1,2), 
@@ -76,9 +84,10 @@ gambia.borders4 <- gambia.borders3 %>%
 # bbox = min Longitude , min Latitude , max Longitude , max Latitude 
 # gambia.borders3%>%
 #  st_bbox()
-  
+```
 
-# make the map
+Make the map
+```{r}
 map <- gambia1 %>%
   filter(pos==1) %>%
   ggplot(aes(long,lat)) +
@@ -111,9 +120,10 @@ map <- gambia1 %>%
         plot.margin = margin(10,1,20,1,unit = "pt"),
         plot.background = element_rect(color = "black",fill="grey95",size=0.05),
         panel.background = element_rect(color = "grey95",fill="grey95"))
+```
 
 
-
+```{r}
 # add a little Africa on a side
 # remotes::install_github("afrimapr/afrilearndata")
 # library(afrilearndata)
@@ -121,7 +131,10 @@ afr_sf <- afrilearndata::africountries
 # afr_sf%>%head
 
 gamb_sf <- afr_sf%>%filter(name_sw=="Gambia")
+```
 
+
+```{r}
 afrimap<-   ggplot()+
   geom_sf(data=afr_sf,
           aes(fill=pop_est),
@@ -130,16 +143,21 @@ afrimap<-   ggplot()+
   geom_sf(data=gamb_sf,
           fill="brown",alpha=0.9)+
   theme_void()
+```
 
-
-# draw the plot
+Draw the plot
+```{r}
 cowplot::ggdraw()+
   draw_plot(map)+
   draw_plot(afrimap,scale = 0.2,
             x=0.3,y=0.25)
 
 
-# save it
+
+```
+
+Save it
+```{r}
 ggsave("day1_points.png",
        dpi=300,
       bg="grey95",

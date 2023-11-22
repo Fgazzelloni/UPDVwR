@@ -10,13 +10,14 @@ execute:
    eval: false
 ---
 
+# Overview
+
+A bad map titled: `Exaggerated 3D View of the United States`. Wrong orientation of the US Map. Data is from `{ggplot2}` package.
 
 ### Load necessary libraries
 
-
 ```{r}
 library(ggplot2)
-library(maps)
 ```
 
 ### Extract map data for the United States

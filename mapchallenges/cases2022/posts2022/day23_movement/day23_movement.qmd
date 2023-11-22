@@ -4,23 +4,28 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 23'
 date: '2022-11-23'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day23_movement/day23_movement.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+Map of the Movements to Europe through the Mediterranean and Western Balkans migration routes, 2017 flows: `Italy overview`. DataSource: `@humdata`.
 
 
-### Source
+Source
 
-- https://data.world/iom/b8e28bd0-8bcb-47a5-bc90-775562d944a4/workspace/file?filename=2017-flows-to-europe-overview-dataset-3.xlsx
+- <https://data.world/iom/b8e28bd0-8bcb-47a5-bc90-775562d944a4/workspace/file?filename=2017-flows-to-europe-overview-dataset-3.xlsx>
 
 ```{r}
-
 library(tidyverse)
 library(sf)
+```
 
+
+```{r}
 # set the fonts
 library(showtext)
 library(sysfonts)
@@ -29,15 +34,24 @@ showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name="Averia Libre",
                 family="Averia Libre")
+```
 
+
+```{r}
 library(readxl)
 X2017 <- read_excel("R_general_resources/30DayMapChallenge/2022/day23_movement/data/2017-flows-to-europe-overview-dataset-3.xlsx", 
-                    sheet = "Origin Nationalites ITA-GRC-ESP")                 
-                    
+                    sheet = "Origin Nationalites ITA-GRC-ESP")
+```
+
+
+```{r}
 world <- rnaturalearthdata::countries110                    
 italy <- world_geo_data%>%
   filter(sovereignt=="Italy")
+```
 
+
+```{r}
 data <- X2017%>%
   janitor::clean_names() %>%
   left_join(world_geo_data,by=c("iso3_of_origin"="sov_a3"))
@@ -58,15 +72,12 @@ data_centroids <- data%>%
 italy_centroid <- world_geo_data%>%
   filter(sovereignt=="Italy")%>%
   st_centroid()
+```
 
 
-# ggplot(world_geo_data)+
-#   geom_sf()+
-#   geom_sf(data=data,aes(geometry=geometry,color=iso3_of_origin),
-#           show.legend = F) +
-#   geom_sf(data= data1_centroids)
 
 
+```{r}
 start_coords <- data_centroids%>%
   st_coordinates()%>%
   as.data.frame()%>%
@@ -75,14 +86,18 @@ start_coords <- data_centroids%>%
 end_coords <- italy_centroid%>%
   st_coordinates()%>%
   as.data.frame()
+```
 
 
+```{r}
 df <- cbind(start_coords,end_coords)
 
 names(df)<- c("lon_st","lat_st","lon_en","lat_en")
-df%>%head  
+df%>%head
+```
 
 
+```{r}
 en <- df %>%
   st_as_sf(coords=c("lon_en","lat_en"),crs=4326)%>%
   st_geometry()
@@ -90,15 +105,16 @@ en <- df %>%
 st <- df %>%
   st_as_sf(coords=c("lon_st","lat_st"),crs=4326)%>%
   st_geometry()
+```
 
 
-# st_connect(st,en)%>%
-#   ggplot()+
-#   geom_sf()
-
+```{r}
 lines <- st_connect(st,en)
 st_bbox(world_geo_data)
+```
 
+
+```{r}
 library(scico)
 ggplot(world_geo_data)+
   geom_sf(fill="grey90",alpha=0.2)+
@@ -133,8 +149,10 @@ ggplot(world_geo_data)+
         plot.caption = element_text(lineheight = 1.1,vjust = 2),
         legend.background = element_blank(),
         legend.position = c(0.05,0.1))
+```
 
 
+```{r}
 ggsave("day23_movement.png",
        bg="#89a5b9",
        width = 8.22,

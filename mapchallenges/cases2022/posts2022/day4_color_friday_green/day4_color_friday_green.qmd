@@ -1,15 +1,19 @@
 ---
-title: 'Color friday green'
+title: 'Colour Friday: Green'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 4'
 date: '2022-11-4'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day4_color_friday_green/day4_color_friday_green.png'
 image-alt: ''
-description: 'Networks'
+description: ''
+category: 'Rome, Italy'
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+This is a map of `Historic district of Rome`. 
 
 ```{r}
 

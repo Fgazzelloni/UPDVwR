@@ -2,17 +2,20 @@
 title: 'Heatmap'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 27'
 date: '2021-11-27'
-image: 'day27_heatmap.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day27_heatmap/heatmap.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
 
+# Overview
 
-### mapmate vignettes
+John Snow's 1854 Cholera Deaths London's Map. Data: `Blog.RtWilson.com`.
+
+### {mapmate} vignettes
 
 - https://rdrr.io/github/leonawicz/mapmate/f/vignettes/mapmate.Rmd
 - https://leonawicz.github.io/mapmate/articles/usage_and_limitations.html

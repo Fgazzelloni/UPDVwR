@@ -2,15 +2,17 @@
 title: 'Monochrome'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 9'
 date: '2021-11-9'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day9_monochrome/day9_monochrome.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day9_monochrome/monochrome.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
+This art work represent `Italy`, data is from the `{spData}` package.
 
 ```{r libraries}
 library(tidyverse)
@@ -32,6 +34,9 @@ plot(st_geometry(italy), expandBB = c(0, 0.2, 0.1, 1), col = "gray", lwd = 3)
 plot(world_europe[0], add = TRUE)
 dev.off()
 ```
+
+
+
 ```{r final_touches}
 library(cowplot)
 library(magick)

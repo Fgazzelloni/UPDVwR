@@ -1,11 +1,14 @@
 ---
-title: 'A bad map'
+title: 'A Bad Map'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 10'
 date: '2022-11-10'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day10_a_bad_map/day10_a_bad_map.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+
+This map is a drawback of a .tif image of `North America and Alaska` from the `OSM`.

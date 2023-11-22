@@ -2,22 +2,34 @@
 title: 'Points'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 1'
 date: '2021-11-1'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day1_points/day1_points.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day1_points/w44_runners.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+
+# Overview
+
+This map is made with data from `TidyTuesday` 2021 week44 Race.
+
 
 ```{r libraries, message=FALSE, warning=FALSE, paged.print=FALSE}
 library(tidyverse)
 
 library(tidyquant)
 library(ggpattern)
+```
 
+
+
+
+```{r libraries2, message=FALSE, warning=FALSE, paged.print=FALSE}
 library(extrafont)
-loadfonts()
+
+# loadfonts()
 library(showtext)
 font_add_google("Shadows Into Light","shadow_into_light")
 font_add_google("Schoolbell", "bell")

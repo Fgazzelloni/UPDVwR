@@ -4,20 +4,24 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 24'
 date: '2022-11-24'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day24_fantasy/day24_fantasy.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
+Astonishing `World Map` projection: `projection_bonne`. Data is from the `{rnaturalearth}` package.
 
 ```{r}
-
 library(tidyverse)
 library(sf)
 library(scico)
+```
 
+
+```{r}
 # set the fonts
 library(showtext)
 library(sysfonts)
@@ -26,11 +30,11 @@ showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name="Patrick Hand",
                 family="Patrick Hand")
+```
 
 
 
-#########
-
+```{r}
 projection_bonne <- c("+proj=bonne +lat_1=10")
 
 
@@ -39,11 +43,15 @@ world_graticule <- sf::st_graticule(lon=seq(-180,180, 15),
                                     ndiscr = 5000,
                                     margin = 0.00000000001) %>%
   st_transform(projection_bonne)
+```
 
 
-
+```{r}
 world_pol <- rnaturalearth::ne_countries(returnclass = "sf")
+```
 
+
+```{r}
 ggplot() +
   geom_sf(data = world_graticule, 
           linewidth = 0.1, 
@@ -63,8 +71,10 @@ ggplot() +
         legend.text = element_text(color="navy",size=6),
         legend.title = element_text(color="navy"),
         legend.background = element_blank())
+```
 
 
+```{r}
 ggsave("day24_fantasy.png",
        width = 5.42,
        height = 3.2)

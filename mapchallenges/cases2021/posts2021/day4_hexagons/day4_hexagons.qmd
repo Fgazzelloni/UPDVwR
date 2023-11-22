@@ -2,13 +2,17 @@
 title: 'Hexagons'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 4'
 date: '2021-11-4'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day4_hexagons/day4_hexagons.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day4_hexagons/hexagons.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+# Overview
+
+This map of `Boston` is made with data from `{spData}` package.
 
 
 ```{r libraries}

@@ -1,10 +1,10 @@
 ---
-title: 'Ghsl data'
+title: 'Data Challenge 3: GHSL'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 23'
 date: '2021-11-23'
-image: 'day23_ghsl_data.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day23_ghsl_data/ghsl.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
@@ -12,9 +12,11 @@ execute:
 
 
 
+# Overview
+
+Global Human Settlement Layer (GHSL) - Italy 1km resolution, population in 2015.
 
 
-### Italy 1km resolution, population in 2015
 
 ### Data source
 - https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_MT_GLOBE_R2019A/GHS_POP_E2015_GLOBE_R2019A_54009_1K/V1-0/GHS_POP_E2015_GLOBE_R2019A_54009_1K_V1_0.zip

@@ -1,20 +1,23 @@
 ---
-title: 'Openstreetmap'
+title: 'Data: OpenStreetMap'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 8'
 date: '2022-11-8'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day8_openstreetmap/day8_openstreetmap.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+Map of `Rome, Italy` city center with `military locations`.
+
 
 
 ### Set the fonts
 ```{r}
-
 library(showtext)
 library(sysfonts)
 library(extrafont)
@@ -22,19 +25,31 @@ showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name="Gideon Roman",
                 family="Gideon Roman")
+```
 
 
+```{r}
 # load libraries for data manipulation
 library(tidyverse)
+```
+
+
+```{r}
 # search for data
 library(osmdata)
-# Some important functions are: 
-#   
-# - getbb()             Get bounding box
-# - opq()               Build an Overpass query
-# - add_osm_feature()   Add a feature
-# - osmdata_sf()        Return an object in sf format
+```
 
+
+Some important functions are: 
+ 
+- getbb()             Get bounding box
+- opq()               Build an Overpass query
+- add_osm_feature()   Add a feature
+- osmdata_sf()        Return an object in sf format
+
+
+
+```{r}
 location <- "Rome"
 getbb(location)
 
@@ -50,11 +65,19 @@ ms <- opq(c(12.23447,41.65564,12.85576,42.14103)) %>%
 # save(ms,file="ms.RData")
 load("ms.RData")
 ms
+```
 
-# tutorial
-# https://ggplot2tutor.com/tutorials/streetmaps
-# https://joshuamccrain.com/tutorials/maps/streets_tutorial.html
-# https://taraskaduk.com/posts/2021-01-18-print-street-maps/
+
+
+Tutorials
+
+- https://ggplot2tutor.com/tutorials/streetmaps
+- https://joshuamccrain.com/tutorials/maps/streets_tutorial.html
+- https://taraskaduk.com/posts/2021-01-18-print-street-maps/
+
+
+
+```{r}
 streets <- opq(c(12.23447,41.65564,12.85576,42.14103)) %>% 
   add_osm_feature(key = "highway", 
                   value = c("motorway", "primary", 
@@ -80,10 +103,13 @@ river <- opq(c(12.23447,41.65564,12.85576,42.14103)) %>%
 # save(river,file="river.RData")
 load("river.RData")
 river
+```
 
 
-# make the map
-# The latitude of Rome, Italy is 41.902782, and the longitude is 12.496366
+Make the map
+
+The latitude of Rome, Italy is 41.902782, and the longitude is 12.496366
+```{r}
 ggplot() +
   geom_sf(data = streets$osm_lines,
           inherit.aes = FALSE,
@@ -123,9 +149,10 @@ ggplot() +
 
 # save the base map
 ggsave("base_map.png", width = 6, height = 6)
+```
 
-
-# draw the map-viz
+Draw the map-viz
+```{r}
 library(cowplot)
 
 ggdraw()+

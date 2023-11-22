@@ -4,16 +4,21 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 7'
 date: '2022-11-7'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day7_raster/day7_raster.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+Map of `Oregon Spotted Frogs: Rana Pretiosa` frequent locations.
+
+
+
 
 ### Load the library
 ```{r}
-
 library(tidyverse)
 # Set the fonts
 library(showtext)
@@ -23,14 +28,19 @@ showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name="Island Moments",
                 family="Island Moments")
+```
 
+
+More info about the predictions raster layer can be found else where: [here](https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R/)
+
+```{r}
 # Load the raster layer
 load("predictions.RData")
 predictions$layer
-# More info about the predictions raster layer can be found 
-# else where: [here](https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R/)
+```
 
-# Make the map and save it as .png
+Make the map and save it as .png
+```{r}
 library(raster)
 # quartz()
 showtext::showtext_opts(dpi=120)
@@ -46,8 +56,10 @@ agg_png(filename ="raster.png",
 raster::plot(predictions,
              xlim=c(-125,-100),ylim=c(35,55),axes=F)
 dev.off()
+```
 
-# Draw the plot
+Draw the plot
+```{r}
 library(cowplot)
 
 ggdraw()+

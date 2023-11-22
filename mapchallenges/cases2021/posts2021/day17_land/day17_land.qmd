@@ -2,17 +2,21 @@
 title: 'Land'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 17'
 date: '2021-11-17'
-image: 'day17_land.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day17_land/land_smaller.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
 
-## with Unfolded
+This `New York's population` map is made with `Studio Unfolded AI` and styled with `R`.
+
+
+
 ```{r}
 
 library(cowplot)

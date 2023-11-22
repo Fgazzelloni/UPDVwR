@@ -1,19 +1,23 @@
 ---
-title: 'Naturalearth'
+title: 'Map Challenge 2: Natural Earth'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 13'
 date: '2021-11-13'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day13_naturalearth/day13_naturalearth.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day13_naturalearth/naturalearth2.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
-The resource I am going to use today are:
-[rforpoliticalscience](https://rforpoliticalscience.com/2020/12/28/add-flags-to-maps-in-r/)
-[us census](https://walker-data.com/census-r/the-united-states-census-and-the-r-programming-language.html)
+This map represent the `NATURAL EARTH GDP ESTIMATION`, data is from the `{rnaturalearth}` package - View: EPSG:5368.
+
+The resources I'll to use for this map are:
+
+- [rforpoliticalscience](https://rforpoliticalscience.com/2020/12/28/add-flags-to-maps-in-r/)
+- [us census](https://walker-data.com/census-r/the-united-states-census-and-the-r-programming-language.html)
 
 
 

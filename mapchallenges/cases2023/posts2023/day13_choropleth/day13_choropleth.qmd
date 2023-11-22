@@ -14,9 +14,7 @@ execute:
 
 # Overview
 
-AIDS: percentage contribution of each country's change to the total change
-
-DataSource: <https://aidsinfo.unaids.org/>
+Global AIDS: percentage contribution of each country's change to the total change, epidemic transition of new HIV infections - metrics trend 2010-2020. Data is from <https://aidsinfo.unaids.org/>.
 
 ```{r}
 library(tidyverse)

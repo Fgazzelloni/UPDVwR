@@ -4,28 +4,31 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 20'
 date: '2022-11-20'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day20_my_favourite/day20_my_favourite.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
-### TidyTuesday week 6 2022
+This is my favorite `Dubois data portraits`. Data is from `TidyTuesday` 2022 week 6, `Tuskegee Airmen`: Aerial Victories Air Force Historical Research Agency Graduation 1942 - 1948.
 
-original Dubois collection:
 
-- https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?sb=shelf-id_desc&sp=1&st=grid
-- https://github.com/ajstarks/dubois-data-portraits/blob/master/plate01/georgia-negro.dsh
+Original Dubois collection:
+
+- <https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?sb=shelf-id_desc&sp=1&st=grid>
+- <https://github.com/ajstarks/dubois-data-portraits/blob/master/plate01/georgia-negro.dsh>
 
 ### Load data
 ```{r}
-
 library(tidyverse)
 airmen <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-02-08/airmen.csv')
+```
 
 
-# data wrangling--------
+Data wrangling
+```{r}
 df <-airmen%>%
   select(name,graduation_date,graduated_from,
          pilot_type,
@@ -36,13 +39,19 @@ df <-airmen%>%
   arrange(desc(graduation_date))%>%
   mutate(id=row_number())%>%
   relocate(id)
+```
 
+
+```{r}
 # 48 states abbr to be chacked
 df%>%count(state)
 
 df%>%mutate(year=lubridate::year(graduation_date))%>%count(year)
+```
 
-# map data -----
+
+Map data
+```{r}
 us_states_df <-
   df%>%
   mutate(state_name=usdata::abbr2state(state),
@@ -74,12 +83,16 @@ world<-map_data(map = "world") %>%
 al_frmo<-data.frame(region=c("french morocco","alabama"),
                     lat=c(30.427755,32.318230),
                     long=c(-9.598107,-86.902298))
+```
 
 
-
+```{r}
 # dubois colors -------
 states_palette<-colorRampPalette(c("#654321","#d2b48c","#ffd700","#ffc0cb","#dc143c","#00aa00","#4682b4"))(5)
+```
 
+
+```{r}
 # fonts---------
 library(extrafont)
 library(showtext)
@@ -88,8 +101,10 @@ showtext::showtext_opts(dpi=320)
 library(sysfonts)
 #font_families_google()
 font_add_google(name="Barlow Condensed",family="dubois")
+```
 
 
+```{r}
 # make the map plots ---------------------
 
 world_west <-
@@ -163,9 +178,10 @@ world_est <-
   labs(title=" \n \n ",subtile=" \n \n ",x="",y="",color="") +
   theme_void() +
   theme(legend.position = "none")
+```
 
 
-
+```{r}
 # draw curved text-----------------------
 t<-2*pi
 
@@ -194,8 +210,10 @@ text_curved <- text_curved & theme_void()
 
 # draw circle and a curve-----------
 g <- grid::circleGrob(gp = grid::gpar(fill = "#baa388",color="#654321",size=0.5))
+```
 
 
+```{r}
 # final touches----------
 library(cowplot)
 final_plot<-ggdraw()+
@@ -219,14 +237,14 @@ final_plot<-ggdraw()+
              The 99th Fighter Squadron deployed from Tuskegee, Alabama, to French Morocco in April 1943.",
              fontfamily="dubois",color="#291c10",
              x=0.5,y=0.04,size=14,fontface = "bold")
+```
 
 
+```{r}
 # save the plot--------
 ragg::agg_png("day20_my_favorite.png",
               res = 320, width = 12, height = 10, units = "in")
 final_plot
 
 dev.off()
-
-
 ```

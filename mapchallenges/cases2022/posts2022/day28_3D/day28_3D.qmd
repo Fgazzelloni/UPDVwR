@@ -4,44 +4,68 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 28'
 date: '2022-11-28'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
-```{r}
+# Overview
 
+Map of `Oregon Population Density`. Data is from `Kontur population US` and the  `{tigris}` package.
+
+
+
+```{r}
 library(tidyverse)
 library(sf)
 library(tigris)
 library(rayshader)
 library(PrettyCols)
 library(stars)
+```
 
-# inspiration:
-# https://github.com/Pecners/30DayMapChallenge/blob/main/R/day_21_kontur/colorado.R
 
-# url <- "https://geodata-eu-central-1-kontur-public.s3.amazonaws.com/kontur_datasets/kontur_population_US_20220630.gpkg.gz"
-# downloader::download(url, dest="data/kontour_pop_cr.zip", mode="wb") 
 
+Inspiration:
+
+- <https://github.com/Pecners/30DayMapChallenge/blob/main/R/day_21_kontur/colorado.R>
+
+```{r}
+url <- "https://geodata-eu-central-1-kontur-public.s3.amazonaws.com/kontur_datasets/kontur_population_US_20220630.gpkg.gz"
+# downloader::download(url, dest="data/kontour_pop_cr.zip", mode="wb")
+```
+
+
+```{r}
 data <- st_read("data/kontur_population_US_20220630.gpkg")
 # save(data,file="data/data.RData")
+```
 
+
+```{r}
 s <- tigris::states() |> 
   st_transform(crs = st_crs(data))
 # save(s,file="data/s.RData")
 
 s%>%count(NAME)
+```
 
+
+```{r}
 or <- s |> 
   filter(NAME == "Oregon")
+```
 
 
+```{r}
 or_d <- st_intersection(data, or)
 # save(or_d,file="data/or_d.RData")
 load("data/or_d.RData")
+```
 
+
+```{r}
 bb <- st_bbox(or_d)
 yind <- st_distance(st_point(c(bb[["xmin"]], bb[["ymin"]])), 
                     st_point(c(bb[["xmin"]], bb[["ymax"]])))
@@ -56,11 +80,17 @@ rast <- st_rasterize(or_d |>
                      nx = floor(size * (xind/yind)), ny = size)
 # save(rast,file="data/rast.RData")
 load("data/rast.RData")
+```
 
+
+```{r}
 mat <- matrix(rast$population, 
               nrow = floor(size * (xind/yind)), 
               ncol = size)
+```
 
+
+```{r}
 pal <- "pink_greens"
 
 c1 <- prettycols("TangerineBlues")
@@ -74,7 +104,10 @@ texture <- grDevices::colorRampPalette(colors, bias = 2)(256)
 # swatchplot(texture)
 
 rgl::rgl.close()
+```
 
+
+```{r}
 mat |> 
   height_shade(texture = texture) |> 
   plot_3d(heightmap = mat, 
@@ -99,9 +132,7 @@ render_snapshot(title_text = "#30DayMapChallenge Day 28:3D | Graphics: @fgazzell
                 title_bar_color = "#a5a7c4",
                 vignette = 0.2,
                 filename = "day28_3D2.png")
-
-
-
-
-
 ```
+
+
+

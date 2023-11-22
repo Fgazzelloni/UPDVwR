@@ -1,16 +1,19 @@
 ---
-title: 'Interactive'
+title: 'Interactive Map'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 25'
 date: '2021-11-25'
-image: 'day25_interactive.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day25_interactive/interactive.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
 
+# Overview
+
+`Leaflet` Map of `My birthplace: Rome`.
 
 
 Load packages
@@ -29,7 +32,7 @@ interactive <-
   #addTiles() %>%  # use the default base map which is OpenStreetMap tiles
   addProviderTiles("Stamen.Terrain") %>%
   addMarkers(lng=12.493569397016822, lat=41.894753434569274,
-             popup="The birthplace of R")
+             popup="My Birthplace")
 
 
 

@@ -2,16 +2,17 @@
 title: 'Water'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 18'
 date: '2021-11-18'
-image: 'day18_water.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day18_water/water.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
-### John Snow data
+`John Snow data` for this map with `read_stars()`. Data is from the `blog.rtwilson.com`.
 
 ```{r}
 library(tidyverse)
@@ -39,9 +40,11 @@ sat_vis <- read_stars(lnd_img
 pumps <- st_read("GBD/Comunicable_diseases/John_snow/SnowGIS/Pumps.shp")
 pumps <- st_transform(pumps, crs = st_crs(sat_vis))
 pumps2<- data.frame(st_coordinates(pumps$geometry))
+```
 
 
-
+Set the fonts.
+```{r}
 library(extrafont)
 library(showtext)
 
@@ -57,10 +60,12 @@ showtext_opts(dpi = 320)
 ## Loading Google fonts (https://fonts.google.com/)
 
 font_add_google("Oswald", "oswald")
+```
 
 
+Make the map.
 
-
+```{r}
 ggplot() +
   geom_stars(data = sat_vis, show.legend = FALSE) +
   scale_fill_viridis_d(alpha = 1,
@@ -82,15 +87,23 @@ ggplot() +
   labs(title="John Snow Colera map of the pumps")+
   ggthemes::theme_map()+
   theme(text = element_text())
+```
 
 
+Save it!
+
+```{r}
 ragg::agg_png("js_map.png",
               res = 320, width = 14, height = 8, units = "in")
 final
 
 dev.off()
+```
 
 
+And restyle it!
+
+```{r}
 library(cowplot)
 final<-ggdraw()+
   draw_image("R_general_resources/30DayMapChallenge/day18_water/js_map.png",
@@ -112,14 +125,13 @@ final<-ggdraw()+
   draw_line(x = c(0.2, 0.805),y = c(0.05, 0.05),color = "green", size = 21) +
   draw_text("Datasource: blog.rtwilson.com - #30DayMapChallenge Day18 water\nInfographics: Federica Gazzelloni",
             x=0.5,y=0.05,size=14,fontface = "bold")
+```
 
 
-
-
-# save final plot
+Save final Map.
+```{r}
 ragg::agg_png(here::here("R_general_resources/30DayMapChallenge/day18_water/water.png"),
               res = 320, width = 12, height = 8, units = "in")
 final
 dev.off()
-
 ```

@@ -2,13 +2,18 @@
 title: 'Green'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 7'
 date: '2021-11-7'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day7_green/day7_green.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day7_green/green.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+# Overview
+
+
+This map of `Greater London` with cycle hire and borough boundaries is created using data from `TidyTuesday` 2021 week 45 - `{spData}`.
 
 
 https://osdatahub.os.uk/downloads/open#CODEPO

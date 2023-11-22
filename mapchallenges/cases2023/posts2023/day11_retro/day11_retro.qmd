@@ -13,6 +13,9 @@ execute:
 
 # Overview
 
+
+Map of `Germany` through time, a retro Cartographic journey of shifting Borders (1871-1989), data is from the `Censusmosaic`- Historical-gis-files.
+
 A place that has undergone significant changes over time is the city of `Berlin, Germany`. Berlin has a rich and complex history, and its geography and political boundaries have been dramatically transformed, especially during the 20th century. 
 
 For this challenge I decided to use four layers representing the `German Empire in 1871 and 1945`, coupled with additional layers for `Germany in 1989, specifically focusing on Berlin East and West`, to craft a retro map that chronicles the profound historical shifts in Germany's territorial landscape.

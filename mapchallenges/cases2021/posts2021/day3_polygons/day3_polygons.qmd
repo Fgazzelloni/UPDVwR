@@ -2,24 +2,24 @@
 title: 'Polygons'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 3'
 date: '2021-11-3'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day3_polygons/day3_polygons.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day3_polygons/polygons.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+
+The `Isole Åland` belonged to the provinces that the Swedish Empire had to cede to the Russian Empire with the Treaty of Fredrikshamn in September 1809, and became part of the semi-autonomous Grand Duchy of Finland
 
 This is the reference for identifying ISO3 codes:
 [ISO3 reference](https://it.wikipedia.org/wiki/ISO_3166-1_alpha-3)
 
 
-## Isole Åland
-Le Isole Åland appartenevano alle province che l'Impero svedese dovette cedere all'Impero russo col Trattato di Fredrikshamn nel settembre 1809, e vennero a far parte del semi-autonomo Granducato di Finlandia.
-
-
-We need "wrld_simpl" for the shapefiles:
+We need `wrld_simpl` for the shapefiles:
 ```{r eda, message=FALSE, warning=FALSE, paged.print=FALSE}
 library(tidyverse)
 library(maptools)

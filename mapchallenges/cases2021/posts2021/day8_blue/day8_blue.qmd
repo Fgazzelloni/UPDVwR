@@ -2,17 +2,19 @@
 title: 'Blue'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 8'
 date: '2021-11-8'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day8_blue/day8_blue.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day8_blue/blue2.png'
 image-alt: ''
-description: 'Networks'
+description: 'This map `Globe Observer` shows `Sat View of Australia`, data is from the `Australian Bureau of Meterorology` and the `{ozmaps}` for the geometry of Australia.'
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
-This is day 8 - blue for #30DayMapChallenge.
-I am looking at the [ggplot2-book](https://ggplot2-book.org/maps.html) map chapter.
+This is day 8 - `blue` for #30DayMapChallenge. I am looking at the [ggplot2-book](https://ggplot2-book.org/maps.html) map chapter.
+
+
 In this case I'd like to understand how to make modification of a .tif image positioning it inside a ggplot.
 
 ```{r setup, include=FALSE}

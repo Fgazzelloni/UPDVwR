@@ -2,13 +2,17 @@
 title: 'Population'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 12'
 date: '2021-11-12'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day12_population/day12_population.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day12_population/world_map.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+# Overview
+
+This is a representation of the `World Population 1950 vs 2030`.
 
 
 ```{r}

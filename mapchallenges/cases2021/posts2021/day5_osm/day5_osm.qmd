@@ -1,15 +1,18 @@
 ---
-title: 'Osm'
+title: 'Data Challenge 1: OpenStreetMap'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 5'
 date: '2021-11-5'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day5_osm/day5_osm.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day5_osm/osmdata.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+This map of `Berlin water` is made with data from `{osmdata}` package.
 
 source: https://parametricsforarchitecture.wordpress.com/2020/07/21/urban-design-masterplanning-desktop-analysis-automation-through-rstudio-and-shiny/
 

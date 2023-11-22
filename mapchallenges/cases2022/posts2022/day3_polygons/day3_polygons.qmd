@@ -4,16 +4,18 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 3'
 date: '2022-11-3'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day3_polygons/day3_polygons.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
-## Census tracts
+Map of `Private health insurance status in New York`. Census tracts data is from `census.gov`.
 
-source: https://walker-data.com/census-r/mapping-census-data-with-r.html
+
+Source: https://walker-data.com/census-r/mapping-census-data-with-r.html
 
 Load libraries
 ```{r}

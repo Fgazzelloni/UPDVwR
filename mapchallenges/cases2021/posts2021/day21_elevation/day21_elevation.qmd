@@ -2,17 +2,22 @@
 title: 'Elevation'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 21'
 date: '2021-11-21'
-image: 'day21_elevation.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day21_elevation/elevation.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+`Alaska!` map shows the `Surface Elevation Change (SEC)`, data is from `CPOM CryoSat`.
 
 
-### Datasource: http://www.cpom.ucl.ac.uk/csopr/icesheets2/dems.php?ais_subject=dem&user_type=normal
+### Datasource: 
+
+- http://www.cpom.ucl.ac.uk/csopr/icesheets2/dems.php?ais_subject=dem&user_type=normal
 
 
 ```{r}

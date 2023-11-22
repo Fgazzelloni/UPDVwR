@@ -4,16 +4,17 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 22'
 date: '2022-11-22'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day22_null/day22_null.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+This is the `Happy Planet Index - World Map`, data is from the `{tmap}` package.
 
 ```{r}
-
-
 library(tmap)
 data(World)
 
@@ -26,9 +27,11 @@ tmap_style("cobalt")
               title= "Happy Planet Index NULL", 
               title.position = c(0.4,0.2))+
     tm_credits("#30DayMapChallenge 2022 Day 22: NULL\nDataSource: {tmap} | Map: Federica Gazzelloni (@fgazzelloni)",
-               align = "center") 
-  
+               align = "center")
+```
 
+
+```{r}
 tmap_save(tm, filename = "day22_null.png")
 
 ```

@@ -4,23 +4,29 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 16'
 date: '2022-11-16'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day16_minimal/day16_minimal.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+`Hexagon map of Boston housing`, data is from `spData::boston.c`. It shows the median values of owner-occupied housing in USD 1000.
+
+
+# Load libraries
 
 
 ```{r}
-
 library(tidyverse)
 library(spData)
 library(RColorBrewer)
 library(rcartocolor)
+```
 
-# Load libraries
-# set the fonts
+Set the fonts
+```{r}
 library(showtext)
 library(sysfonts)
 library(extrafont)
@@ -28,10 +34,15 @@ showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name="Kanit",
                 family="Kanit")
+```
 
 
-
+```{r}
 my_df <- spData::boston.c
+```
+
+
+```{r}
 my_df %>%
   ggplot(aes(x=LON,y=LAT,group=MEDV))+
   geom_hex(aes(fill=MEDV),
@@ -48,13 +59,14 @@ my_df %>%
   theme(text = element_text(family="Kanit",color="gold"),
         plot.title = element_text(size=20),
         legend.background = element_blank())
+```
 
 
+```{r}
 ggsave("day16_minimal.png",
        bg="black",
        width = 8.25,
        height = 6.31,
        dpi=280)
-
 ```
 

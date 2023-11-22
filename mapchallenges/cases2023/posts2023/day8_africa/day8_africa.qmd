@@ -12,7 +12,10 @@ execute:
 
 # Overview
 
-For this challenge I looked at an interesting resource: [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data), also found the `{idbr}` package R Interface to the US Census Bureau International Data Base API.
+This is a map of `Africa Total fertility rate` by country in 2021, data is from `wikipedia` & `{idbr}`.
+
+
+I looked at an interesting resource: [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data), also found the `{idbr}` package R Interface to the US Census Bureau International Data Base API.
 
 
 Source: 

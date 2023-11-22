@@ -1,39 +1,67 @@
 ---
-title: 'Food drink'
+title: 'Food / Drink'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 15'
 date: '2022-11-15'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day15_food_drink/day15_food_drink.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
-#30DayMapChallenge 2022 Day 15: Food drink
-# Author: Federica Gazzelloni
 
 
-# source: https://www.r-bloggers.com/2016/10/mapping-efsas-food-consumption-data-with-tmap/
-# updates https://rdrr.io/cran/tmaptools/man/deprecated_functions.html
+# Overview
 
-# foodborne outbreak
-# https://www.efsa.europa.eu/en/microstrategy/FBO-dashboard
+Map of `European Countries Foodborne Campylobacter Outbreaks`, data is from `www.efsa.europa.eu`
 
+
+
+
+Source: 
+
+- <https://www.r-bloggers.com/2016/10/mapping-efsas-food-consumption-data-with-tmap/>
+
+Updates:
+
+- <https://rdrr.io/cran/tmaptools/man/deprecated_functions.html>
+
+Foodborne outbreak:
+
+- <https://www.efsa.europa.eu/en/microstrategy/FBO-dashboard>
+
+```{r}
 library(tidyverse)
-df <- readxl::read_excel("data/FBO_dashboard_2015-2020.xlsx", 
-                                      skip = 2)
+df <- readxl::read_excel("data/FBO_dashboard_2015-2020.xlsx",
+                         skip = 2)
+```
+
+     
+```{r}
 df1 <- df%>%
   select(1,contains("outbreak"))
+```
 
 
+```{r}
 names(df1) <- c("country",unlist(df1[1,2:23]))
+```
+
+
+```{r}
 df2 <- df1%>%
   filter(!is.na(country))
 
-df2%>%head  
+df2%>%head
+```
 
+
+```{r}
 df2[is.na(df2)]<-"0"
+```
 
+
+```{r}
 df3 <- df2%>%
   select(-country)%>%
   mutate(across(where(is.character),as.numeric))%>%
@@ -43,39 +71,51 @@ df3 <- df2%>%
   pivot_longer(cols = 2:23,names_to="agent",values_to="values")%>%
   mutate(agent=case_when(str_detect(agent,"other|Other|unknwon|Unknown")~"Other",
                          TRUE~agent)) %>%
-  filter(!agent=="Other") 
+  filter(!agent=="Other")
+```
 
 
-  
+```{r}
 library(tmap)
 data("World")
 
 EU <- World%>%
   filter(continent=="Europe")
+```
 
-# EU %>%names
 
-library(tmap)
-tm_shape(EU)+tm_polygons()+tm_text('name',size = .1,
-                                   col = "black",
-                                   bg.color = "white") 
+```{r}
+tm_shape(EU)+
+  tm_polygons()+
+  tm_text('name',size = .1,
+          col = "black",
+          bg.color = "white")
+```
 
+
+```{r}
 setdiff(df3$country,EU$name)  
-setdiff(EU$name,df3$country)  
+setdiff(EU$name,df3$country)
+```
 
-# df3%>%count(country)%>%View
 
+```{r}
 df4 <- df3%>%
   mutate(country=case_when(str_detect(country,"Bos")~"Bosnia and Herz.",
                            country=="Czechia"~"Czech Rep.",
                            country=="Republic of North Macedonia"~"Macedonia",
                            TRUE~country))%>%
   filter(!country%in%c("Cyprus","Malta"))
+```
 
+
+```{r}
 setdiff(df4$country,EU$name)  
-setdiff(EU$name,df4$country) 
+setdiff(EU$name,df4$country)
+```
 
 
+```{r}
 library(rgdal)
 library(raster) 
 
@@ -83,25 +123,35 @@ df5 <- df4%>%
   group_by(country)%>%
   summarise(agents_mean=mean(values)) %>%
   ungroup()
+```
 
+
+```{r}
 eu1 <- EU%>%
   filter(!name%in%c("Albania","Belarus",
                     "Kosovo","Moldova",
                     "Russia","Slovenia",
                     "Ukraine"))%>%
   left_join(df5,by=c("name"="country"))
+```
 
+
+```{r}
 library(sf)
 eu1%>%st_bbox()
 
 all <- World%>%
   left_join(df5,by=c("name"="country"))
+```
 
-library(tmap)
+
+```{r}
 tmap_mode("plot")
 data(World, metro, rivers, land)
+```
 
 
+```{r}
 spread_df <-  df3%>%
     spread(agent,values)%>%
     mutate(country=case_when(str_detect(country,"Bos")~"Bosnia and Herz.",
@@ -117,15 +167,19 @@ df_map<-  EU%>%
                       "Russia","Slovenia",
                       "Ukraine"))%>%
     left_join(spread_df,by=c("name"="country"))
+```
 
 
+```{r}
 df_map%>%st_bbox()
 bbox <- c(xmin=-34.524754,
           ymin=20.053389,
           xmax=31.516092,
           ymax=80.657144)
-       
+```
 
+
+```{r}
 map <- tm_shape(df_map,bbox=bbox) +
   tm_polygons(col='Campylobacter',
               title = "Agents") +
@@ -152,9 +206,12 @@ map <- tm_shape(df_map,bbox=bbox) +
             legend.text.fontfamily="Roboto Condensed",
             legend.just = 2,
             legend.width = 0.4)
+```
 
 
+```{r}
 tmap_save(map,"day15_food_drink.png",width = 6.58,
           height=7.24
           ) # Saving 6.58 x 7.24 in image
-
+```
+   

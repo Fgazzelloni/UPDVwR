@@ -1,11 +1,15 @@
 ---
-title: 'A map without computer'
+title: 'A Map Without Computer'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 17'
 date: '2022-11-17'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day17_a_map_without_computer/day17_a_map_without_computer.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day17_a_map_without_computer/day17_a_map_without_computer.JPG'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+# Overview
+
+This is a self standing `Ocean World Globe`.

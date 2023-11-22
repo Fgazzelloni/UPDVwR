@@ -2,19 +2,27 @@
 title: 'Lines'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 2'
 date: '2021-11-2'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day2_lines/day2_lines.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day2_lines/lines.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+This map of `France` is created with data from the `{maps}` R-package. 
+
+
 
 ```{r libraries}
 library(maps)
 library(tidyverse)
+```
 
+
+```{r libraries-fonts}
 library(extrafont)
 loadfonts()
 library(showtext)

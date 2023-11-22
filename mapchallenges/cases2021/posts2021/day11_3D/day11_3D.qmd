@@ -2,16 +2,23 @@
 title: '3d'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 11'
 date: '2021-11-11'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day11_3D/day11_3D.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day11_3D/world_3D.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
-### source: https://ggplot2-book.org/maps.html
+
+
+The data for this `World 3D map` is a `Sat-view` (8am 11.11.2021-GMT+11), data is from `bom.gov.au` and the `{bomrang}` package.
+
+
+
+source: https://ggplot2-book.org/maps.html
 
 
 ```{r}

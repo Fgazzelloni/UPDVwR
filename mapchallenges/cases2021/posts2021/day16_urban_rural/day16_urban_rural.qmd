@@ -1,19 +1,22 @@
 ---
-title: 'Urban_rural'
+title: 'Urban / Rural'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 16'
 date: '2021-11-16'
-image: 'day16_urban_rural.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day16_urban_rural/urban_rural.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+This is `The Netherlands: Hurban and Rural` and `Schools near by...`, data is from `cbs.nl` opendata.
+
 
 
 ```{r}
-
 library(cbsodataR)
 library(tidyverse)
 library(sf)
@@ -105,20 +108,24 @@ final <- cowplot::ggdraw(plot)+
              fontface = "bold",fontfamily="RobotoCondensed")
 
 
-# save final plot
+
+```
+
+Save the final plot
+```{r}
 ragg::agg_png(here::here("R_general_resources/30DayMapChallenge/day15_urban_rural/urban_rural.png"),
               res = 320, width = 12, height = 8, units = "in")
 final
 dev.off()
+```
 
 
 
-# data for oland capitals
-
+More about data for oland capitals.
+```{r}
 library(readr)
 
 nl <- read_csv("R_general_resources/30DayMapChallenge/day15_urban_rural/nl.csv")
-
 
 nl%>%count(city,population)%>%arrange(-population)
 
@@ -127,8 +134,4 @@ nl%>%
   ggplot(aes(x=lng,y=lat))+
   geom_point()+
   ggrepel::geom_text_repel(aes(label=capital))
-
-
-
-
 ```

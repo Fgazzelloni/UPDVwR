@@ -1,0 +1,16 @@
+---
+title: 'Metamapping Day'
+subtitle: 'Welcome to #30DayMapChallenge 2021 day 30'
+date: '2021-11-30'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day30_metamapping/metamapping.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---
+
+
+# Overview
+
+This is the `collage` of all maps made for 2021.

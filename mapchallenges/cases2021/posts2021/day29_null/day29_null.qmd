@@ -1,0 +1,16 @@
+---
+title: 'Null'
+subtitle: 'Welcome to #30DayMapChallenge 2021 day 29'
+date: '2021-11-29'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day29_null/NULL.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+---
+
+
+# Overview
+
+This map is a `.tif` image of the Earth downloaded from `Earth-SAT`.

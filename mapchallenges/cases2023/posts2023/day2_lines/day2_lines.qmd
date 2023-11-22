@@ -12,6 +12,8 @@ execute:
 
 # Overview
 
+Map of `New York` made of lines, data is from `datagateway.nrcs.usda.gov`, package used to make the lines id `{topo.ridges}`.
+
 ```{r}
 library("topo.ridges")
 library(ggplot2)
@@ -23,6 +25,8 @@ library(ggplot2)
 
 
 Package used is {topo.ridges} source: <https://github.com/nstauffer/topo.ridges>
+
+
 Data are from <https://datagateway.nrcs.usda.gov/>
 
 1- [Land Use Land Cover: Cropland Data Layer by State](https://datagateway.nrcs.usda.gov/GDGHome_DirectDownLoad.aspx)

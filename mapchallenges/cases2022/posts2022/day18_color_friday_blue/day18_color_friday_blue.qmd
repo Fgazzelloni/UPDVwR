@@ -1,19 +1,23 @@
 ---
-title: 'Color friday blue'
+title: 'Colour Friday: Blue'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 18'
 date: '2022-11-18'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day18_color_friday_blue/day18_color_friday_blue.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
+This a map of `Milan, Italy` with religious locations. Data is from the `{osmdata}` package.
+
+
+
+Set the fonts
 ```{r}
-
-# Set the fonts
 library(showtext)
 library(sysfonts)
 library(extrafont)
@@ -21,30 +25,43 @@ showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add_google(name="Gideon Roman",
                 family="Gideon Roman")
+```
 
-
-# load libraries for data manipulation
+Load libraries for data manipulation
+```{r}
 library(tidyverse)
 # search for data
 library(osmdata)
-# Some important functions are: 
-#   
-# - getbb()             Get bounding box
-# - opq()               Build an Overpass query
-# - add_osm_feature()   Add a feature
-# - osmdata_sf()        Return an object in sf format
+```
 
+
+
+Some important functions are: 
+  
+- getbb()             Get bounding box
+- opq()               Build an Overpass query
+- add_osm_feature()   Add a feature
+- osmdata_sf()        Return an object in sf format
+
+
+
+```{r}
 location <- "Milan"
 getbb(location)
 # min      max
 # x  9.040887  9.27811
 # y 45.386738 45.53585
+```
 
+
+```{r}
 available_features()
 feature <- "religion"
 available_tags(feature)
+```
 
-# military points
+
+```{r}
 ms <- opq(c(9.040887,45.386738,9.27811,45.53585)) %>% 
   add_osm_feature (key = feature) %>%
   osmdata_sf (quiet = FALSE)
@@ -52,11 +69,19 @@ ms <- opq(c(9.040887,45.386738,9.27811,45.53585)) %>%
 # save(ms,file="data/ms.RData")
 load("ms.RData")
 ms
+```
 
-# tutorial
-# https://ggplot2tutor.com/tutorials/streetmaps
-# https://joshuamccrain.com/tutorials/maps/streets_tutorial.html
-# https://taraskaduk.com/posts/2021-01-18-print-street-maps/
+
+
+Tutorials:
+
+- <https://ggplot2tutor.com/tutorials/streetmaps>
+- <https://joshuamccrain.com/tutorials/maps/streets_tutorial.html>
+- <https://taraskaduk.com/posts/2021-01-18-print-street-maps/>
+
+
+
+```{r}
 streets <- opq(c(9.040887,45.386738,9.27811,45.53585)) %>% 
   add_osm_feature(key = "highway", 
                   value = c("motorway", "primary", 
@@ -65,7 +90,10 @@ streets <- opq(c(9.040887,45.386738,9.27811,45.53585)) %>%
 # save(streets,file="data/streets.RData")
 load("data/streets.RData")
 streets
+```
 
+
+```{r}
 small_streets <-  opq(c(9.040887,45.386738,9.27811,45.53585)) %>% 
   add_osm_feature(key = "highway", 
                   value = c("residential", "living_street",
@@ -75,7 +103,10 @@ small_streets <-  opq(c(9.040887,45.386738,9.27811,45.53585)) %>%
 # save(small_streets,file="data/small_streets.RData")
 load("small_streets.RData")
 small_streets
+```
 
+
+```{r}
 river <- opq(c(9.040887,45.386738,9.27811,45.53585)) %>% 
   add_osm_feature(key = "waterway", value = "river") %>%
   osmdata_sf()
@@ -83,10 +114,10 @@ river <- opq(c(9.040887,45.386738,9.27811,45.53585)) %>%
 # save(river,file="data/river.RData")
 load("river.RData")
 river
+```
 
-
-# make the map
-# The latitude of Rome, Italy is 41.902782, and the longitude is 12.496366
+Make the map
+```{r}
 ggplot() +
   geom_sf(data = streets$osm_lines,
           inherit.aes = FALSE,
@@ -123,12 +154,17 @@ geom_sf(data = small_streets$osm_lines,
   theme(text=element_text(family="Gideon Roman"),
         plot.background = element_rect(fill="white",color="#043c6e",linewidth=0.5),
         panel.background = element_rect(fill="white",color="#043c6e",linewidth=1),
-        plot.margin = margin(10,10,40,10,unit = "pt"))#dbd3c5
+        plot.margin = margin(10,10,40,10,unit = "pt"))
+```
 
+
+```{r}
 # save the base map
 ggsave("base_map.png", width = 6, height = 6)
+```
 
 
+```{r}
 # draw the map-viz
 library(cowplot)
 
@@ -160,7 +196,10 @@ ggdraw()+
              color="#043c6e",
              lineheight = 1.8,
              fontfamily = "Gideon Roman")
+```
 
+
+```{r}
 # save final version
 ggsave("day8_openstreetmap.png", 
        dpi=180,

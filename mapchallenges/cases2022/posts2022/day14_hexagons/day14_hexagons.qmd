@@ -4,11 +4,16 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 14'
 date: '2022-11-14'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day14_hexagons/day14_hexagons.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+# Overview
+
+`Hexagons` to style a `US map of Covid19 cases`, data is from the CDC and the `{tidycensus}` package.
+
 
 ```{r}
 

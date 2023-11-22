@@ -1,23 +1,24 @@
 ---
-title: 'Islands'
+title: 'Island(s)'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 19'
 date: '2021-11-19'
-image: 'day19_islands.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day19_islands/islands.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
+This a map of `Japan` with cities from `mapdata::get('world.cities')`.
 
 ```{r}
 library(tidyverse)
 ```
 
 
-## Japan
 source: https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_map.html
 
 ```{r}

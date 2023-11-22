@@ -4,25 +4,33 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 26'
 date: '2022-11-26'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
+
+A static `leaflet` map of `Islands`, data is from the `New Zealand Hydrographic Authority`.
 
 
 ```{r}
-
 library(leaflet)
 # library(leaflet.extras)
 # library(leaflet.providers)
+```
 
+
+```{r}
 fileid<- "d069b4c5-ec5b-c750-45aa-0a13f57dc35a"
   #Geographic Bounding Box
 bbox<- c(174.064747966174,.345239694,-35.2867580621,-35.1399271488)
 tile <- "http://tiles-{s}.data-cdn.linz.govt.nz/services;key=0661036048984cf88489c5930d0c2e98/tiles/v4/layer=NZ512501/EPSG:3857/{z}/{x}/{y}.png"
+```
 
+
+```{r}
 islands <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>% 
   setView(174.1642,-35.22549,zoom=12) %>%
   addTiles() %>%
@@ -40,9 +48,11 @@ islands <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
   addMeasure()%>%
   addMiniMap()
   
-islands  
+islands
+```
 
 
+```{r}
 ## load packages
 library(htmlwidgets)
 library(webshot)
@@ -52,9 +62,10 @@ library(webshot)
 saveWidget(islands, "temp.html", selfcontained = FALSE)
 webshot("temp.html", file = "day26_islands.png",
         cliprect = "viewport")
+```
 
 
-
+```{r}
 library(cowplot)
 ggdraw()+
   draw_image("day26_islands.png")+
@@ -62,8 +73,11 @@ ggdraw()+
              x=0.6,y=0.95) +
   draw_label("#30DayMapChallenge 2022 Day 26: Isalnds\nDataSource: New Zealand Hydrographic Authority | Graphics: @fgazzelloni",
              x=0.6,y=0.89,
-             size=6) 
+             size=6)
+```
 
+
+```{r}
 ggsave("day26_islands2.png")
 
 ```

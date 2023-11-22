@@ -1,11 +1,15 @@
 ---
-title: 'Color friday 2 colors'
+title: 'Colour Friday: 2 Colors'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 25'
 date: '2022-11-25'
-image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day25_color_friday_2_colors/day25_color_friday_2_colors.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day25_color_friday_2_colors/day25_color_firday_2_colors.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
+
+# Overview
+
+This map of `Alaska housing` is made with `FourSquare Studio`.

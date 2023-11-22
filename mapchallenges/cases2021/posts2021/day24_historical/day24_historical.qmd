@@ -1,17 +1,19 @@
 ---
-title: 'Historical'
+title: 'Historical Map'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 24'
 date: '2021-11-24'
-image: 'day24_historical.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day24_historical/historical.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
 
+# Overview
 
+Map of `18th Century Shipping Expeditions 1781 - 1799`. Data is from `Climatological Database` for the `World's Oceans 1750-1850`.
 
 
 
@@ -22,7 +24,6 @@ execute:
 - https://jcheshire.com/visualisation/mapping-historic-tracks-ggplot2/
 
 ```{r}
-
 rm(list=ls())
 
 library(rgdal)
@@ -37,17 +38,20 @@ bdata <- read.csv("data/shipping_map/british_shipping_example.csv")
 # btitle <- readPNG("data/shipping_map/brit_titles.png")
 compass <- readPNG("data/shipping_map/windrose.png")
 earth <- readPNG("data/shipping_map/earth_raster.png")
+```
 
 
-
+```{r}
 library(sysfonts)
 library(showtext)
 showtext_opts(dpi = 320)
 font_add_google("Roboto Condensed")
 showtext_auto()
 font= "Roboto Condensed"
+```
 
 
+```{r}
 map <- ggplot(wrld.f, aes(x = long, y = lat))+
   annotation_raster(earth, xmin = -180, xmax = 180, ymin = -90, ymax = 90) +
   geom_polygon(aes(group=group),

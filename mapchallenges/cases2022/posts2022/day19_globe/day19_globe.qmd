@@ -4,33 +4,44 @@ subtitle: 'Welcome to #30DayMapChallenge 2022 day 19'
 date: '2022-11-19'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day19_globe/day19_globe.png'
 image-alt: ''
-description: 'Networks'
+description: ''
 output: html_document
 execute: 
    eval: false
 ---
 
+# Overview
 
+`{rnaturalearth}` for making this `Globe Map`.
 
-
-## This script is to make the Globe plot.
 ```{r}
-
 library(tidyverse)
 library(rnaturalearth)
+```
 
+
+```{r}
 # world data full 
 world_full <- ne_countries(scale = "medium", returnclass = "sf")
 # world lat&long
-world<-map_data(map = "world") 
+world<-map_data(map = "world")
+```
 
+
+```{r}
 my_world_data<- world %>%
   full_join(world_full, by = c("region"="name")) %>%
   select(long,lat,group,order,region,region_wb)
+```
 
+
+```{r}
 # grob for globe water
 g <- grid::circleGrob(gp = grid::gpar(fill = "#9ad6f0",color="gray30"))
+```
 
+
+```{r}
 world<-ggplot() +
   geom_polygon(data=my_world_data,
                aes(x=long,y=lat,group=group),
@@ -39,7 +50,10 @@ world<-ggplot() +
   theme_void() 
 
 world
+```
 
+
+```{r}
 library(cowplot)
 globe <- ggdraw() +
   draw_grob(g, scale = 1,x = 0,y = 0) +
@@ -53,7 +67,10 @@ globe <- ggdraw() +
              color="#9ad6f0")
 
 globe
+```
 
+
+```{r}
 ggsave("day19_globe.png",
        width=7.5,
        height= 7.5,
