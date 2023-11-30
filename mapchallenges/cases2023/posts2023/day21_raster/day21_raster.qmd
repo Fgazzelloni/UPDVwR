@@ -10,13 +10,7 @@ execute:
    eval: false
 ---
 
-
-
-
 # Overview
-
-Map of `Alaska Elevation` colors indicate the high and low level. Data is from `QGis Raster Sample Data`.
-
 
 How to color a `Raster Map` with R.
 

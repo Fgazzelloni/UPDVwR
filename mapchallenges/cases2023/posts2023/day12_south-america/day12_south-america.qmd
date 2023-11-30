@@ -12,8 +12,7 @@ execute:
 
 # Overview
 
-It's time for `South America total fertility rate` draw back of day 8 Africa. Data is from US Census Data: walker-data.com and the `{idbr}` package.
-
+For this challenge I look back at day 8 Africa and the `total fertility rate` for replicating the steps for `South America`.
 
 Datasource: [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data), and the `{idbr}` package R Interface to the US Census Bureau International Data Base API.
 

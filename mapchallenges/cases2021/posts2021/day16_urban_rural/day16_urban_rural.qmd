@@ -121,7 +121,7 @@ dev.off()
 
 
 
-More about data for oland capitals.
+More about data for Holland capitals.
 ```{r}
 library(readr)
 

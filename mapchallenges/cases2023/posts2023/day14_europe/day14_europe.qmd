@@ -15,7 +15,7 @@ execute:
 
 # Overview
 
-Map of `European Child and Youth Population` % change 2008-2022. Data is from `{eurostat}` & `Wikipedia.`
+Eurostat data with R. We use the {eurostat} package
 
 
 Load Libraries

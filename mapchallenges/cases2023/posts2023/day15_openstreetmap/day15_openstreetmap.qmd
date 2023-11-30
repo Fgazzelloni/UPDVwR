@@ -15,10 +15,12 @@ execute:
 
 # Overview
 
-`València`, ES OpenStreetMap data from `{osmdata}`.
+OpenStreetMap data
 
 
 Resources: <https://rspatialdata.github.io/osm.html>
+
+
 
 
 ```{r}

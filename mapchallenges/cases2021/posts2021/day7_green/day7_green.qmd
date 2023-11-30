@@ -15,10 +15,11 @@ execute:
 
 This map of `Greater London` with cycle hire and borough boundaries is created using data from `TidyTuesday` 2021 week 45 - `{spData}`.
 
+Resources:
 
-https://osdatahub.os.uk/downloads/open#CODEPO
-https://datatricks.co.uk/london-map-in-3-easy-steps
-https://data.police.uk/data/statistical-data/
+- <https://osdatahub.os.uk/downloads/open#CODEPO>
+- <https://datatricks.co.uk/london-map-in-3-easy-steps>
+- <https://data.police.uk/data/statistical-data/>
 
 ```{r}
 library(tidyverse)
@@ -26,9 +27,6 @@ library(spData)
 library(sf)
 library(rgeos)
 library(sp)
-# x <- c("ggmap", "rgdal", "rgeos", "maptools", "dplyr", "tidyr", "tmap")
-#  # install.packages(x) # warning: uncommenting this may take a number of minutes
-# lapply(x, library, character.only = TRUE) # load the required packages
 ```
 
 ```{r}
@@ -141,10 +139,9 @@ final <-ggplot()+
 
 ```
 
-
+Save final plot
 
 ```{r}
-# save final plot
 ragg::agg_png("~/Documents/R/R_general_resources/30DayMapChallenge/day7_green/green.png",
               res = 320, width = 11, height = 8, units = "in")
 final

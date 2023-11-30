@@ -10,10 +10,6 @@ execute:
    eval: false
 ---
 
-# Overview
-
-This is a map of regions of `Canada`, North America, data is from `{rnaturalearth}` package. 
-
 
 
 ```{r}

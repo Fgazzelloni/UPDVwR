@@ -44,12 +44,15 @@ library(sf)
 # https://stackoverflow.com/questions/34316083/need-to-display-u-s-metro-areas-on-a-map
 
 local_gtfs_path <- system.file("extdata", "google_transit_nyc_subway.zip", package = "tidytransit")
+```
 
-########  ######## ########  ######## ########  ######## ########  ######## 
-# The following piece of code is from {tidytransit} vignette ########
-# Import Transit Data (GTFS)
-# read it/set the service/make it as sf
-# this must be done in three steps
+
+The following piece of code is from {tidytransit} vignette.
+Import Transit Data (GTFS): read it/set the service/make it as sf this must be done in three steps
+
+
+
+```{r}
 gtfs <- read_gtfs(local_gtfs_path)
 gtfs <- set_servicepattern(gtfs)
 gtfs <- gtfs_as_sf(gtfs)
@@ -86,7 +89,10 @@ service_pattern_summary <- gtfs$.$dates_servicepatterns %>%
 service_ids <- gtfs$.$servicepattern %>% 
   filter(servicepattern_id == 's_e25d6ca') %>% 
   pull(service_id)
+```
 
+
+```{r}
 am_stop_freq <- get_stop_frequency(gtfs, 
                                    start_time = 6*3600, 
                                    end_time = 10*3600, 
@@ -100,9 +106,11 @@ one_line_stops <- am_stop_freq %>%
 
 
 one_line_stops_sf <- gtfs$stops %>%
-  right_join(one_line_stops, by="stop_id") 
+  right_join(one_line_stops, by="stop_id")
+```
 
 
+```{r}
 routes_sf <- get_route_geometry(gtfs, service_ids = service_ids)
 
 am_route_freq <- get_route_frequency(gtfs, 
@@ -111,12 +119,16 @@ am_route_freq <- get_route_frequency(gtfs,
                                      end_time = 10*3600)
 routes_sf <- routes_sf %>% 
   inner_join(am_route_freq, by = 'route_id')
+```
 
-########  ######## ########  ######## ########  ######## ########  ######## 
+
+```{r}
 # convert to an appropriate coordinate reference system
-routes_sf_crs <- sf::st_transform(routes_sf, 4326) 
+routes_sf_crs <- sf::st_transform(routes_sf, 4326)
+```
 
 
+```{r}
 # first output
 routes_sf_crs %>% 
   filter(median_headways < 10*60) %>%
@@ -126,12 +138,14 @@ routes_sf_crs %>%
   labs(color = "Headways") +
   geom_sf_text(aes(label=route_id)) +
   theme_bw()
+```
 
+Add the NYC polygons 
 
-##### Add the NYC polygons ##### ##### ##### ##### ##### 
-# https://data.beta.nyc/dataset/nyc-zip-code-tabulation-areas/resource/894e9162-871c-4552-a09c-c6915d8783fb?view_id=2c40fce3-0bb2-46d3-bb67-04a935151a96
-# https://edaoud.com/blog/2022/03/18/draw-maps-with-R-and-ggplot/
+- <https://data.beta.nyc/dataset/nyc-zip-code-tabulation-areas/resource/894e9162-871c-4552-a09c-c6915d8783fb?view_id=2c40fce3-0bb2-46d3-bb67-04a935151a96>
+- <https://edaoud.com/blog/2022/03/18/draw-maps-with-R-and-ggplot/>
 
+```{r}
 library(geojsonio)
 library(broom)
 
@@ -140,13 +154,19 @@ spdf_file <- geojson_read(  # Read the geojson file
   "data/zip_code_040114.geojson",
   what = "sp"
   )
+```
 
+
+```{r}
 stats_df <- as.data.frame(spdf_file)  # Export the census statistics in another data frame variable
 spdf_file <- broom::tidy(  # Convert it to a spatial data frame, with zip code as index
   spdf_file,
   region="ZIPCODE"  # Use ZIPCODE variable as index, the index will be named "id"
 )
+```
 
+
+```{r}
 # second output
 ggplot() +
   geom_polygon(data=spdf_file %>%
@@ -161,18 +181,21 @@ ggplot() +
   labs(title="Population in New York City",
        subtitle="Neighborhoods are filled by population",
        fill="Population")
+```
 
-######
 
+```{r}
 # see unique routes id available in the dataset
 routes_sf_crs %>% 
   filter(median_headways < 10*60) %>% 
   as.data.frame()%>%
   count(route_id,median_headways)%>%
   pull(route_id)
-  
-########  ######## ########  ######## ########  ######## ########  ######## 
-# Final map combination of the two outputs ##### ##### ##### ##### 
+```
+
+Final map combination of the two outputs 
+
+```{r}
 routes_sf_crs %>% 
   filter(median_headways < 10*60) %>% 
   ggplot() + 
@@ -212,13 +235,15 @@ routes_sf_crs %>%
         plot.title = element_text(size=18),
         plot.caption = element_text(size=6,hjust=0.5,lineheight = 1.2),
         panel.background = element_rect(fill="grey90"))
-
-
-# Save it ##### ##### ##### ##### ##### 
-# ggsave("day6_network.png", # 7.19 x 5.15
-#        dpi=280,
-#        width = 7.19,
-#        height = 5.15)
-########  ######## ########  ######## ########  ######## ########  
-
 ```
+
+Save it 
+
+
+```{r}
+ggsave("day6_network.png", # 7.19 x 5.15
+       dpi=280,
+       width = 7.19,
+       height = 5.15)
+```
+

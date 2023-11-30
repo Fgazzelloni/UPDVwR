@@ -12,6 +12,8 @@ execute:
 
 # Overview
 
+`World` map of the Coastlines Scalerank. Data is from `{rnaturalearthhires}` package.
+
 
 
 ```{r}

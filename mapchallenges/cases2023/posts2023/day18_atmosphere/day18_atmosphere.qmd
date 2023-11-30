@@ -12,12 +12,6 @@ execute:
    warning: false
 ---
 
-# Overview
-
-Whispers of the Breeze: `Italy's Today Wind Speed`". Data is from `{rWind}`.
-
-
-
 This challenge is all about wind movements. The selected area is Italy, also some parts of the surrounding territories can be seen. I am going to use the {rWind} package for downloading the information about wind speed and direction vectors (u,v) for today, Nov 18, 2023. 
 
 In order to be able to interpolate the information from {rWind}, I'll use the {oce} package which provide a type of interpolating function for calculating the Barnes interpolation with: `oce::interpBarnes()` function.
@@ -154,9 +148,9 @@ For more information about this type of analysis have a look at this tutorial: <
 eur_wind_grid_agg <- 
     sf::st_join(eur_wind_pts, eur_wind_grid, 
       join = sf::st_within) %>%
-    st_drop_geometry() %>%
-    group_by(id) %>%
-    summarise(
+    sf::st_drop_geometry() %>%
+    dplyr::group_by(id) %>%
+    dplyr::summarise(
       n = n(), u = mean(ugrd10m), 
       v = mean(vgrd10m), speed = mean(speed)
     ) %>%

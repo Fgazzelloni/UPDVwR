@@ -13,11 +13,6 @@ execute:
 
 ## Overview
 
-
-This is a map of the `Bovine Tuberculosis`, locations of cattle herds in Cornwall (United Kingdom) tested positive for bovine tuberculosis over the years 1989-2002. data is from the `{spatstat}` package.
-
-
-
 Let's have a look at the `{spatstat}` package for spatial point patterns usage: 
 ```{r}
 #| eval: false
@@ -119,8 +114,6 @@ st_as_sf(as_points = TRUE)%>%
         plot.subtitle = element_text(size=11),
         plot.caption = element_text(hjust = 0))
 ```
-
-
 ```{r}
 ggsave("day1_points.png")
 ```

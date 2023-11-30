@@ -9,9 +9,5 @@ output: html_document
 execute: 
    eval: false
 ---
-
-# Overview
-
-This is a postage stamp map of `Portofino, Italy` emitted by Poste Italiane in 1974.
-
-
+NA
+---

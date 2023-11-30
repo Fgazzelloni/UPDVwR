@@ -7,7 +7,7 @@ image-alt: ''
 description: ''
 output: html_document
 execute: 
-   eval: true
+   eval: false
    message: false
    warning: false
 ---
@@ -15,7 +15,7 @@ execute:
 
 # Overview
 
-A 5-minute map made with {tmap} package to visualize the World Estimate Population change 1950-2030.
+A 5-minute map made with {tmap} package to visualize the Estimate Population change 1950-2030.
 
 ```{r}
 #| message: false

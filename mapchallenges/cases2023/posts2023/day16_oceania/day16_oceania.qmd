@@ -15,11 +15,6 @@ execute:
 
 # Overview
 
-
-This map is a map of `Oceania` Population Peaks: Exploring Oceania's Cities. Data is from `Wikipedia` and `{rnaturalearth}`.
-
-
-
 Oceania is divided into:
 
 - `Australasia` (largest city: `Sydney`)
@@ -135,6 +130,9 @@ library(tmap)
 data("World")
 plot(World)
 ```
+
+
+
 ```{r}
 #devtools::install_github("signaux-faibles/rsignauxfaibles")
 library(rsignauxfaibles)
@@ -153,6 +151,7 @@ city.colors <- rep(RColorBrewer::brewer.pal(10,"Set3"),2)
 ```{r}
 #| warning: false
 #| message: false
+
 ggplot() + 
   geom_sf(data = ocean, 
           fill = "#3e5d8b", 

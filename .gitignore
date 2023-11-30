@@ -5,4 +5,5 @@ render
 *.html
 .DS_Store
 rsconnect/
+.Rhistory
 

@@ -14,9 +14,6 @@ execute:
 
 # Overview
 
-Map of `Espana Hydrorivers`, distance from the end of the river to the farthest point upstream on the watershed divide - Global river network.
-Data is from `HydroRIVERS`.
-
 ```{r}
 library(tidyverse)
 library(sf)

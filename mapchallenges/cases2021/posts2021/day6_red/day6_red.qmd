@@ -116,6 +116,7 @@ ggplot() +
   
   scale_color_manual(labels = intensity_impacts,
                      values=red.pal) +
+  coord_sf()+
   ggthemes::theme_map() +
   theme(legend.position = "none",
         legend.title = element_text(family = droughts_family),
