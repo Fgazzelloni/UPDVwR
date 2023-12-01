@@ -6,19 +6,21 @@
       version="2.0">
 <channel>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.html</link>
-<atom:link href="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.html</link>
+<atom:link href="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
+<url>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.html</link>
+<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.html</link>
+<height>144</height>
+<width>144</width>
 </image>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Fri, 01 Dec 2023 20:56:29 GMT</lastBuildDate>
+<lastBuildDate>Fri, 01 Dec 2023 21:28:36 GMT</lastBuildDate>
 <item>
   <title>30DayMapChallenge 2021</title>
-  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</link>
   <description><![CDATA[ 
 
 
@@ -54,14 +56,14 @@
 <a href="../../mapchallenges/cases2021/posts2021/day30_metamapping/day30_metamapping.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day30_metamapping/metamapping.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day30_metamapping/metamapping.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Metamapping Day
 </h5>
 <div class="card-text listing-description">
-This is the <code>collage</code> of all maps made for 2021.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day30_metamapping/day30_metamapping.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -79,14 +81,14 @@ Nov 30, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day29_null/day29_null.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day29_null/NULL.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day29_null/NULL.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Null
 </h5>
 <div class="card-text listing-description">
-This map is a <code>.tif</code> image of the Earth downloaded from <code>Earth-SAT</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day29_null/day29_null.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -104,14 +106,14 @@ Nov 29, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day28_earth_not_flat/day28_earth_not_flat.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day28_earth_not_flat/earth_not_flat.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day28_earth_not_flat/earth_not_flat.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Earth is not flat
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day28_earth_not_flat/day28_earth_not_flat.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -129,14 +131,14 @@ Nov 28, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day27_heatmap/day27_heatmap.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day27_heatmap/heatmap.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day27_heatmap/heatmap.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Heatmap
 </h5>
 <div class="card-text listing-description">
-John Snow’s 1854 Cholera Deaths London’s Map. Data: <code>Blog.RtWilson.com</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day27_heatmap/day27_heatmap.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -154,14 +156,14 @@ Nov 27, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day26_choropleth/day26_choropleth.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day26_choropleth/choropleth.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day26_choropleth/choropleth.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Choropleth Map
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day26_choropleth/day26_choropleth.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -179,14 +181,14 @@ Nov 26, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day25_interactive/day25_interactive.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day25_interactive/interactive.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day25_interactive/interactive.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Interactive Map
 </h5>
 <div class="card-text listing-description">
-Load packages
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day25_interactive/day25_interactive.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -204,14 +206,14 @@ Nov 25, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day24_historical/day24_historical.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day24_historical/historical.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day24_historical/historical.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Historical Map
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day24_historical/day24_historical.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -229,14 +231,14 @@ Nov 24, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day23_ghsl_data/day23_ghsl_data.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day23_ghsl_data/ghsl.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day23_ghsl_data/ghsl.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Data Challenge 3: GHSL
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day23_ghsl_data/day23_ghsl_data.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -254,14 +256,14 @@ Nov 23, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day22_boundaries/day22_boundaries.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day22_boundaries/boundaries.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day22_boundaries/boundaries.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Boundaries
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day22_boundaries/day22_boundaries.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -279,14 +281,14 @@ Nov 22, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day21_elevation/day21_elevation.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day21_elevation/elevation.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day21_elevation/elevation.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Elevation
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day21_elevation/day21_elevation.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -304,14 +306,14 @@ Nov 21, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day20_movement/day20_movement.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day20_movement/movement.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day20_movement/movement.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Movement
 </h5>
 <div class="card-text listing-description">
-This map of <code>Italy</code> shows the <code>Alitalia Flights</code>, data is from <code>openflights</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day20_movement/day20_movement.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -329,14 +331,14 @@ Nov 20, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day19_islands/day19_islands.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day19_islands/islands.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day19_islands/islands.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Island(s)
 </h5>
 <div class="card-text listing-description">
-source: https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_map.html
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day19_islands/day19_islands.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -354,14 +356,14 @@ Nov 19, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day18_water/day18_water.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day18_water/water.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day18_water/water.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Water
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day18_water/day18_water.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -379,14 +381,14 @@ Nov 18, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day17_land/day17_land.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day17_land/land_smaller.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day17_land/land_smaller.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Land
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day17_land/day17_land.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -404,14 +406,14 @@ Nov 17, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day16_urban_rural/day16_urban_rural.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day16_urban_rural/urban_rural.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day16_urban_rural/urban_rural.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Urban / Rural
 </h5>
 <div class="card-text listing-description">
-This is <code>The Netherlands: Hurban and Rural</code> and <code>Schools near by...</code>, data is from <code>cbs.nl</code> opendata.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day16_urban_rural/day16_urban_rural.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -429,14 +431,14 @@ Nov 16, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day15_nopc/day15_nopc.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day15_nopc/IMG_1518.JPG" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day15_nopc/IMG_1518.JPG" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Map made without using a Computer
 </h5>
 <div class="card-text listing-description">
-This is <code>America</code> hand made map.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day15_nopc/day15_nopc.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -454,14 +456,14 @@ Nov 15, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day14_newtool/day14_newtool.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day14_newtool/newtool.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day14_newtool/newtool.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Map with a New Tool
 </h5>
 <div class="card-text listing-description">
-This map is made with <code>Studio Unfolded AI</code> and then styled with <code>R</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day14_newtool/day14_newtool.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -479,14 +481,14 @@ Nov 14, 2021
 <a href="../../mapchallenges/cases2021/posts2021/day13_naturalearth/day13_naturalearth.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day13_naturalearth/naturalearth2.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day13_naturalearth/naturalearth2.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Map Challenge 2: Natural Earth
 </h5>
 <div class="card-text listing-description">
-This map represent the <code>NATURAL EARTH GDP ESTIMATION</code>, data is from the <code>{rnaturalearth}</code> package - View: EPSG:5368.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day13_naturalearth/day13_naturalearth.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -511,7 +513,7 @@ Nov 13, 2021
 Population
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day12_population/day12_population.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -536,7 +538,7 @@ Nov 12, 2021
 3d
 </h5>
 <div class="card-text listing-description">
-The data for this <code>World 3D map</code> is a <code>Sat-view</code> (8am 11.11.2021-GMT+11), data is from <code>bom.gov.au</code> and the <code>{bomrang}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day11_3D/day11_3D.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -561,7 +563,7 @@ Nov 11, 2021
 Raster
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day10_raster/day10_raster.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -586,7 +588,7 @@ Nov 10, 2021
 Monochrome
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day9_monochrome/day9_monochrome.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -636,7 +638,7 @@ Nov 8, 2021
 Green
 </h5>
 <div class="card-text listing-description">
-This map of <code>Greater London</code> with cycle hire and borough boundaries is created using data from <code>TidyTuesday</code> 2021 week 45 - <code>{spData}</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day7_green/day7_green.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -661,7 +663,7 @@ Nov 7, 2021
 Red
 </h5>
 <div class="card-text listing-description">
-This <code>US Drought map</code> shows available values by County - Jan to July 2021, data is from <code>TidyTuesday</code> 2021 week 30.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day6_red/day6_red.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -686,7 +688,7 @@ Nov 6, 2021
 Data Challenge 1: OpenStreetMap
 </h5>
 <div class="card-text listing-description">
-This map of <code>Berlin water</code> is made with data from <code>{osmdata}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day5_osm/day5_osm.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -711,7 +713,7 @@ Nov 5, 2021
 Hexagons
 </h5>
 <div class="card-text listing-description">
-This map of <code>Boston</code> is made with data from <code>{spData}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day4_hexagons/day4_hexagons.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -736,7 +738,7 @@ Nov 4, 2021
 Polygons
 </h5>
 <div class="card-text listing-description">
-The <code>Isole Åland</code> belonged to the provinces that the…
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day3_polygons/day3_polygons.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -761,7 +763,7 @@ Nov 3, 2021
 Lines
 </h5>
 <div class="card-text listing-description">
-This map of <code>France</code> is created with data from the <code>{maps}</code> R-package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day2_lines/day2_lines.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -786,7 +788,7 @@ Nov 2, 2021
 Points
 </h5>
 <div class="card-text listing-description">
-This map is made with data from <code>TidyTuesday</code> 2021 week44 Race.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day1_points/day1_points.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -806,13 +808,13 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 20:56:29 GMT</pubDate>
-  <media:content url="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/images/map_collage_2021.png" medium="image" type="image/png" height="101" width="144"/>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</guid>
+  <pubDate>Fri, 01 Dec 2023 21:28:36 GMT</pubDate>
+  <media:content url="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/images/map_collage_2021.png" medium="image" type="image/png" height="101" width="144"/>
 </item>
 <item>
   <title>30DayMapChallenge 2022</title>
-  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/index.html</link>
   <description><![CDATA[ 
 
 
@@ -848,14 +850,14 @@ No matching items
 <a href="../../mapchallenges/cases2022/posts2022/day30_remix/day30_remix.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day30_remix/day30_remix.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day30_remix/day30_remix.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Remix
 </h5>
 <div class="card-text listing-description">
-Improving map Islands (day 26) with <code>Campsites in Urupukapuka Island no dogs allowed</code>. Data is from the <code>New Zealand Hydrographic Authority</code> &amp; data.govt.nz.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day30_remix/day30_remix.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -873,14 +875,14 @@ Nov 30, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day29_out_comfort_zone/day29_out_comfort_zone.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day29_out_comfort_zone/day29_out_comfort_zone.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day29_out_comfort_zone/day29_out_comfort_zone.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Out of my comfort zone
 </h5>
 <div class="card-text listing-description">
-Foursquare Map Month Competition Winner: <code>United States Permanent amount of precipitations on Global Railways</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day29_out_comfort_zone/day29_out_comfort_zone.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -898,14 +900,14 @@ Nov 29, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day28_3D/day28_3D.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 3d
 </h5>
 <div class="card-text listing-description">
-Map of <code>Oregon Population Density</code>. Data is from <code>Kontur population US</code> and the <code>{tigris}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day28_3D/day28_3D.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -923,14 +925,14 @@ Nov 28, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day27_music/day27_music.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day27_music/day27_music.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day27_music/day27_music.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Music
 </h5>
 <div class="card-text listing-description">
-<code>US Map</code> of Artists by states distribution. Data is from <code>TidyTuesday</code> 2022 week 39 <code>US Artists</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day27_music/day27_music.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -948,14 +950,14 @@ Nov 27, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day26_islands/day26_islands.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Islands
 </h5>
 <div class="card-text listing-description">
-A static <code>leaflet</code> map of <code>Islands</code>, data is from the <code>New Zealand Hydrographic Authority</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day26_islands/day26_islands.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -973,14 +975,14 @@ Nov 26, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day25_color_friday_2_colors/day25_color_friday_2_colors.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day25_color_friday_2_colors/day25_color_firday_2_colors.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day25_color_friday_2_colors/day25_color_firday_2_colors.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Colour Friday: 2 Colors
 </h5>
 <div class="card-text listing-description">
-This map of <code>Alaska housing</code> is made with <code>FourSquare Studio</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day25_color_friday_2_colors/day25_color_friday_2_colors.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -998,14 +1000,14 @@ Nov 25, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day24_fantasy/day24_fantasy.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day24_fantasy/day24_fantasy.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day24_fantasy/day24_fantasy.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Fantasy
 </h5>
 <div class="card-text listing-description">
-Astonishing <code>World Map</code> projection: <code>projection_bonne</code>. Data is from the <code>{rnaturalearth}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day24_fantasy/day24_fantasy.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1023,14 +1025,14 @@ Nov 24, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day23_movement/day23_movement.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day23_movement/day23_movement.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day23_movement/day23_movement.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Movement
 </h5>
 <div class="card-text listing-description">
-Map of the Movements to Europe through the Mediterranean and Western Balkans migration routes, 2017 flows: <code>Italy overview</code>. DataSource: <code>@humdata</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day23_movement/day23_movement.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1048,14 +1050,14 @@ Nov 23, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day22_null/day22_null.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day22_null/day22_null.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day22_null/day22_null.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Null
 </h5>
 <div class="card-text listing-description">
-This is the <code>Happy Planet Index - World Map</code>, data is from the <code>{tmap}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day22_null/day22_null.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1073,14 +1075,14 @@ Nov 22, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Data: Kontur Population Dataset
 </h5>
 <div class="card-text listing-description">
-This is a map of Costa Rica Population density, data is from <code>Kontur Population dataset - @KonturInc</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1098,14 +1100,14 @@ Nov 21, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day20_my_favourite/day20_my_favourite.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day20_my_favourite/day20_my_favourite.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day20_my_favourite/day20_my_favourite.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My favourite
 </h5>
 <div class="card-text listing-description">
-original Dubois collection:
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day20_my_favourite/day20_my_favourite.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1123,14 +1125,14 @@ Nov 20, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day19_globe/day19_globe.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day19_globe/day19_globe.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day19_globe/day19_globe.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Globe
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day19_globe/day19_globe.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1148,14 +1150,14 @@ Nov 19, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day18_color_friday_blue/day18_color_friday_blue.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day18_color_friday_blue/day18_color_friday_blue.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day18_color_friday_blue/day18_color_friday_blue.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Colour Friday: Blue
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day18_color_friday_blue/day18_color_friday_blue.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1173,14 +1175,14 @@ Nov 18, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day17_a_map_without_computer/day17_a_map_without_computer.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day17_a_map_without_computer/day17_a_map_without_computer.JPG" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day17_a_map_without_computer/day17_a_map_without_computer.JPG" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 A Map Without Computer
 </h5>
 <div class="card-text listing-description">
-This is a self standing <code>Ocean World Globe</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day17_a_map_without_computer/day17_a_map_without_computer.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1198,14 +1200,14 @@ Nov 17, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day16_minimal/day16_minimal.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day16_minimal/day16_minimal.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day16_minimal/day16_minimal.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Minimal
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day16_minimal/day16_minimal.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1223,14 +1225,14 @@ Nov 16, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day15_food_drink/day15_food_drink.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day15_food_drink/day15_food_drink.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day15_food_drink/day15_food_drink.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Food / Drink
 </h5>
 <div class="card-text listing-description">
-Map of <code>European Countries Foodborne Campylobacter Outbreaks</code>, data is from <code>www.efsa.europa.eu</code>
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day15_food_drink/day15_food_drink.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1248,14 +1250,14 @@ Nov 15, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day14_hexagons/day14_hexagons.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day14_hexagons/day14_hexagons.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day14_hexagons/day14_hexagons.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Hexagons
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day14_hexagons/day14_hexagons.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1273,14 +1275,14 @@ Nov 14, 2022
 <a href="../../mapchallenges/cases2022/posts2022/day13_5_minute_map/day13_5_minute_map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day13_5_minutes_map/day13_5_minute_map.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day13_5_minutes_map/day13_5_minute_map.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 5 Minute Map
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day13_5_minute_map/day13_5_minute_map.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1305,7 +1307,7 @@ Nov 13, 2022
 Scale
 </h5>
 <div class="card-text listing-description">
-This is a static <code>leaflet</code> map of the <code>Atlantic Ocean Storms</code> in 2005.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day12_scale/day12_scale.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1330,7 +1332,7 @@ Nov 12, 2022
 Colour Friday: Red
 </h5>
 <div class="card-text listing-description">
-This red map is a map of the <code>US FM Boosters - FB Radio Stations</code>. Data is from <code>TidyTuesday</code> 2022 week 45 Radio Stations by the <code>FM Service Contour Data Points (fcc.gov)</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day11_color_friday_red/day11_color_friday_red.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1355,7 +1357,7 @@ Nov 11, 2022
 A Bad Map
 </h5>
 <div class="card-text listing-description">
-This map is a drawback of a .tif image of <code>North America and Alaska</code> from the <code>OSM</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day10_a_bad_map/day10_a_bad_map.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1380,7 +1382,7 @@ Nov 10, 2022
 Space
 </h5>
 <div class="card-text listing-description">
-This Global map is created with a tool called <code>fourmilab.ch/yoursky</code> and represent some particular constellations that can be spotted from that point of view.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day9_space/day9_space.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1405,7 +1407,7 @@ Nov 9, 2022
 Data: OpenStreetMap
 </h5>
 <div class="card-text listing-description">
-Map of <code>Rome, Italy</code> city center with <code>military locations</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day8_openstreetmap/day8_openstreetmap.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1430,7 +1432,7 @@ Nov 8, 2022
 Raster
 </h5>
 <div class="card-text listing-description">
-Map of <code>Oregon Spotted Frogs: Rana Pretiosa</code> frequent locations.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day7_raster/day7_raster.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1455,7 +1457,7 @@ Nov 7, 2022
 Network
 </h5>
 <div class="card-text listing-description">
-<code>New York City subways</code>…<code></code><code></code>
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day6_network/day6_network.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1480,7 +1482,7 @@ Nov 6, 2022
 Ukraine
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day5_ukraine/day5_ukraine.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1505,7 +1507,7 @@ Nov 5, 2022
 Colour Friday: Green
 </h5>
 <div class="card-text listing-description">
-This is a map of <code>Historic district of Rome</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day4_color_friday_green/day4_color_friday_green.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1530,7 +1532,7 @@ Nov 4, 2022
 Polygons
 </h5>
 <div class="card-text listing-description">
-Map of <code>Private health insurance status in New York</code>. Census tracts data is from <code>census.gov</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day3_polygons/day3_polygons.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1555,7 +1557,7 @@ Nov 3, 2022
 Lines
 </h5>
 <div class="card-text listing-description">
-This is a map of <code>Long-term rivers average discharge in Italy and surrounding areas</code>. Values m3/s for rivers with length in km greater than 1.780. Data is from <code>hydrosheds.org</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day2_lines/day2_lines.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1580,7 +1582,7 @@ Nov 2, 2022
 Points
 </h5>
 <div class="card-text listing-description">
-<code>Malaria prevalence in children</code>, data recorded at villages in The <code>Gambia, Africa</code>. Data is from <code>{geoR}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day1_points/day1_points.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1600,13 +1602,13 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 20:56:29 GMT</pubDate>
-  <media:content url="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/images/map_collage_2022.png" medium="image" type="image/png" height="115" width="144"/>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/index.html</guid>
+  <pubDate>Fri, 01 Dec 2023 21:28:36 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/collage/collage2022.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>30DayMapChallenge 2023</title>
-  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/index.html</link>
   <description><![CDATA[ 
 
 
@@ -1642,14 +1644,14 @@ No matching items
 <a href="../../mapchallenges/cases2023/posts2023/day30_my-favourite/day30_my-favourite.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day30_my-favourite/day30_my-favourite.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day30_my-favourite/day30_my-favourite.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Favourite
 </h5>
 <div class="card-text listing-description">
-This last map of the #30DayMapChallenge month is my favourite view of the life expectancy. Source of data are <strong>Statistics Netherlands (CBS) and Kadaster Nederland</strong> via the <code>…</code><code></code>
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day30_my-favourite/day30_my-favourite.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1667,14 +1669,14 @@ Nov 30, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day29_population/day29_population.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day29_population/day29_population.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day29_population/day29_population.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Population
 </h5>
 <div class="card-text listing-description">
-This <code>Ireland Map</code> explore the population density in the area. Data is from the latest version of <code>Kontur Population</code> available at <code>United Nations Humanitarian Data Exchange (HDX)</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day29_population/day29_population.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1692,14 +1694,14 @@ Nov 29, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Is This A Chart Or A Map
 </h5>
 <div class="card-text listing-description">
-This is a bubble chart on a Map. Data is from <code>tmap::data("World")</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1717,14 +1719,14 @@ Nov 28, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day27_dot/day27_dot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day27_dot/day27_dot.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day27_dot/day27_dot.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Dot
 </h5>
 <div class="card-text listing-description">
-This Dot Map comprises an overview of the <code>EPSG Geodetic Parameter Dataset (also EPSG registry)</code>. A public registry of geodetic datums, spatial reference systems, Earth ellipsoids, coordinate transformations and related units of measurement…
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day27_dot/day27_dot.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1742,14 +1744,14 @@ Nov 27, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day26_minimal/day26_minimal.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day26_minimal/day26_minimal.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day26_minimal/day26_minimal.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Minimal
 </h5>
 <div class="card-text listing-description">
-This is a minimal Climate Raster Map for <code>worldclim</code> data and species distribution.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day26_minimal/day26_minimal.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1767,14 +1769,14 @@ Nov 26, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day25_antarctica/day25_antarctica.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Antarctica
 </h5>
 <div class="card-text listing-description">
-This is a Map of Antarctica made with the <code>rOpenSci {antanym}</code> package provided by
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day25_antarctica/day25_antarctica.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1792,14 +1794,14 @@ Nov 25, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day24_black&amp;white/day24_black&amp;white.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&amp;white/day24_black&amp;white.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&amp;white/day24_black&amp;white.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Black&amp;White
 </h5>
 <div class="card-text listing-description">
-This Black &amp; white Belgium Map is build creating a grid of points.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day24_black&white/day24_black&white.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1817,14 +1819,14 @@ Nov 24, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day23_3D/day23_3D.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 3d
 </h5>
 <div class="card-text listing-description">
-This is the 3D Italy’s Population Density Map made with the instruction provided by <code>Milos Agathon: Milos Makes Maps</code> tutorial:
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day23_3D/day23_3D.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1842,14 +1844,14 @@ Nov 23, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day22_north-is-not-always-up/day22_north-is-not-always-up.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day22_north-is-not-always-up/day22_north-is-not-always-up.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day22_north-is-not-always-up/day22_north-is-not-always-up.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 North Is Not Always Up
 </h5>
 <div class="card-text listing-description">
-This Map represent four countries with diverse GDP. One in the south side of the earth, Australia has a higher GDP value compared to northern side countries. Data is from the <code>Worldban…</code>
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day22_north-is-not-always-up/day22_north-is-not-always-up.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1867,14 +1869,14 @@ Nov 22, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day21_raster/day21_raster.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Raster
 </h5>
 <div class="card-text listing-description">
-How to color a <code>Raster Map</code> with R.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day21_raster/day21_raster.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1892,14 +1894,14 @@ Nov 21, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day20_outdoors/day20_outdoors.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Outdoors
 </h5>
 <div class="card-text listing-description">
-<code>World</code> map of the Coastlines Scalerank. Data is from <code>{rnaturalearthhires}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day20_outdoors/day20_outdoors.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1917,14 +1919,14 @@ Nov 20, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day19_5-minute-map/day19_5-minute-map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day19_5-minute-map/day19_5-minute-map.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day19_5-minute-map/day19_5-minute-map.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 5 Minute Map
 </h5>
 <div class="card-text listing-description">
-A 5-minute map made with {tmap} package to visualize the Estimate Population change 1950-2030.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day19_5-minute-map/day19_5-minute-map.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1942,14 +1944,14 @@ Nov 19, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day18_atmosphere/day18_atmosphere.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day18_atmosphere/day18_atmosphere.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day18_atmosphere/day18_atmosphere.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Atmosphere
 </h5>
 <div class="card-text listing-description">
-This challenge is all about wind movements. The selected area is Italy, also some parts of the…
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day18_atmosphere/day18_atmosphere.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1967,14 +1969,14 @@ Nov 18, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day17_flow/day17_flow.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day17_flow/day17_flow.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day17_flow/day17_flow.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Flow
 </h5>
 <div class="card-text listing-description">
-This map of the <code>HydroRIVERS</code> for the Iberia peninsula and surrounding areas is made coloring by the <code>DIST_UP_KM</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day17_flow/day17_flow.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1992,14 +1994,14 @@ Nov 17, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day16_oceania/day16_oceania.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day16_oceania/day16_oceania.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day16_oceania/day16_oceania.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Oceania
 </h5>
 <div class="card-text listing-description">
-This map of Oceania shows Population Peaks of Oceania’s Cities.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day16_oceania/day16_oceania.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2017,14 +2019,14 @@ Nov 16, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day15_openstreetmap/day15_openstreetmap.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day15_openstreetmap/day15_openstreetmap.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day15_openstreetmap/day15_openstreetmap.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 OpenStreetMap
 </h5>
 <div class="card-text listing-description">
-<code>OpenStreetMap</code> data map for <code>Valencia</code> schools and underground stations.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day15_openstreetmap/day15_openstreetmap.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2042,14 +2044,14 @@ Nov 15, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day14_europe/day14_europe.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day14_europe/day14_europe.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day14_europe/day14_europe.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Europe
 </h5>
 <div class="card-text listing-description">
-<code>Eurostat</code> data with R. I used the <code>{eurostat}</code> package to shows <code>European Child and Youth Population</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day14_europe/day14_europe.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2067,14 +2069,14 @@ Nov 14, 2023
 <a href="../../mapchallenges/cases2023/posts2023/day13_choropleth/day13_choropleth.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day13_choropleth/day13_choropleth.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day13_choropleth/day13_choropleth.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Choropleth
 </h5>
 <div class="card-text listing-description">
-This…<code></code>
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day13_choropleth/day13_choropleth.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2099,7 +2101,7 @@ Nov 13, 2023
 South America
 </h5>
 <div class="card-text listing-description">
-For this challenge I look back at day 8 Africa and the <code>total fertility rate</code> for replicating the steps for <code>South America</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day12_south-america/day12_south-america.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2124,7 +2126,7 @@ Nov 12, 2023
 Retro
 </h5>
 <div class="card-text listing-description">
-A place that has undergone significant changes over time is the city of <code>Berlin, Germany</code>. Berlin has a rich and complex history, and its geography and…
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day11_retro/day11_retro.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2149,7 +2151,7 @@ Nov 11, 2023
 North America
 </h5>
 <div class="card-text listing-description">
-This is a map of the <code>Canada</code> country’s regions. Data is from <code>rnaturalearth}</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day10_north-america/day10_north-america.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2174,7 +2176,7 @@ Nov 10, 2023
 Hexagons
 </h5>
 <div class="card-text listing-description">
-Hexagons map of Covid19 data in Italy. For this challenge I will be using the <code>{covid19italy}</code> package for mapping Covid19 cases in Italy.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day9_hexagons/day9_hexagons.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2199,7 +2201,7 @@ Nov 9, 2023
 Africa
 </h5>
 <div class="card-text listing-description">
-For this challenge I looked at an interesting resource: Analyzing US Census Data: Methods, Maps, and Models in R, also found the <code>{idbr}</code> package R Interface to the US…
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day8_africa/day8_africa.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2224,7 +2226,7 @@ Nov 8, 2023
 Navigation
 </h5>
 <div class="card-text listing-description">
-This Leaflet map represents <code>3D flights of European free-tailed bat</code> spotted from 2017-08-08 to 2017-08-15. There are 8 <code>individual.local.identifier</code> for <code>bats</code> taxonomy <code>Tadar…</code>
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day7_navigation/day7_navigation.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2249,7 +2251,7 @@ Nov 7, 2023
 Asia
 </h5>
 <div class="card-text listing-description">
-For this <code>#30DayMapChallenge 2023 Day6 - Asia</code> let’s explore the Population estimation for Regions and major Cities, from different sources.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day6_asia/day6_asia.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2274,7 +2276,7 @@ Nov 6, 2023
 Analog Map
 </h5>
 <div class="card-text listing-description">
-🗺…
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day5_analog-map/day5_analog-map.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2299,7 +2301,7 @@ Nov 5, 2023
 A Bad Map
 </h5>
 <div class="card-text listing-description">
-A Bad Map <code>Exaggerated 3D View of the United States</code>
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day4_a-bad-map/day4_a-bad-map.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2324,7 +2326,7 @@ Nov 4, 2023
 Polygons
 </h5>
 <div class="card-text listing-description">
-This is a map of <code>Colombia Malaria incidence</code> in 1998 - Data is from <code>Geodatacenter</code>.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day3_polygons/day3_polygons.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2349,7 +2351,7 @@ Nov 3, 2023
 Lines
 </h5>
 <div class="card-text listing-description">
-This <code>NewYork</code> map data is from the USDA NRCS <code>Geospatial Data Gateway</code>. Made with {topo.ridges} package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day2_lines/day2_lines.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2374,7 +2376,7 @@ Nov 2, 2023
 Points
 </h5>
 <div class="card-text listing-description">
-A points map of the <code>Bovine Tubercoulosis Farm Locations in Cornwall</code>, UK (South West England). Data is from the <code>{spatstat}</code> package.
+<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day1_points/day1_points.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2394,8 +2396,8 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 20:56:29 GMT</pubDate>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/index.html</guid>
+  <pubDate>Fri, 01 Dec 2023 21:28:36 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/collage/collage2023.png" medium="image" type="image/png"/>
 </item>
 </channel>
