@@ -12,6 +12,13 @@ execute:
 
 # Overview
 
+This `NewYork` map data is from the USDA NRCS `Geospatial Data Gateway`. Made with {topo.ridges} package.
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day2_lines/day2_lines.png)</center>
+
+
+
 ```{r}
 library("topo.ridges")
 library(ggplot2)

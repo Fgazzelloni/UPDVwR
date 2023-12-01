@@ -12,7 +12,10 @@ execute:
 
 # Overview 
 
-This is a bubble chart on a Map. Data is from tmap::data("World").
+This is a bubble chart on a Map. Data is from `tmap::data("World")`.
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png)</center>
 
 ```{r}
 library(tidyverse)

@@ -18,6 +18,8 @@ This is a Map of Antarctica made with the `rOpenSci {antanym}` package provided 
 >Composite Gazetteer of Antarctica, Scientific Committee on Antarctic Research. GCMD Metadata (http://gcmd.nasa.gov/records/SCAR_Gazetteer.html)
 
 
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png)</center>
 
 Load libraries
 ```{r}

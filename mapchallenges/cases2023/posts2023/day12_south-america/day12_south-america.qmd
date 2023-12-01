@@ -14,6 +14,11 @@ execute:
 
 For this challenge I look back at day 8 Africa and the `total fertility rate` for replicating the steps for `South America`.
 
+
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day12_south-america/day12_south-america.png)</center>
+
 Datasource: [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data), and the `{idbr}` package R Interface to the US Census Bureau International Data Base API.
 
 

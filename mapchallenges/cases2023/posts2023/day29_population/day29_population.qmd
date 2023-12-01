@@ -14,6 +14,9 @@ execute:
 
 This `Ireland Map` explore the population density in the area. Data is from the latest version of `Kontur Population` available at `United Nations Humanitarian Data Exchange (HDX)`. 
 
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day29_population/day29_population.png)</center>
+
 ```{r}
 #| message: false
 #| warning: false

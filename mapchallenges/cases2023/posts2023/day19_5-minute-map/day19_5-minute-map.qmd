@@ -17,6 +17,10 @@ execute:
 
 A 5-minute map made with {tmap} package to visualize the Estimate Population change 1950-2030.
 
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day19_5-minute-map/day19_5-minute-map.png)</center>
+
 ```{r}
 #| message: false
 #| warning: false

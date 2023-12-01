@@ -15,6 +15,11 @@ execute:
 
 Hexagons map of Covid19 data in Italy. For this challenge I will be using the `{covid19italy}` package for mapping Covid19 cases in Italy.
 
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day9_hexagons/day9_hexagons.png)</center>
+
+
+
 ```{r}
 #| message: false
 #| warning: false

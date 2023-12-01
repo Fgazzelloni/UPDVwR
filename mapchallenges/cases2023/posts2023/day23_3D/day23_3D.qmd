@@ -18,6 +18,9 @@ This is the 3D Italy's Population Density Map made with the instruction provided
 - <https://www.youtube.com/watch?v=qTDf5VVnjMM>
 - <https://github.com/milos-agathon/making-crisp-spike-maps-with-r/blob/main/R/create-spike-map-in-r.r>
 
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png)</center>
+
 ```{r}
 library("tidyverse")
 library("R.utils")

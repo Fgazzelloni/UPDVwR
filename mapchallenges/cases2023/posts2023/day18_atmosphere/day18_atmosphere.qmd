@@ -14,6 +14,12 @@ execute:
 
 This challenge is all about wind movements. The selected area is Italy, also some parts of the surrounding territories can be seen. I am going to use the {rWind} package for downloading the information about wind speed and direction vectors (u,v) for today, Nov 18, 2023. 
 
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day18_atmosphere/day18_atmosphere.png)</center>
+
+
+
 In order to be able to interpolate the information from {rWind}, I'll use the {oce} package which provide a type of interpolating function for calculating the Barnes interpolation with: `oce::interpBarnes()` function.
 
 

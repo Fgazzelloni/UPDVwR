@@ -14,6 +14,9 @@ execute:
 
 How to color a `Raster Map` with R.
 
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png)</center>
 ```{r}
 # Install and load necessary packages
 # install.packages(c("ggplot2", "raster"))

@@ -15,6 +15,14 @@ execute:
 
 This Leaflet map represents `3D flights of European free-tailed bat` spotted from 2017-08-08 to 2017-08-15. There are 8 `individual.local.identifier` for `bats` taxonomy `Tadarida teniotis`.
 
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day7_navigation/day7_navigation.png)</center>
+
+
+
+
+
 The study results can be accessed on <https://www.movebank.org/> and contains data from: `European free-tailed bats use topography and nocturnal updrafts to fly high and fast`. 
 
 > O'Mara MT, Amorim F, McCracken GF, Mata V, Safi K, Wikelski M, Beja P, Rebelo H, Dechmann DKN. 2021. Data from: European free-tailed bats use topography and nocturnal updrafts to fly high and fast. Movebank Data Repository. <https://doi.org/10.5441/001/1.52nn82r9>

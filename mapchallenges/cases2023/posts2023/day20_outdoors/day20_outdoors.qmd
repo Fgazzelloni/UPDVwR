@@ -15,6 +15,8 @@ execute:
 `World` map of the Coastlines Scalerank. Data is from `{rnaturalearthhires}` package.
 
 
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png)</center>
 
 ```{r}
 library(tidyverse)

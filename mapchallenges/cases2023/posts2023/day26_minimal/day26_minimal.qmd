@@ -13,9 +13,16 @@ execute:
 
 # Overview
 
-This is a minimal Climate Raster Map for 
+This is a minimal Climate Raster Map for `worldclim` data and species distribution.
 
-`worldclim` data and species distribution: 
+
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day26_minimal/day26_minimal.png)</center>
+
+
+Resources:
+
 - <https://www.worldclim.org/data/worldclim21.html#google_vignette>
 - <https://damariszurell.github.io/EEC-MGC/b2_EnvData.html>
 - <https://edzer.github.io/hertie-school/>

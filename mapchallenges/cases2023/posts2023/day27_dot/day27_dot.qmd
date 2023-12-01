@@ -16,6 +16,9 @@ execute:
 
 This Dot Map comprises an overview of the `EPSG Geodetic Parameter Dataset (also EPSG registry)`. A public registry of geodetic datums, spatial reference systems, Earth ellipsoids, coordinate transformations and related units of measurement, originated by a member of the European Petroleum Survey Group (EPSG) in 1985. (see [Wikipedia](https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset))
 
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day27_dot/day27_dot.png)</center>
+
 Each entity is assigned an EPSG code between 1024 and 32767, along with a `standard machine-readable well-known text (WKT)` representation. 
 
 The most common is `EPSG:4326 - WGS 84`, latitude/longitude coordinate system based on the Earth's center of mass, used by the Global Positioning System among others.

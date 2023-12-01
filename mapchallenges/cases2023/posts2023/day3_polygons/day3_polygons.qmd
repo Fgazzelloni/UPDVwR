@@ -13,6 +13,13 @@ execute:
 # Overview
 
 
+This is a map of `Colombia Malaria incidence` in 1998 - Data is from `Geodatacenter`.
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day3_polygons/day3_polygons.png)</center>
+
+
+
 ```{r}
 library(tidyverse)
 library(sf)

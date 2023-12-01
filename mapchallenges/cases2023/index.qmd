@@ -1,12 +1,13 @@
 ---
 title: "30DayMapChallenge 2023"
-image: images/UPDVwR.png
+image: images/collage2023.png
 listing: 
   contents: posts2023
   sort: "date desc"
   type: grid
   image-height: "200"
   categories: true
+  sort-ui: true
 page-layout: full
 title-block-banner: false
 ---

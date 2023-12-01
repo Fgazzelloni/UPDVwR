@@ -13,7 +13,11 @@ execute:
 
 # Overview
 
-This Black & white Belgium Map is build 
+This Black & white Belgium Map is build creating a grid of points.
+
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&white/day24_black&white.png)</center>
 
 Load necessary libraries
 ```{r}

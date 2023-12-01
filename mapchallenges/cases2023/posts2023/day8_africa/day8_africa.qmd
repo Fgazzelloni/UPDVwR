@@ -15,6 +15,11 @@ execute:
 For this challenge I looked at an interesting resource: [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data), also found the `{idbr}` package R Interface to the US Census Bureau International Data Base API.
 
 
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day8_africa/day8_africa.png)</center>
+
+
 Source: 
 <https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html>
 

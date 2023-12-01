@@ -13,6 +13,13 @@ execute:
 
 ## Overview
 
+A points map of the `Bovine Tubercoulosis Farm Locations in Cornwall`, UK (South West England). Data is from the `{spatstat}` package.
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day1_points/day1_points.png)</center>
+
+
+
 Let's have a look at the `{spatstat}` package for spatial point patterns usage: 
 ```{r}
 #| eval: false

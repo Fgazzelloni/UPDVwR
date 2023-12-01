@@ -14,6 +14,10 @@ execute:
 
 # Overview
 
+This map shows the Epidemic transition of new HIV infections, metrics trend from 2010 to 2020. Percentage contribution of each country's change to the total change. Data is from the `Global data on HIV epidemiology and response` (aidsinfo.unaids.org)
+
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day13_choropleth/day13_choropleth.png)</center>
+
 AIDS: percentage contribution of each country's change to the total change
 
 DataSource: <https://aidsinfo.unaids.org/>
@@ -27,8 +31,6 @@ aids <- read_csv("data/Epidemic transition metrics_Trend of new HIV infections.c
 
 aids%>%head
 ```
-
-
 
 ```{r}
 aids_avg <- aids %>%
@@ -68,12 +70,9 @@ aids_map <- aids_avg%>%
   st_transform(crs="ESRI:54030")
 ```
 
-
 ```{r}
 text <- tibble(text=c("In dark/light grey are Countries whose Estimates were not available at the time of publication"))
 ```
-
-
 
 ```{r}
 ggplot()+
@@ -99,10 +98,3 @@ ggplot()+
 ```{r}
 ggsave("day13_choropleth.png",height = 5)
 ```
-
-
-
-
-
-
-

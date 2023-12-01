@@ -11,6 +11,13 @@ execute:
 ---
 
 
+# Overview
+
+This is a map of the `Canada` country's regions. Data is from `rnaturalearth}`.
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day10_north-america/day10_north-america.png)</center>
+
 
 ```{r}
 library(tidyverse)

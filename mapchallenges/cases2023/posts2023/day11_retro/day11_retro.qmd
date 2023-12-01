@@ -15,6 +15,12 @@ execute:
 
 A place that has undergone significant changes over time is the city of `Berlin, Germany`. Berlin has a rich and complex history, and its geography and political boundaries have been dramatically transformed, especially during the 20th century. 
 
+
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day11_retro/day11_retro.png)</center>
+
+
 For this challenge I decided to use four layers representing the `German Empire in 1871 and 1945`, coupled with additional layers for `Germany in 1989, specifically focusing on Berlin East and West`, to craft a retro map that chronicles the profound historical shifts in Germany's territorial landscape.
 
 And capture the evolution of Germany from its imperial unification in 1871 through the post-World War II division into East and West, culminating in the transformative reunification of 1989. 

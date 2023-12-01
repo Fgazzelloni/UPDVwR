@@ -15,7 +15,10 @@ execute:
 
 # Overview
 
-OpenStreetMap data
+`OpenStreetMap` data map for `Valencia` schools and underground stations.
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day15_openstreetmap/day15_openstreetmap.png)</center>
 
 
 Resources: <https://rspatialdata.github.io/osm.html>

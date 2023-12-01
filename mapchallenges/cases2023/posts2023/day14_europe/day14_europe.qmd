@@ -15,7 +15,11 @@ execute:
 
 # Overview
 
-Eurostat data with R. We use the {eurostat} package
+`Eurostat` data with R. I used the `{eurostat}` package to shows `European Child and Youth Population`.
+
+
+<center>
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day14_europe/day14_europe.png)</center>
 
 
 Load Libraries
