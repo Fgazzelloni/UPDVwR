@@ -1,6 +1,6 @@
 ---
 title: "30DayMapChallenge 2023"
-image: images/collage2023.png
+image: "https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/collage/collage2023.png"
 listing: 
   contents: posts2023
   sort: "date desc"

@@ -13,11 +13,9 @@
 <url>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
 <title>Unlocking the power of data visualization with R</title>
 <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.html</link>
-<height>144</height>
-<width>144</width>
 </image>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Fri, 01 Dec 2023 00:09:43 GMT</lastBuildDate>
+<lastBuildDate>Fri, 01 Dec 2023 20:56:29 GMT</lastBuildDate>
 <item>
   <title>30DayMapChallenge 2021</title>
   <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</link>
@@ -63,7 +61,7 @@
 Metamapping Day
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day30_metamapping/day30_metamapping.html -->
+This is the <code>collage</code> of all maps made for 2021.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -88,7 +86,7 @@ Nov 30, 2021
 Null
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day29_null/day29_null.html -->
+This map is a <code>.tif</code> image of the Earth downloaded from <code>Earth-SAT</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -113,7 +111,7 @@ Nov 29, 2021
 The Earth is not flat
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day28_earth_not_flat/day28_earth_not_flat.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -138,7 +136,7 @@ Nov 28, 2021
 Heatmap
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day27_heatmap/day27_heatmap.html -->
+John Snow’s 1854 Cholera Deaths London’s Map. Data: <code>Blog.RtWilson.com</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -163,7 +161,7 @@ Nov 27, 2021
 Choropleth Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day26_choropleth/day26_choropleth.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -188,7 +186,7 @@ Nov 26, 2021
 Interactive Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day25_interactive/day25_interactive.html -->
+Load packages
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -213,7 +211,7 @@ Nov 25, 2021
 Historical Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day24_historical/day24_historical.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -238,7 +236,7 @@ Nov 24, 2021
 Data Challenge 3: GHSL
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day23_ghsl_data/day23_ghsl_data.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -263,7 +261,7 @@ Nov 23, 2021
 Boundaries
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day22_boundaries/day22_boundaries.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -288,7 +286,7 @@ Nov 22, 2021
 Elevation
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day21_elevation/day21_elevation.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -313,7 +311,7 @@ Nov 21, 2021
 Movement
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day20_movement/day20_movement.html -->
+This map of <code>Italy</code> shows the <code>Alitalia Flights</code>, data is from <code>openflights</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -338,7 +336,7 @@ Nov 20, 2021
 Island(s)
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day19_islands/day19_islands.html -->
+source: https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_map.html
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -363,7 +361,7 @@ Nov 19, 2021
 Water
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day18_water/day18_water.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -388,7 +386,7 @@ Nov 18, 2021
 Land
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day17_land/day17_land.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -413,7 +411,7 @@ Nov 17, 2021
 Urban / Rural
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day16_urban_rural/day16_urban_rural.html -->
+This is <code>The Netherlands: Hurban and Rural</code> and <code>Schools near by...</code>, data is from <code>cbs.nl</code> opendata.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -438,7 +436,7 @@ Nov 16, 2021
 Map made without using a Computer
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day15_nopc/day15_nopc.html -->
+This is <code>America</code> hand made map.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -463,7 +461,7 @@ Nov 15, 2021
 Map with a New Tool
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day14_newtool/day14_newtool.html -->
+This map is made with <code>Studio Unfolded AI</code> and then styled with <code>R</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -488,7 +486,7 @@ Nov 14, 2021
 Map Challenge 2: Natural Earth
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day13_naturalearth/day13_naturalearth.html -->
+This map represent the <code>NATURAL EARTH GDP ESTIMATION</code>, data is from the <code>{rnaturalearth}</code> package - View: EPSG:5368.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -513,7 +511,7 @@ Nov 13, 2021
 Population
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day12_population/day12_population.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -538,7 +536,7 @@ Nov 12, 2021
 3d
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day11_3D/day11_3D.html -->
+The data for this <code>World 3D map</code> is a <code>Sat-view</code> (8am 11.11.2021-GMT+11), data is from <code>bom.gov.au</code> and the <code>{bomrang}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -563,7 +561,7 @@ Nov 11, 2021
 Raster
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day10_raster/day10_raster.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -588,7 +586,7 @@ Nov 10, 2021
 Monochrome
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day9_monochrome/day9_monochrome.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -638,7 +636,7 @@ Nov 8, 2021
 Green
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day7_green/day7_green.html -->
+This map of <code>Greater London</code> with cycle hire and borough boundaries is created using data from <code>TidyTuesday</code> 2021 week 45 - <code>{spData}</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -663,7 +661,7 @@ Nov 7, 2021
 Red
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day6_red/day6_red.html -->
+This <code>US Drought map</code> shows available values by County - Jan to July 2021, data is from <code>TidyTuesday</code> 2021 week 30.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -688,7 +686,7 @@ Nov 6, 2021
 Data Challenge 1: OpenStreetMap
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day5_osm/day5_osm.html -->
+This map of <code>Berlin water</code> is made with data from <code>{osmdata}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -713,7 +711,7 @@ Nov 5, 2021
 Hexagons
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day4_hexagons/day4_hexagons.html -->
+This map of <code>Boston</code> is made with data from <code>{spData}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -738,7 +736,7 @@ Nov 4, 2021
 Polygons
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day3_polygons/day3_polygons.html -->
+The <code>Isole Åland</code> belonged to the provinces that the…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -763,7 +761,7 @@ Nov 3, 2021
 Lines
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day2_lines/day2_lines.html -->
+This map of <code>France</code> is created with data from the <code>{maps}</code> R-package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -788,7 +786,7 @@ Nov 2, 2021
 Points
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2021/posts2021/day1_points/day1_points.html -->
+This map is made with data from <code>TidyTuesday</code> 2021 week44 Race.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -809,7 +807,7 @@ No matching items
 
 </div> ]]></description>
   <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 00:09:43 GMT</pubDate>
+  <pubDate>Fri, 01 Dec 2023 20:56:29 GMT</pubDate>
   <media:content url="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/images/map_collage_2021.png" medium="image" type="image/png" height="101" width="144"/>
 </item>
 <item>
@@ -857,7 +855,7 @@ No matching items
 Remix
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day30_remix/day30_remix.html -->
+Improving map Islands (day 26) with <code>Campsites in Urupukapuka Island no dogs allowed</code>. Data is from the <code>New Zealand Hydrographic Authority</code> &amp; data.govt.nz.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -882,7 +880,7 @@ Nov 30, 2022
 Out of my comfort zone
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day29_out_comfort_zone/day29_out_comfort_zone.html -->
+Foursquare Map Month Competition Winner: <code>United States Permanent amount of precipitations on Global Railways</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -907,7 +905,7 @@ Nov 29, 2022
 3d
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day28_3D/day28_3D.html -->
+Map of <code>Oregon Population Density</code>. Data is from <code>Kontur population US</code> and the <code>{tigris}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -932,7 +930,7 @@ Nov 28, 2022
 Music
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day27_music/day27_music.html -->
+<code>US Map</code> of Artists by states distribution. Data is from <code>TidyTuesday</code> 2022 week 39 <code>US Artists</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -957,7 +955,7 @@ Nov 27, 2022
 Islands
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day26_islands/day26_islands.html -->
+A static <code>leaflet</code> map of <code>Islands</code>, data is from the <code>New Zealand Hydrographic Authority</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -982,7 +980,7 @@ Nov 26, 2022
 Colour Friday: 2 Colors
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day25_color_friday_2_colors/day25_color_friday_2_colors.html -->
+This map of <code>Alaska housing</code> is made with <code>FourSquare Studio</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1007,7 +1005,7 @@ Nov 25, 2022
 Fantasy
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day24_fantasy/day24_fantasy.html -->
+Astonishing <code>World Map</code> projection: <code>projection_bonne</code>. Data is from the <code>{rnaturalearth}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1032,7 +1030,7 @@ Nov 24, 2022
 Movement
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day23_movement/day23_movement.html -->
+Map of the Movements to Europe through the Mediterranean and Western Balkans migration routes, 2017 flows: <code>Italy overview</code>. DataSource: <code>@humdata</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1057,7 +1055,7 @@ Nov 23, 2022
 Null
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day22_null/day22_null.html -->
+This is the <code>Happy Planet Index - World Map</code>, data is from the <code>{tmap}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1082,7 +1080,7 @@ Nov 22, 2022
 Data: Kontur Population Dataset
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.html -->
+This is a map of Costa Rica Population density, data is from <code>Kontur Population dataset - @KonturInc</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1107,7 +1105,7 @@ Nov 21, 2022
 My favourite
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day20_my_favourite/day20_my_favourite.html -->
+original Dubois collection:
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1132,7 +1130,7 @@ Nov 20, 2022
 Globe
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day19_globe/day19_globe.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1157,7 +1155,7 @@ Nov 19, 2022
 Colour Friday: Blue
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day18_color_friday_blue/day18_color_friday_blue.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1182,7 +1180,7 @@ Nov 18, 2022
 A Map Without Computer
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day17_a_map_without_computer/day17_a_map_without_computer.html -->
+This is a self standing <code>Ocean World Globe</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1207,7 +1205,7 @@ Nov 17, 2022
 Minimal
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day16_minimal/day16_minimal.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1232,7 +1230,7 @@ Nov 16, 2022
 Food / Drink
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day15_food_drink/day15_food_drink.html -->
+Map of <code>European Countries Foodborne Campylobacter Outbreaks</code>, data is from <code>www.efsa.europa.eu</code>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1257,7 +1255,7 @@ Nov 15, 2022
 Hexagons
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day14_hexagons/day14_hexagons.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1282,7 +1280,7 @@ Nov 14, 2022
 5 Minute Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day13_5_minute_map/day13_5_minute_map.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1307,7 +1305,7 @@ Nov 13, 2022
 Scale
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day12_scale/day12_scale.html -->
+This is a static <code>leaflet</code> map of the <code>Atlantic Ocean Storms</code> in 2005.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1332,7 +1330,7 @@ Nov 12, 2022
 Colour Friday: Red
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day11_color_friday_red/day11_color_friday_red.html -->
+This red map is a map of the <code>US FM Boosters - FB Radio Stations</code>. Data is from <code>TidyTuesday</code> 2022 week 45 Radio Stations by the <code>FM Service Contour Data Points (fcc.gov)</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1357,7 +1355,7 @@ Nov 11, 2022
 A Bad Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day10_a_bad_map/day10_a_bad_map.html -->
+This map is a drawback of a .tif image of <code>North America and Alaska</code> from the <code>OSM</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1382,7 +1380,7 @@ Nov 10, 2022
 Space
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day9_space/day9_space.html -->
+This Global map is created with a tool called <code>fourmilab.ch/yoursky</code> and represent some particular constellations that can be spotted from that point of view.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1407,7 +1405,7 @@ Nov 9, 2022
 Data: OpenStreetMap
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day8_openstreetmap/day8_openstreetmap.html -->
+Map of <code>Rome, Italy</code> city center with <code>military locations</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1432,7 +1430,7 @@ Nov 8, 2022
 Raster
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day7_raster/day7_raster.html -->
+Map of <code>Oregon Spotted Frogs: Rana Pretiosa</code> frequent locations.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1457,7 +1455,7 @@ Nov 7, 2022
 Network
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day6_network/day6_network.html -->
+<code>New York City subways</code>…<code></code><code></code>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1482,7 +1480,7 @@ Nov 6, 2022
 Ukraine
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day5_ukraine/day5_ukraine.html -->
+
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1507,7 +1505,7 @@ Nov 5, 2022
 Colour Friday: Green
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day4_color_friday_green/day4_color_friday_green.html -->
+This is a map of <code>Historic district of Rome</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1532,7 +1530,7 @@ Nov 4, 2022
 Polygons
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day3_polygons/day3_polygons.html -->
+Map of <code>Private health insurance status in New York</code>. Census tracts data is from <code>census.gov</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1557,7 +1555,7 @@ Nov 3, 2022
 Lines
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day2_lines/day2_lines.html -->
+This is a map of <code>Long-term rivers average discharge in Italy and surrounding areas</code>. Values m3/s for rivers with length in km greater than 1.780. Data is from <code>hydrosheds.org</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1582,7 +1580,7 @@ Nov 2, 2022
 Points
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2022/posts2022/day1_points/day1_points.html -->
+<code>Malaria prevalence in children</code>, data recorded at villages in The <code>Gambia, Africa</code>. Data is from <code>{geoR}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1603,7 +1601,7 @@ No matching items
 
 </div> ]]></description>
   <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 00:09:43 GMT</pubDate>
+  <pubDate>Fri, 01 Dec 2023 20:56:29 GMT</pubDate>
   <media:content url="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/images/map_collage_2022.png" medium="image" type="image/png" height="115" width="144"/>
 </item>
 <item>
@@ -1640,7 +1638,7 @@ No matching items
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1701298800000" data-listing-file-modified-sort="1701380082475" data-listing-reading-time-sort="1.64">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1701298800000" data-listing-file-modified-sort="1701450103408" data-listing-reading-time-sort="1.64">
 <a href="../../mapchallenges/cases2023/posts2023/day30_my-favourite/day30_my-favourite.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1651,7 +1649,7 @@ No matching items
 My Favourite
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day30_my-favourite/day30_my-favourite.html -->
+This last map of the #30DayMapChallenge month is my favourite view of the life expectancy. Source of data are <strong>Statistics Netherlands (CBS) and Kadaster Nederland</strong> via the <code>…</code><code></code>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1676,7 +1674,7 @@ Nov 30, 2023
 Population
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day29_population/day29_population.html -->
+This <code>Ireland Map</code> explore the population density in the area. Data is from the latest version of <code>Kontur Population</code> available at <code>United Nations Humanitarian Data Exchange (HDX)</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1701,7 +1699,7 @@ Nov 29, 2023
 Is This A Chart Or A Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.html -->
+This is a bubble chart on a Map. Data is from <code>tmap::data("World")</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1726,7 +1724,7 @@ Nov 28, 2023
 Dot
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day27_dot/day27_dot.html -->
+This Dot Map comprises an overview of the <code>EPSG Geodetic Parameter Dataset (also EPSG registry)</code>. A public registry of geodetic datums, spatial reference systems, Earth ellipsoids, coordinate transformations and related units of measurement…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1751,7 +1749,7 @@ Nov 27, 2023
 Minimal
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day26_minimal/day26_minimal.html -->
+This is a minimal Climate Raster Map for <code>worldclim</code> data and species distribution.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1776,7 +1774,7 @@ Nov 26, 2023
 Antarctica
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day25_antarctica/day25_antarctica.html -->
+This is a Map of Antarctica made with the <code>rOpenSci {antanym}</code> package provided by
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1801,7 +1799,7 @@ Nov 25, 2023
 Black&amp;White
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day24_black&white/day24_black&white.html -->
+This Black &amp; white Belgium Map is build creating a grid of points.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1826,7 +1824,7 @@ Nov 24, 2023
 3d
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day23_3D/day23_3D.html -->
+This is the 3D Italy’s Population Density Map made with the instruction provided by <code>Milos Agathon: Milos Makes Maps</code> tutorial:
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1851,7 +1849,7 @@ Nov 23, 2023
 North Is Not Always Up
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day22_north-is-not-always-up/day22_north-is-not-always-up.html -->
+This Map represent four countries with diverse GDP. One in the south side of the earth, Australia has a higher GDP value compared to northern side countries. Data is from the <code>Worldban…</code>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1876,7 +1874,7 @@ Nov 22, 2023
 Raster
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day21_raster/day21_raster.html -->
+How to color a <code>Raster Map</code> with R.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1901,7 +1899,7 @@ Nov 21, 2023
 Outdoors
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day20_outdoors/day20_outdoors.html -->
+<code>World</code> map of the Coastlines Scalerank. Data is from <code>{rnaturalearthhires}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1926,7 +1924,7 @@ Nov 20, 2023
 5 Minute Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day19_5-minute-map/day19_5-minute-map.html -->
+A 5-minute map made with {tmap} package to visualize the Estimate Population change 1950-2030.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1951,7 +1949,7 @@ Nov 19, 2023
 Atmosphere
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day18_atmosphere/day18_atmosphere.html -->
+This challenge is all about wind movements. The selected area is Italy, also some parts of the…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -1976,7 +1974,7 @@ Nov 18, 2023
 Flow
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day17_flow/day17_flow.html -->
+This map of the <code>HydroRIVERS</code> for the Iberia peninsula and surrounding areas is made coloring by the <code>DIST_UP_KM</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2001,7 +1999,7 @@ Nov 17, 2023
 Oceania
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day16_oceania/day16_oceania.html -->
+This map of Oceania shows Population Peaks of Oceania’s Cities.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2026,7 +2024,7 @@ Nov 16, 2023
 OpenStreetMap
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day15_openstreetmap/day15_openstreetmap.html -->
+<code>OpenStreetMap</code> data map for <code>Valencia</code> schools and underground stations.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2051,7 +2049,7 @@ Nov 15, 2023
 Europe
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day14_europe/day14_europe.html -->
+<code>Eurostat</code> data with R. I used the <code>{eurostat}</code> package to shows <code>European Child and Youth Population</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2076,7 +2074,7 @@ Nov 14, 2023
 Choropleth
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day13_choropleth/day13_choropleth.html -->
+This…<code></code>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2101,7 +2099,7 @@ Nov 13, 2023
 South America
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day12_south-america/day12_south-america.html -->
+For this challenge I look back at day 8 Africa and the <code>total fertility rate</code> for replicating the steps for <code>South America</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2126,7 +2124,7 @@ Nov 12, 2023
 Retro
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day11_retro/day11_retro.html -->
+A place that has undergone significant changes over time is the city of <code>Berlin, Germany</code>. Berlin has a rich and complex history, and its geography and…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2151,7 +2149,7 @@ Nov 11, 2023
 North America
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day10_north-america/day10_north-america.html -->
+This is a map of the <code>Canada</code> country’s regions. Data is from <code>rnaturalearth}</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2176,7 +2174,7 @@ Nov 10, 2023
 Hexagons
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day9_hexagons/day9_hexagons.html -->
+Hexagons map of Covid19 data in Italy. For this challenge I will be using the <code>{covid19italy}</code> package for mapping Covid19 cases in Italy.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2201,7 +2199,7 @@ Nov 9, 2023
 Africa
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day8_africa/day8_africa.html -->
+For this challenge I looked at an interesting resource: Analyzing US Census Data: Methods, Maps, and Models in R, also found the <code>{idbr}</code> package R Interface to the US…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2226,7 +2224,7 @@ Nov 8, 2023
 Navigation
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day7_navigation/day7_navigation.html -->
+This Leaflet map represents <code>3D flights of European free-tailed bat</code> spotted from 2017-08-08 to 2017-08-15. There are 8 <code>individual.local.identifier</code> for <code>bats</code> taxonomy <code>Tadar…</code>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2251,7 +2249,7 @@ Nov 7, 2023
 Asia
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day6_asia/day6_asia.html -->
+For this <code>#30DayMapChallenge 2023 Day6 - Asia</code> let’s explore the Population estimation for Regions and major Cities, from different sources.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2276,7 +2274,7 @@ Nov 6, 2023
 Analog Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day5_analog-map/day5_analog-map.html -->
+🗺…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2301,7 +2299,7 @@ Nov 5, 2023
 A Bad Map
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day4_a-bad-map/day4_a-bad-map.html -->
+A Bad Map <code>Exaggerated 3D View of the United States</code>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2326,7 +2324,7 @@ Nov 4, 2023
 Polygons
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day3_polygons/day3_polygons.html -->
+This is a map of <code>Colombia Malaria incidence</code> in 1998 - Data is from <code>Geodatacenter</code>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2351,7 +2349,7 @@ Nov 3, 2023
 Lines
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day2_lines/day2_lines.html -->
+This <code>NewYork</code> map data is from the USDA NRCS <code>Geospatial Data Gateway</code>. Made with {topo.ridges} package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2376,7 +2374,7 @@ Nov 2, 2023
 Points
 </h5>
 <div class="card-text listing-description">
-<!-- desc(5A0113B34292)[max=175]:mapchallenges/cases2023/posts2023/day1_points/day1_points.html -->
+A points map of the <code>Bovine Tubercoulosis Farm Locations in Cornwall</code>, UK (South West England). Data is from the <code>{spatstat}</code> package.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -2397,8 +2395,8 @@ No matching items
 
 </div> ]]></description>
   <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 00:09:43 GMT</pubDate>
-  <media:content url="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/images/collage2023.png" medium="image" type="image/png" height="115" width="144"/>
+  <pubDate>Fri, 01 Dec 2023 20:56:29 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/collage/collage2023.png" medium="image" type="image/png"/>
 </item>
 </channel>
 </rss>
