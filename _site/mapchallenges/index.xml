@@ -6,22 +6,23 @@
       version="2.0">
 <channel>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.html</link>
+<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/</link>
 <atom:link href="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
 <url>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.html</link>
+<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/</link>
 <height>144</height>
 <width>144</width>
 </image>
-<generator>quarto-1.2.313</generator>
-<lastBuildDate>Fri, 01 Dec 2023 21:28:36 GMT</lastBuildDate>
+<generator>quarto-1.4.549</generator>
+<lastBuildDate>Wed, 28 Feb 2024 08:59:20 GMT</lastBuildDate>
 <item>
   <title>30DayMapChallenge 2021</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -52,11 +53,11 @@
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1638226800000" data-listing-file-modified-sort="1700591108019" data-listing-reading-time-sort="0.05">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1638226800000" data-listing-file-modified-sort="1700591108019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
 <a href="../../mapchallenges/cases2021/posts2021/day30_metamapping/day30_metamapping.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day30_metamapping/metamapping.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day30_metamapping/metamapping.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -77,11 +78,11 @@ Nov 30, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1638140400000" data-listing-file-modified-sort="1700591083803" data-listing-reading-time-sort="0.06">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1638140400000" data-listing-file-modified-sort="1700591083803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
 <a href="../../mapchallenges/cases2021/posts2021/day29_null/day29_null.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day29_null/NULL.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day29_null/NULL.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -102,11 +103,11 @@ Nov 29, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1638054000000" data-listing-file-modified-sort="1700591076749" data-listing-reading-time-sort="1.69">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1638054000000" data-listing-file-modified-sort="1700591076749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
 <a href="../../mapchallenges/cases2021/posts2021/day28_earth_not_flat/day28_earth_not_flat.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day28_earth_not_flat/earth_not_flat.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day28_earth_not_flat/earth_not_flat.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -127,11 +128,11 @@ Nov 28, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1637967600000" data-listing-file-modified-sort="1700591000635" data-listing-reading-time-sort="0.58">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1637967600000" data-listing-file-modified-sort="1700591000635" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
 <a href="../../mapchallenges/cases2021/posts2021/day27_heatmap/day27_heatmap.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day27_heatmap/heatmap.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day27_heatmap/heatmap.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -152,11 +153,11 @@ Nov 27, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1637881200000" data-listing-file-modified-sort="1700590974785" data-listing-reading-time-sort="3.595">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1637881200000" data-listing-file-modified-sort="1700590974785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="719">
 <a href="../../mapchallenges/cases2021/posts2021/day26_choropleth/day26_choropleth.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day26_choropleth/choropleth.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day26_choropleth/choropleth.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -177,11 +178,11 @@ Nov 26, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1637794800000" data-listing-file-modified-sort="1700590925946" data-listing-reading-time-sort="0.34">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1637794800000" data-listing-file-modified-sort="1700590925946" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
 <a href="../../mapchallenges/cases2021/posts2021/day25_interactive/day25_interactive.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day25_interactive/interactive.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day25_interactive/interactive.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -202,11 +203,11 @@ Nov 25, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1637708400000" data-listing-file-modified-sort="1700590903620" data-listing-reading-time-sort="1.81">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1637708400000" data-listing-file-modified-sort="1700590903620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="362">
 <a href="../../mapchallenges/cases2021/posts2021/day24_historical/day24_historical.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day24_historical/historical.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day24_historical/historical.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -227,11 +228,11 @@ Nov 24, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1637622000000" data-listing-file-modified-sort="1700590767458" data-listing-reading-time-sort="2.195">
+<div class="g-col-1" data-index="7" data-listing-date-sort="1637622000000" data-listing-file-modified-sort="1700590767458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="439">
 <a href="../../mapchallenges/cases2021/posts2021/day23_ghsl_data/day23_ghsl_data.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day23_ghsl_data/ghsl.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day23_ghsl_data/ghsl.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -252,11 +253,11 @@ Nov 23, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1637535600000" data-listing-file-modified-sort="1700590733084" data-listing-reading-time-sort="1.12">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1637535600000" data-listing-file-modified-sort="1700590733084" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
 <a href="../../mapchallenges/cases2021/posts2021/day22_boundaries/day22_boundaries.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day22_boundaries/boundaries.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day22_boundaries/boundaries.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -277,11 +278,11 @@ Nov 22, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1637449200000" data-listing-file-modified-sort="1700590551059" data-listing-reading-time-sort="1.17">
+<div class="g-col-1" data-index="9" data-listing-date-sort="1637449200000" data-listing-file-modified-sort="1700590551059" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
 <a href="../../mapchallenges/cases2021/posts2021/day21_elevation/day21_elevation.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day21_elevation/elevation.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day21_elevation/elevation.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -302,11 +303,11 @@ Nov 21, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1637362800000" data-listing-file-modified-sort="1700590456116" data-listing-reading-time-sort="2.05">
+<div class="g-col-1" data-index="10" data-listing-date-sort="1637362800000" data-listing-file-modified-sort="1700590456116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="410">
 <a href="../../mapchallenges/cases2021/posts2021/day20_movement/day20_movement.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day20_movement/movement.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day20_movement/movement.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -327,11 +328,11 @@ Nov 20, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1637276400000" data-listing-file-modified-sort="1700590239135" data-listing-reading-time-sort="2.55">
+<div class="g-col-1" data-index="11" data-listing-date-sort="1637276400000" data-listing-file-modified-sort="1700590239135" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="510">
 <a href="../../mapchallenges/cases2021/posts2021/day19_islands/day19_islands.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day19_islands/islands.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day19_islands/islands.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -352,11 +353,11 @@ Nov 19, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-listing-date-sort="1637190000000" data-listing-file-modified-sort="1700590105972" data-listing-reading-time-sort="3.355">
+<div class="g-col-1" data-index="12" data-listing-date-sort="1637190000000" data-listing-file-modified-sort="1700590105972" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="671">
 <a href="../../mapchallenges/cases2021/posts2021/day18_water/day18_water.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day18_water/water.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day18_water/water.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -377,11 +378,11 @@ Nov 18, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-listing-date-sort="1637103600000" data-listing-file-modified-sort="1700589906725" data-listing-reading-time-sort="0.925">
+<div class="g-col-1" data-index="13" data-listing-date-sort="1637103600000" data-listing-file-modified-sort="1700589906725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <a href="../../mapchallenges/cases2021/posts2021/day17_land/day17_land.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day17_land/land_smaller.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day17_land/land_smaller.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -402,11 +403,11 @@ Nov 17, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-listing-date-sort="1637017200000" data-listing-file-modified-sort="1700776433491" data-listing-reading-time-sort="2.24">
+<div class="g-col-1" data-index="14" data-listing-date-sort="1637017200000" data-listing-file-modified-sort="1700776433491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="448">
 <a href="../../mapchallenges/cases2021/posts2021/day16_urban_rural/day16_urban_rural.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day16_urban_rural/urban_rural.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day16_urban_rural/urban_rural.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -427,11 +428,11 @@ Nov 16, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-listing-date-sort="1636930800000" data-listing-file-modified-sort="1700589711705" data-listing-reading-time-sort="0.03">
+<div class="g-col-1" data-index="15" data-listing-date-sort="1636930800000" data-listing-file-modified-sort="1700589711705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../mapchallenges/cases2021/posts2021/day15_nopc/day15_nopc.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day15_nopc/IMG_1518.JPG" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day15_nopc/IMG_1518.JPG" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -452,11 +453,11 @@ Nov 15, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-listing-date-sort="1636844400000" data-listing-file-modified-sort="1700589644021" data-listing-reading-time-sort="1.285">
+<div class="g-col-1" data-index="16" data-listing-date-sort="1636844400000" data-listing-file-modified-sort="1700589644021" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
 <a href="../../mapchallenges/cases2021/posts2021/day14_newtool/day14_newtool.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day14_newtool/newtool.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day14_newtool/newtool.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -477,11 +478,11 @@ Nov 14, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-listing-date-sort="1636758000000" data-listing-file-modified-sort="1700589624734" data-listing-reading-time-sort="4.185">
+<div class="g-col-1" data-index="17" data-listing-date-sort="1636758000000" data-listing-file-modified-sort="1700589624734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="837">
 <a href="../../mapchallenges/cases2021/posts2021/day13_naturalearth/day13_naturalearth.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day13_naturalearth/naturalearth2.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day13_naturalearth/naturalearth2.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -502,7 +503,7 @@ Nov 13, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-listing-date-sort="1636671600000" data-listing-file-modified-sort="1700589362243" data-listing-reading-time-sort="2.36">
+<div class="g-col-1" data-index="18" data-listing-date-sort="1636671600000" data-listing-file-modified-sort="1700589362243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="472">
 <a href="../../mapchallenges/cases2021/posts2021/day12_population/day12_population.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -527,7 +528,7 @@ Nov 12, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="19" data-listing-date-sort="1636585200000" data-listing-file-modified-sort="1700640256352" data-listing-reading-time-sort="1.445">
+<div class="g-col-1" data-index="19" data-listing-date-sort="1636585200000" data-listing-file-modified-sort="1700640256352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
 <a href="../../mapchallenges/cases2021/posts2021/day11_3D/day11_3D.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -552,7 +553,7 @@ Nov 11, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-listing-date-sort="1636498800000" data-listing-file-modified-sort="1700589150526" data-listing-reading-time-sort="3.415">
+<div class="g-col-1" data-index="20" data-listing-date-sort="1636498800000" data-listing-file-modified-sort="1700589150526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="683">
 <a href="../../mapchallenges/cases2021/posts2021/day10_raster/day10_raster.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -577,7 +578,7 @@ Nov 10, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-listing-date-sort="1636412400000" data-listing-file-modified-sort="1700588994641" data-listing-reading-time-sort="0.665">
+<div class="g-col-1" data-index="21" data-listing-date-sort="1636412400000" data-listing-file-modified-sort="1700588994641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
 <a href="../../mapchallenges/cases2021/posts2021/day9_monochrome/day9_monochrome.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -602,7 +603,7 @@ Nov 9, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-listing-date-sort="1636326000000" data-listing-file-modified-sort="1700603717283" data-listing-reading-time-sort="3.605">
+<div class="g-col-1" data-index="22" data-listing-date-sort="1636326000000" data-listing-file-modified-sort="1700603717283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="721">
 <a href="../../mapchallenges/cases2021/posts2021/day8_blue/day8_blue.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -627,7 +628,7 @@ Nov 8, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="23" data-listing-date-sort="1636239600000" data-listing-file-modified-sort="1700777036114" data-listing-reading-time-sort="1.985">
+<div class="g-col-1" data-index="23" data-listing-date-sort="1636239600000" data-listing-file-modified-sort="1700777036114" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="397">
 <a href="../../mapchallenges/cases2021/posts2021/day7_green/day7_green.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -652,7 +653,7 @@ Nov 7, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="24" data-listing-date-sort="1636153200000" data-listing-file-modified-sort="1701206030043" data-listing-reading-time-sort="2.96">
+<div class="g-col-1" data-index="24" data-listing-date-sort="1636153200000" data-listing-file-modified-sort="1701206030043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="592">
 <a href="../../mapchallenges/cases2021/posts2021/day6_red/day6_red.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -677,7 +678,7 @@ Nov 6, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="25" data-listing-date-sort="1636066800000" data-listing-file-modified-sort="1700588407169" data-listing-reading-time-sort="2.19">
+<div class="g-col-1" data-index="25" data-listing-date-sort="1636066800000" data-listing-file-modified-sort="1700588407169" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="438">
 <a href="../../mapchallenges/cases2021/posts2021/day5_osm/day5_osm.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -702,7 +703,7 @@ Nov 5, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="26" data-listing-date-sort="1635980400000" data-listing-file-modified-sort="1700588332025" data-listing-reading-time-sort="1.43">
+<div class="g-col-1" data-index="26" data-listing-date-sort="1635980400000" data-listing-file-modified-sort="1700588332025" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
 <a href="../../mapchallenges/cases2021/posts2021/day4_hexagons/day4_hexagons.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -727,7 +728,7 @@ Nov 4, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="27" data-listing-date-sort="1635894000000" data-listing-file-modified-sort="1700589453587" data-listing-reading-time-sort="2.215">
+<div class="g-col-1" data-index="27" data-listing-date-sort="1635894000000" data-listing-file-modified-sort="1700589453587" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="443">
 <a href="../../mapchallenges/cases2021/posts2021/day3_polygons/day3_polygons.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -752,7 +753,7 @@ Nov 3, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="28" data-listing-date-sort="1635807600000" data-listing-file-modified-sort="1700641201258" data-listing-reading-time-sort="1.095">
+<div class="g-col-1" data-index="28" data-listing-date-sort="1635807600000" data-listing-file-modified-sort="1700641201258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
 <a href="../../mapchallenges/cases2021/posts2021/day2_lines/day2_lines.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -777,7 +778,7 @@ Nov 2, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="29" data-listing-date-sort="1635721200000" data-listing-file-modified-sort="1700641093417" data-listing-reading-time-sort="8.64">
+<div class="g-col-1" data-index="29" data-listing-date-sort="1635721200000" data-listing-file-modified-sort="1700641093417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1728">
 <a href="../../mapchallenges/cases2021/posts2021/day1_points/day1_points.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -808,14 +809,15 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 21:28:36 GMT</pubDate>
-  <media:content url="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/images/map_collage_2021.png" medium="image" type="image/png" height="101" width="144"/>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/</guid>
+  <pubDate>Wed, 28 Feb 2024 08:59:20 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/collage/collage2021.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>30DayMapChallenge 2022</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -846,11 +848,11 @@ No matching items
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1669762800000" data-listing-file-modified-sort="1700600863173" data-listing-reading-time-sort="2.675">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1669762800000" data-listing-file-modified-sort="1700600863173" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="535">
 <a href="../../mapchallenges/cases2022/posts2022/day30_remix/day30_remix.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day30_remix/day30_remix.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day30_remix/day30_remix.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -871,11 +873,11 @@ Nov 30, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1669676400000" data-listing-file-modified-sort="1700641728350" data-listing-reading-time-sort="0.89">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1669676400000" data-listing-file-modified-sort="1700641728350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
 <a href="../../mapchallenges/cases2022/posts2022/day29_out_comfort_zone/day29_out_comfort_zone.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day29_out_comfort_zone/day29_out_comfort_zone.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day29_out_comfort_zone/day29_out_comfort_zone.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -896,11 +898,11 @@ Nov 29, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1669590000000" data-listing-file-modified-sort="1700641713016" data-listing-reading-time-sort="2.67">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1669590000000" data-listing-file-modified-sort="1700641713016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="534">
 <a href="../../mapchallenges/cases2022/posts2022/day28_3D/day28_3D.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -921,11 +923,11 @@ Nov 28, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1669503600000" data-listing-file-modified-sort="1700599997338" data-listing-reading-time-sort="1.105">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1669503600000" data-listing-file-modified-sort="1700599997338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
 <a href="../../mapchallenges/cases2022/posts2022/day27_music/day27_music.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day27_music/day27_music.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day27_music/day27_music.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -946,11 +948,11 @@ Nov 27, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1669417200000" data-listing-file-modified-sort="1700599850809" data-listing-reading-time-sort="1.155">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1669417200000" data-listing-file-modified-sort="1700599850809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
 <a href="../../mapchallenges/cases2022/posts2022/day26_islands/day26_islands.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -971,11 +973,11 @@ Nov 26, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1669330800000" data-listing-file-modified-sort="1700599713029" data-listing-reading-time-sort="0.05">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1669330800000" data-listing-file-modified-sort="1700599713029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
 <a href="../../mapchallenges/cases2022/posts2022/day25_color_friday_2_colors/day25_color_friday_2_colors.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day25_color_friday_2_colors/day25_color_firday_2_colors.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day25_color_friday_2_colors/day25_color_firday_2_colors.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -996,11 +998,11 @@ Nov 25, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1669244400000" data-listing-file-modified-sort="1700599621094" data-listing-reading-time-sort="1.66">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1669244400000" data-listing-file-modified-sort="1700599621094" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="332">
 <a href="../../mapchallenges/cases2022/posts2022/day24_fantasy/day24_fantasy.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day24_fantasy/day24_fantasy.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day24_fantasy/day24_fantasy.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1021,11 +1023,11 @@ Nov 24, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1669158000000" data-listing-file-modified-sort="1700599490907" data-listing-reading-time-sort="2.635">
+<div class="g-col-1" data-index="7" data-listing-date-sort="1669158000000" data-listing-file-modified-sort="1700599490907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="527">
 <a href="../../mapchallenges/cases2022/posts2022/day23_movement/day23_movement.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day23_movement/day23_movement.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day23_movement/day23_movement.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1046,11 +1048,11 @@ Nov 23, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1669071600000" data-listing-file-modified-sort="1700599269817" data-listing-reading-time-sort="0.605">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1669071600000" data-listing-file-modified-sort="1700599269817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
 <a href="../../mapchallenges/cases2022/posts2022/day22_null/day22_null.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day22_null/day22_null.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day22_null/day22_null.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1071,11 +1073,11 @@ Nov 22, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1668985200000" data-listing-file-modified-sort="1700599171286" data-listing-reading-time-sort="2.735">
+<div class="g-col-1" data-index="9" data-listing-date-sort="1668985200000" data-listing-file-modified-sort="1700599171286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="547">
 <a href="../../mapchallenges/cases2022/posts2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1096,11 +1098,11 @@ Nov 21, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1668898800000" data-listing-file-modified-sort="1700598948709" data-listing-reading-time-sort="7.445">
+<div class="g-col-1" data-index="10" data-listing-date-sort="1668898800000" data-listing-file-modified-sort="1700598948709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1489">
 <a href="../../mapchallenges/cases2022/posts2022/day20_my_favourite/day20_my_favourite.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day20_my_favourite/day20_my_favourite.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day20_my_favourite/day20_my_favourite.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1121,11 +1123,11 @@ Nov 20, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1668812400000" data-listing-file-modified-sort="1700598692399" data-listing-reading-time-sort="1.05">
+<div class="g-col-1" data-index="11" data-listing-date-sort="1668812400000" data-listing-file-modified-sort="1700598692399" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
 <a href="../../mapchallenges/cases2022/posts2022/day19_globe/day19_globe.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day19_globe/day19_globe.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day19_globe/day19_globe.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1146,11 +1148,11 @@ Nov 19, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-listing-date-sort="1668726000000" data-listing-file-modified-sort="1700598582754" data-listing-reading-time-sort="5.13">
+<div class="g-col-1" data-index="12" data-listing-date-sort="1668726000000" data-listing-file-modified-sort="1700598582754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1026">
 <a href="../../mapchallenges/cases2022/posts2022/day18_color_friday_blue/day18_color_friday_blue.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day18_color_friday_blue/day18_color_friday_blue.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day18_color_friday_blue/day18_color_friday_blue.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1171,11 +1173,11 @@ Nov 18, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-listing-date-sort="1668639600000" data-listing-file-modified-sort="1700641797875" data-listing-reading-time-sort="0.04">
+<div class="g-col-1" data-index="13" data-listing-date-sort="1668639600000" data-listing-file-modified-sort="1700641797875" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <a href="../../mapchallenges/cases2022/posts2022/day17_a_map_without_computer/day17_a_map_without_computer.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day17_a_map_without_computer/day17_a_map_without_computer.JPG" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day17_a_map_without_computer/day17_a_map_without_computer.JPG" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1196,11 +1198,11 @@ Nov 17, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-listing-date-sort="1668553200000" data-listing-file-modified-sort="1700598056154" data-listing-reading-time-sort="0.955">
+<div class="g-col-1" data-index="14" data-listing-date-sort="1668553200000" data-listing-file-modified-sort="1700598056154" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <a href="../../mapchallenges/cases2022/posts2022/day16_minimal/day16_minimal.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day16_minimal/day16_minimal.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day16_minimal/day16_minimal.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1221,11 +1223,11 @@ Nov 16, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-listing-date-sort="1668466800000" data-listing-file-modified-sort="1700597904100" data-listing-reading-time-sort="4.065">
+<div class="g-col-1" data-index="15" data-listing-date-sort="1668466800000" data-listing-file-modified-sort="1700597904100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
 <a href="../../mapchallenges/cases2022/posts2022/day15_food_drink/day15_food_drink.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day15_food_drink/day15_food_drink.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day15_food_drink/day15_food_drink.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1246,11 +1248,11 @@ Nov 15, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-listing-date-sort="1668380400000" data-listing-file-modified-sort="1700597475053" data-listing-reading-time-sort="4.065">
+<div class="g-col-1" data-index="16" data-listing-date-sort="1668380400000" data-listing-file-modified-sort="1700597475053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
 <a href="../../mapchallenges/cases2022/posts2022/day14_hexagons/day14_hexagons.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day14_hexagons/day14_hexagons.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day14_hexagons/day14_hexagons.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1271,11 +1273,11 @@ Nov 14, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-listing-date-sort="1668294000000" data-listing-file-modified-sort="1700597338154" data-listing-reading-time-sort="1.215">
+<div class="g-col-1" data-index="17" data-listing-date-sort="1668294000000" data-listing-file-modified-sort="1700597338154" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
 <a href="../../mapchallenges/cases2022/posts2022/day13_5_minute_map/day13_5_minute_map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day13_5_minutes_map/day13_5_minute_map.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day13_5_minutes_map/day13_5_minute_map.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1296,7 +1298,7 @@ Nov 13, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-listing-date-sort="1668207600000" data-listing-file-modified-sort="1700593887479" data-listing-reading-time-sort="1.785">
+<div class="g-col-1" data-index="18" data-listing-date-sort="1668207600000" data-listing-file-modified-sort="1700593887479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="357">
 <a href="../../mapchallenges/cases2022/posts2022/day12_scale/day12_scale.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1321,7 +1323,7 @@ Nov 12, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="19" data-listing-date-sort="1668121200000" data-listing-file-modified-sort="1700592882517" data-listing-reading-time-sort="4.345">
+<div class="g-col-1" data-index="19" data-listing-date-sort="1668121200000" data-listing-file-modified-sort="1700592882517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="869">
 <a href="../../mapchallenges/cases2022/posts2022/day11_color_friday_red/day11_color_friday_red.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1346,7 +1348,7 @@ Nov 11, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-listing-date-sort="1668034800000" data-listing-file-modified-sort="1700592691535" data-listing-reading-time-sort="0.085">
+<div class="g-col-1" data-index="20" data-listing-date-sort="1668034800000" data-listing-file-modified-sort="1700592691535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <a href="../../mapchallenges/cases2022/posts2022/day10_a_bad_map/day10_a_bad_map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1371,7 +1373,7 @@ Nov 10, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-listing-date-sort="1667948400000" data-listing-file-modified-sort="1700592522105" data-listing-reading-time-sort="0.12">
+<div class="g-col-1" data-index="21" data-listing-date-sort="1667948400000" data-listing-file-modified-sort="1700592522105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
 <a href="../../mapchallenges/cases2022/posts2022/day9_space/day9_space.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1396,7 +1398,7 @@ Nov 9, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-listing-date-sort="1667862000000" data-listing-file-modified-sort="1700592375537" data-listing-reading-time-sort="4.79">
+<div class="g-col-1" data-index="22" data-listing-date-sort="1667862000000" data-listing-file-modified-sort="1700592375537" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="958">
 <a href="../../mapchallenges/cases2022/posts2022/day8_openstreetmap/day8_openstreetmap.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1421,7 +1423,7 @@ Nov 8, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="23" data-listing-date-sort="1667775600000" data-listing-file-modified-sort="1700592173456" data-listing-reading-time-sort="2.2">
+<div class="g-col-1" data-index="23" data-listing-date-sort="1667775600000" data-listing-file-modified-sort="1700592173456" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
 <a href="../../mapchallenges/cases2022/posts2022/day7_raster/day7_raster.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1446,7 +1448,7 @@ Nov 7, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="24" data-listing-date-sort="1667689200000" data-listing-file-modified-sort="1701206910025" data-listing-reading-time-sort="6.945">
+<div class="g-col-1" data-index="24" data-listing-date-sort="1667689200000" data-listing-file-modified-sort="1701206910025" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1389">
 <a href="../../mapchallenges/cases2022/posts2022/day6_network/day6_network.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1471,7 +1473,7 @@ Nov 6, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="25" data-listing-date-sort="1667602800000" data-listing-file-modified-sort="1700591887819" data-listing-reading-time-sort="0.38">
+<div class="g-col-1" data-index="25" data-listing-date-sort="1667602800000" data-listing-file-modified-sort="1700591887819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
 <a href="../../mapchallenges/cases2022/posts2022/day5_ukraine/day5_ukraine.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1496,7 +1498,7 @@ Nov 5, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="26" data-listing-date-sort="1667516400000" data-listing-file-modified-sort="1700591624465" data-listing-reading-time-sort="2.275">
+<div class="g-col-1" data-index="26" data-listing-date-sort="1667516400000" data-listing-file-modified-sort="1700591624465" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
 <a href="../../mapchallenges/cases2022/posts2022/day4_color_friday_green/day4_color_friday_green.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1521,7 +1523,7 @@ Nov 4, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="27" data-listing-date-sort="1667430000000" data-listing-file-modified-sort="1700591430835" data-listing-reading-time-sort="2.14">
+<div class="g-col-1" data-index="27" data-listing-date-sort="1667430000000" data-listing-file-modified-sort="1700591430835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
 <a href="../../mapchallenges/cases2022/posts2022/day3_polygons/day3_polygons.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1546,7 +1548,7 @@ Nov 3, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="28" data-listing-date-sort="1667343600000" data-listing-file-modified-sort="1700591324168" data-listing-reading-time-sort="1.125">
+<div class="g-col-1" data-index="28" data-listing-date-sort="1667343600000" data-listing-file-modified-sort="1700591324168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
 <a href="../../mapchallenges/cases2022/posts2022/day2_lines/day2_lines.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1571,7 +1573,7 @@ Nov 2, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="29" data-listing-date-sort="1667257200000" data-listing-file-modified-sort="1700641922928" data-listing-reading-time-sort="3.52">
+<div class="g-col-1" data-index="29" data-listing-date-sort="1667257200000" data-listing-file-modified-sort="1700641922928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="704">
 <a href="../../mapchallenges/cases2022/posts2022/day1_points/day1_points.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1602,14 +1604,15 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 21:28:36 GMT</pubDate>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/</guid>
+  <pubDate>Wed, 28 Feb 2024 08:59:20 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/collage/collage2022.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>30DayMapChallenge 2023</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/index.html</link>
+  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1640,11 +1643,11 @@ No matching items
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1701298800000" data-listing-file-modified-sort="1701450103408" data-listing-reading-time-sort="1.64">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1701298800000" data-listing-file-modified-sort="1701450103408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="328">
 <a href="../../mapchallenges/cases2023/posts2023/day30_my-favourite/day30_my-favourite.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day30_my-favourite/day30_my-favourite.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day30_my-favourite/day30_my-favourite.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1665,11 +1668,11 @@ Nov 30, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1701212400000" data-listing-file-modified-sort="1701380044655" data-listing-reading-time-sort="5.59">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1701212400000" data-listing-file-modified-sort="1701380044655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1118">
 <a href="../../mapchallenges/cases2023/posts2023/day29_population/day29_population.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day29_population/day29_population.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day29_population/day29_population.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1690,11 +1693,11 @@ Nov 29, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1701126000000" data-listing-file-modified-sort="1701380310531" data-listing-reading-time-sort="3.65">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1701126000000" data-listing-file-modified-sort="1701380310531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="730">
 <a href="../../mapchallenges/cases2023/posts2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1715,11 +1718,11 @@ Nov 28, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1701039600000" data-listing-file-modified-sort="1701385825596" data-listing-reading-time-sort="3.805">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1701039600000" data-listing-file-modified-sort="1701385825596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="761">
 <a href="../../mapchallenges/cases2023/posts2023/day27_dot/day27_dot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day27_dot/day27_dot.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day27_dot/day27_dot.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1740,11 +1743,11 @@ Nov 27, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1700953200000" data-listing-file-modified-sort="1701385728529" data-listing-reading-time-sort="1.275">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1700953200000" data-listing-file-modified-sort="1701385728529" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
 <a href="../../mapchallenges/cases2023/posts2023/day26_minimal/day26_minimal.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day26_minimal/day26_minimal.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day26_minimal/day26_minimal.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1765,11 +1768,11 @@ Nov 26, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1700866800000" data-listing-file-modified-sort="1701385627807" data-listing-reading-time-sort="2.5">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1700866800000" data-listing-file-modified-sort="1701385627807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="500">
 <a href="../../mapchallenges/cases2023/posts2023/day25_antarctica/day25_antarctica.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1790,11 +1793,11 @@ Nov 25, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1700780400000" data-listing-file-modified-sort="1701380607269" data-listing-reading-time-sort="4.065">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1700780400000" data-listing-file-modified-sort="1701380607269" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
 <a href="../../mapchallenges/cases2023/posts2023/day24_black&amp;white/day24_black&amp;white.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&amp;white/day24_black&amp;white.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&amp;white/day24_black&amp;white.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1815,11 +1818,11 @@ Nov 24, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1700694000000" data-listing-file-modified-sort="1701381726874" data-listing-reading-time-sort="2.945">
+<div class="g-col-1" data-index="7" data-listing-date-sort="1700694000000" data-listing-file-modified-sort="1701381726874" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="589">
 <a href="../../mapchallenges/cases2023/posts2023/day23_3D/day23_3D.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1840,11 +1843,11 @@ Nov 23, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1700607600000" data-listing-file-modified-sort="1701381795022" data-listing-reading-time-sort="2.54">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1700607600000" data-listing-file-modified-sort="1701381795022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="508">
 <a href="../../mapchallenges/cases2023/posts2023/day22_north-is-not-always-up/day22_north-is-not-always-up.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day22_north-is-not-always-up/day22_north-is-not-always-up.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day22_north-is-not-always-up/day22_north-is-not-always-up.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1865,11 +1868,11 @@ Nov 22, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1700521200000" data-listing-file-modified-sort="1701381830627" data-listing-reading-time-sort="1.775">
+<div class="g-col-1" data-index="9" data-listing-date-sort="1700521200000" data-listing-file-modified-sort="1701381830627" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="355">
 <a href="../../mapchallenges/cases2023/posts2023/day21_raster/day21_raster.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1890,11 +1893,11 @@ Nov 21, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1700434800000" data-listing-file-modified-sort="1701381872004" data-listing-reading-time-sort="0.825">
+<div class="g-col-1" data-index="10" data-listing-date-sort="1700434800000" data-listing-file-modified-sort="1701381872004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
 <a href="../../mapchallenges/cases2023/posts2023/day20_outdoors/day20_outdoors.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1915,11 +1918,11 @@ Nov 20, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1700348400000" data-listing-file-modified-sort="1701381907389" data-listing-reading-time-sort="0.49">
+<div class="g-col-1" data-index="11" data-listing-date-sort="1700348400000" data-listing-file-modified-sort="1701381907389" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
 <a href="../../mapchallenges/cases2023/posts2023/day19_5-minute-map/day19_5-minute-map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day19_5-minute-map/day19_5-minute-map.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day19_5-minute-map/day19_5-minute-map.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1940,11 +1943,11 @@ Nov 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-listing-date-sort="1700262000000" data-listing-file-modified-sort="1701381939547" data-listing-reading-time-sort="7.39">
+<div class="g-col-1" data-index="12" data-listing-date-sort="1700262000000" data-listing-file-modified-sort="1701381939547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1478">
 <a href="../../mapchallenges/cases2023/posts2023/day18_atmosphere/day18_atmosphere.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day18_atmosphere/day18_atmosphere.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day18_atmosphere/day18_atmosphere.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1965,11 +1968,11 @@ Nov 18, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-listing-date-sort="1700175600000" data-listing-file-modified-sort="1701382146093" data-listing-reading-time-sort="0.49">
+<div class="g-col-1" data-index="13" data-listing-date-sort="1700175600000" data-listing-file-modified-sort="1701382146093" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
 <a href="../../mapchallenges/cases2023/posts2023/day17_flow/day17_flow.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day17_flow/day17_flow.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day17_flow/day17_flow.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1990,11 +1993,11 @@ Nov 17, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-listing-date-sort="1700089200000" data-listing-file-modified-sort="1701382280395" data-listing-reading-time-sort="2.825">
+<div class="g-col-1" data-index="14" data-listing-date-sort="1700089200000" data-listing-file-modified-sort="1701382280395" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="565">
 <a href="../../mapchallenges/cases2023/posts2023/day16_oceania/day16_oceania.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day16_oceania/day16_oceania.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day16_oceania/day16_oceania.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -2015,11 +2018,11 @@ Nov 16, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-listing-date-sort="1700002800000" data-listing-file-modified-sort="1701382385269" data-listing-reading-time-sort="4.08">
+<div class="g-col-1" data-index="15" data-listing-date-sort="1700002800000" data-listing-file-modified-sort="1701382385269" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="816">
 <a href="../../mapchallenges/cases2023/posts2023/day15_openstreetmap/day15_openstreetmap.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day15_openstreetmap/day15_openstreetmap.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day15_openstreetmap/day15_openstreetmap.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -2040,11 +2043,11 @@ Nov 15, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-listing-date-sort="1699916400000" data-listing-file-modified-sort="1701382481735" data-listing-reading-time-sort="3.47">
+<div class="g-col-1" data-index="16" data-listing-date-sort="1699916400000" data-listing-file-modified-sort="1701382481735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="694">
 <a href="../../mapchallenges/cases2023/posts2023/day14_europe/day14_europe.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day14_europe/day14_europe.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day14_europe/day14_europe.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -2065,11 +2068,11 @@ Nov 14, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-listing-date-sort="1699830000000" data-listing-file-modified-sort="1701382685576" data-listing-reading-time-sort="1.74">
+<div class="g-col-1" data-index="17" data-listing-date-sort="1699830000000" data-listing-file-modified-sort="1701382685576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
 <a href="../../mapchallenges/cases2023/posts2023/day13_choropleth/day13_choropleth.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/https:/raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day13_choropleth/day13_choropleth.png" class="thumbnail-image card-img" style="height: 200;">
+<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day13_choropleth/day13_choropleth.png" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -2090,7 +2093,7 @@ Nov 13, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-listing-date-sort="1699743600000" data-listing-file-modified-sort="1701382722407" data-listing-reading-time-sort="3.99">
+<div class="g-col-1" data-index="18" data-listing-date-sort="1699743600000" data-listing-file-modified-sort="1701382722407" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="798">
 <a href="../../mapchallenges/cases2023/posts2023/day12_south-america/day12_south-america.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2115,7 +2118,7 @@ Nov 12, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="19" data-listing-date-sort="1699657200000" data-listing-file-modified-sort="1701382768328" data-listing-reading-time-sort="4.265">
+<div class="g-col-1" data-index="19" data-listing-date-sort="1699657200000" data-listing-file-modified-sort="1701382768328" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="853">
 <a href="../../mapchallenges/cases2023/posts2023/day11_retro/day11_retro.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2140,7 +2143,7 @@ Nov 11, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-listing-date-sort="1699570800000" data-listing-file-modified-sort="1701384998996" data-listing-reading-time-sort="0.725">
+<div class="g-col-1" data-index="20" data-listing-date-sort="1699570800000" data-listing-file-modified-sort="1701384998996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <a href="../../mapchallenges/cases2023/posts2023/day10_north-america/day10_north-america.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2165,7 +2168,7 @@ Nov 10, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-listing-date-sort="1699484400000" data-listing-file-modified-sort="1701382899780" data-listing-reading-time-sort="5.86">
+<div class="g-col-1" data-index="21" data-listing-date-sort="1699484400000" data-listing-file-modified-sort="1701382899780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1172">
 <a href="../../mapchallenges/cases2023/posts2023/day9_hexagons/day9_hexagons.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2190,7 +2193,7 @@ Nov 9, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-listing-date-sort="1699398000000" data-listing-file-modified-sort="1701382941092" data-listing-reading-time-sort="5.06">
+<div class="g-col-1" data-index="22" data-listing-date-sort="1699398000000" data-listing-file-modified-sort="1701382941092" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1012">
 <a href="../../mapchallenges/cases2023/posts2023/day8_africa/day8_africa.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2215,7 +2218,7 @@ Nov 8, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="23" data-listing-date-sort="1699311600000" data-listing-file-modified-sort="1701382988368" data-listing-reading-time-sort="1.55">
+<div class="g-col-1" data-index="23" data-listing-date-sort="1699311600000" data-listing-file-modified-sort="1701382988368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="310">
 <a href="../../mapchallenges/cases2023/posts2023/day7_navigation/day7_navigation.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2240,7 +2243,7 @@ Nov 7, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="24" data-listing-date-sort="1699225200000" data-listing-file-modified-sort="1701383021826" data-listing-reading-time-sort="9.335">
+<div class="g-col-1" data-index="24" data-listing-date-sort="1699225200000" data-listing-file-modified-sort="1701383021826" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1867">
 <a href="../../mapchallenges/cases2023/posts2023/day6_asia/day6_asia.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2265,7 +2268,7 @@ Nov 6, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="25" data-listing-date-sort="1699138800000" data-listing-file-modified-sort="1701383281967" data-listing-reading-time-sort="0.14">
+<div class="g-col-1" data-index="25" data-listing-date-sort="1699138800000" data-listing-file-modified-sort="1701383281967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
 <a href="../../mapchallenges/cases2023/posts2023/day5_analog-map/day5_analog-map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2290,7 +2293,7 @@ Nov 5, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="26" data-listing-date-sort="1699052400000" data-listing-file-modified-sort="1701383365096" data-listing-reading-time-sort="0.615">
+<div class="g-col-1" data-index="26" data-listing-date-sort="1699052400000" data-listing-file-modified-sort="1701383365096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
 <a href="../../mapchallenges/cases2023/posts2023/day4_a-bad-map/day4_a-bad-map.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2315,7 +2318,7 @@ Nov 4, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="27" data-listing-date-sort="1698966000000" data-listing-file-modified-sort="1701383414099" data-listing-reading-time-sort="3.505">
+<div class="g-col-1" data-index="27" data-listing-date-sort="1698966000000" data-listing-file-modified-sort="1701383414099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="701">
 <a href="../../mapchallenges/cases2023/posts2023/day3_polygons/day3_polygons.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2340,7 +2343,7 @@ Nov 3, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="28" data-listing-date-sort="1698879600000" data-listing-file-modified-sort="1701383487205" data-listing-reading-time-sort="1.59">
+<div class="g-col-1" data-index="28" data-listing-date-sort="1698879600000" data-listing-file-modified-sort="1701383487205" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
 <a href="../../mapchallenges/cases2023/posts2023/day2_lines/day2_lines.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2365,7 +2368,7 @@ Nov 2, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="29" data-listing-date-sort="1698793200000" data-listing-file-modified-sort="1701383585340" data-listing-reading-time-sort="2.695">
+<div class="g-col-1" data-index="29" data-listing-date-sort="1698793200000" data-listing-file-modified-sort="1701383585340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="539">
 <a href="../../mapchallenges/cases2023/posts2023/day1_points/day1_points.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2396,8 +2399,8 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/index.html</guid>
-  <pubDate>Fri, 01 Dec 2023 21:28:36 GMT</pubDate>
+  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/</guid>
+  <pubDate>Wed, 28 Feb 2024 08:59:20 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/collage/collage2023.png" medium="image" type="image/png"/>
 </item>
 </channel>

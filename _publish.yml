@@ -1,4 +1,4 @@
 - source: project
   quarto-pub:
     - id: dc0bc74f-09a7-413d-b883-875b2e8813c8
-      url: 'https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r'
+      url: 'https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r'
