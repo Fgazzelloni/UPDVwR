@@ -1,0 +1,113 @@
+# Replicating W.E.B. Du Bois's Data Visualizations
+
+# Walk me through it {background-image="https://media.giphy.com/media/FaIDQOgN69FXq/giphy.gif"}
+
+
+## History of the Original Plates dates back to 1900 when the graphics were first commissioned to W.E.B. Du Bois and exposed to the Paris Exposition. {background-image="https://media.giphy.com/media/l8ZBjCJuqnJ3G/giphy.gif"}
+
+## Impact on Society
+
+These visualizations were groundbreaking for their time as they provided empirical evidence of the social and economic conditions of African Americans in the United States.
+
+<br>
+
+<center>
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjltMzV1c3FydzQ2MnB2YzhyZjFsazNwcG1raXlqbXVlamwyZGJ1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/whjpFS4OlFeHYvkUm7/giphy.gif)
+</center>
+
+## The DuBois Challenge
+
+It's a competition named after W.E.B. Du Bois, a prominent African American sociologist, historian, and civil rights activist. The task is to replicate the original plates made of hand-made bar graphs, pie charts, and maps, illustrating various socio-economic aspects of African American life at the time.
+
+<br>
+
+<center>
+![](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/plate-list-00001.png){width="1000px"}
+</center>
+
+
+# Replicating the Original Plates
+
+## Set-up: Using R and ggplot2
+
+
+. . .
+
+Login to Posit Cloud to have the RStudio environment ready
+without installation 👉 [**posit.cloud**](https://posit.cloud/)
+
+. . .
+
+Install and load necessary packages
+
+```{r}
+#| eval: false
+install.packages("ggplot2")
+library(ggplot2)
+```
+
+. . .
+
+Importing Data 
+
+  - <https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024>
+  
+. . .
+
+Ask questions in the public Zoom chat or raise hand ✋
+
+. . .
+
+Applying Du Bois's Style
+
+  -   <https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.md>
+
+. . .
+
+
+
+
+
+# Understanding Du Bois's Style
+
+## Key Characteristics
+
+- Color Usage
+
+. . . 
+
+<center>
+![](images/palette.png){width="700px"}
+</center>
+
+
+- Font Selection
+
+  - Public Sans [4] (sans-serif) & Charter [5] (serif fonts)
+  - B52-ULC W00 [6] for titles & Vasarely-Light [7] for running text. 
+  - [Vocaltype history of Du Bois](https://www.vocaltype.co/history-of/du-bois)
+
+
+  
+  
+- Layout Design
+
+. . .
+
+<center>
+**R E V E R S E - T R U E**
+</center>
+
+## Questions 🤔 {background-image="https://media.giphy.com/media/yvCdiqO0kVMl6grsIW/giphy.gif"}
+
+## Continued Learning and Engagement
+
+- Resources for Further Learning
+  - <https://nightingaledvs.com/the-dubois-challenge/>
+  - <https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits>
+  
+- Stay Connected with the #DuBoisChallenge
+  - <https://twitter.com/search?q=%23duboischallenge&src=typed_query>
+
+# Thank You!
+

@@ -6,4 +6,16 @@
   font-family: 'Montserrat', sans-serif !important;
   font-family: 'Oswald', sans-serif;
   color: black;
-}/* css styles */
+}
+
+/* css styles */
+
+// slide iframes
+
+.slides {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-style: solid;
+  border-width: 1px;
+}

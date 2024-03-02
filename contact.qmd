@@ -11,7 +11,7 @@ title-block-banner: true
 <br>
 **GitHub:** [@fgazzelloni](https://github.com/fgazzelloni)
 
-**Blog:** [Federica Gazzelloni's Blog](https://federicagazzelloni.netlify.app/)
+**Blog:** [Federica Gazzelloni's Blog](https://fgazzelloni.quarto.pub/blog/)
 
 ## Social Networks
 <br>

@@ -1,0 +1,35 @@
+---
+title: 'Plate 25'
+subtitle: 'Welcome to the #DuboisChallenge2024 - extra plates'
+date: '2024-04-01'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/main/data/Edition_2022/day3_historical/day3_historical.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+   message: false
+   warning: false
+   cache: true
+---
+
+
+## Overview
+
+Assessed Value of Household and Kitchen Furniture Owned by Georgia Negroes (plate 25)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/main/data/Edition_2022/day3_historical/day3_historical.png)
+:::
+
+
+::: {.column width="50%"}
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/main/data/Edition_2022/day3_historical/original_n8.png)
+
+:::
+
+
+::::

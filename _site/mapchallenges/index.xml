@@ -6,21 +6,21 @@
       version="2.0">
 <channel>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/</link>
-<atom:link href="https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/</link>
+<atom:link href="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
+<url>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
 <title>Unlocking the power of data visualization with R</title>
-<link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/</link>
+<link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/</link>
 <height>144</height>
 <width>144</width>
 </image>
 <generator>quarto-1.4.549</generator>
-<lastBuildDate>Wed, 28 Feb 2024 08:59:20 GMT</lastBuildDate>
+<lastBuildDate>Sat, 02 Mar 2024 14:40:38 GMT</lastBuildDate>
 <item>
   <title>30DayMapChallenge 2021</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/</link>
+  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/</link>
   <description><![CDATA[ 
 
 
@@ -809,13 +809,13 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/</guid>
-  <pubDate>Wed, 28 Feb 2024 08:59:20 GMT</pubDate>
+  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2021/</guid>
+  <pubDate>Sat, 02 Mar 2024 14:40:38 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/collage/collage2021.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>30DayMapChallenge 2022</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/</link>
+  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/</link>
   <description><![CDATA[ 
 
 
@@ -1604,13 +1604,13 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/</guid>
-  <pubDate>Wed, 28 Feb 2024 08:59:20 GMT</pubDate>
+  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2022/</guid>
+  <pubDate>Sat, 02 Mar 2024 14:40:38 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/collage/collage2022.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>30DayMapChallenge 2023</title>
-  <link>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/</link>
+  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/</link>
   <description><![CDATA[ 
 
 
@@ -1943,7 +1943,7 @@ Nov 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-listing-date-sort="1700262000000" data-listing-file-modified-sort="1701381939547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1478">
+<div class="g-col-1" data-index="12" data-listing-date-sort="1700262000000" data-listing-file-modified-sort="1701381939547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1479">
 <a href="../../mapchallenges/cases2023/posts2023/day18_atmosphere/day18_atmosphere.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -2399,8 +2399,8 @@ No matching items
 </div>
 
 </div> ]]></description>
-  <guid>https://quartopub.com/sites/fgazzelloni/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/</guid>
-  <pubDate>Wed, 28 Feb 2024 08:59:20 GMT</pubDate>
+  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/mapchallenges/cases2023/</guid>
+  <pubDate>Sat, 02 Mar 2024 14:40:38 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/collage/collage2023.png" medium="image" type="image/png"/>
 </item>
 </channel>

@@ -1,0 +1,18 @@
+---
+title: "Materials"
+image: "slides/gif/plates.gif"
+---
+
+## Slides
+
+[View slides in full screen](slides/index.html).
+
+```{=html}
+
+<iframe class="slides" src="slides/index.html"></iframe>
+
+```
+
+
+
+

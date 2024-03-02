@@ -1,0 +1,35 @@
+---
+title: 'Plate 14'
+subtitle: 'Welcome to the #DuboisChallenge2024 - extra plates'
+date: '2024-04-01'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w7_dubois/w7_number6.png'
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+   message: false
+   warning: false
+   cache: true
+---
+
+
+## Overview
+
+Illiteracy (plate 14)
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w7_dubois/w7_number6.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w7_dubois/number6.png)
+:::
+
+::::

@@ -1,0 +1,37 @@
+## Who am I?
+
+::: columns
+
+
+
+::: {.column width="50%"}
+My name is [Federica Gazzelloni](https://federicagazzelloni.netlify.app/). I am an independent researcher involved in a couple of interesting projects about health sciences. I am passionate about actuarial statistics, also love to be part of the book club facilitators' team with the R4DS online community learning. 
+
+
+<center>
+![](gif/plates.gif)
+</center>
+
+:::
+
+::: {.column width="50%"}
+<center>
+
+![Federica Gazzelloni](https://fgazzelloni.quarto.pub/blog/images/profile.png){width="60%"}
+
+
+
+::: {style="font-size: 0.8em"}
+{{< fa brands github size=xl >}} [github.com/Fgazzelloni](https://github.com/Fgazzelloni)
+
+:::
+</center>
+:::
+:::
+
+
+
+## A bad graph? {background-image="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHpsMGlobnV4YWFjNGk2YTlwamZmYXRjdWtqM2traHBzaWFpaThtciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pUwefPNaAj3MI/giphy.gif"}
+
+
+# It's a challenge! {background-image="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3RxYzRkMXdvaDUxcXkxeWhraXdnenU2cW42MDNmZWlycDJtOHdrNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YU0j0j92jLdU4/giphy.gif"}

@@ -1,0 +1,24 @@
+---
+title: "Dataviz lunch:<br>Replicating Du Bois with R<br>"
+author: "Federica Gazzelloni | March 4, 2024<br>R-Ladies Cambridge"
+footer: "#DuboisChallenge2024 | [fgazzelloni.quarto.pub/](https://fgazzelloni.quarto.pub/)"
+logo: "https://pbs.twimg.com/profile_images/877346259861778432/Y8MNMTF9_400x400.jpg"
+logo-alt: "rladiesglobal"
+format: 
+  revealjs: 
+    width: 1600
+    height: 900  
+    theme: theme.scss
+    highlight-style: a11y
+    transition: fade
+    incremental: true
+    slide-number: true
+df-print: kable
+page-layout: full
+title-block-banner: false
+---
+
+
+
+{{< include 01-intro.qmd >}}
+{{< include 02-intro.qmd >}}

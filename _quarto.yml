@@ -1,6 +1,7 @@
 project:
   type: website
 
+
 website:
   title: "Unlocking the power of data visualization with R"
   image: images/UPDVwR.png
@@ -28,6 +29,7 @@ website:
       - tidytuesday/index.qmd
       - chartchallenges/index.qmd
       - mapchallenges/index.qmd
+      - duboischallenge/index.qmd
       - text: "About"
         menu: 
         - text: "Who I am"
@@ -63,16 +65,20 @@ website:
         - mapchallenges/cases2021/index.qmd
         - mapchallenges/cases2022/index.qmd
         - mapchallenges/cases2023/index.qmd
+    - title: "duboischallenge" 
+      contents: 
+        - duboischallenge/index.qmd
+        - duboischallenge/plates
+        - duboischallenge/talk.qmd
         
-
   page-navigation: true
   
   # back-to-top-navigation: false
 
   page-footer:
-    background: "#000000"
+    background: "#939bc9"
     left: |
-      Copyright &copy; 2023 [FG](https://federicagazzelloni.netlify.app/)
+      Copyright &copy; 2023 [Federica Gazzelloni](https://federicagazzelloni.netlify.app/)
     center:  
       - href: https://github.com/fgazzelloni
         icon: github

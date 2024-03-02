@@ -1,0 +1,35 @@
+---
+title: 'Challenge 04 - Plate 1'
+subtitle: 'Welcome to the #DuboisChallenge2024 week 4'
+date: '2024-03-04'
+image: "https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w6_airforce/w6_airforce.png"
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+   message: false
+   warning: false
+   cache: true
+---
+
+## Overview
+
+The Georgia Negro (plate 01), February 26
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w6_airforce/w6_airforce.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge04/original-plate-01.jpg)
+:::
+
+
+::::
+

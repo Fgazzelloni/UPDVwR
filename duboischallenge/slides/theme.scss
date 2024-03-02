@@ -1,0 +1,166 @@
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Mono&family=Domine:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
+
+/*-- scss:defaults --*/
+
+// colors
+$dark-brown:  #6c452f;
+$warm-grey:   #dbcab9;
+$dark-green:  #5f705d;
+$light-brown: #d4c0a1;
+$blue:        #5f6faa;
+$red:         #cf2e49;
+$orange:      #efb441;
+$pale-red:    #e97e7e;
+
+
+// Background of the presentation
+$backgroundColor: $warm-grey;
+
+// Primary/body text
+$mainFont: 'Atkinson Hyperlegible', 'Nunito', sans-serif;
+$mainFontSize: 35px;
+
+// Vertical spacing between blocks of text
+$blockMargin: 0.3em;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: 'Domine', serif;
+$headingColor: $red;
+$headingLineHeight: 1em;
+$headingLetterSpacing: 2px;
+$headingTextTransform: none;
+$headingTextShadow: none;
+$headingFontWeight: bold;
+
+$heading1Size: 2.5em;
+$heading2Size: 2.2em;
+$heading3Size: 1.5em;
+$heading4Size: 1.0em;
+
+$codeFont: 'Fira Mono', monospace;
+$code-block-font-size: 0.8em;
+
+// Links and actions
+$linkColor: $dark-brown;
+$linkColorHover: darken( $linkColor, 20% );
+
+section.has-dark-background a, section.has-dark-background a:hover {
+    color: #bfe4fe !important;
+}
+
+// Text selection
+$selectionBackgroundColor: $dark-green;
+$selectionColor: #fff;
+
+// Contrast
+$min-contrast-ratio:   7;
+
+// Start using css here //
+
+// Font classes
+
+.warning {
+  color: #990000;
+}
+
+.reveal a:not([role="tab"]) {
+  text-decoration: underline !important;
+}
+
+.h2 {
+  padding-bottom: 3em !important;
+}
+
+.subtitle {
+  font-size: $heading3Size;
+  font-weight: bold;
+}
+
+#title-slide .subtitle {
+  margin-top: 6rem;
+}
+
+.quarto-title-author-name {
+  font-size: $heading3Size;
+}
+
+.reveal div.sourceCode {
+  margin-bottom: 15px !important;
+}
+
+// Table
+
+.reveal table {
+  margin-left: 0!important;
+}
+
+// Footer
+
+.reveal .footer {
+  font-size: 0.8em;
+  color: $dark-brown;
+}
+
+// Containers
+
+.reveal .slide .v-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  flex-direction: column;
+}
+
+// Alignment
+
+.center {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Background color sections
+
+.section {
+  &:is(.slide-background) {
+  background: $dark-brown;
+  }
+}
+
+.demo {
+  &:is(.slide-background) {
+  background:$light-brown;
+  }
+}
+
+.exercise {
+  &:is(.slide-background) {
+  background:$light-brown;
+  }
+}
+
+// Fontawesome
+
+.fab, .fa-brands {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+  color: $dark-green;
+  line-height: 1.5;
+}
+
+.fas, .fa-solid {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: $dark-green;
+  line-height: 1.2;
+}
+
+// Slide iframes
+
+.slides {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
