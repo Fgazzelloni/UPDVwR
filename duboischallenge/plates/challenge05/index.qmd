@@ -1,18 +1,49 @@
 ---
-title: "R-Ladies Cambridge: Challenge 05"
-date: 2024-03-04
-author: "Federica Gazzelloni"
-format: html
-editor: visual
+title: 'Challenge 05 - Plate 13'
+subtitle: 'Welcome to the #DuboisChallenge2024 week 5'
+date: '2024-03-04'
+image: "https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge05/challenge05.png"
+image-alt: ''
+description: ''
+output: html_document
+execute: 
+   eval: false
+   message: false
+   warning: false
+   cache: true
 ---
 
+
+## Overview
+
+Race Amalgamation in Georgia (plate 13), March 4
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge05/challenge05.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge05/original-plate-13.jpg)
+
+:::
+
+::::
+
 ## Install Libraries
+
 ```{r}
 # install.packages("tidyverse")
 # remotes::install_github("coolbutuseless/ggpattern")
 ```
 
-## Load Libraries 
+## Load Libraries
+
 ```{r}
 suppressPackageStartupMessages({
   library(tidyverse)
@@ -22,8 +53,8 @@ suppressPackageStartupMessages({
 })
 ```
 
-
 ## Load Data
+
 ```{r}
 url <- "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge05/data.csv"
 
@@ -32,27 +63,27 @@ dat
 ```
 
 ## Bar Plot
+
 ```{r}
 dat %>%
   ggplot(aes(x=Category,y=Percentage))+
   geom_col()
 ```
 
-
 ## Staked Bar Plot
+
 ```{r}
 dat %>%
   ggplot(aes(x=1,y=Percentage,fill=Category))+
   geom_col(show.legend = F)
 ```
 
-
 ## Dubois Style
+
 ```{r}
 colors_bar <- c("#1C1C1Bff","#2A1A12ff","#FDBA00ff")
 colors_text <- c("#E6D7C6ff","#dc143c","#1C1C1Bff")
 ```
-
 
 ```{r}
 sysfonts::font_add_google(name="Public Sans",
@@ -68,9 +99,8 @@ showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 ```
 
-
-
 ## Stacked Bar Plot with Dubois' style
+
 ```{r}
 dat %>%
   ggplot(aes(x=1,y=Percentage,fill=Category))+
@@ -78,10 +108,6 @@ dat %>%
   scale_fill_manual(values = colors_bar)+
   geom_text(aes(label=Percentage))
 ```
-
-
-
-
 
 ## Plot 1
 
@@ -99,26 +125,22 @@ plot1 <- dat %>%
   xlim(0.5,1.5)
 ```
 
-
-
-
 ## Text
+
 ```{r}
 text <- c("I.E. FULL-BLOODED\nNEGROES.",
           "I.E. PERSONS WITH\nSOME WHITE BLOOD\nOR DESCENDANTS\nOF LIGHT COLORED\nAFRICANS.",
           "I.E. PERSONS WITH\nMORE WHITE THAN\nNEGRO BLOOD.")
 ```
 
-
-
 ## Text Plot
+
 ```{r}
 dat %>%
   mutate(text1=rev(cumsum(rev(Percentage))))%>%
   ggplot(aes(x=1,y=text1))+
   geom_text(aes(label=text))
 ```
-
 
 ## Plot 2
 
@@ -138,15 +160,12 @@ plot2 <- dat %>%
   xlim(0.5,1.7)
 ```
 
-
-
 ## Plot Layout
 
 ```{r}
 (plot2 + plot1) + 
   patchwork::plot_layout(ncol = 2)
 ```
-
 
 ## Full Visualization
 
@@ -171,7 +190,6 @@ plot2 <- dat %>%
   
 ```
 
-
 ### Add a place holder
 
 ```{r}
@@ -193,12 +211,10 @@ plot2 <- dat %>%
                                     size=6.5))
 ```
 
-
-
 ## Save it!
+
 ```{r}
 ggsave(filename = "your_challenge05.png", 
        bg="#E6D7C6ff",
        height=5.5, width=4.5, unit="in")
 ```
-

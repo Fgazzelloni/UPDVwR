@@ -3115,5 +3115,117 @@
     "title": "US Drought",
     "section": "",
     "text": "library(tidyverse)\nlibrary(broom)\nlibrary(geojsonio)\nlibrary(RColorBrewer)\nlibrary(rgdal)\nlibrary(rgeos)\n\n\n# Set the fonts\nlibrary(showtext)\nlibrary(sysfonts)\nlibrary(extrafont)\nshowtext::showtext_auto()\nshowtext::showtext_opts(dpi=320)\nfont_add_google(name=\"Chelsea Market\",\n                family=\"Chelsea Market\")\n\n\n#tuesdata &lt;- tidytuesdayR::tt_load('2022-06-14')\ndrought_fips &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-06-14/drought-fips.csv')\n\n\n\n\ndrought_fips%&gt;%\n  group_by(State)%&gt;%\n  summarise(drought=mean(DSCI))%&gt;%\n  ungroup() %&gt;%\n  ggplot(aes(x=fct_reorder(State,-drought),y=drought))+\n  geom_col()+\n  labs(x=\"\",y=\"\",\n       title=\"Avg level of drought for each state\")+\n  ggthemes::theme_economist_white()+\n  theme(axis.text.x = element_text(size=5))\n\n\ndrought_avg&lt;- drought_fips%&gt;%\n  group_by(State)%&gt;%\n  summarise(drought=mean(DSCI))%&gt;%\n  ungroup()\n\n\n\n\nsource: https://d3-graph-gallery.com/graph/hexbinmap_geo_basic.html\n\n# load json data\nmap_hex &lt;- \n  geojson_read(\"us_states_hexgrid.geojson.json\",  what = \"sp\")\n\n# map_hex%&gt;%class # SpatialPolygonsDataFrame\n# set the names\nmap_hex@data &lt;-\n  map_hex@data %&gt;%\n  mutate(google_name = gsub(\" \\\\(United States\\\\)\", \"\", google_name))\n\n\n# make a smaller sized hex \nmap_hex_buffer &lt;- gBuffer(map_hex, width = -.15, byid = T)\n\n# tidy to dataframe\nmap_hex_tidy &lt;- tidy(map_hex_buffer, region = \"iso3166_2\")\n\n# add drought level\nhex_drought &lt;- \n  map_hex_tidy %&gt;%\n  left_join(drought_avg, by = c(\"id\"=\"State\"))\n\n# make the centroids with state names\ncentr &lt;- cbind.data.frame(data.frame(gCentroid(map_hex_buffer, byid = T), \n                                     id = map_hex@data$iso3166_2))\n\n\n\n\n\nggplot()+\ngeom_polygon(data=map_hex,\nmapping=aes(long,lat,group=group),\nfill=\"brown\",\ncolor=\"#f8bc05\")+\ngeom_polygon(data=hex_drought,\nmapping=aes(long,lat,group=group,fill=drought),\ncolor=\"white\")+\ngeom_text(data=centr,\naes(x=x, y=y, label=id),\ncolor=\"white\",size=2,fontface=\"bold\") +\nscale_fill_gradient(low = \"grey\", high = \"brown\")+\nlabs(title=\"US intense drought locations\",\ncaption=\"DataSource: #TidyTuesday 2022 week24 & Drought.gov | DataViz: @FGazzelloni\",\nfill=\"Level\")+\ncoord_map()+\nggthemes::theme_map()+\ntheme(text=element_text(color=\"white\",family=\"Chelsea Market\"),\npanel.background = element_rect(fill=\"#162e51\",color=\"#f8bc05\",size=1),\nplot.background = element_rect(fill=\"#0071bc\",color=\"#f8bc05\",size=1),\nplot.title = element_text(size=20,color=\"#f8bc05\"),\nlegend.background = element_rect(fill=\"#0071bc\",color=\"#f8bc05\",size=0.5),\nlegend.position = c(0.01,0.3))\n\n\nggsave(\"w24_drought.png\",\ndpi=320,\nwidth = 5.9,\nheight = 4)"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html",
+    "href": "duboischallenge/plates/challenge05/challenge05.html",
+    "title": "Challenge 05 - Plate 13",
+    "section": "",
+    "text": "Race Amalgamation in Georgia (plate 13), March 4"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#overview",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#overview",
+    "title": "Challenge 05 - Plate 13",
+    "section": "",
+    "text": "Race Amalgamation in Georgia (plate 13), March 4"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#install-libraries",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#install-libraries",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Install Libraries",
+    "text": "Install Libraries\n\n# install.packages(\"tidyverse\")\n# remotes::install_github(\"coolbutuseless/ggpattern\")"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#load-libraries",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#load-libraries",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Load Libraries",
+    "text": "Load Libraries\n\nsuppressPackageStartupMessages({\n  library(tidyverse)\n  library(patchwork)\n  library(sysfonts)\n  library(showtext)\n})"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#load-data",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#load-data",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Load Data",
+    "text": "Load Data\n\nurl &lt;- \"https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge05/data.csv\"\n\ndat &lt;- read_csv(\"https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge05/data.csv\")\ndat"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#bar-plot",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#bar-plot",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Bar Plot",
+    "text": "Bar Plot\n\ndat %&gt;%\n  ggplot(aes(x=Category,y=Percentage))+\n  geom_col()"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#staked-bar-plot",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#staked-bar-plot",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Staked Bar Plot",
+    "text": "Staked Bar Plot\n\ndat %&gt;%\n  ggplot(aes(x=1,y=Percentage,fill=Category))+\n  geom_col(show.legend = F)"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#dubois-style",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#dubois-style",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Dubois Style",
+    "text": "Dubois Style\n\ncolors_bar &lt;- c(\"#1C1C1Bff\",\"#2A1A12ff\",\"#FDBA00ff\")\ncolors_text &lt;- c(\"#E6D7C6ff\",\"#dc143c\",\"#1C1C1Bff\")\n\n\nsysfonts::font_add_google(name=\"Public Sans\",\n                          family = \"Public Sans\",\n                          regular.wt = 100)\n\nsysfonts::font_add_google(name=\"Public Sans\",\n                          family = \"Public Sans-med\",\n                          regular.wt = 600)\nsysfonts::font_add_google(name=\"Freehand\",\n                          family=\"Freehand\")\nshowtext::showtext_auto()\nshowtext::showtext_opts(dpi=320)"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#stacked-bar-plot-with-dubois-style",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#stacked-bar-plot-with-dubois-style",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Stacked Bar Plot with Dubois’ style",
+    "text": "Stacked Bar Plot with Dubois’ style\n\ndat %&gt;%\n  ggplot(aes(x=1,y=Percentage,fill=Category))+\n  geom_col(show.legend = F)+\n  scale_fill_manual(values = colors_bar)+\n  geom_text(aes(label=Percentage))"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#plot-1",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#plot-1",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Plot 1",
+    "text": "Plot 1\n\nplot1 &lt;- dat %&gt;%\n  mutate(yy=c(Percentage[3]+Percentage[2]+Percentage[1]/2,\n              Percentage[3]+Percentage[2]/2,\n              Percentage[3]/2)) %&gt;%\n  ggplot(aes(x=1,y=Percentage,fill=Category))+\n  geom_col(show.legend = F)+\n  scale_fill_manual(values = colors_bar)+\n  geom_text(aes(y=yy,label=paste0(Percentage,\"%\")),\n            color=colors_text,\n            family=\"Freehand\")+\n  xlim(0.5,1.5)"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#text",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#text",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Text",
+    "text": "Text\n\ntext &lt;- c(\"I.E. FULL-BLOODED\\nNEGROES.\",\n          \"I.E. PERSONS WITH\\nSOME WHITE BLOOD\\nOR DESCENDANTS\\nOF LIGHT COLORED\\nAFRICANS.\",\n          \"I.E. PERSONS WITH\\nMORE WHITE THAN\\nNEGRO BLOOD.\")"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#text-plot",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#text-plot",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Text Plot",
+    "text": "Text Plot\n\ndat %&gt;%\n  mutate(text1=rev(cumsum(rev(Percentage))))%&gt;%\n  ggplot(aes(x=1,y=text1))+\n  geom_text(aes(label=text))"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#plot-2",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#plot-2",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Plot 2",
+    "text": "Plot 2\n\nplot2 &lt;- dat %&gt;%\n  mutate(text1=rev(cumsum(rev(Percentage))))%&gt;%\n  ggplot(aes(x=1,y=text1))+\n  geom_text(aes(label=c(\"BLACK.\",\"BROWN.\",\"YELLOW.\")),\n            family=\"Public Sans-med\",\n            size=3)+\n  geom_text(aes(label=text),\n          size=1.7,\n          hjust=0,\n          vjust=2*c(1,0.6,0.7),\n          family=\"Public Sans\")+\n  ylim(0,110)+\n  xlim(0.5,1.7)"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#plot-layout",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#plot-layout",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Plot Layout",
+    "text": "Plot Layout\n\n(plot2 + plot1) + \n  patchwork::plot_layout(ncol = 2)"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#full-visualization",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#full-visualization",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Full Visualization",
+    "text": "Full Visualization\n\n(plot2 + plot1) + \n  patchwork::plot_layout(ncol = 2) & \n  plot_annotation(\n    title=\"RACE AMALGAMATION IN GEORGIA .\",\n    subtitle = \"BASED  ON  A  STUDY  OF  40,000  INDIVIDUALS  OF  NEGRO  DESCENT.\\n\",\n    caption = \"#DuboisChallenge2024 - Challenge05 | Federica Gazzelloni\\n\") &\n  theme_void() &\n  theme(plot.title = element_text(hjust=0.5,\n                                  family=\"Public Sans-med\",\n                                  size=10),\n        plot.subtitle = element_text(hjust=0.5,\n                                     family=\"Public Sans\",\n                                     size=6.5),\n        plot.caption = element_text(hjust=0.5,\n                                    family=\"Public Sans\",\n                                    size=6.5))\n\n\nAdd a place holder\n\n(plot2 + plot_spacer() + plot1) + \n  patchwork::plot_layout(ncol = 3, widths = c(1,0,1)) & \n  plot_annotation(\n    title=\"RACE AMALGAMATION IN GEORGIA .\",\n    subtitle = \"BASED  ON  A  STUDY  OF  40,000  INDIVIDUALS  OF  NEGRO  DESCENT.\\n\",\n    caption = \"#DuboisChallenge2024 - Challenge05 | Federica Gazzelloni\\n\") &\n  theme_void() &\n  theme(plot.title = element_text(hjust=0.5,\n                                  family=\"Public Sans-med\",\n                                  size=10),\n        plot.subtitle = element_text(hjust=0.5,\n                                     family=\"Public Sans\",\n                                     size=6.5),\n        plot.caption = element_text(hjust=0.5,\n                                    family=\"Public Sans\",\n                                    size=6.5))"
+  },
+  {
+    "objectID": "duboischallenge/plates/challenge05/challenge05.html#save-it",
+    "href": "duboischallenge/plates/challenge05/challenge05.html#save-it",
+    "title": "Challenge 05 - Plate 13",
+    "section": "Save it!",
+    "text": "Save it!\n\nggsave(filename = \"your_challenge05.png\", \n       bg=\"#E6D7C6ff\",\n       height=5.5, width=4.5, unit=\"in\")"
   }
 ]
