@@ -20,7 +20,7 @@
 <lastBuildDate>Sun, 31 Mar 2024 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Plate 14</title>
-  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/plates/plate6/</link>
+  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/plates/plate25/</link>
   <description><![CDATA[ 
 
 
@@ -42,7 +42,7 @@
 </section>
 
  ]]></description>
-  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/plates/plate6/</guid>
+  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/plates/plate25/</guid>
   <pubDate>Sun, 31 Mar 2024 22:00:00 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/TidyTuesday/main/data/2022/w7_dubois/w7_number6.png" medium="image" type="image/png"/>
 </item>
@@ -65,6 +65,7 @@
 <p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/main/data/Edition_2022/day3_historical/original_n8.png" class="img-fluid"></p>
 </div>
 </div>
+<p>Follow the code here: <a href="https://r4ds.github.io/bookclub-ggplot2/non-linear-coordinate-systems.html" class="uri">https://r4ds.github.io/bookclub-ggplot2/non-linear-coordinate-systems.html</a></p>
 
 
 </section>
@@ -4143,7 +4144,7 @@ font-style: inherit;">8.8</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/talk.html</guid>
-  <pubDate>Sat, 02 Mar 2024 14:44:11 GMT</pubDate>
+  <pubDate>Mon, 04 Mar 2024 10:30:17 GMT</pubDate>
   <media:content url="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/slides/gif/plates.gif" medium="image" type="image/gif"/>
 </item>
 </channel>

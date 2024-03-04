@@ -38,12 +38,15 @@ without installation 👉 [**posit.cloud**](https://posit.cloud/)
 
 . . .
 
-Install and load necessary packages
+Load necessary packages
 
-```{r}
-#| eval: false
-install.packages("ggplot2")
-library(ggplot2)
+```
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(patchwork)
+  library(sysfonts)
+  library(showtext)
+})
 ```
 
 . . .
@@ -52,9 +55,6 @@ Importing Data
 
   - <https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024>
   
-. . .
-
-Ask questions in the public Zoom chat or raise hand ✋
 
 . . .
 
