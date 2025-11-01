@@ -5,16 +5,18 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Unlocking the power of data visualization with R</title>
+<title>Unlocking the Power of Data Visualization with R</title>
 <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/</link>
 <atom:link href="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
 <url>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/images/UPDVwR.png</url>
-<title>Unlocking the power of data visualization with R</title>
+<title>Unlocking the Power of Data Visualization with R</title>
 <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/</link>
+<height>144</height>
+<width>144</width>
 </image>
-<generator>quarto-1.4.549</generator>
+<generator>quarto-1.6.32</generator>
 <lastBuildDate>Sun, 31 Mar 2024 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Plate 14</title>
@@ -75,7 +77,7 @@
 </item>
 <item>
   <title>Challenge 05 - Plate 13</title>
-  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/plates/challenge05/challenge05.html</link>
+  <link>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/plates/challenge05/</link>
   <description><![CDATA[ 
 
 
@@ -942,7 +944,7 @@ font-style: inherit;">"in"</span>)</span></code></pre></div>
 </section>
 
  ]]></description>
-  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/plates/challenge05/challenge05.html</guid>
+  <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/plates/challenge05/</guid>
   <pubDate>Sun, 03 Mar 2024 23:00:00 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge05/challenge05.png" medium="image" type="image/png"/>
 </item>
@@ -2394,8 +2396,10 @@ background-color: null;
 font-style: inherit;"># Simulate numbers within each decade</span></span>
 <span id="cb17-9"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -5015,7 +5019,7 @@ font-style: inherit;">8.8</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/talk.html</guid>
-  <pubDate>Mon, 04 Mar 2024 14:07:22 GMT</pubDate>
+  <pubDate>Mon, 02 Dec 2024 15:29:26 GMT</pubDate>
   <media:content url="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/slides/gif/plates.gif" medium="image" type="image/gif"/>
 </item>
 </channel>

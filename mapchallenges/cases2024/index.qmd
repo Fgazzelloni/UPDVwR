@@ -1,0 +1,14 @@
+---
+title: "30DayMapChallenge 2024"
+image: "https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2024/collage/collage2024.png"
+listing: 
+  contents: posts2024
+  sort: "date desc"
+  type: grid
+  image-height: "200"
+  categories: true
+  sort-ui: true
+page-layout: full
+title-block-banner: false
+---
+

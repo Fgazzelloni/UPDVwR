@@ -109,14 +109,11 @@ diff%>%
 ```
 
 
-
 The line plot shows yearly temperature anomalies from 1880 to 2023. 
 
 Estimate of temperature change that could be compared with predictions of global climate change in response to atmospheric carbon dioxide, aerosols, and changes in solar activity. 
 
-These in situ measurements are analyzed using an **algorithm** that considers the *varied spacing of temperature stations* around the globe and urban heat island effects.
-
-
+These measurements are analyzed using an **algorithm** that considers the *varied spacing of temperature stations* around the globe and urban heat island effects.
 
 ```{r message=FALSE,warning=FALSE}
 global_temps %>%
@@ -284,11 +281,11 @@ global_temps2 %>%
                      color="grey70",
                      fill="grey4",
                      box.colour = "grey4") +
-  geom_hline(yintercept = 0,linewidth=2,color="grey70")+
-  geom_vline(xintercept = 1951,color="red",alpha=0.2)+
-  geom_vline(xintercept = 1980,color="red",alpha=0.2)+
-  scale_x_continuous(n.breaks = 10)+
-  scale_y_continuous()+
+  geom_hline(yintercept = 0,linewidth=2,color="grey70") +
+  geom_vline(xintercept = 1951,color="red",alpha=0.2) +
+  geom_vline(xintercept = 1980,color="red",alpha=0.2) +
+  scale_x_continuous(n.breaks = 10) +
+  scale_y_continuous() +
   annotate(geom = "text",
          family="Roboto Condensed",
          fontface="bold",
@@ -296,7 +293,7 @@ global_temps2 %>%
          size=12,
          color="grey70",
          hjust=0,
-         x = 1880 ,y =c(21) )+
+         x = 1880 ,y =c(21) ) +
   annotate(geom = "text",
          family="Roboto Condensed",
          fontface="bold",
@@ -304,7 +301,7 @@ global_temps2 %>%
          size=3,
          color="grey70",
          hjust=0,
-         x = 1941 ,y =c(13) )+
+         x = 1941 ,y =c(13) ) +
   annotate(geom = "text",
         family="Roboto Condensed",
         fontface="bold",
@@ -343,6 +340,7 @@ global_temps2 %>%
 ```
 
 ```{r}
+#| eval: false
 ggsave("w28_GIST.png")
 ```
 

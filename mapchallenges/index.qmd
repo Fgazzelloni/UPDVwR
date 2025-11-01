@@ -8,6 +8,7 @@ listing:
   - cases2021/index.qmd
   - cases2022/index.qmd
   - cases2023/index.qmd
+  - cases2024/index.qmd
   sort: "date desc"
   type: grid
   categories: false

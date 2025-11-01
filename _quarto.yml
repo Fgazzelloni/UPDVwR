@@ -1,9 +1,8 @@
 project:
   type: website
 
-
 website:
-  title: "Unlocking the power of data visualization with R"
+  title: "Unlocking the Power of Data Visualization with R"
   image: images/UPDVwR.png
   favicon: images/UPDVwR-favicon.png
   twitter-card:
@@ -22,7 +21,7 @@ website:
   navbar:
     background: "#f0eeeb"
     logo: images/UPDVwR.png
-    logo-alt: "Unlocking the power of data visualization with R"
+    logo-alt: "Unlocking the Power of Data Visualization with R"
     title: false
     collapse-below: lg
     right:
@@ -44,7 +43,7 @@ website:
         - about.qmd
         - sponsors.qmd
         - contact.qmd
-    - title: "Call for contributions"
+    - title: "Call for Contributions"
       contents:
         - contributor-docs/call-for-contributions.qmd
     - title: "tidytuesday"
@@ -78,7 +77,7 @@ website:
   page-footer:
     background: "#939bc9"
     left: |
-      Copyright &copy; 2023 [Federica Gazzelloni](https://federicagazzelloni.netlify.app/)
+      Copyright &copy; 2024 [Federica Gazzelloni](https://federicagazzellonicom/)
     center:  
       - href: https://github.com/fgazzelloni
         icon: github
