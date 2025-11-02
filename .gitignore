@@ -1,6 +1,6 @@
 /.quarto/
 .Rproj.user
-R
+scripts
 render
 *.html
 .DS_Store
