@@ -13,11 +13,9 @@
 <url>https://bookdown.org/fede_gazzelloni/UPDVwR/images/UPDVwR.png</url>
 <title>Unlocking the Power of Data Visualization with R</title>
 <link>https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/</link>
-<height>144</height>
-<width>144</width>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Sat, 01 Nov 2025 23:00:32 GMT</lastBuildDate>
+<lastBuildDate>Sun, 02 Nov 2025 21:47:10 GMT</lastBuildDate>
 <item>
   <title>30DayMapChallenge 2021</title>
   <link>https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2021/</link>
@@ -778,7 +776,7 @@ Nov 1, 2021
 
 </div> ]]></description>
   <guid>https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2021/</guid>
-  <pubDate>Sat, 01 Nov 2025 23:00:32 GMT</pubDate>
+  <pubDate>Sun, 02 Nov 2025 21:47:10 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/collage/collage2021.png" medium="image" type="image/png"/>
 </item>
 <item>
@@ -1541,7 +1539,7 @@ Nov 1, 2022
 
 </div> ]]></description>
   <guid>https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2022/</guid>
-  <pubDate>Sat, 01 Nov 2025 23:00:32 GMT</pubDate>
+  <pubDate>Sun, 02 Nov 2025 21:47:10 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/collage/collage2022.png" medium="image" type="image/png"/>
 </item>
 <item>
@@ -2304,7 +2302,7 @@ Nov 1, 2023
 
 </div> ]]></description>
   <guid>https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2023/</guid>
-  <pubDate>Sat, 01 Nov 2025 23:00:32 GMT</pubDate>
+  <pubDate>Sun, 02 Nov 2025 21:47:10 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/collage/collage2023.png" medium="image" type="image/png"/>
 </item>
 <item>
@@ -3067,7 +3065,7 @@ Nov 1, 2024
 
 </div> ]]></description>
   <guid>https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2024/</guid>
-  <pubDate>Sat, 01 Nov 2025 23:00:32 GMT</pubDate>
+  <pubDate>Sun, 02 Nov 2025 21:47:10 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2024/collage/collage2024.png" medium="image" type="image/png"/>
 </item>
 <item>
@@ -3105,7 +3103,7 @@ Nov 1, 2024
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1730415600000" data-listing-file-modified-sort="1761987634820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1761951600000" data-listing-file-modified-sort="1762085542906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="521">
 <a href="../../../content/mapchallenge/cases2025/posts2025/day1_points/day1_points.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -3116,14 +3114,710 @@ Nov 1, 2024
 Points
 </h5>
 <div class="card-text listing-description delink">
-<p>Cropped Grid of Points on World Map</p>
+<p>Infectious Diseases World Map - Average DALYs per country 1990-2021</p>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
 </div>
 <div class="listing-date">
-Nov 1, 2024
+Nov 1, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1762038000000" data-listing-file-modified-sort="1762119453953" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1211">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day2_lines/day2_lines.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day2_lines/day2_lines.png" class="thumbnail-image card-img" style="height: 200;" alt="Visualizing Global Connections Using Lines">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lines
+</h5>
+<div class="card-text listing-description delink">
+<p>Visualizing Global Connections Using Lines</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 2, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1762124400000" data-listing-file-modified-sort="1762104532184" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day3_polygons/day3_polygons.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day3_polygons/day3_polygons.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Polygons
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day3_polygons/day3_polygons.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 3, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1762210800000" data-listing-file-modified-sort="1762085982714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day4_my_data/day4_my_data.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day4_my_data/day4_my_data.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day4_my_data/day4_my_data.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 4, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1762297200000" data-listing-file-modified-sort="1762085982719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day5_earth/day5_earth.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day5_earth/day5_earth.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Earth
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day5_earth/day5_earth.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 5, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1762383600000" data-listing-file-modified-sort="1762085982724" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day6_dimensions/day6_dimensions.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day6_dimensions/day6_dimensions.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dimensions
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day6_dimensions/day6_dimensions.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 6, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-date-sort="1762470000000" data-listing-file-modified-sort="1762085982728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day7_accessibility/day7_accessibility.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day7_accessibility/day7_accessibility.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Accessibility
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day7_accessibility/day7_accessibility.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 7, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-date-sort="1762556400000" data-listing-file-modified-sort="1762085982733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day8_urban/day8_urban.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day8_urban/day8_urban.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Urban
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day8_urban/day8_urban.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 8, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-date-sort="1762642800000" data-listing-file-modified-sort="1762085982738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day9_analog/day9_analog.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day9_analog/day9_analog.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analog
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day9_analog/day9_analog.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 9, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-date-sort="1762729200000" data-listing-file-modified-sort="1762085982584" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day10_air/day10_air.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day10_air/day10_air.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Air
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day10_air/day10_air.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 10, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-date-sort="1762815600000" data-listing-file-modified-sort="1762085982594" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day11_minimal_map/day11_minimal_map.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day11_minimal_map/day11_minimal_map.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Map
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day11_minimal_map/day11_minimal_map.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 11, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-date-sort="1762902000000" data-listing-file-modified-sort="1762085982600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day12_map_from_2125/day12_map_from_2125.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day12_map_from_2125/day12_map_from_2125.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2125
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day12_map_from_2125/day12_map_from_2125.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 12, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="12" data-listing-date-sort="1762988400000" data-listing-file-modified-sort="1762085982606" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day13_10_minute_map/day13_10_minute_map.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day13_10_minute_map/day13_10_minute_map.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Map
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day13_10_minute_map/day13_10_minute_map.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 13, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13" data-listing-date-sort="1763074800000" data-listing-file-modified-sort="1762085982611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day14_openstreetmap/day14_openstreetmap.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day14_openstreetmap/day14_openstreetmap.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Openstreetmap
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day14_openstreetmap/day14_openstreetmap.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 14, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="14" data-listing-date-sort="1763161200000" data-listing-file-modified-sort="1762085982616" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day15_fire/day15_fire.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day15_fire/day15_fire.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fire
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day15_fire/day15_fire.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 15, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="15" data-listing-date-sort="1763247600000" data-listing-file-modified-sort="1762085982620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day16_cell/day16_cell.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day16_cell/day16_cell.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cell
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day16_cell/day16_cell.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 16, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="16" data-listing-date-sort="1763334000000" data-listing-file-modified-sort="1762085982626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day17_a_new_tool/day17_a_new_tool.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day17_a_new_tool/day17_a_new_tool.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tool
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day17_a_new_tool/day17_a_new_tool.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 17, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="17" data-listing-date-sort="1763420400000" data-listing-file-modified-sort="1762085982631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day18_out_of_this_world/day18_out_of_this_world.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day18_out_of_this_world/day18_out_of_this_world.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+World
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day18_out_of_this_world/day18_out_of_this_world.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 18, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="18" data-listing-date-sort="1763506800000" data-listing-file-modified-sort="1762085982637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day19_projections/day19_projections.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day19_projections/day19_projections.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Projections
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day19_projections/day19_projections.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 19, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="19" data-listing-date-sort="1763593200000" data-listing-file-modified-sort="1762085982649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day20_water/day20_water.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day20_water/day20_water.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Water
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day20_water/day20_water.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 20, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="20" data-listing-date-sort="1763679600000" data-listing-file-modified-sort="1762085982654" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day21_icons/day21_icons.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day21_icons/day21_icons.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Icons
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day21_icons/day21_icons.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 21, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="21" data-listing-date-sort="1763766000000" data-listing-file-modified-sort="1762085982659" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day22_natural_earth/day22_natural_earth.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day22_natural_earth/day22_natural_earth.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Earth
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day22_natural_earth/day22_natural_earth.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 22, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="22" data-listing-date-sort="1763852400000" data-listing-file-modified-sort="1762085982665" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day23_process/day23_process.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day23_process/day23_process.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Process
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day23_process/day23_process.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 23, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="23" data-listing-date-sort="1763938800000" data-listing-file-modified-sort="1762085982670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day24_places_and_their_names/day24_places_and_their_names.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day24_places_and_their_names/day24_places_and_their_names.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Names
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day24_places_and_their_names/day24_places_and_their_names.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 24, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="24" data-listing-date-sort="1764025200000" data-listing-file-modified-sort="1762085982675" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day25_hexagons/day25_hexagons.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day25_hexagons/day25_hexagons.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hexagons
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day25_hexagons/day25_hexagons.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 25, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="25" data-listing-date-sort="1764111600000" data-listing-file-modified-sort="1762085982679" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day26_transport/day26_transport.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day26_transport/day26_transport.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Transport
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day26_transport/day26_transport.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 26, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="26" data-listing-date-sort="1764198000000" data-listing-file-modified-sort="1762085982684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day27_boundaries/day27_boundaries.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day27_boundaries/day27_boundaries.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Boundaries
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day27_boundaries/day27_boundaries.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 27, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="27" data-listing-date-sort="1764284400000" data-listing-file-modified-sort="1762085982689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day28_black/day28_black.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day28_black/day28_black.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Black
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day28_black/day28_black.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 28, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="28" data-listing-date-sort="1764370800000" data-listing-file-modified-sort="1762085982694" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day29_raster/day29_raster.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day29_raster/day29_raster.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Raster
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day29_raster/day29_raster.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 29, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="29" data-listing-date-sort="1764457200000" data-listing-file-modified-sort="1762085982704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../../../content/mapchallenge/cases2025/posts2025/day30_makeover/day30_makeover.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="../../../content/mapchallenge/cases2025/posts2025/day30_makeover/day30_makeover.png" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Makeover
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:content/mapchallenge/cases2025/posts2025/day30_makeover/day30_makeover.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 30, 2025
 </div>
 </div>
 </div>
@@ -3131,9 +3825,10 @@ Nov 1, 2024
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+
 </div> ]]></description>
   <guid>https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/</guid>
-  <pubDate>Sat, 01 Nov 2025 23:00:32 GMT</pubDate>
+  <pubDate>Sun, 02 Nov 2025 21:47:10 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/main/images/flyers/30dmc_2025.png" medium="image" type="image/png"/>
 </item>
 </channel>

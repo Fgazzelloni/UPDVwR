@@ -3,7 +3,7 @@ title: "30DayMapChallenge 2025"
 image: "https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/main/images/flyers/30dmc_2025.png"
 listing: 
   contents: posts2025
-  sort: "date desc"
+  sort: "date asc"
   type: grid
   image-height: "200"
   categories: true
