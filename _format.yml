@@ -1,0 +1,20 @@
+format:
+  html:
+    theme: [lux, rwds.scss]
+    css: rwds.css
+    toc: true
+    smooth-scroll: true
+    highlight-style: github
+    link-external-newwindow: true
+    link-external-icon: false
+    citations-hover: true
+    footnotes-hover: true
+    code-copy: true
+    code-overflow: wrap
+    code-link: true
+    back-to-top-navigation: true 
+    page-navigation: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px

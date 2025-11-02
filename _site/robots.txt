@@ -1,1 +1,1 @@
-Sitemap: https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/sitemap.xml
+Sitemap: https://bookdown.org/fede_gazzelloni/UPDVwR/sitemap.xml

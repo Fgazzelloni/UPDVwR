@@ -1,0 +1,24 @@
+---
+title: "#30DayMapChallenge"
+subtitle: "How to make Maps with R"
+listing:
+  contents: 
+  - cases2021/index.qmd
+  - cases2022/index.qmd
+  - cases2023/index.qmd
+  - cases2024/index.qmd
+  - cases2025/index.qmd
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  page-size: 30
+  feed: true
+---
+
+This is a collection of all maps that I've made using R. 
+
+The project is called [**#30DayMapChallenge**](https://30daymapchallenge.com/) and it is taken every year in November. Each day brings a new map, revealing different aspects of our world through data visualization. It's a creative journey that transforms numbers and information into eye-catching maps.
+
+Explore this collection with me as we dive into maps that tell unique stories. 

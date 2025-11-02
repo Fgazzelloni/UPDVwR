@@ -1,10 +1,15 @@
 ---
 title: "About"
-sidebar: false
 page-layout: article
 toc: false
 title-block-banner: true
+# sidebar: 
+#   contents:
+#     - sponsors.qmd
+#     - contact.qmd
+#     - contributor.qmd
 ---
+
 
 
 Welcome to this data visualization website, where I showcase my contributions to the `#TidyTuesday`, `#30DayChartChallenge`, `#30DayMapChallenge` and `#DuBiosChallenge` contributions spanning from 2021 to 2024.
@@ -19,7 +24,7 @@ My name is `Federica Gazzelloni`, and I am a passionate data enthusiast and a sk
 
 ::: {.column width="50%"}
 
-![](https://pbs.twimg.com/profile_images/1687053477816471552/onGroPGf_400x400.jpg){width="300px"}
+![](images/profilepicture-logo-footer.png){width="300px"}
 
 :::
 

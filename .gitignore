@@ -9,4 +9,4 @@ rsconnect/
 *_cache
 *_cache$
 *html$
-
+**/*.quarto_ipynb

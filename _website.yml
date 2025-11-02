@@ -1,0 +1,97 @@
+website:
+  title: "Unlocking the Power of Data Visualization with R"
+  image: images/UPDVwR.png
+  favicon: images/UPDVwR-favicon.png
+  twitter-card:
+    site: "@fgazzelloni"
+  open-graph: true
+  site-url: https://bookdown.org/fede_gazzelloni/UPDVwR/
+  repo-url: https://github.com/Fgazzelloni/UPDVwR
+  repo-actions: [edit, issue]
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-55K190Q6RX"
+    anonymize-ip: true  
+  page-navigation: true  
+  
+  navbar:
+    background: "#f0eeeb"
+    logo: images/UPDVwR.png
+    logo-alt: "Unlocking the Power of Data Visualization with R"
+    title: false
+    collapse-below: lg
+    right:
+      - text: "TidyTuesday"
+        href: content/tidytuesday/index.qmd
+      - text: "Charts Challenge"
+        href: content/chartchallenge/index.qmd
+      - text: "Maps Challenge"
+        href: content/mapchallenge/index.qmd
+      - text: "Dubois Challenge"
+        href: content/duboischallenge/index.qmd
+      - text: "About"
+        menu: 
+        - text: "Who I am"
+          href: about.qmd
+        - text: "How to contribute"
+          href: contributors.qmd
+        - text: "Contacts"
+          href: contact.qmd
+  #sidebar: 
+  #  - title: "About the Author"
+  #    contents:
+  #      - about.qmd
+  #      - sponsors.qmd
+  #      - contact.qmd
+  #  - title: "Call for Contributions"
+  #    contents:
+  #      - contributors.qmd
+  #  - title: "tidytuesday"
+  #    contents:
+  #      - tidytuesday/index.qmd
+  #      - tidytuesday/cases2021/index.qmd
+  #      - tidytuesday/cases2022/index.qmd
+  #      - tidytuesday/cases2023/index.qmd
+  #  - title: "chartchallenges"
+  #    contents:
+  #      - chartchallenges/index.qmd
+  #      - chartchallenges/cases2021/index.qmd
+  #      - chartchallenges/cases2022/index.qmd
+  #      - chartchallenges/cases2023/index.qmd
+  #  - title: "mapchallenges"
+  #    contents: 
+  #      - mapchallenges/index.qmd
+  #      - mapchallenges/cases2021/index.qmd
+  #      - mapchallenges/cases2022/index.qmd
+  #      - mapchallenges/cases2023/index.qmd
+  #  - title: "duboischallenge" 
+  #    contents: 
+  #      - duboischallenge/index.qmd
+  #      - duboischallenge/plates
+  #      - duboischallenge/talk.qmd
+        
+  page-footer:
+    background: "#939bc9"
+    left: |
+      Copyright &copy; 2025 [Federica Gazzelloni](https://federicagazzelloni.com/)
+    center:  
+      - href: https://github.com/fgazzelloni
+        icon: github
+        aria-label: GitHub
+      - href: https://twitter.com/fgazzelloni
+        icon: twitter
+        aria-label: Twitter
+      - href: https://fosstodon.org/@fgazzelloni
+        icon: mastodon
+        aria-label: Mastodon
+      - href: https://www.linkedin.com/in/federicagazzelloni
+        icon: linkedin
+        aria-label: LinkedIn
+      - href: index.xml
+        icon: rss
+        aria-label: UPDVwR rss
+    right: |
+      [Terms & Conditions](/ts-and-cs.qmd)

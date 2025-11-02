@@ -1,35 +1,34 @@
 ---
 title: "Unlocking the Power of Data Visualization with R"
+image: images/UPDVwR-logo-150px.png
 page-layout: article
 section-divs: false
 editor: source
 sidebar: false
 search: false
+toc: false 
 description: | 
   A full list of Data Visualizations with code made with the R programming language.
-image: images/UPDVwR-logo-150px.png
-#listing:
-#  - id: latest-content
-#    contents: 
-#    - /tidytuesday
-#    - /chartchallenges
-#    - /mapchallenges
-#    - "!index.qmd"
-#    sort: "date desc"
-#    type: grid
-#    categories: false
-#    sort-ui: false
-#    filter-ui: false
-#    max-items: 3
-#    feed: false
-    
-toc: false 
+listing:
+  contents: content/
+  sort: "date desc"
+  type: grid
+  image-height: "200"
+  max-items: 3
+  categories: false
+  feed: true
 ---
 
 ::: callout-warning
-## Content in development
+## Content updated at any new challenge --> Look at the #30DayMapChallenge tab 🗺️
 :::
 
-Welcome to `Unlocking the Power of Data Visualization with R`, where I proudly showcase my contributions to the `#R4DS community` through the `#TidyTuesday`, `#30DayChartChallenge`, `#30DayMapChallenge` and `#DuBoisChallenge` competitions, for years from 2021 to 2024. This platform is your gateway to data exploration, featuring a diverse collection of data visualizations created using the `R programming language`. Take a deep dive into the digital gallery, click on the image to discover insights, find inspiration, and learn from detailed explanations and code for each submission.
+Welcome to `Unlocking the Power of Data Visualization with R`!
+
+A collection of contributions to former `#R4DS community`, now [DSLC.io](https://dslc.io/) through the `#TidyTuesday`, `#30DayChartChallenge`, `#30DayMapChallenge` taken every year in November, and the `#DuBoisChallenge`.
+
+This platform is a gateway to data exploration, featuring a diverse collection of data visualizations created using the `R programming language`. Take a deep dive into the digital gallery, click on the image to discover insights, find inspiration, and learn from detailed explanations and code for each submission.
 
 > Whether you're an experienced data professional or just starting out, join me in this journey through the art of data visualization.
+
+\

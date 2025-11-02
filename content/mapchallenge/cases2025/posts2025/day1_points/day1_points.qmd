@@ -1,0 +1,102 @@
+---
+title: 'Points'
+subtitle: 'Welcome to #30DayMapChallenge 2025 Day 1'
+date: '2025-11-01'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2025/day1_points/day1_points.png'
+image-alt: 'day1_points'
+description: 'Infectious Diseases World Map - Average DALYs per country 1990-2021'
+output: html_document
+execute: 
+   eval: false
+---
+
+![Infectious Diseases World Map - Average DALYs per country 1990-2021](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2025/day1_points/day1_points.png)
+
+## Overview
+
+### Infectious Diseases World Map
+
+This map visualizes the global distribution of **Disability-Adjusted Life Years (DALYs)** due to infectious diseases, averaged across the period **1990–2021**.  
+
+Each point represents the **geometric centroid** of a country, coloured according to the average DALY value. 
+
+The use of points instead of polygons aligns with the Day 1 theme of the [#30DayMapChallenge](https://30daymapchallenge.com/), focusing on the placement and density of data rather than boundaries.  
+
+This approach allows a quick visual comparison of health burdens across countries while maintaining a clean, minimalist design.
+
+
+
+
+```{r}
+# Load Libraries
+library(tidyverse)
+library(hmsidwR)
+library(sf)
+```
+
+
+```{r}
+# Load Data
+data(idDALY_map_data)
+```
+
+
+```{r}
+world_map <- map_data("world") %>%
+  filter(!region == "Antarctica") %>%
+  st_as_sf(coords = c("long", "lat"),
+           crs = 4326,
+           agr = "constant") %>%
+  st_cast("POINT") %>%
+  group_by(group) %>%
+  summarise(geometry = st_combine(geometry),
+            do_union = F) %>%
+  st_cast("POLYGON")
+```
+
+```{r}
+# Compute centroids from polygon geometries (one per country)
+idDALY_points <- idDALY_map_data %>%
+  st_centroid()
+```
+
+
+```{r}
+world_map %>%
+  ggplot() +
+  geom_sf() +
+  geom_sf(data = idDALY_map_data,
+          aes(fill = DALYs), alpha = 0.3) +
+  geom_sf(data = idDALY_points,
+          aes(fill = DALYs), 
+          size = 0.8, color = "grey40",
+          shape = 21, stroke = 0.2) +
+  labs(title = "Infectious Diseases World Map",
+       caption = "Average DALYs per country 1990-2021\nDataSource: {hmsidwR} \nMap: Federica Gazzelloni #30DayMapChallenge 2025 - Day1 (Points)") +
+  ggthemes::scale_fill_gradient2_tableau() +
+  ggthemes::theme_map() +
+  theme(plot.title = element_text(hjust = 0.5, 
+                              size = 16,
+                              face = "bold"),
+    plot.caption = element_text(hjust = 0.5, face = "bold"))
+```
+
+### Code Functions Explanation
+
+- `st_point_on_surface()` creates one representative point inside each country polygon, avoiding centroid placement outside islands or irregular shapes.
+- `geom_sf(data = world_map)` draws the background map.
+- `geom_sf(data = idDALY_points)` overlays the DALY points.
+- The *viridis* colour scale improves accessibility and visual clarity.
+- Labels and captions provide clear context for interpretation.
+- `ggthemes::theme_map()` keeps the focus on the data.
+
+
+### Interpretation
+
+The visualization reveals marked geographic disparities in the burden of infectious diseases.
+
+- Higher DALY values cluster in Sub-Saharan Africa and South Asia, where infectious diseases remain leading causes of morbidity and mortality.
+
+- In contrast, most high-income countries in Europe, North America, and Oceania show comparatively low DALY values, reflecting the success of public health interventions, improved healthcare access, and disease prevention strategies.
+
+This spatial pattern underscores persistent global inequalities in health outcomes and the need for targeted policy efforts to reduce the impact of infectious diseases in the most affected regions.
