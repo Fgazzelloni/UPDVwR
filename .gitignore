@@ -9,4 +9,6 @@ rsconnect/
 *_cache
 *_cache$
 *html$
+_freeze
+_site
 **/*.quarto_ipynb
