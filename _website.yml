@@ -78,12 +78,18 @@ website:
     left: |
       Copyright &copy; 2025 [Federica Gazzelloni](https://federicagazzelloni.com/)
     center:  
+     # - href: "https://orcid.org/0000-0002-4285-611X"
+     #   icon: orcid
+     #   aria-label: Orcid
       - href: https://github.com/fgazzelloni
         icon: github
         aria-label: GitHub
       - href: https://twitter.com/fgazzelloni
         icon: twitter
         aria-label: Twitter
+      - href: https://bsky.app/profile/fgazzelloni.bsky.social
+        icon: bluesky
+        aria-label: BlueSky  
       - href: https://fosstodon.org/@fgazzelloni
         icon: mastodon
         aria-label: Mastodon

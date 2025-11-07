@@ -10,8 +10,6 @@ title-block-banner: true
 #     - contributor.qmd
 ---
 
-
-
 Welcome to this data visualization website, where I showcase my contributions to the `#TidyTuesday`, `#30DayChartChallenge`, `#30DayMapChallenge` and `#DuBiosChallenge` contributions spanning from 2021 to 2024.
 
 :::: {.columns}

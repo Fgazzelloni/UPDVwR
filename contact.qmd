@@ -17,9 +17,11 @@ title-block-banner: true
 <br>
 **Email:** [fede.gazzelloni@gmail.com](mailto:fede.gazzelloni@gmail.com)
 
+**LinkedIn:** [Federica Gazzelloni](https://www.linkedin.com/in/federicagazzelloni)
+
 **Twitter:** [@fgazzelloni](https://twitter.com/fgazzelloni)
 
-**LinkedIn:** [Federica Gazzelloni](https://www.linkedin.com/in/federicagazzelloni)
+**BlueSky:** [@fgazzelloni.bsky.social](https://bsky.app/profile/fgazzelloni.bsky.social)
 
 **Mastodon:** [@fgazzelloni](https://fosstodon.org/@fgazzelloni)
 
