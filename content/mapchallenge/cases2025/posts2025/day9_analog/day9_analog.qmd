@@ -2,10 +2,16 @@
 title: 'Analog'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 9'
 date: '2025-11-09'
-image: 'day9_analog.png'
-image-alt: ''
-description: ''
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day9_analog/day9_analog.png'
+image-alt: 'image of the Copernican Universe'
+description: '“Scenographia Systematis Copernicani” — a scenographic representation of the Copernican World System. The heliocentric theory of Nicolaus Copernicus, published in 1543, placed the Sun near the center of the Universe, marking a turning point in our understanding of the cosmos.'
 output: html_document
 execute: 
    eval: false
 ---
+
+
+
+![Scenographia Systematis Copernicani](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day9_analog/day9_analog.png)
+
+No code for this map! ;)
