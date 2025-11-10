@@ -1,11 +1,146 @@
 ---
-title: 'Air'
-subtitle: 'Welcome to #30DayMapChallenge 2025 day 10'
-date: '2025-11-10'
-image: 'day10_air.png'
-image-alt: ''
-description: ''
+title: "Air"
+subtitle: "Welcome to #30DayMapChallenge 2025 — Day 10"
+date: "2025-11-10"
+image: "https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day10_air/day10_air.gif"
+image-alt: "Animated map showing monthly mean wind speed around the globe"
+description: "Exploring global wind speed patterns using WorldClim data and R"
 output: html_document
-execute: 
-   eval: false
+execute:
+  eval: false
 ---
+
+![Wind Map- WorldClim data and R](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day10_air/day10_air.gif)
+
+## Overview
+
+The **theme for Day 10 of the #30DayMapChallenge** is *Air*.  
+In this post, we explore **global wind speed patterns** using the [WorldClim Version 2.1 dataset](https://www.worldclim.org/data/worldclim21.html), a widely used source of high-resolution climate data.  
+
+Wind speed is one of the key atmospheric variables affecting both **weather and climate systems**. It influences ocean currents, surface temperatures, and the distribution of airborne particles such as dust or pollutants. Understanding global wind speed patterns helps us interpret how energy and moisture are redistributed across the planet throughout the year.
+
+
+### About the Data
+
+The data come from **WorldClim v2.1**, developed by Fick & Hijmans (2017), which provides a set of **monthly climate variables** — including temperature, precipitation, solar radiation, and wind speed — interpolated from global weather stations at various spatial resolutions.
+
+For this map, we download the **monthly mean wind speed** (in meters per second) at **2.5 meters** above ground level, using the function `worldclim_global()` from the `{geodata}` package.  
+
+The dataset contains **12 raster layers**, one per month, at a spatial resolution of 2.5 arc-minutes (roughly 5 km at the equator).
+
+
+### Workflow
+
+We’ll use `{terra}` for handling raster data and `{ggplot2}` + `{gganimate}` for visualization.
+
+```{r}
+library(tidyverse)
+library(gganimate)
+library(terra)
+library(geodata)
+
+# Download monthly mean wind speed data (WorldClim v2.1)
+wind <- worldclim_global(var = "wind", res = 2.5)
+# saveRDS(wind, "data/wind.rds")  # optional
+```
+
+Let’s take a quick look at the raster object:
+
+```{r}
+plot(wind$wc2.1_2.5m_wind_01)
+plot(wind)
+nlyr(wind)
+```
+This raster stack has 12 layers (January to December), each representing the global mean wind speed for that month.
+
+
+### Data Preparation
+
+The full dataset is quite large (more than 150 million cells), so we reduce its size for smoother plotting by aggregating the resolution.
+
+
+```{r}
+# 1. Downsample & subset for speed
+wind_small <- aggregate(wind, fact = 10)
+names(wind_small) <- sprintf("month_%02d", 1:nlyr(wind_small))
+```
+
+We then convert it into a long data frame, which is more convenient for plotting with {ggplot2}.
+
+```{r}
+# 2. Convert 
+wind_df <- as.data.frame(wind_small, xy = TRUE) %>%
+  pivot_longer(cols = starts_with("month_"), 
+               names_to = "month", values_to = "wind")
+
+wind_df
+```
+
+### Visualizing Wind Speed
+
+Global wind patterns show marked seasonal variation.
+Stronger winds are typically found around mid-latitude storm tracks (40–60° N/S) and in equatorial regions, where temperature gradients drive atmospheric circulation cells such as the Hadley and Ferrel cells.
+
+The following plot maps mean wind speed for each month:
+
+```{r}
+p <- ggplot(wind_df) +
+  geom_tile(aes(x, y, fill = wind)) +
+  coord_fixed() +
+  scale_fill_gradient(low = "white", high = "purple") +
+  ggthemes::theme_map() +
+  labs(
+    title = "Monthly mean wind speed — {closest_state}",
+    caption = "#30DayMapChallenge Day10 Air\nData: geodata::worldclim_global | Map: Federica Gazzelloni",
+    fill = "Wind (m/s)"
+  ) +
+  theme(
+    text = element_text(color = "grey15"),
+    plot.title = element_text(size = 16, face = "bold"),
+    plot.background = element_rect(fill = "grey10")
+  )
+p
+```
+
+### Animation
+
+To better capture the temporal dynamics, we animate the plot — cycling through the 12 months of the year.
+
+```{r}
+p_transition <- p +
+  transition_states(month, transition_length = 1, state_length = 1)
+
+animate(
+  p_transition,
+  nframes = 12,
+  fps = 10,
+  width = 800,
+  height = 400
+)
+
+# anim_save("wind_months.gif")
+```
+
+The resulting animation reveals the seasonal rhythm of global wind fields — higher speeds during winter months in both hemispheres, and relative calm near the equator.
+
+These cyclical variations correspond to shifts in atmospheric pressure systems and solar radiation gradients that govern the Earth’s large-scale circulation cells and jet streams.
+
+### Discussion
+
+By visualizing monthly mean wind speeds, we gain a sense of how energy distribution across the planet varies with the seasons.
+
+For instance:
+  
+- Tropical regions show relatively stable wind patterns year-round.
+- Mid-latitudes exhibit strong seasonal contrasts, driven by polar–tropical temperature gradients.
+- Coastal and mountainous areas experience localized intensification due to topography.
+
+Such patterns are essential for understanding climate dynamics, renewable energy potential, and environmental modeling (e.g., air quality, dust transport, or vector-borne diseases).
+
+
+## References
+
+Fick, S. E., & Hijmans, R. J. (2017). WorldClim 2: New 1-km spatial resolution climate surfaces for global land areas. International Journal of Climatology, 37(12), 4302–4315. https://doi.org/10.1002/joc.5086
+
+
+
