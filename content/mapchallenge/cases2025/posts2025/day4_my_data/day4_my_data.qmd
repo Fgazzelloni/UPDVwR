@@ -1,5 +1,5 @@
 ---
-title: 'Data'
+title: 'My Data'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 4'
 date: '2025-11-04'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day4_my_data/day4_my_data.png'

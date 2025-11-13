@@ -1,8 +1,8 @@
 ---
-title: 'Map'
+title: '10 Minute Map'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 13'
 date: '2025-11-13'
-image: 'day13_10_minute_map.png'
+image: ''
 image-alt: ''
 description: ''
 output: html_document
