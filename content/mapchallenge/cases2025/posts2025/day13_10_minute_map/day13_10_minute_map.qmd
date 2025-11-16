@@ -2,10 +2,26 @@
 title: '10 Minute Map'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 13'
 date: '2025-11-13'
-image: ''
-image-alt: ''
-description: ''
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day13_10_minute_map/day13_10_minute_map.png'
+image-alt: 'Dalys due to Rabies 1990-2023'
+description: 'Changes in Disability-Adjusted Life Years (DALYs) attributable to rabies between 1990 and 2023'
 output: html_document
 execute: 
    eval: false
 ---
+
+
+![Change in Dalys due to Rabies 1990-2023](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day13_10_minute_map/day13_10_minute_map.png)
+
+## Overview
+
+No code for this map
+
+
+This quick 10-minute map uses publicly available data from the **Global Burden of Disease Study (GBD 2023)** hosted on <https://vizhub.healthdata.org/>, showing the changes in  **Disability-Adjusted Life Years (DALYs) attributable to rabies between 1990 and 2023**.
+
+Rabies remains a rare but highly fatal zoonotic disease, with the vast majority of cases occurring in low- and middle-income countries, particularly in regions where dog-mediated transmission persists. DALYs combine years of life lost (YLLs) due to premature death and years lived with disability (YLDs), offering a comprehensive measure of the total health loss associated with the disease.
+
+The map highlights persistent geographical disparities: while global DALYs due to rabies have declined thanks to vaccination campaigns and improved surveillance, the burden remains concentrated in parts of Africa and South Asia, reflecting ongoing gaps in access to post-exposure prophylaxis and animal control programs.
+
+Even though this visualization was generated in just a few minutes, it illustrates how rapid, data-driven maps can reveal enduring global health inequities — and why effective public health interventions depend on geographic insight as much as epidemiological data.
