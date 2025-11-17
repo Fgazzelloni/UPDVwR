@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'FIRMS hotspots'
 description: 'FIRMS hotspots'
 output: html_document
+categoris: "Fire"
 execute: 
    eval: false
 ---

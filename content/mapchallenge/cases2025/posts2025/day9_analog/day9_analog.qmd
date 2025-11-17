@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'image of the Copernican Universe'
 description: '“Scenographia Systematis Copernicani” — a scenographic representation of the Copernican World System. The heliocentric theory of Nicolaus Copernicus, published in 1543, placed the Sun near the center of the Universe, marking a turning point in our understanding of the cosmos.'
 output: html_document
+categories: "Analog"
 execute: 
    eval: false
 ---

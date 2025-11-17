@@ -1,11 +1,12 @@
 ---
-title: 'Names'
+title: 'Places and their Names'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 24'
 date: '2025-11-24'
 image: 'day24_places_and_their_names.png'
 image-alt: ''
 description: ''
 output: html_document
+categories: "Places and their Names"
 execute: 
    eval: false
 ---

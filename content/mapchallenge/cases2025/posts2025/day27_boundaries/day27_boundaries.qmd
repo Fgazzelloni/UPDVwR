@@ -6,6 +6,7 @@ image: 'day27_boundaries.png'
 image-alt: ''
 description: ''
 output: html_document
+categories: "Boundaries"
 execute: 
    eval: false
 ---

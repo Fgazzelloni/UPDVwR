@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'global robinson projection map of polygons'
 description: 'Working with polygons and global projections'
 output: html_document
+categories: "Polygons"
 execute: 
    eval: false
 ---

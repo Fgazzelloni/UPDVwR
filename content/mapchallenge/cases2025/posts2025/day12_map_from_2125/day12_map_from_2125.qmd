@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Population Map'
 description: 'World’s population a century from now'
 output: html_document
+categories: "Map from 2125"
 execute: 
    eval: false
 ---

@@ -6,6 +6,7 @@ image: "https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: "Animated map showing monthly mean wind speed around the globe"
 description: "Exploring global wind speed patterns using WorldClim data and R"
 output: html_document
+categories: "Air"
 execute:
   eval: false
 ---

@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Mortality from Chronic Diseases in Italy, France, and Spain'
 description: 'This map compares mortality rates across Italy, France, and Spain for four leading causes of death — Alzheimer’s disease and other dementias, chronic obstructive pulmonary disease (COPD), diabetes and kidney diseases, and stroke — during the period 2011–2021.'
 output: html_document
+categories: "My Data"
 execute: 
    eval: false
 ---

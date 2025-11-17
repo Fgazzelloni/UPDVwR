@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Minimal map of Italy in Goode Homolosine projection with Rome marked'
 description: 'A minimalist map of Italy created using sf and ggplot2 with soft tones and a single city highlighted.'
 output: html_document
+categories: "Minimal"
 execute:
   eval: false
 ---

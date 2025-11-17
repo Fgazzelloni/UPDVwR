@@ -1,11 +1,12 @@
 ---
-title: 'Earth'
+title: 'Natural Earth'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 22'
 date: '2025-11-22'
 image: 'day22_natural_earth.png'
 image-alt: ''
 description: ''
 output: html_document
+categories: "Natural Earth"
 execute: 
    eval: false
 ---

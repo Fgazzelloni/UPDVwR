@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Visualizing Global Connections Using Lines'
 description: 'Visualizing Global Connections Using Lines'
 output: html_document
+categories: "Lines"
 execute: 
    eval: false
 ---

@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Accessibility map showing travel time to healthcare facilities'
 description: 'Exploring accessibility to healthcare facilities across Spain, highlighting spatial inequalities in travel time.'
 output: html_document
+categories: "Accessibility"
 execute: 
   eval: false
 ---

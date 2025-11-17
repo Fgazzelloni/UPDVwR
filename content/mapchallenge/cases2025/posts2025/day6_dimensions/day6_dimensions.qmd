@@ -5,7 +5,8 @@ date: "2025-11-06"
 image: "https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day6_dimensions/day6_dimensions.png"
 image-alt: "Health Dimension Index Map 2022"
 description: "Exploring multidimensional health data through a composite index combining life expectancy, HALE, YLL, and YLD."
-format: html
+categories: "Dimensions"
+output: html_document
 execute: 
   eval: false
 ---

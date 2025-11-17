@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Central Park, New York, USA'
 description: 'This map explores the heart of New York City — a view of buildings, roads, and parks around Central Park, blending the city’s structure and green spaces.'
 output: html_document
+categories: "Urban"
 execute: 
    eval: false
 ---

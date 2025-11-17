@@ -6,6 +6,7 @@ image: 'day30_makeover.png'
 image-alt: ''
 description: ''
 output: html_document
+categories: "Makeover"
 execute: 
    eval: false
 ---

@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Global map of expected deaths per 1M population due to Environmental Heat & Fire, using GBD 2023 data'
 description: 'Global map of expected deaths per 1M population due to Environmental Heat & Fire, using GBD 2023 data'
 output: html_document
+categories: "Cell"
 execute: 
    eval: false
 ---

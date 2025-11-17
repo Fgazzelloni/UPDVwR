@@ -6,6 +6,7 @@ image: 'day29_raster.png'
 image-alt: ''
 description: ''
 output: html_document
+categories: "Raster"
 execute: 
    eval: false
 ---

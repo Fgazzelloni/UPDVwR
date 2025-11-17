@@ -6,6 +6,7 @@ image: 'day23_process.png'
 image-alt: ''
 description: ''
 output: html_document
+categories: "Process"
 execute: 
    eval: false
 ---

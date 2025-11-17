@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Dalys due to Rabies 1990-2023'
 description: 'Changes in Disability-Adjusted Life Years (DALYs) attributable to rabies between 1990 and 2023'
 output: html_document
+categories: "10 Minute Map"
 execute: 
    eval: false
 ---

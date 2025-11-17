@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2
 image-alt: 'day1_points'
 description: 'Infectious Diseases World Map - Average DALYs per country 1990-2021'
 output: html_document
+categories: "Points"
 execute: 
    eval: false
 ---

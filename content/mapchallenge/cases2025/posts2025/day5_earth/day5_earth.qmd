@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Age-standardized death rates due to suicide, 1990-2021'
 description: 'Mapping Suicide Mortality Across the Planet, Age-standardized death rates due to suicide, 1990-2021'
 output: html_document
+categories: "Earth"
 execute: 
    eval: false
 ---

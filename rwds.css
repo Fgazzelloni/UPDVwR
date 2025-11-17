@@ -592,13 +592,15 @@ div.quarto-post a {
 /*-- grid listing --*/
 
 .quarto-grid-item {
-  border: none;
-  background-color: #f0eeeb;
+  border: 1px solid #f0d0c6;
+  border-radius: 8px;
+  background-color: #eeebe6;
 }
 
 .quarto-grid-item.borderless {
-  border: none;
-  background-color: #f0eeeb;
+  border: 1px solid #f0d0c6;
+  border-radius: 8px;
+  background-color: #eeebe6;
 }
 
 .quarto-grid-item div.post-contents {
@@ -608,6 +610,8 @@ div.quarto-post a {
 .quarto-grid-item .card-title {
   margin-top: 0.5em;
   margin-bottom: 0.75em;
+  text-align: center !important;
+  width: 100%;
 }
 
 .quarto-grid-item .listing-categories {

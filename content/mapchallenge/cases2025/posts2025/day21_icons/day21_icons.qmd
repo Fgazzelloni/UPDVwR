@@ -6,6 +6,7 @@ image: 'day21_icons.png'
 image-alt: ''
 description: ''
 output: html_document
+categories: "Icons"
 execute: 
    eval: false
 ---

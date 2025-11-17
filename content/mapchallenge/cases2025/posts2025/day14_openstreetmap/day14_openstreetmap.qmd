@@ -6,6 +6,7 @@ image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/hea
 image-alt: 'Rome Hospitals location'
 description: 'Rome Hospitals location'
 output: html_document
+categories: "Openstreetmap"
 execute: 
    eval: false
 ---
