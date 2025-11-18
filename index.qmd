@@ -9,18 +9,19 @@ search: false
 toc: false 
 description: | 
   A full list of Data Visualizations with code made with the R programming language.
-listing:
-  contents: content/
-  sort: "date desc"
-  type: grid
-  image-height: "200"
-  max-items: 3
-  categories: false
-  feed: true
+#listing:
+#  contents:
+#    - mapchallenge/cases2025
+#  sort: "date desc"
+#  type: grid
+#  image-height: "200"
+#  max-items: 3
+#  categories: false
+#  feed: true
 ---
 
 ::: callout-warning
-## Content updated at any new challenge --> Look at the #30DayMapChallenge tab 🗺️
+## Content updated at any new challenge --> Look at the **[**Maps Challenge**](content/mapchallenge)** tab 🗺️
 :::
 
 Welcome to `Unlocking the Power of Data Visualization with R`!
