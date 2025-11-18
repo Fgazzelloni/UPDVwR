@@ -2,7 +2,7 @@
 title: 'World'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 18'
 date: '2025-11-18'
-image: ''
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day18_out_of_this_world/day18_out_of_this_world.png'
 image-alt: 'Mapped Mars today using the Viking global mosaic from NASA/USGS.'
 description: 'Mapped Mars today using the Viking global mosaic from NASA/USGS. Rebuilt the extent in R and plotted the planet in a clean equirectangular view.'
 output: html_document
@@ -11,7 +11,7 @@ execute:
 ---
 
 
-![]()
+![Mars today using the Viking global mosaic from NASA/USGS](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day18_out_of_this_world/day18_out_of_this_world.png)
 
 
 ## Overview
