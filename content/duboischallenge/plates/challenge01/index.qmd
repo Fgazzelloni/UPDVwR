@@ -72,8 +72,10 @@ dat_sf <- georgia_shp%>%
   mutate(pop70=mean(up70,down70),
          pop80=mean(up80,down80))%>%
   arrange(pop70,pop80)
+```
 
 
+```{r}
 data <- dat_sf%>%select(county=icpsrnam,
                 pop70,pop80)%>%
   mutate(id=case_when(pop70 == 0 ~ 7,
@@ -203,6 +205,7 @@ source: [https://ggplot2-book.org/arranging-plots](https://ggplot2-book.org/arra
 ```{r}
 pop70_map+ ggplot() + ggplot()+ pop80_map + plot_layout(ncol = 2,nrow = 2)
 ```
+
 
 ```{r}
 legend1 <- tibble(x=0,y=c(4,3,2,1),

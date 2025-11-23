@@ -3,8 +3,8 @@ title: 'Lines'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 2'
 date: '2022-11-2'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day2_lines/day2_lines.png'
-image-alt: ''
-description: ''
+image-alt: 'Long-term rivers average discharge in Italy and surrounding areas'
+description: 'Long-term rivers average discharge in Italy and surrounding areas'
 output: html_document
 execute: 
    eval: false
@@ -15,11 +15,8 @@ execute:
 
 This is a map of `Long-term rivers average discharge in Italy and surrounding areas`. Values m3/s for rivers with length in km greater than 1.780. Data is from `hydrosheds.org`.
 
-
-
 ## Load the libraries
 ```{r}
-
 library(tidyverse)
 library(sf)
 library(cowplot)
@@ -31,28 +28,37 @@ library(extrafont)
 showtext::showtext_auto()
 showtext::showtext_opts(dpi=320)
 font_add(family ="Roboto Condensed",regular="RobotoCondensed-Regular.ttf")
+```
 
+
+```{r}
 # read in the rivers data
 # https://www.hydrosheds.org/products/hydrorivers
 # my_rivers <- st_read(dsn = 'HydroRIVERS_v10_eu_shp/HydroRIVERS_v10_eu.shp') 
 # save(my_rivers,file="data/my_rivers.RData")
 
 load("data/my_rivers.RData")
+```
 
 
+```{r}
 # select rivers with length in km greater than 1.780
 my_rivers_1 <- my_rivers %>% 
   filter(LENGTH_KM> 1.780)
+```
 
 
-
+```{r}
 map <- my_rivers_1 %>% 
   ggplot()+
   geom_sf(aes(color=ORD_FLOW),
           size=0.1,
           show.legend = TRUE) +
   coord_sf(xlim = c(0.439,24.961),ylim = c(34.355,46.870))
+```
 
+
+```{r}
 map +
   labs(title="Long-term rivers average discharge",
        subtitle="Italy and surrounding areas",
@@ -65,9 +71,10 @@ map +
         panel.grid = element_line(color="grey92",size=0.3),
         plot.background = element_rect(color="grey95",fill="grey95"),
         panel.background = element_rect(color="grey95",fill="grey95"))
+```
 
 
-
+```{r}
 ggsave("day2_lines.png",dpi=300)
 
 ```
