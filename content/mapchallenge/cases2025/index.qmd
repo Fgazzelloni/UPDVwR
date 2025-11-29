@@ -1,6 +1,6 @@
 ---
 title: "30DayMapChallenge 2025"
-image: "https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/main/images/flyers/30dmc_2025.png"
+image: "https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/collage/collage2025.png"
 listing: 
   contents: posts2025
   sort: "date asc"
