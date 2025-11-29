@@ -16,6 +16,7 @@ website:
     tracking-id: "G-55K190Q6RX"
     anonymize-ip: true  
   page-navigation: true  
+  back-to-top-navigation: true 
   
   navbar:
     background: "#f0eeeb"

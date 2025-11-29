@@ -2,11 +2,161 @@
 title: 'Transport'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 26'
 date: '2025-11-26'
-image: 'day26_transport.png'
-image-alt: ''
-description: ''
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/day26_transport/day26_transport.png'
+image-alt: 'Portugal Transport Networks'
+description: 'Portugal Transport Networks: Primary and motorways by speed categories'
 output: html_document
-categories: "Transport"
 execute: 
    eval: false
 ---
+
+![Portugal Transport Networks](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/day26_transport/day26_transport.png)
+
+## Overview
+
+Transport networks visualized with R. I downloaded Portugal data from **Geofabrik** to download OSM-based shapefiles:
+
+- <https://download.geofabrik.de/>
+```{r}
+library(tidyverse)
+library(sf)
+```
+
+## Set the fonts
+```{r}
+library(showtext)
+library(sysfonts)
+font_add_google("EB Garamond","Garamond")
+showtext_auto()
+showtext_opts(dpi = 300)
+```
+
+## Load the data
+
+```{r}
+# roads_files <- list.files("data/portugal-251127-free.shp", pattern="roads.*\\.shp$",full.names = TRUE)
+# roads <- read_sf(roads_files) 
+# saveRDS(roads,"data/roads_portugal.rds")
+roads_portugal <- readRDS("data/roads_portugal.rds")
+```
+
+## Explore the data
+```{r}
+roads_portugal%>%names
+```
+
+
+## Check the unique values in the `fclass` column
+```{r}
+unique(roads_portugal$fclass)
+```
+
+## Clean the `fclass` column
+```{r}
+roads_portugal$fclass <- trimws(roads_portugal$fclass)
+roads_portugal$fclass <- tolower(roads_portugal$fclass)
+```
+
+## Filter different road types
+```{r}
+residential <- roads_portugal %>%
+  filter(fclass=="residential")
+
+primary <- roads_portugal %>%
+  filter(fclass=="primary")
+```
+
+## Filter motorways
+```{r}
+motorway <- roads_portugal %>%
+  filter(fclass=="motorway")
+```
+
+## Explore motorway attributes
+```{r}
+length(unique(motorway$name))
+length(unique(motorway$ref))
+length(unique(motorway$oneway))
+length(unique(motorway$maxspeed))
+unique(motorway$maxspeed)
+```
+
+## Load Portugal boundaries
+```{r}
+eu <- rnaturalearth::ne_countries(continent="Europe",
+                                 scale = "large",
+                                 returnclass = "sf")
+portugal <- rnaturalearth::ne_countries(country="Portugal",
+                                         scale = "large",
+                                         returnclass = "sf")
+```
+
+
+## Create speed categories
+```{r}
+motorway$speed_cat <- cut(
+  motorway$maxspeed,
+  breaks = c(0, 50, 80, 120),
+  labels = c("Slow", "Medium", "Fast"),
+  include.lowest = TRUE
+)
+
+primary$speed_cat <- cut(
+  primary$maxspeed,
+  breaks = c(0, 50, 80, 120),
+  labels = c("Slow", "Medium", "Fast"),
+  include.lowest = TRUE
+)
+```
+
+## Plot the map
+```{r}
+ggplot()+
+  geom_sf(data=eu,
+          fill="#99af9e",
+          color="grey40")+
+  geom_sf(data=portugal,
+          fill="#e6edf2",
+          color="grey40")+
+  geom_sf(data=motorway,
+          aes(color=(speed_cat)),
+          show.legend = T,
+          size=0.5) +
+  geom_sf(data=primary,
+          aes(color=(speed_cat)),
+          show.legend = F,
+          size=0.3) +
+  scale_color_manual(values = c(
+  "Slow"   = "grey40",
+  "Medium" = "#fee090",
+  "Fast"   = "#d73027"))+
+  labs(title="Portugal Transport Networks",
+       subtitle="Primary and motorways by speed categories",
+       caption="DataSource: Portugal Geofabrik Open Data\n#30DayMapChallenge 2025 Day 26: Transport | Map: Federica Gazzelloni",
+       color="Speed")+
+  coord_sf(xlim=c(-9,-5),ylim=c(36,45),expand = T,clip = "off") +
+  ggthemes::theme_map()+
+  theme(text =element_text(family="Garamond"),
+        plot.title = element_text(face="bold",hjust = 0.5,size=18),
+        plot.subtitle = element_text(hjust = 0.5),
+        plot.caption = element_text(hjust = 0.5,size=9),
+        legend.direction = "horizontal",
+        legend.position.inside = "inside",
+        legend.position = c(-0.5,0.9),
+        legend.background = element_rect(fill=NA,color=NA))
+```
+
+
+
+## Save the map
+```{r}
+ggsave("day26_transport.png",
+       width = 6,
+       height = 4,
+       dpi = 320,
+       bg="#89a5b9")
+```
+
+
+
+

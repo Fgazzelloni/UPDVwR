@@ -2,11 +2,17 @@
 title: 'Process'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 23'
 date: '2025-11-23'
-image: 'day23_process.png'
-image-alt: ''
-description: ''
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/day23_process/day23_process.png'
+image-alt: 'Mapping Process'
+description: 'Mapping Process: from data collection to visualization'
 output: html_document
 categories: "Process"
 execute: 
    eval: false
 ---
+
+![Mapping Process](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/day23_process/day23_process.png)
+
+## Overview
+
+No code snippet for this post as it is an illustrative diagram created with graphic design software to represent the mapping process from data collection to visualization.

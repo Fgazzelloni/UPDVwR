@@ -2,11 +2,187 @@
 title: 'Places and their Names'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 24'
 date: '2025-11-24'
-image: 'day24_places_and_their_names.png'
-image-alt: ''
-description: ''
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/day24_places_and_their_names/day24_places_and_their_names.png'
+image-alt: 'Places and their Names'
+description: 'Places and their Names: A map showcasing various locations and their names around the world.'
 output: html_document
 categories: "Places and their Names"
 execute: 
    eval: false
 ---
+
+![Places and their Names](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/day24_places_and_their_names/day24_places_and_their_names.png)
+
+## Overview
+
+This map illustrates the endonyms (local names) of countries around the world, sourced from Wikidata and Natural Earth. The visualization highlights the diversity of place names in their native languages compared to their English exonyms.
+
+```{r}
+###############################################################
+# Day 24 – Places and Their Names
+# Endonym vs Exonym Map (Robust Wikidata Query)
+###############################################################
+
+library(sf)
+library(rnaturalearth)
+library(ggplot2)
+library(dplyr)
+library(jsonlite)
+library(tibble)
+library(stringr)
+
+###############################################################
+# 1. LOAD NATURAL EARTH WORLD POLYGONS
+###############################################################
+
+world <- ne_countries(scale = 50, returnclass = "sf") %>%
+  select(iso_a2, name) %>%
+  rename(exonym_ne = name)
+
+
+###############################################################
+# 2. WIKIDATA — FETCH ENGLISH LABELS
+###############################################################
+
+query_en <- "
+SELECT ?iso ?en WHERE {
+  ?country wdt:P31 wd:Q6256 .
+  ?country wdt:P297 ?iso .
+  ?country rdfs:label ?en .
+  FILTER (lang(?en) = 'en')
+}
+"
+
+url_en <- paste0(
+  "https://query.wikidata.org/sparql?query=",
+  URLencode(query_en, reserved = TRUE),
+  "&format=json"
+)
+
+raw_en <- fromJSON(url_en)$results$bindings
+
+extract_value <- function(x) {
+  if (is.null(x)) return(NA_character_)       # missing cell
+  if (is.atomic(x)) return(as.character(x))   # already a string
+  if (!is.null(x$value)) return(as.character(x$value))   # usual case
+  return(NA_character_)
+}
+
+
+
+df_en <- tibble(
+  iso_a2 = sapply(raw_en$iso, extract_value),
+  exonym = sapply(raw_en$en, extract_value)
+)
+```
+
+```{r}
+df_en%>%head()
+```
+
+```{r}
+###############################################################
+# 3. WIKIDATA — FETCH NATIVE LABELS (ANY LANGUAGE EXCEPT EN)
+###############################################################
+
+query_native <- "
+SELECT ?iso ?name WHERE {
+  ?country wdt:P31 wd:Q6256 .
+  ?country wdt:P297 ?iso .
+  ?country rdfs:label ?name .
+  FILTER (lang(?name) != 'en')
+}
+"
+
+url_native <- paste0(
+  "https://query.wikidata.org/sparql?query=",
+  URLencode(query_native, reserved = TRUE),
+  "&format=json"
+)
+
+raw_native <- fromJSON(url_native)$results$bindings
+
+
+
+df_native <- tibble(
+  iso_a2 = sapply(raw_native$iso, extract_value),
+  endonym = sapply(raw_native$name, extract_value)
+) %>%
+  group_by(iso_a2) %>%
+  slice(1) %>%     # keep only one native name for each country
+  ungroup()
+```
+
+
+```{r}
+###############################################################
+# 4. JOIN ENGLISH + NATIVE LABELS SAFELY
+###############################################################
+
+wd_clean <- df_en %>%
+  left_join(df_native, by = "iso_a2") %>%
+  mutate(
+    # if native name missing, fall back to English
+    endonym = ifelse(is.na(endonym), exonym, endonym)
+  )
+```
+
+
+```{r}
+###############################################################
+# 5. JOIN WITH NATURAL EARTH SHAPES
+###############################################################
+
+world_names <- world %>%
+  left_join(wd_clean, by = "iso_a2") 
+```
+
+
+
+```{r}
+library(showtext)
+font_add_google(name = 'Delius', 
+                family = 'Delius')
+showtext_auto()
+showtext_opts(dpi = 300)
+```
+
+
+```{r}
+###############################################################
+# 6. PLOT THE MAP
+###############################################################
+
+ggplot(world_names) +
+  geom_sf(fill = "#f2e8d5", color = alpha("#5c4d3b",0.5), size = 0.2) +
+  geom_sf_text(aes(label = exonym_ne),
+               size = 2.5,
+               family = "Delius",
+               check_overlap = TRUE,
+               color = "#3a2f28") +
+  labs(
+    title = "Endonyms of Countries",
+    subtitle = "English Local names",
+    caption = "#30DayMapChallenge 2025 | Day 24: Places and Their Names\nData: Wikidata, Natural Earth | Map: Federica Gazzelloni"
+  ) +
+  ggthemes::theme_map(base_family = "Delius")+
+  theme(
+    #plot.background = element_rect(fill = "#f7f3ea", color = NA),
+    panel.background = element_rect(fill = "#bfd0dd", color = NA),
+    panel.grid = element_blank(),
+    plot.title = element_text(size = 18, face = "bold"),
+    plot.subtitle = element_text(size = 12)
+  )
+
+```
+
+
+
+```{r}
+ggsave("day24_places_and_their_names.png",
+       dpi = 320,
+       width = 6,
+       height = 4,
+       bg = "transparent")
+```
+

@@ -2,11 +2,103 @@
 title: 'Hexagons'
 subtitle: 'Welcome to #30DayMapChallenge 2025 day 25'
 date: '2025-11-25'
-image: 'day25_hexagons.png'
-image-alt: ''
-description: ''
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/day25_hexagons/day25_hexagons.png'
+image-alt: 'Hexagons'
+description: 'Italy in hexagons: a different perspective on the map'
 output: html_document
 categories: "Hexagons"
 execute: 
    eval: false
 ---
+
+
+![Italy in hexagons](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/main/2025/day25_hexagons/day25_hexagons.png)
+
+
+## Overview
+
+Hexagonal grids with R. We use the {sf} package. 
+
+Load Libraries
+```{r}
+library(sf)
+library(rnaturalearth)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+
+```
+
+2. Get Italy boundaries
+```{r}
+# Natural Earth country boundaries
+world <- rnaturalearth::ne_countries(scale = 10, returnclass = "sf")
+
+italy <- world %>% 
+  filter(admin == "Italy") %>% 
+  st_transform(3857)   # good for equal-area cell grids
+
+
+```
+
+3. Create hexagonal grid (~200 km)
+
+In EPSG:3857, metres are units → 200,000 m ≈ 200 km
+
+square = FALSE gives hexagons
+```{r}
+cell <- st_make_grid(
+  italy,
+  cellsize = 200000,    # ~200 km
+  what = "polygons",
+  square = FALSE         # hexagons
+)
+
+cell_sf <- st_sf(geometry = cell)
+
+```
+
+4. Clip hexagons to Italy
+```{r}
+hex_it <- st_intersection(cell_sf, italy)
+
+
+```
+
+
+```{r}
+library(showtext)
+font_add_google(name = 'Roboto Condensed', 
+                family = 'Roboto Condensed')
+showtext_auto()
+showtext_opts(dpi = 300)
+```
+
+
+5. Plot hexagonal grid over Italy
+```{r}
+ggplot() +
+  geom_sf(data = hex_it, fill = "#7781a6", color = "white") +
+  geom_sf(data = italy, fill = NA, color = "black", size = 0.5) +
+  ggthemes::theme_map() +
+  labs(
+    title = "Hexagonal Grid over Italy",
+    subtitle = "Approximate cell size: 200 km",
+    caption = "#30DayMapChallenge 2025 | Day 25: Hexagons\nData source: Natural Earth | Map by Federica Gazzelloni"
+  ) +
+  ggthemes::theme_map()+
+  theme(text=element_text(color="white",
+                          family="Roboto Condensed",face="bold"),
+        plot.title = element_text(size = 18),
+        plot.subtitle = element_text(size = 12),
+        plot.caption = element_text(hjust = 0.5))
+```
+
+
+```{r}
+ggsave("day25_hexagons.png",
+       dpi = 320,
+       width = 6,
+       height = 4,
+       bg = "#1f2435")
+```
