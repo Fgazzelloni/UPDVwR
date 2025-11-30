@@ -3,20 +3,21 @@ title: 'Hexagons'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 9'
 date: '2023-11-09'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day9_hexagons/day9_hexagons.png'
-image-alt: ''
-description: ''
+image-alt: 'Hexagons Map'
+description: 'Hexagons map of Covid19 data in Italy using {covid19italy} package: this map visualizes Covid19 cases across different regions of Italy using hexagonal grid cells to represent data density and distribution.'
+categories: ['Hexagons','Italy','Covid19']
 output: html_document
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 Hexagons map of Covid19 data in Italy. For this challenge I will be using the `{covid19italy}` package for mapping Covid19 cases in Italy.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day9_hexagons/day9_hexagons.png)</center>
+![Italy](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day9_hexagons/day9_hexagons.png)</center>
 
 
 
@@ -189,3 +190,6 @@ Source of inspiration:
 
 Source of data: 
 https://covid19r.github.io/covid19italy/articles/geospatial_visualization.html
+
+
+

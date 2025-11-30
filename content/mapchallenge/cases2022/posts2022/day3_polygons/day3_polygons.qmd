@@ -3,8 +3,9 @@ title: 'Polygons'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 3'
 date: '2022-11-3'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day3_polygons/day3_polygons.png'
-image-alt: ''
-description: ''
+image-alt: 'New York Map'
+description: 'New York Map: A map visualizing private health insurance status in New York using census tracts data from census.gov.'
+categories: ['Polygons','New York','Private Health Insurance']
 output: html_document
 execute: 
    eval: false
@@ -13,6 +14,10 @@ execute:
 # Overview
 
 Map of `Private health insurance status in New York`. Census tracts data is from `census.gov`.
+
+![New York](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day3_polygons/day3_polygons.png)
+
+
 
 
 Source: https://walker-data.com/census-r/mapping-census-data-with-r.html
@@ -109,3 +114,5 @@ ggplot(private_h_insurance_f) +
 #        dpi=200)
 
 ```
+
+

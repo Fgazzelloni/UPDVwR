@@ -3,8 +3,9 @@ title: 'Movement'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 23'
 date: '2022-11-23'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day23_movement/day23_movement.png'
-image-alt: ''
-description: ''
+image-alt: 'Movements to Europe through the Mediterranean and Western Balkans migration routes, 2017 flows: Italy overview'
+description: 'Movements to Europe through the Mediterranean and Western Balkans migration routes, 2017 flows: Italy overview. DataSource: @humdata'
+categories: ['Movement','Migration','Europe']
 output: html_document
 execute: 
    eval: false
@@ -14,6 +15,7 @@ execute:
 
 Map of the Movements to Europe through the Mediterranean and Western Balkans migration routes, 2017 flows: `Italy overview`. DataSource: `@humdata`.
 
+![Europe](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day23_movement/day23_movement.png)
 
 Source
 
@@ -160,3 +162,7 @@ ggsave("day23_movement.png",
        dpi=280)
 
 ```
+
+
+
+

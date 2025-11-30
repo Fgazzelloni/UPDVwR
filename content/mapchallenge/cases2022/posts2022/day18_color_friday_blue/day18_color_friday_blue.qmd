@@ -3,8 +3,9 @@ title: 'Colour Friday: Blue'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 18'
 date: '2022-11-18'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day18_color_friday_blue/day18_color_friday_blue.png'
-image-alt: ''
-description: ''
+image-alt: 'Milan, Italy Map'
+description: 'Milan, Italy Map: This map visualizes religious locations in Milan, Italy using data from the {osmdata} package.'
+categories: ['Color Friday','Milan', 'OpenStreetMap']
 output: html_document
 execute: 
    eval: false
@@ -13,6 +14,8 @@ execute:
 # Overview
 
 This a map of `Milan, Italy` with religious locations. Data is from the `{osmdata}` package.
+
+![Milan, Italy](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day18_color_friday_blue/day18_color_friday_blue.png)
 
 
 
@@ -208,3 +211,5 @@ ggsave("day8_openstreetmap.png",
        bg="white")
 
 ```
+
+

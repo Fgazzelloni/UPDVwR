@@ -3,8 +3,9 @@ title: 'Oceania'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 16'
 date: '2023-11-16'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day16_oceania/day16_oceania.png'
-image-alt: ''
-description: ''
+image-alt: 'Oceania Map'
+description: 'Oceania Map: This map of Oceania shows Population Peaks of Oceania''s Cities.'
+categories: ['Oceania','Population',"Globe"]
 output: html_document
 execute: 
    eval: false
@@ -13,14 +14,14 @@ execute:
 ---
 
 
-# Overview
+## Overview
 
 
 This map of Oceania shows Population Peaks of Oceania's Cities. 
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day16_oceania/day16_oceania.png)</center>
+![Oceania](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day16_oceania/day16_oceania.png)</center>
 
 Oceania is divided into:
 
@@ -208,4 +209,7 @@ ggsave("day16_oceania.png",bg="#263c52")
 - <https://www.r-bloggers.com/2019/04/zooming-in-on-maps-with-sf-and-ggplot2/>
 - <https://gist.github.com/rafapereirabr/26965dd851debad32ad2e659024ba451>
 - <https://rpubs.com/mdavril_gsu/794598>
+
+
+
 

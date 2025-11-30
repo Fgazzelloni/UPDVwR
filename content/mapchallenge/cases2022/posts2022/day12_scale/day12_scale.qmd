@@ -3,17 +3,20 @@ title: 'Scale'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 12'
 date: '2022-11-12'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day12_scale/day12_scale.png'
-image-alt: ''
-description: ''
+image-alt: 'Atlantic Ocean Storms'
+description: 'Atlantic Ocean Storms: A static leaflet map of the Atlantic Ocean Storms in 2005 with scale bar and proportional symbols representing maximum wind speeds.'
+categories: ['Scale','Atlantic Ocean','Storms']
 output: html_document
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 This is a static `leaflet` map of the `Atlantic Ocean Storms` in 2005.
+
+![Atlantic Ocean Storms](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day12_scale/day12_scale.png)
 
 ```{r}
 library(leaflet)
@@ -99,3 +102,5 @@ library(htmltools)
 saveWidget(map_leaflet, file="day12_scale.html")
 
 ```
+
+

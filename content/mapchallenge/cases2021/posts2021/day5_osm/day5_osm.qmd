@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day5_osm/osmdata.png)</center>
+
+
 # Overview
 
 This map of `Berlin water` is made with data from `{osmdata}` package.

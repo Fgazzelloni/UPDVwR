@@ -3,23 +3,24 @@ title: 'Antarctica'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 25'
 date: '2023-11-25'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png'
-image-alt: ''
-description: ''
+image-alt: 'Antarctica'
+description: 'Antarctica Map: Composite Gazetteer of Antarctica via {antanym}'
 output: html_document
+categories: [Antarctica]
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 This is a Map of Antarctica made with the `rOpenSci {antanym}` package provided by 
 
->Composite Gazetteer of Antarctica, Scientific Committee on Antarctic Research. GCMD Metadata (http://gcmd.nasa.gov/records/SCAR_Gazetteer.html)
+>Composite Gazetteer of Antarctica, Scientific Committee on Antarctic Research. [GCMD Metadata](http://gcmd.nasa.gov/records/SCAR_Gazetteer.html)
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png)</center>
+![Antarctica](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png)</center>
 
 Load libraries
 ```{r}
@@ -160,4 +161,7 @@ ggplot() +
 ```{r}
 ggsave("day25_antarctica.png",bg="#263c52")
 ```
+
+
+
 

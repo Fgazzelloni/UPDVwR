@@ -3,20 +3,21 @@ title: 'Outdoors'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 20'
 date: '2023-11-20'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png'
-image-alt: ''
-description: ''
+image-alt: 'Coastlines Scalerank Map'
+description: 'Coastlines Scalerank Map: This map visualizes the coastlines of the world, categorized by their scalerank, using data from the {rnaturalearthhires} package.'
+catwegories: ['Outdoors', 'Coastlines','Scalerank','World']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 `World` map of the Coastlines Scalerank. Data is from `{rnaturalearthhires}` package.
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png)</center>
+![Coastlines Scalerank Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day20_outdoors/day20_outdoors.png)</center>
 
 ```{r}
 library(tidyverse)
@@ -68,4 +69,8 @@ showtext::showtext_end()
 ```{r}
 ggsave("day20_outdoors.png",bg="#bfd0dd",height = 4)
 ```
+
+
+
+
 

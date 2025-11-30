@@ -3,8 +3,9 @@ title: 'Points'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 1'
 date: '2022-11-1'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day1_points/day1_points.png'
-image-alt: ''
-description: ''
+image-alt: 'Malaria prevalence in children'
+description: 'Malaria prevalence in children, data recorded at villages in The Gambia, Africa. Data is from {geoR} package.'
+categories: ['Points','Africa','The Gambia','Malaria']
 output: html_document
 execute: 
    eval: false
@@ -13,6 +14,8 @@ execute:
 # Overview
 
 `Malaria prevalence in children`, data recorded at villages in The `Gambia, Africa`. Data is from `{geoR}` package.
+
+![Gambia, Africa](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day1_points/day1_points.png)
 
 
 
@@ -164,3 +167,5 @@ ggsave("day1_points.png",
        width = 6,height = 3.5)
 
 ```
+
+

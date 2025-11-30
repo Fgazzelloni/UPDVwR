@@ -3,19 +3,20 @@ title: 'Lines'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 2'
 date: '2023-11-02'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day2_lines/day2_lines.png'
-image-alt: ''
-description: ''
+image-alt: 'Lines Map'
+description: 'Lines Map: this map of New York uses topographic ridge lines to represent elevation data, creating a visually striking representation of the terrain.'
+categories: ['Lines','New York']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 This `NewYork` map data is from the USDA NRCS `Geospatial Data Gateway`. Made with {topo.ridges} package.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day2_lines/day2_lines.png)</center>
+![New York](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day2_lines/day2_lines.png)</center>
 
 
 
@@ -74,4 +75,8 @@ map <- topo.ridges::ridgemap(elev_data = elev_raster2,
 ```{r}
 ggsave(filename = "day2_lines.png")
 ```
+
+
+
+
 

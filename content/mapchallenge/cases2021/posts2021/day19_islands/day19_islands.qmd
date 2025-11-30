@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day19_islands/islands.png)</center>
+
+
 # Overview
 
 This a map of `Japan` with cities from `mapdata::get('world.cities')`.

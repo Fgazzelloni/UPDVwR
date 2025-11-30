@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day13_naturalearth/naturalearth2.png)</center>
+
+
 # Overview
 
 This map represent the `NATURAL EARTH GDP ESTIMATION`, data is from the `{rnaturalearth}` package - View: EPSG:5368.

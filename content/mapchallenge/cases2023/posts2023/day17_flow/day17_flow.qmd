@@ -3,8 +3,9 @@ title: 'Flow'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 17'
 date: '2023-11-17'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day17_flow/day17_flow.png'
-image-alt: ''
-description: ''
+image-alt: 'Flow Map'
+description: 'Flow Map: this map of the HydroRIVERS for the Iberia peninsula and surrounding areas is made coloring by the DIST_UP_KM.'
+categories: ['Flow','HydroRIVERS','Iberia']
 output: html_document
 execute: 
    eval: false
@@ -12,12 +13,12 @@ execute:
    warning: false
 ---
 
-# Overview
+## Overview
 
 This map of the `HydroRIVERS` for the Iberia peninsula and surrounding areas is made coloring by the `DIST_UP_KM`.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day17_flow/day17_flow.png)</center>
+![Iberia peninsula](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day17_flow/day17_flow.png)</center>
 
 
 
@@ -56,15 +57,5 @@ ggplot()+
 ```{r}
 ggsave("day17_flow.png",bg="grey")
 ```
-
-
-
-
-
-
-
-
-
-
 
 

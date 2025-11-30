@@ -3,21 +3,20 @@ title: 'South America'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 12'
 date: '2023-11-12'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day12_south-america/day12_south-america.png'
-image-alt: ''
-description: ''
+image-alt: 'South America Map'
+description: 'South America Map: this map visualizes the total fertility rate by country in South America for the year 2021 using data from the US Census Bureau International Data Base API.'
+categories: ['South America','Census Data']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 For this challenge I look back at day 8 Africa and the `total fertility rate` for replicating the steps for `South America`.
 
-
-
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day12_south-america/day12_south-america.png)</center>
+![South America](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day12_south-america/day12_south-america.png)</center>
 
 Datasource: [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data), and the `{idbr}` package R Interface to the US Census Bureau International Data Base API.
 
@@ -166,3 +165,7 @@ ggplot(sa, aes(fill = tfr)) +
 ggsave("day12_south-america.png",
        bg="#F4EBD9")
 ```
+
+
+
+

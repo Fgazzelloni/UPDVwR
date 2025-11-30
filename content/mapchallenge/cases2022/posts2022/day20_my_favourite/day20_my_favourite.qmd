@@ -3,8 +3,9 @@ title: 'My favourite'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 20'
 date: '2022-11-20'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day20_my_favourite/day20_my_favourite.png'
-image-alt: ''
-description: ''
+image-alt: 'Dubois data portraits'
+description: 'Dubois data portraits: Tuskegee Airmen Aerial Victories Air Force Historical Research Agency Graduation 1942 - 1948'
+categories: ['Dubois data','World']
 output: html_document
 execute: 
    eval: false
@@ -13,6 +14,10 @@ execute:
 # Overview
 
 This is my favorite `Dubois data portraits`. Data is from `TidyTuesday` 2022 week 6, `Tuskegee Airmen`: Aerial Victories Air Force Historical Research Agency Graduation 1942 - 1948.
+
+![Dubois data portraits](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day20_my_favourite/day20_my_favourite.png)
+
+
 
 
 Original Dubois collection:
@@ -248,3 +253,5 @@ final_plot
 
 dev.off()
 ```
+
+

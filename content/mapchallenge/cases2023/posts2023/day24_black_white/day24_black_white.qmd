@@ -1,23 +1,24 @@
 ---
-title: 'Black&White'
+title: 'Black and White'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 24'
 date: '2023-11-24'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&white/day24_black&white.png'
-image-alt: ''
-description: ''
+image-alt: 'Black and White Belgium Map'
+description: 'Black and White Belgium Map'
 output: html_document
+categories: [Belgium, Black and White]
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 This Black & white Belgium Map is build creating a grid of points.
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&white/day24_black&white.png)</center>
+![Black and White Belgium Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day24_black&white/day24_black&white.png)</center>
 
 Load necessary libraries
 ```{r}
@@ -177,4 +178,8 @@ ggplot() +
 ```{r}
 ggsave("day_24_black&white.png",bg="#f6f7f9")
 ```
+
+
+
+
 

@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day26_choropleth/choropleth.png)</center>
+
+
 # Overview
 
 Map of the `World Population density` per sq mile and Number of vulnerable people in the area. `WorldBank Datacatalog`.

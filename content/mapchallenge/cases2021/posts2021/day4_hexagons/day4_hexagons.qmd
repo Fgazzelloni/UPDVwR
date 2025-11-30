@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day4_hexagons/hexagons.png)</center>
+
+
 # Overview
 
 This map of `Boston` is made with data from `{spData}` package.

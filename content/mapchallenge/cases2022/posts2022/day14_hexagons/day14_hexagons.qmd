@@ -14,9 +14,12 @@ execute:
 
 `Hexagons` to style a `US map of Covid19 cases`, data is from the CDC and the `{tidycensus}` package.
 
+![ALT TEXT HERE](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day14_hexagons/day14_hexagons.png)
+
+
+
 
 ```{r}
-
 # Load the library
 library(tidyverse)
 library(geojsonio)
@@ -32,7 +35,7 @@ font_add_google(name="Island Moments",
 
 
 
-us_covid <- read_csv("~/Documents/R/R_general_resources/30DayMapChallenge/2022/day14_hexagons/data/covid_cases_by_County.csv")
+us_covid <- read_csv("~/Documents/R/R_general_resources/EDA_and_maps/30DayMapChallenge/2022/day14_hexagons/covid_cases_by_County.csv")
 
 
 covid_data <- us_covid%>%
@@ -42,22 +45,24 @@ covid_data <- us_covid%>%
          county_population,
          covid_cases_per_100k) %>%
   distinct()
+```
 
 
+```{r}
 # source: https://walker-data.com/tidycensus/reference/get_decennial.html
 library(tidycensus)
 options(tigris_use_cache = TRUE)
 
 
-tarr <- get_acs(geography = "county",
-                variables = "B19013_001",
-                geometry = TRUE, 
-                year = 2020)
-
+# tarr <- get_acs(geography = "county",
+#                 variables = "B19013_001",
+#                 geometry = TRUE, 
+#                 year = 2020)
+# 
 # save(tarr,file="data/tarr.RData")
-load("data/tarr.RData")
+load("~/Documents/R/R_general_resources/EDA_and_maps/30DayMapChallenge/2022/day14_hexagons/data/tarr.RData")
 
-tarr%>%count(NAME)
+# tarr%>%count(NAME)
 
 tarr2 <- tarr%>%
   separate(NAME,into=c("county","name"),remove=F,sep=",")
@@ -68,9 +73,9 @@ coords <- tarr2%>%
   st_coordinates() 
 
 # check the dimensions
-tarr2%>%dim
-coords%>%dim
-covid_data%>%dim
+# tarr2%>%dim
+# coords%>%dim
+# covid_data%>%dim
 
 full <- cbind(tarr2,coords)
 
@@ -88,7 +93,7 @@ df3 <- df2%>%
   st_as_sf()
 
 
-df%>%DataExplorer::profile_missing()
+# df%>%DataExplorer::profile_missing()
 # A tibble: 12 × 3
 # feature              num_missing pct_missing
 # <fct>                      <int>       <dbl>
@@ -103,11 +108,12 @@ df%>%DataExplorer::profile_missing()
 # 9 variable                    4911  0.00884   
 # 10 estimate                    4987  0.00898   
 # 11 moe                         4987  0.00898   
-# 12 geometry                       0  0   
+# 12 geometry                       0  0
+```
 
 
-
-  ggplot()+
+```{r}
+ggplot()+
 # geom_point(data= df, aes(X,Y),inherit.aes = F)+
   stat_summary_hex(data= df, aes(x=X,y=Y,z=covid_cases_per_100k),
            linewidth=0.01,
@@ -125,13 +131,17 @@ df%>%DataExplorer::profile_missing()
     theme(plot.caption = element_text(lineheight = 1.5,size=5),
           plot.title = element_text(size=14),
           legend.background = element_blank())
+```
 
-  
-  ggsave("day14_hexagons.png",
+
+```{r}
+ggsave("day14_hexagons.png",
          bg="grey90",
          width=6.78,
          height = 5.78,
          dpi=200)
     
 ```
+
+
 

@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day2_lines/lines.png)</center>
+
+
 # Overview
 
 This map of `France` is created with data from the `{maps}` R-package. 

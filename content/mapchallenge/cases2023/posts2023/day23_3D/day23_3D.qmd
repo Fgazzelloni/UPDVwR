@@ -3,15 +3,16 @@ title: '3d'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 23'
 date: '2023-11-23'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png'
-image-alt: ''
-description: ''
+image-alt: '3d Italy Population Density Map'
+description: '3d Italy Population Density Map: this map shows the population density of Italy in 3D spikes.'
 output: html_document
+categories: ["3D","Italy","Population Density"]
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 This is the 3D Italy's Population Density Map made with the instruction provided by `Milos Agathon: Milos Makes Maps` tutorial:
 
@@ -19,7 +20,7 @@ This is the 3D Italy's Population Density Map made with the instruction provided
 - <https://github.com/milos-agathon/making-crisp-spike-maps-with-r/blob/main/R/create-spike-map-in-r.r>
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png)</center>
+![3d Italy Population Density Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day23_3D/day23_3D.png)</center>
 
 ```{r}
 library("tidyverse")
@@ -186,4 +187,8 @@ rayshader::render_highquality(
     width = width, height = height
 )
 ```
+
+
+
+
 

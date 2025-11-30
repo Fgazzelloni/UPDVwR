@@ -1,17 +1,20 @@
 ---
-title: 'Food / Drink'
+title: 'Food - Drink'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 15'
 date: '2022-11-15'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day15_food_drink/day15_food_drink.png'
-image-alt: ''
-description: ''
+image-alt: 'Food / Drink Map'
+description: 'Map of European Countries Foodborne Campylobacter Outbreaks'
+categories: ['Food - Drink','Europe']
 output: html_document
 execute: 
    eval: false
 ---
 
+![Europe](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day15_food_drink/day15_food_drink.png)
 
-# Overview
+
+## Overview
 
 Map of `European Countries Foodborne Campylobacter Outbreaks`, data is from `www.efsa.europa.eu`
 
@@ -214,3 +217,7 @@ tmap_save(map,"day15_food_drink.png",width = 6.58,
 ```
    
    
+
+
+
+

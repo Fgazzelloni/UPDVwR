@@ -3,21 +3,26 @@ title: 'Dot'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 27'
 date: '2023-11-27'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day27_dot/day27_dot.png'
-image-alt: ''
-description: ''
+image-alt: 'Dot Map'
+description: 'Dot Map of the EPSG Geodetic Parameter Dataset: this mapping resource provides a comprehensive overview of geodetic datums, spatial reference systems, Earth ellipsoids, coordinate transformations, and related units of measurement, all standardized by the EPSG registry.'
 output: html_document
+categories: 
+  - "Dot"
+  - "Projections"
+  - "Raster"
+  - "World"
 execute: 
    eval: false
 ---
 
 
 
-# Overview
+## Overview
 
 This Dot Map comprises an overview of the `EPSG Geodetic Parameter Dataset (also EPSG registry)`. A public registry of geodetic datums, spatial reference systems, Earth ellipsoids, coordinate transformations and related units of measurement, originated by a member of the European Petroleum Survey Group (EPSG) in 1985. (see [Wikipedia](https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset))
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day27_dot/day27_dot.png)</center>
+![Dot Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day27_dot/day27_dot.png)</center>
 
 Each entity is assigned an EPSG code between 1024 and 32767, along with a `standard machine-readable well-known text (WKT)` representation. 
 
@@ -61,7 +66,7 @@ ortho<- "+proj=ortho +lat_0=-90 +lat_ts=-71 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=W
     tm_shape(World, projection = 8857)
 
 
-
+Load necessary libraries
 
 ```{r}
 library(tidyverse)
@@ -158,3 +163,6 @@ ggsave("day27_dot.png",bg="black",
 - <https://gigs.iogp.org/>
 - <https://epsg.org/download-dataset.html>
 - <https://spatialreference.org/ref/epsg/>
+
+
+

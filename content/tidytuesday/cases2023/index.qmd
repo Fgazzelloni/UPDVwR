@@ -6,6 +6,7 @@ listing:
   sort: "date desc"
   type: grid
   image-height: "200"
+  sort-ui: true
   categories: true
 page-layout: full
 title-block-banner: false

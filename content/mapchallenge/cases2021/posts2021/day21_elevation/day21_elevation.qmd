@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day21_elevation/elevation.png)</center>
+
+
 # Overview
 
 `Alaska!` map shows the `Surface Elevation Change (SEC)`, data is from `CPOM CryoSat`.

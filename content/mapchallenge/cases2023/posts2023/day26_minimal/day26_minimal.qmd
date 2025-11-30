@@ -3,22 +3,23 @@ title: 'Minimal'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 26'
 date: '2023-11-26'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day26_minimal/day26_minimal.png'
-image-alt: ''
-description: ''
+image-alt: 'Minimal Climate Raster Map'
+description: 'Minimal Climate Raster Map: this is a minimal Climate Raster Map for worldclim data and species distribution.'
 output: html_document
+categories: [Raster, Climate, Minimal, World]
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 This is a minimal Climate Raster Map for `worldclim` data and species distribution.
 
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day26_minimal/day26_minimal.png)</center>
+![Minimal Climate Raster Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day26_minimal/day26_minimal.png)</center>
 
 
 Resources:
@@ -92,7 +93,6 @@ ggplot() +
 ```{r}
 ggsave("day26_minimal.png",bg="#7781a6",width=4)
 ```
-
 
 
 

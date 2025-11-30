@@ -3,8 +3,9 @@ title: 'Data: OpenStreetMap'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 8'
 date: '2022-11-8'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day8_openstreetmap/day8_openstreetmap.png'
-image-alt: ''
-description: ''
+image-alt: 'Rome, Italy Military Locations Map'
+description: 'Rome, Italy Military Locations Map: Map of Rome, Italy city center with military locations using {osmdata} package in R.'
+categories: ['OpenStreetMap','Rome','Italy','Military Locations']
 output: html_document
 execute: 
    eval: false
@@ -13,6 +14,8 @@ execute:
 # Overview
 
 Map of `Rome, Italy` city center with `military locations`.
+
+![Rome, Italy](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day8_openstreetmap/day8_openstreetmap.png)
 
 
 
@@ -188,3 +191,5 @@ ggsave("day8_openstreetmap.png",
        bg="white")
 
 ```
+
+

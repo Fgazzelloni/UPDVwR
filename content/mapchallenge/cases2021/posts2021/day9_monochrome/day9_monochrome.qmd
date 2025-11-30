@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day9_monochrome/monochrome.png)</center>
+
+
 # Overview
 
 This art work represent `Italy`, data is from the `{spData}` package.

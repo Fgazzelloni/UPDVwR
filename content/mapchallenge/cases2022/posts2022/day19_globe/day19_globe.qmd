@@ -3,8 +3,9 @@ title: 'Globe'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 19'
 date: '2022-11-19'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day19_globe/day19_globe.png'
-image-alt: ''
-description: ''
+image-alt: 'Globe Map'
+description: 'Globe Map made with {rnaturalearth}'
+categories: ['Globe','rnaturalearth']
 output: html_document
 execute: 
    eval: false
@@ -13,6 +14,9 @@ execute:
 # Overview
 
 `{rnaturalearth}` for making this `Globe Map`.
+
+![Globe](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day19_globe/day19_globe.png)
+
 
 ```{r}
 library(tidyverse)
@@ -79,3 +83,5 @@ ggsave("day19_globe.png",
 
 
 ```
+
+

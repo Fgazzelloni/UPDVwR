@@ -3,8 +3,9 @@ title: 'Asia'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 6'
 date: '2023-11-06'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day6_asia/day6_asia.png'
-image-alt: ''
-description: ''
+image-alt: 'Asia Map'
+description: 'Asia Map: This map visualizes population estimates for regions and major cities in Asia, using data from Wikipedia and geocodes obtained via the ggmap package.'
+categories: ['Asia','Population']
 output: html_document
 format:
   html:
@@ -13,13 +14,13 @@ execute:
    eval: false
 ---
 
-# Overview
+## Overview
 
 For this `#30DayMapChallenge 2023 Day6 - Asia` let's explore the Population estimation for Regions and major Cities, from different sources.
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day6_asia/day6_asia.png)</center>
+![Asia](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day6_asia/day6_asia.png)</center>
 
 
 
@@ -324,3 +325,7 @@ ggsave("day6_asia.png",
 
 - <https://cran.r-project.org/web/packages/ggmap/readme/README.html>
 - <https://www.r-bloggers.com/2017/09/mapping-the-largest-cities-in-asia-using-r/>
+
+
+
+

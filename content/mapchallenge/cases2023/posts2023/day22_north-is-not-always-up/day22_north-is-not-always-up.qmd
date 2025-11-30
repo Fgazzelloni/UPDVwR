@@ -3,21 +3,22 @@ title: 'North Is Not Always Up'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 22'
 date: '2023-11-22'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day22_north-is-not-always-up/day22_north-is-not-always-up.png'
-image-alt: ''
-description: ''
+image-alt: 'North Is Not Always Up'
+description: 'North Is Not Always Up: this map represent four countries with diverse GDP. One in the south side of the earth, Australia has a higher GDP value compared to northern side countries. Data is from the Worldbank database.'
+categories: [North, Australia, GDP, Worldbank]
 output: html_document
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 This Map represent four countries with diverse GDP. One in the south side of the earth, Australia has a higher GDP value compared to northern side countries. Data is from the `Worldbank` database.
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day22_north-is-not-always-up/day22_north-is-not-always-up.png)</center>
+![North Is Not Always Up](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day22_north-is-not-always-up/day22_north-is-not-always-up.png)</center>
 
 - Southern Country: `Australia`
 - Northern Countries: `Sweden`, `Finland`, and `Norway`
@@ -147,4 +148,7 @@ ggplot() +
 ggsave("day22_day22_north-is-not-always-up.png",
        width=8)
 ```
+
+
+
 

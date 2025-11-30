@@ -3,8 +3,9 @@ title: 'Choropleth'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 13'
 date: '2023-11-13'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day13_choropleth/day13_choropleth.png'
-image-alt: ''
-description: ''
+image-alt: 'Choropleth Map'
+description: 'Choropleth Map: This map illustrates the epidemic transition of new HIV infections from 2010 to 2020, showing the percentage contribution of each country`s change to the total change.'
+categories: ['Choropleth','HIV','Epidemic','World']
 output: html_document
 execute: 
    eval: false
@@ -12,11 +13,11 @@ execute:
    warning: false
 ---
 
-# Overview
+## Overview
 
 This map shows the Epidemic transition of new HIV infections, metrics trend from 2010 to 2020. Percentage contribution of each country's change to the total change. Data is from the `Global data on HIV epidemiology and response` (aidsinfo.unaids.org)
 
-<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day13_choropleth/day13_choropleth.png)</center>
+<center>![Epidemic Transition](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day13_choropleth/day13_choropleth.png)</center>
 
 AIDS: percentage contribution of each country's change to the total change
 
@@ -98,3 +99,7 @@ ggplot()+
 ```{r}
 ggsave("day13_choropleth.png",height = 5)
 ```
+
+
+
+

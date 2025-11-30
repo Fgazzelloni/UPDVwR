@@ -3,8 +3,9 @@ title: '5 Minute Map'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 13'
 date: '2022-11-13'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day13_5_minutes_map/day13_5_minute_map.png'
-image-alt: ''
-description: ''
+image-alt: 'World Map'
+description: 'World Map: A World map made with data from the {ggplot2} package.'
+categories: ['World','5 Minute Map']
 output: html_document
 execute: 
    eval: false
@@ -13,6 +14,8 @@ execute:
 # Overview
 
 A `World` map made with data from the `{ggplot2}` package.
+
+![World](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day13_5_minutes_map/day13_5_minute_map.png)
 
 
 
@@ -66,4 +69,6 @@ ggsave("day13_5_minute_map.png",
        height = 4,
        bg="#98d8de") # 6.64 x 5.81
 ```
+
+
 

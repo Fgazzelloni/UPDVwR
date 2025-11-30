@@ -3,13 +3,17 @@ title: 'Colour Friday: 2 Colors'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 25'
 date: '2022-11-25'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day25_color_friday_2_colors/day25_color_firday_2_colors.png'
-image-alt: ''
-description: ''
+image-alt: 'Alaska Housing Map'
+description: 'Alaska Housing Map: This map visualizes housing data in Alaska using two distinct colors to represent different housing categories.'
+categories: ['Color Friday','Alaska', 'Housing']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 This map of `Alaska housing` is made with `FourSquare Studio`.
+
+![Alaska](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day25_color_friday_2_colors/day25_color_firday_2_colors.png)
+

@@ -3,16 +3,19 @@ title: 'Fantasy'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 24'
 date: '2022-11-24'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day24_fantasy/day24_fantasy.png'
-image-alt: ''
-description: ''
+image-alt: 'Astonishing World Map projection: projection_bonne'
+description: 'Astonishing World Map projection: projection_bonne. Data is from the {rnaturalearth} package.'
+categories: [World, Fantasy]
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 Astonishing `World Map` projection: `projection_bonne`. Data is from the `{rnaturalearth}` package.
+
+![World](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day24_fantasy/day24_fantasy.png)
 
 ```{r}
 library(tidyverse)
@@ -80,4 +83,8 @@ ggsave("day24_fantasy.png",
        height = 3.2)
 
 ```
+
+
+
+
 

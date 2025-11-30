@@ -3,8 +3,9 @@ title: 'Points'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 1'
 date: '2023-11-01'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day1_points/day1_points.png'
-image-alt: ''
-description: ''
+image-alt: 'Points Map'
+description: 'Points Map: A points map of the Bovine Tubercoulosis Farm Locations in Cornwall, UK (South West England). Data is from the {spatstat} package.'
+categories: ['Points','UK','Cornwall','Bovine Tuberculosis']
 output: html_document
 execute: 
    eval: false
@@ -16,7 +17,7 @@ execute:
 A points map of the `Bovine Tubercoulosis Farm Locations in Cornwall`, UK (South West England). Data is from the `{spatstat}` package.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day1_points/day1_points.png)</center>
+![Cornwall, UK](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day1_points/day1_points.png)</center>
 
 
 
@@ -121,7 +122,11 @@ st_as_sf(as_points = TRUE)%>%
         plot.subtitle = element_text(size=11),
         plot.caption = element_text(hjust = 0))
 ```
+
+
 ```{r}
 ggsave("day1_points.png")
 ```
+
+
 

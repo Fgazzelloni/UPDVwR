@@ -3,19 +3,22 @@ title: 'Population'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 29'
 date: '2023-11-29'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day29_population/day29_population.png'
-image-alt: ''
-description: ''
+image-alt: 'Population Map Ireland'
+description: 'Population Map Ireland: This `Ireland Map` explore the population density in the area. Data is from the latest version of `Kontur Population` available at `United Nations Humanitarian Data Exchange (HDX)`.'
 output: html_document
+categories: 
+  - "Population"
+  - "Ireland"
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 This `Ireland Map` explore the population density in the area. Data is from the latest version of `Kontur Population` available at `United Nations Humanitarian Data Exchange (HDX)`. 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day29_population/day29_population.png)</center>
+![Population Map Ireland](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day29_population/day29_population.png)</center>
 
 ```{r}
 #| message: false
@@ -212,6 +215,8 @@ ggdraw()+
              fontface = "bold")
 ggsave("day29_population.png",bg="#f6f7f9")
 ```
+
+
 
 
 

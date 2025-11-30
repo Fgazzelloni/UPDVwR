@@ -3,17 +3,20 @@ title: 'Data: Kontur Population Dataset'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 21'
 date: '2022-11-21'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.png'
-image-alt: ''
-description: ''
+image-alt: 'Costa Rica Population Density Map'
+description: 'Costa Rica Population Density Map using Kontur Population Dataset'
+categories: ['Kontur Population dataset','Costa Rica','Population']
 output: html_document
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 This is a map of Costa Rica Population density, data is from `Kontur Population dataset - @KonturInc`.
+
+![Costa Rica Population](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day21_kontur_pop_dataset/day21_kontour_pop_dataset.png)
 
 Load libraries
 ```{r}
@@ -114,3 +117,6 @@ ggsave("day21_kontur_pop_dataset.png",
        height=4.86,
        dpi=320)
 ```
+
+
+

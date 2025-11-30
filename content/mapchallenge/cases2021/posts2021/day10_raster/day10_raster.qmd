@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day10_raster/raster2.png)</center>
+
+
 # Overview
 
 This is a map of `Africa Population transition 2000-2020`, data is from `TidyTuesday` 2021 week 46 `afrilearndata`.

@@ -3,18 +3,22 @@ title: 'The Earth is not flat'
 subtitle: 'Welcome to #30DayMapChallenge 2021 day 28'
 date: '2021-11-28'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day28_earth_not_flat/earth_not_flat.png'
-image-alt: ''
-description: ''
+image-alt: 'Globe map of the Earth'
+description: '`Globe` map, data is from `rnaturalearth`.'
+categories: ['Globe','rnaturalearth']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+<center>![Globe](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day28_earth_not_flat/earth_not_flat.png)</center>
+
+
+## Overview
 
 `Globe` map, data is from `rnaturalearth`.
 
-
+### Resources
 
 - https://github.com/schochastics/roughsf
 - https://leonawicz.github.io/mapmate/articles/usage_and_limitations.html

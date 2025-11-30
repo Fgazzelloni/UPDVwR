@@ -3,20 +3,24 @@ title: 'Is This A Chart Or A Map'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 28'
 date: '2023-11-28'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png'
-image-alt: ''
-description: ''
+image-alt: 'this-a-chart-or-a-map'
+description: 'This is a bubble chart on a Map. Data is from tmap::data("World"). Here the size of the bubbles is weighted by the absolute level of regression residuals from a linear model predicting life expectancy based on population estimates and well-being indicators.'
 output: html_document
+categories: 
+  - "this-a-chart-or-a-map"
+  - "bubble-chart"
+  - "World"
 execute: 
    eval: false
 ---
 
-# Overview 
+## Overview 
 
 This is a bubble chart on a Map. Data is from `tmap::data("World")`.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png)</center>
-
+![This is a bubble chart on a Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day28_is-this-a-chart-or-a-map/day28_is-this-a-chart-or-a-map.png)</center>
+Load libraries
 ```{r}
 library(tidyverse)
 library(sf)
@@ -170,6 +174,7 @@ ggplot()+
         panel.background = element_rect(color="#162e51",fill="#162e51"))
 ggsave("day28_is-this-a-chart-or-a-map.png",bg="#162e51",width=5.8,height =  3.9)
 ```
+
 
 
 

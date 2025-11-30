@@ -3,21 +3,22 @@ title: 'Navigation'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 7'
 date: '2023-11-07'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day7_navigation/day7_navigation.png'
-image-alt: ''
-description: ''
+image-alt: 'Leaflet map of 3D flights of European free-tailed bat'
+description: 'Leaflet map of 3D flights of European free-tailed bat spotted from 2017-08-08 to 2017-08-15.'
+categories: ['Navigation','Bats','Europe']
 output: html_document
 format: html
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 This Leaflet map represents `3D flights of European free-tailed bat` spotted from 2017-08-08 to 2017-08-15. There are 8 `individual.local.identifier` for `bats` taxonomy `Tadarida teniotis`.
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day7_navigation/day7_navigation.png)</center>
+![Bats](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day7_navigation/day7_navigation.png)</center>
 
 
 
@@ -98,4 +99,8 @@ library(htmlwidgets)
 
 saveWidget(map, file="day7_navigator.html",title = "3D flights of European free-tailed bats")
 ```
+
+
+
+
 

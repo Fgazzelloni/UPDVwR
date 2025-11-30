@@ -3,20 +3,21 @@ title: 'Polygons'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 3'
 date: '2023-11-03'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day3_polygons/day3_polygons.png'
-image-alt: ''
-description: ''
+image-alt: 'Polygons Map'
+description: 'Polygons Map: This map visualizes malaria incidence across different departments in Colombia for the year 1998, using polygon shapes to represent the geographical boundaries of each department.'
+categories: ['Polygons','Colombia','Malaria']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 
 This is a map of `Colombia Malaria incidence` in 1998 - Data is from `Geodatacenter`.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day3_polygons/day3_polygons.png)</center>
+![Colombia](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day3_polygons/day3_polygons.png)</center>
 
 
 
@@ -111,4 +112,8 @@ ggsave("day3_polygons.png",
        width = 7.5,
        bg = "#C2E9FB")
 ```
+
+
+
+
 

@@ -3,8 +3,9 @@ title: 'A Map Without Computer'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 17'
 date: '2022-11-17'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day17_a_map_without_computer/day17_a_map_without_computer.JPG'
-image-alt: ''
-description: ''
+image-alt: 'Ocean World Globe'
+description: 'Ocean World Globe: A hand-crafted globe representing the oceans of the world, created without the use of a computer.'
+categories: ['A Map Without Computer','Ocean', 'Globe']
 output: html_document
 execute: 
    eval: false
@@ -13,3 +14,7 @@ execute:
 # Overview
 
 This is a self standing `Ocean World Globe`.
+
+![Globe](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day17_a_map_without_computer/day17_a_map_without_computer.JPG)
+
+

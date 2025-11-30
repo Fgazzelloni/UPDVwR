@@ -3,27 +3,33 @@ title: 'My Favourite'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 30'
 date: '2023-11-30'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day30_my-favourite/day30_my-favourite.png'
-image-alt: ''
-description: ''
+image-alt: 'Life Expectancy'
+description: 'Life Expectancy Map: this map shows the life expectancy across the world using an Eckert IV projection.'
 output: html_document
+categories: 
+  - "Life Expectancy"
+  - "My Favourite"
+  - "World"
 execute: 
    eval: false
 ---
 
 
 
-# Overview
+## Overview
 
 This last map of the #30DayMapChallenge month is my favourite view of the life expectancy. Source of data are **Statistics Netherlands (CBS) and Kadaster Nederland** via the `{tmap}` package, `tmap::data("World")`.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day30_my-favourite/day30_my-favourite.png)</center>
+![Life Expectancy Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day30_my-favourite/day30_my-favourite.png)</center>
+
+## Load necessary libraries
 ```{r}
 library(tidyverse)
 library(sf)
 ```
 
-
+## Load data
 ```{r}
 library(tmap)
 data("World")
@@ -100,5 +106,7 @@ ggplot()+
 ggsave("day30_myfavorite.png",
        bg="white",width=7,height = 5)
 ```
+
+
 
 

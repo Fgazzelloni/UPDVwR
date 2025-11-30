@@ -3,16 +3,19 @@ title: 'Raster'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 7'
 date: '2022-11-7'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day7_raster/day7_raster.png'
-image-alt: ''
-description: ''
+image-alt: 'Oregon Spotted Frogs Map'
+description: 'Oregon Spotted Frogs Map: Map of Oregon Spotted Frogs: Rana Pretiosa frequent locations.'
+categories: ['Raster','Oregon','Frogs']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 Map of `Oregon Spotted Frogs: Rana Pretiosa` frequent locations.
+
+![Oregon](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day7_raster/day7_raster.png)
 
 
 
@@ -91,3 +94,5 @@ ggsave("final.png",dpi=200,
 
 
 ```
+
+

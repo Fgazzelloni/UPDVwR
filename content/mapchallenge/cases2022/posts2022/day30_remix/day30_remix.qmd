@@ -3,18 +3,19 @@ title: 'Remix'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 30'
 date: '2022-11-30'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day30_remix/day30_remix.png'
-image-alt: ''
-description: ''
+image-alt: 'Campsites in Urupukapuka Island no dogs allowed'
+description: 'Campsites in Urupukapuka Island no dogs allowed'
+categories: [New Zealand, Campsites, Remix]
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 Improving map Islands (day 26) with `Campsites in Urupukapuka Island no dogs allowed`. Data is from the `New Zealand Hydrographic Authority` & data.govt.nz.
 
-
+![Remix New Zealand](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day30_remix/day30_remix.png)
 
 Set the fonts
 ```{r}
@@ -206,4 +207,8 @@ ggsave("day30_remix.png",
        width = 6.83,
        height =5.26 )
 ```
+
+
+
+
 

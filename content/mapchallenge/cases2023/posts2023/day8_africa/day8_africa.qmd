@@ -3,21 +3,22 @@ title: 'Africa'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 8'
 date: '2023-11-08'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day8_africa/day8_africa.png'
-image-alt: ''
-description: ''
+image-alt: 'Africa Map'
+description: 'Africa Map: this map shows the total fertility rate by country in Africa for the year 2021, using data from the US Census Bureau International Data Base API and visualized with R.'
+categories: ['Africa','Census Data']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 For this challenge I looked at an interesting resource: [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data), also found the `{idbr}` package R Interface to the US Census Bureau International Data Base API.
 
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day8_africa/day8_africa.png)</center>
+![Africa](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day8_africa/day8_africa.png)</center>
 
 
 Source: 
@@ -194,4 +195,6 @@ ggplot(africa, aes(fill = tfr)) +
 ```{r}
 ggsave("day8_africa.png",bg="#ebe7d8")
 ```
+
+
 

@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day8_blue/blue2.png)</center>
+
+
 # Overview
 
 This is day 8 - `blue` for #30DayMapChallenge. I am looking at the [ggplot2-book](https://ggplot2-book.org/maps.html) map chapter.

@@ -3,8 +3,9 @@ title: 'Space'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 9'
 date: '2022-11-9'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day9_space/day9_space.png'
-image-alt: ''
-description: ''
+image-alt: 'Space Map'
+description: 'Space Map: A global map representing particular constellations as seen from a specific point of view.'
+categories: ['Space','Global','Constellations']
 output: html_document
 execute: 
    eval: false
@@ -12,3 +13,7 @@ execute:
 
 
 This Global map is created with a tool called `fourmilab.ch/yoursky` and represent some particular constellations that can be spotted from that point of view.
+
+![Constellations](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day9_space/day9_space.png)
+
+

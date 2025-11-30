@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day16_urban_rural/urban_rural.png)</center>
+
+
 # Overview
 
 This is `The Netherlands: Hurban and Rural` and `Schools near by...`, data is from `cbs.nl` opendata.

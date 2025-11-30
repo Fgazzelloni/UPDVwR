@@ -3,8 +3,9 @@ title: 'Out of my comfort zone'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 29'
 date: '2022-11-29'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day29_out_comfort_zone/day29_out_comfort_zone.png'
-image-alt: ''
-description: ''
+image-alt: 'Foursquare Map Month Competition Winner'
+description: 'Foursquare Map Month Competition Winner: United States Permanent amount of precipitations on Global Railways'
+categories: [Foursquare, Railways, US]
 output: html_document
 execute: 
    eval: false
@@ -14,7 +15,7 @@ execute:
 
 Foursquare Map Month Competition Winner: `United States Permanent amount of precipitations on Global Railways`.
 
-
+![Foursquare Map Month Competition Winner](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day29_out_comfort_zone/day29_out_comfort_zone.png)
 
 ### Map made with https://studio.foursquare.com/
 
@@ -46,3 +47,7 @@ ggsave("test.png",
        height=5.9)
 
 ```
+
+
+
+

@@ -1,12 +1,13 @@
 ---
 title: "30DayChartChallenge 2022"
-image: images/chart_collage_2022.png
+image: collage/chart_collage_2022.png
 listing: 
   contents: posts2022
   sort: "date desc"
   type: grid
   image-height: "200"
   categories: true
+  sort-ui: true
 page-layout: full
 title-block-banner: false
 ---

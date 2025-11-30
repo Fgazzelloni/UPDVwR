@@ -3,17 +3,19 @@ title: '3d'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 28'
 date: '2022-11-28'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png'
-image-alt: ''
-description: ''
+image-alt: 'Oregon Population Density'
+description: '3D Maps: Oregon Population Density made with Kontur Population Data and rayshader'
+categories: [Oregon, Population, 3D]
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 Map of `Oregon Population Density`. Data is from `Kontur population US` and the  `{tigris}` package.
 
+![Oregon Population Density](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png)
 
 
 ```{r}
@@ -133,6 +135,10 @@ render_snapshot(title_text = "#30DayMapChallenge Day 28:3D | Graphics: @fgazzell
                 vignette = 0.2,
                 filename = "day28_3D2.png")
 ```
+
+
+
+
 
 
 

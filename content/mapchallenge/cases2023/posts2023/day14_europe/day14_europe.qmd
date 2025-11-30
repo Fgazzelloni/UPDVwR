@@ -3,8 +3,9 @@ title: 'Europe'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 14'
 date: '2023-11-14'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day14_europe/day14_europe.png'
-image-alt: ''
-description: ''
+image-alt: 'European Child and Youth Population'
+description: 'Eurostat data with R. I used the {eurostat} package to shows European Child and Youth Population.'
+categories: ['Eurostat','Europe','Population']
 output: html_document
 execute: 
    eval: false
@@ -13,13 +14,13 @@ execute:
 ---
 
 
-# Overview
+## Overview
 
 `Eurostat` data with R. I used the `{eurostat}` package to shows `European Child and Youth Population`.
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day14_europe/day14_europe.png)</center>
+![Europe](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day14_europe/day14_europe.png)</center>
 
 
 Load Libraries
@@ -165,4 +166,7 @@ ggplot(ydata)+
 #| eval: false
 ggsave("day14_europe.png",height = 5,bg="#121007")
 ```
+
+
+
 

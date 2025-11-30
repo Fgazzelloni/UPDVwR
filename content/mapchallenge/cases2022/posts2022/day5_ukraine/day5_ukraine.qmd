@@ -3,16 +3,19 @@ title: 'Ukraine'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 5'
 date: '2022-11-5'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day5_ukraine/day5_ukraine.png'
-image-alt: ''
-description: ''
+image-alt: 'Ukraine Map'
+description: 'Ukraine Map: A map of Ukraine showing border crossings and conflict data.'
+categories: ['Ukraine']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 Map of `Ukraine`, data from `Geodata.`
+![Ukraine](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day5_ukraine/day5_ukraine.png)
+
 
 
 ### Ukraine war data
@@ -72,3 +75,5 @@ ukr %>%
   coord_sf(crs=4326)
 
 ```
+
+

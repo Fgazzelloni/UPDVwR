@@ -3,17 +3,22 @@ title: 'Colour Friday: Red'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 11'
 date: '2022-11-11'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day11_color_friday_red/day11_color_friday_map.png'
-image-alt: ''
-description: ''
+image-alt: 'Red Map'
+description: 'Red Map: This red map is a map of the US FM Boosters - FB Radio Stations. Data is from TidyTuesday 2022 week 45 Radio Stations by the FM Service Contour Data Points (fcc.gov).'
+categories: ['Color Friday','US','Radio Stations','World']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 
 This red map is a map of the `US FM Boosters - FB Radio Stations`. Data is from `TidyTuesday` 2022 week 45  Radio Stations by the `FM Service Contour Data Points (fcc.gov)`.
+
+![ALT TEXT HERE](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day11_color_friday_red/day11_color_friday_map.png)
+
+
 
 ```{r}
 library(tidyverse)
@@ -161,4 +166,6 @@ ggsave("day11_color_friday_map.png",
        width = 6.1,
        height = 4.3)
 ```
+
+
 

@@ -3,8 +3,9 @@ title: 'Null'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 22'
 date: '2022-11-22'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day22_null/day22_null.png'
-image-alt: ''
-description: ''
+image-alt: 'Happy Planet Index World Map'
+description: 'Happy Planet Index World Map made with {tmap}'
+categories: ['Null','Happy Planet Index']
 output: html_document
 execute: 
    eval: false
@@ -13,6 +14,8 @@ execute:
 # Overview
 
 This is the `Happy Planet Index - World Map`, data is from the `{tmap}` package.
+
+![World Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day22_null/day22_null.png)
 
 ```{r}
 library(tmap)
@@ -35,4 +38,8 @@ tmap_style("cobalt")
 tmap_save(tm, filename = "day22_null.png")
 
 ```
+
+
+
+
 

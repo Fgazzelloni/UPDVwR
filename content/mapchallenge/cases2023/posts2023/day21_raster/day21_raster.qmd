@@ -3,20 +3,20 @@ title: 'Raster'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 21'
 date: '2023-11-21'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png'
-image-alt: ''
-description: ''
+image-alt: 'Raster Map'
+description: 'Raster Map: this map of Alaska uses a raster file to represent elevation data, with colors indicating different elevation levels.'
+categories: ['Raster','Alaska']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 How to color a `Raster Map` with R.
 
-
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png)</center>
+![Alaska Raster Map](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day21_raster/day21_raster.png)</center>
 ```{r}
 # Install and load necessary packages
 # install.packages(c("ggplot2", "raster"))
@@ -97,7 +97,6 @@ ggsave(map,"day21_raster2.png",
        dpi=320,
        bg="grey50")
 ```
-
 
 
 

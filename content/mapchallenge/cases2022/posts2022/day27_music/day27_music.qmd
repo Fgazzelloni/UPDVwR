@@ -3,16 +3,19 @@ title: 'Music'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 27'
 date: '2022-11-27'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day27_music/day27_music.png'
-image-alt: ''
-description: ''
+image-alt: 'US Map of Artists by states distribution'
+description: 'US Map of Artists by states distribution - TidyTuesday 2022 week 39 US Artists'
+categories: [Music]
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 `US Map` of Artists by states distribution. Data is from `TidyTuesday` 2022 week 39 `US Artists`.
+
+![US](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day27_music/day27_music.png)
 
 ```{r}
 library(tidyverse)
@@ -98,4 +101,8 @@ ggsave("day27_music.png",
        height =5.07)
 
 ```
+
+
+
+
 

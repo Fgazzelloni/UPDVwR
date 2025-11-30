@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day18_water/water.png)</center>
+
+
 # Overview
 
 `John Snow data` for this map with `read_stars()`. Data is from the `blog.rtwilson.com`.

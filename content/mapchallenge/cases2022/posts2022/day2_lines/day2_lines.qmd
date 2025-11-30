@@ -11,9 +11,12 @@ execute:
 ---
 
 
-# Overview
+## Overview
 
 This is a map of `Long-term rivers average discharge in Italy and surrounding areas`. Values m3/s for rivers with length in km greater than 1.780. Data is from `hydrosheds.org`.
+
+![Italy](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day2_lines/day2_lines.png)
+
 
 ## Load the libraries
 ```{r}
@@ -78,3 +81,5 @@ map +
 ggsave("day2_lines.png",dpi=300)
 
 ```
+
+

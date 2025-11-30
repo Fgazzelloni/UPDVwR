@@ -3,20 +3,21 @@ title: 'North America'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 10'
 date: '2023-11-10'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day10_north-america/day10_north-america.png'
-image-alt: ''
-description: ''
+image-alt: 'Map of Canada Regions'
+description: 'Map of Canada Regions using {rnaturalearth}: this map visualizes the different regions within Canada, each represented by distinct colors.'
+categories: ['Canada','North America']
 output: html_document
 execute: 
    eval: false
 ---
 
 
-# Overview
+## Overview
 
 This is a map of the `Canada` country's regions. Data is from `rnaturalearth}`.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day10_north-america/day10_north-america.png)</center>
+![North America](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day10_north-america/day10_north-america.png)</center>
 
 
 ```{r}
@@ -60,4 +61,5 @@ ggsave("day10_north-america.png",bg="white")
 ```{r}
 canada%>%count(name)
 ```
+
 

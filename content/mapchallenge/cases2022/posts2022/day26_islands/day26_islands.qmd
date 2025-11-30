@@ -3,8 +3,9 @@ title: 'Islands'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 26'
 date: '2022-11-26'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png'
-image-alt: ''
-description: ''
+image-alt: 'Islands'
+description: 'Leaflet map of Islands - New Zealand Hydrographic Authority'
+categories: [Islands]
 output: html_document
 execute: 
    eval: false
@@ -14,6 +15,7 @@ execute:
 
 A static `leaflet` map of `Islands`, data is from the `New Zealand Hydrographic Authority`.
 
+![Islands](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png)
 
 ```{r}
 library(leaflet)
@@ -81,3 +83,7 @@ ggdraw()+
 ggsave("day26_islands2.png")
 
 ```
+
+
+
+

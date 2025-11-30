@@ -3,8 +3,9 @@ title: 'OpenStreetMap'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 15'
 date: '2023-11-15'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day15_openstreetmap/day15_openstreetmap.png'
-image-alt: ''
-description: ''
+image-alt: 'OpenStreetMap Valencia Schools and Underground'
+description: 'OpenStreetMap data map for Valencia schools and underground stations: this map visualizes the locations of schools and underground stations in Valencia using OpenStreetMap data, highlighting educational and transportation infrastructure in the city.'
+categories: ['OpenStreetMap','Valencia','Spain', 'Schools','Underground']
 output: html_document
 execute: 
    eval: false
@@ -13,12 +14,12 @@ execute:
 ---
 
 
-# Overview
+## Overview
 
 `OpenStreetMap` data map for `Valencia` schools and underground stations.
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day15_openstreetmap/day15_openstreetmap.png)</center>
+![Valencia using OpenStreetMap](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day15_openstreetmap/day15_openstreetmap.png)</center>
 
 
 Resources: <https://rspatialdata.github.io/osm.html>
@@ -221,4 +222,8 @@ ggsave("day15_openstreetmap.png",
        limitsize=F,
        bg="#f0f0f0")
 ```
+
+
+
+
 

@@ -3,20 +3,23 @@ title: 'Atmosphere'
 subtitle: 'Welcome to #30DayMapChallenge 2023 day 18'
 date: '2023-11-18'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day18_atmosphere/day18_atmosphere.png'
-image-alt: ''
-description: ''
+image-alt: 'Atmosphere Map'
+description: 'Atmosphere Map: This map visualizes wind speed and direction over Italy using streamlines to represent wind flow patterns.'
+categories: ['Atmosphere','Italy','Wind Speed']
 output: html_document
 execute: 
-   eval: true
+   eval: false
    message: false
    warning: false
 ---
+
+## Overview
 
 This challenge is all about wind movements. The selected area is Italy, also some parts of the surrounding territories can be seen. I am going to use the {rWind} package for downloading the information about wind speed and direction vectors (u,v) for today, Nov 18, 2023. 
 
 
 <center>
-![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day18_atmosphere/day18_atmosphere.png)</center>
+![Atmosphere Map: Italy](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day18_atmosphere/day18_atmosphere.png)</center>
 
 
 
@@ -319,3 +322,7 @@ ggsave("day18_atmosphere.png",
 - <https://semba-blog.netlify.app/10/25/2018/processing-satellite-wind-speed-data-with-r/>
 - <https://stackoverflow.com/questions/55583611/how-to-create-contour-with-wind-animation-using-gganimate>
 - <https://www.r-bloggers.com/2018/11/plotting-wind-highways-using-rwind/>
+
+
+
+

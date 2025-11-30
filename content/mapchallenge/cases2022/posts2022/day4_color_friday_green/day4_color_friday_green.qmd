@@ -3,17 +3,21 @@ title: 'Colour Friday: Green'
 subtitle: 'Welcome to #30DayMapChallenge 2022 day 4'
 date: '2022-11-4'
 image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day4_color_friday_green/day4_color_friday_green.png'
-image-alt: ''
-description: ''
-category: 'Rome, Italy'
+image-alt: 'Rome Map'
+description: 'Rome Map: A map of the historic district of Rome, Italy, highlighting its green spaces and road networks.'
+categories: ['Color Friday','Rome','Italy']
 output: html_document
 execute: 
    eval: false
 ---
 
-# Overview
+## Overview
 
 This is a map of `Historic district of Rome`. 
+
+![Rome](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day4_color_friday_green/day4_color_friday_green.png)
+
+
 
 ```{r}
 
@@ -86,3 +90,5 @@ ggdraw()+
 #        width = 8.86,
 #        height = 6.04)
 ```
+
+

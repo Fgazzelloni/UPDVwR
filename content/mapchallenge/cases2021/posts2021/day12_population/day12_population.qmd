@@ -10,6 +10,9 @@ execute:
    eval: false
 ---
 
+<center>![](https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2021/day12_population/world_map.png)</center>
+
+
 # Overview
 
 This is a representation of the `World Population 1950 vs 2030`.
