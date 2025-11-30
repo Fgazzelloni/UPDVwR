@@ -2,7 +2,7 @@
 title: 'Future'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 28'
 date: '2021-04-28'
-image: 'day28_future.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day28_future.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -10,7 +10,7 @@ execute:
    eval: false
 ---
 
-
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day28_future.png)
 
 ### Tidytuesday week 28 & future day28
 

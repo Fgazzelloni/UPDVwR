@@ -2,30 +2,38 @@
 title: 'Magical'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 4'
 date: '2021-04-04'
-image: 'day4_magical.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day4_magical.png'
 image-alt: ''
-description: 'Networks'
+description: "This plot explores the relationship between groups of countries with low covid19 deaths and their reported daily cases, using magical elements to highlight the theme of magical thinking during the pandemic."
+categories: [Magical, Covid19]
 output: html_document
 execute: 
    eval: false
 ---
 
 
+## Overview
 
-### INSPIRED BY:
-#### https://github.com/avrodrigues/Tidy_tuesday/blob/main/2021/week14/makeup_shades.R
-#### https://github.com/AndyABaker/TidyTuesday/blob/main/2021_week14_makeupshades.R
+For this #30DayChartChallenge 2021 day 4 'Magical' I decided to explore the relationship between groups of countries with low covid19 deaths and their reported daily cases, using magical elements to highlight the theme of magical thinking during the pandemic.
+
+
+![Covid19](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day4_magical.png)
+
+INSPIRED BY:
+
+-  https://github.com/avrodrigues/Tidy_tuesday/blob/main/2021/week14/makeup_shades.R
+- https://github.com/AndyABaker/TidyTuesday/blob/main/2021_week14_makeupshades.R
 
 
 ```{r}
-
 # libraries --------------------------------------
 library(tidyverse)
 library(ggforce)
 library(extrafont)
+```
 
 
-
+```{r}
 # load and wrangling ---------------------------------------------------
 
 # read the data from OurWorldData
@@ -41,7 +49,10 @@ D <- ow_df %>% group_by(location) %>% filter(total_deaths > 1819) %>% mutate(gr=
 
 # build a new data set 
 df<-rbind(A,B,C,D)
+```
 
+
+```{r}
 # manipulate and select daily cases and deaths by group
 df <- df %>%
   mutate(date=as.Date(date)) %>%
@@ -56,7 +67,10 @@ df <- df %>%
 
 man_cols <- df$location
 names(man_cols) <- man_cols
+```
 
+
+```{r}
 # Grouping -------------------------------------------------------------
 # selection of the first TEN countries per group with the latest number of tot deaths
 a<-df%>%
@@ -115,12 +129,14 @@ selection$log10_new_cases_per_million<-log10(selection$new_cases_per_million)
 # confirming 0 values 
 selection$log_new_cases_per_million[is.infinite(selection$log_new_cases_per_million)]=0
 selection$log10_new_cases_per_million[is.infinite(selection$log10_new_cases_per_million)]=0
+```
 
 
+```{r}
 # plot --------------------------------------------
 
 #axis.font <- "Source Sans Pro" 
-#################################################################
+
 my.col <- "#4c4551"
 fonts()
 
@@ -176,9 +192,11 @@ cases_plot<-
     axis.line.x = element_line(color = "grey95"),
    
     axis.ticks.x = element_line(color= "grey95"),
-    axis.ticks.y = element_line(color= "grey95")) 
+    axis.ticks.y = element_line(color= "grey95"))
+```
 
-  
+
+```{r}
 # add a magick raster------------------------
 
 library(magick)
@@ -187,8 +205,10 @@ frink <- image_read("https://jeroen.github.io/images/frink.png")
 raster<-as.raster(frink)
 
 final <- cases_plot + annotation_raster(raster,5, 4, -3, 2)
+```
 
 
+```{r}
 # final plot --------------------------------------------------------------
 # adding title, annotations and caption
 
@@ -293,13 +313,12 @@ final.plot <- ggdraw() +
   ) +
     
   theme(
-    plot.background = element_rect(fill = my.col)) 
+    plot.background = element_rect(fill = my.col))
+```
 
 
-
+```{r}
 # save final plot ---------------------------------------------------------
-
-
 ragg::agg_png(here::here("day4", "magick.png"),
               res = 320, width = 14, height = 8, units = "in")
 final.plot

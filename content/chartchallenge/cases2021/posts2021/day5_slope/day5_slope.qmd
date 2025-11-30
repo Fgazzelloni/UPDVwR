@@ -2,31 +2,41 @@
 title: 'Slope'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 5'
 date: '2021-04-05'
-image: 'day5_slope.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day5_slope.png'
 image-alt: ''
-description: 'Networks'
+description: 'Slope'
+categories: "Slope"
 output: html_document
 execute: 
    eval: false
 ---
 
+## Overview
 
-### Week 15 FIRE
+This week the challenge is to visualize data about **FIRE**. 
+
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day5_slope.png)
+
 ```{r}
-
 # libraries, fonts and colours --------------------
 library(tidytuesdayR)
 library(tidyverse)
 library(extrafont)
 fonts()
+```
 
+
+```{r}
 my_col <- "#720000"
 my_col2 <- "#9900bfbf"
 
 # load data and wrangling ----------------------------
 
 tuesdata <- tidytuesdayR::tt_load(2021, week = 15)
+```
 
+
+```{r}
 forest <- tuesdata$forest
 forest_area <- tuesdata$forest_area
 brazil_loss <- tuesdata$brazil_loss
@@ -40,7 +50,10 @@ slopes <- brazil_loss%>%
   pivot_longer(cols=c(5,6,11,12,13),names_to="Predictors",values_to="values")
 
 slopes <- slopes %>% select(year,fire,Predictors,values)
+```
 
+
+```{r}
 # slope plot --------------------------------------------------
 
 slope_plot <- ggplot(slopes, aes(x = fire, y = values, color = Predictors) ) +
@@ -84,34 +97,16 @@ slope_plot <- ggplot(slopes, aes(x = fire, y = values, color = Predictors) ) +
   annotate("text", x = 280000, y = 80000, 
            family="Trebuchet MS",
            label = "researchers at *Global Forest Watch* estimate that global deforestation \nin 2019 was around 5.4 million hectares. \n95% of this was in the tropics 33.12% in Brazil")
-        
+```
 
+
+```{r}
 # save final plot ---------------------------------------------------------
-
-
 ragg::agg_png(here::here("w15", "tidytuesday_slope.png"),
               res = 320, width = 14, height = 8, units = "in")
 slope_plot
 
 dev.off()
-
-
-# read the image, attach the Tidytuesday logo and save it --------------------------
-library(ggimage)
-library(magick)
-
-
-tidy_logo<-image_read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/static/plot_logo.png") %>%
-  image_resize("300x300")
-
-
-tidy_slope <- image_read("tidytuesday_slope.png")
-
-attached_logo <- image_composite(tidy_slope, tidy_logo,
-                                 operator="atop",
-                                 gravity="northeast") # tell R where to put the logo
-
-
-image_write(attached_logo, path = "tidytuesday_slope.png", format = "png") # save final plot
-
 ```
+
+

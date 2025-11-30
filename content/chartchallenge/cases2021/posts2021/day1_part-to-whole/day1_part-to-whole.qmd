@@ -2,19 +2,26 @@
 title: 'Part-To-Whole'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 1'
 date: '2021-04-01'
-image: 'day1_part-to-whole.png'
-image-alt: ''
-description: 'Networks'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day1_part-to-whole.png'
+image-alt: 'The Pudding Data'
+description: 'The Pudding Data used for this first visualization.'
+categories: ['Part-To-Whole']
 output: html_document
 execute: 
    eval: false
 ---
 
+## Overview
 
+This is the first plot I made for TidyTuesday W14 - 2021 edition, based on The Pudding Data about makeup shades collected from Sephora and Ulta websites.
+
+It shows the distribution of lightness of makeup shades for some of the most popular brands, using a polar coordinate system.
+
+![The Pudding Data](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day1_part-to-whole.png)
 
 
 Load libraries
-```{r libraries, message=FALSE, warning=FALSE}
+```{r}
 library(tidytuesdayR)
 library(tidyverse)
 library(showtext)
@@ -31,7 +38,7 @@ library(wesanderson)
 
 
 Load Datasets
-```{r data, message=FALSE, warning=FALSE}
+```{r}
 sephora <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-03-30/sephora.csv')
 ulta <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-03-30/ulta.csv')
 
@@ -41,19 +48,21 @@ allNumbers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 ```
 
 Load fonts
-```{r fonts, message=FALSE, warning=FALSE}
+```{r}
 loadfonts()
 font_add_google(name = "Amatic SC", family = "amatic-sc")
 font_add_google("Cedarville Cursive", "cedarville")
 
 showtext_auto(enable = TRUE)
 
-palette <- c("#FF0000","#FF7070","#F09200","#FFBF1F","#00A08A","#2989A3","#5BBCD6","#A475D9")
+palette <- c("#FF0000","#FF7070",
+             "#F09200","#FFBF1F","#00A08A",
+             "#2989A3","#5BBCD6","#A475D9")
 ```
 
 
 Manipulation of data
-```{r shops, message=FALSE, warning=FALSE}
+```{r}
 sephora_sub<-sephora%>%
   mutate(shop=rep("sephora",length(brand)),
          brand=tolower(brand),
@@ -74,7 +83,7 @@ shops<-rbind(sephora_sub,ulta_sub)
 
 
 Manipulation of data
-```{r make_up, message=FALSE, warning=FALSE}
+```{r}
 allCategories_sub<-allCategories%>%
   mutate(brand=tolower(brand),
          product=tolower(product),
@@ -94,11 +103,15 @@ allNumbers_sub<-allNumbers%>%
          product=tolower(product),
          name=tolower(name))%>%
   select(brand,product,name,hex,lightness,lightToDark)
+```
 
+
+```{r}
 ################### Full Join of the datasets ##############
 
-make_up<-full_join(allCategories_sub,allShades_sub,by.x=hex,by.y=lightness)
-make_up<-full_join(make_up,allNumbers_sub,by.x=hex,by.y=lightness)
+make_up<-full_join(allCategories_sub,
+                   allShades_sub)
+make_up<-full_join(make_up,allNumbers_sub)
 
 make_up_sub<-make_up%>%
   select(brand,name,hex,hue,sat,lightness)%>%
@@ -118,8 +131,12 @@ plyr::count(allCategories_sub$categories)#17
 
 
 Selection of data for making plots
-```{r message=FALSE, warning=FALSE}
-my_companies <- sort(c("shiseido","maybelline","mac","lancôme","l'oréal","guerlain","estée lauder","clinique","benefit cosmetics"), decreasing = TRUE)
+```{r}
+my_companies <- sort(c("shiseido","maybelline",
+                       "mac","lancôme","l'oréal",
+                       "guerlain","estée lauder",
+                       "clinique","benefit cosmetics"), 
+                     decreasing = TRUE)
 
 make_up_for_plot <- make_up_sub %>%
   filter(brand %in% my_companies) %>%
@@ -129,8 +146,10 @@ make_up_for_plot <- make_up_sub %>%
   mutate(mean_lightness = mean(lightness)) %>%
   ungroup() %>%
   mutate(brand = fct_reorder(brand, mean_lightness))
+```
 
 
+```{r}
 library(ggfx)
 library(gridExtra)
 
@@ -185,7 +204,7 @@ main_plot <- plot1 + plot2
 final <- main_plot + 
   labs(title = "Makeup - The naked truth",
        subtitle = "combination for naming their shades",
-       caption = "TidyTuesday W14 - The Pudding - Viz - @fgazzelloni") + 
+       caption = "#30DayChartChallenge -Day1\nRemake of TidyTuesday W14 - The Pudding - Viz - @fgazzelloni") + 
   scale_fill_manual(values = palette,
                     guide = guide_legend(title = NULL)) + 
   theme_void(base_family = "cedarville") + 
@@ -202,36 +221,11 @@ final <- main_plot +
 
 Save the plot in a .png file
 ```{r}
-ragg::agg_png(here::here("w14_the_pudding", "w14_the_pudding.png"),
-              res = 320, width = 14, height = 8, units = "in")
+ragg::agg_png("day1_part-to-whole.png",
+              res = 320, width = 14, 
+              height = 8, units = "in")
 final
 
 dev.off()
 ```
-
-Read the image, attach the Tidytuesday logo and save it
-```{r}
-tidy_logo <- image_read("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/static/plot_logo.png") %>%
-  image_resize("300x300")
-
-
-The_Pudding_plot <- image_read(here::here("w14_the_pudding/w14_the_pudding.png"))
-
-attached_logo <- image_composite(The_Pudding_plot, tidy_logo,
-                                 operator="atop",
-                                 gravity="southeast") # tell R where to put the logo
-
-
-image_write(attached_logo, 
-            path = "/Users/federica/Documents/R/R_general_resourses/TidyTuesday/TidyTuesday/w14_the_pudding/w14_the_pudding.png", format = "png") # save final plot
-```
-
-
-
-
-
-
-
-
-
 

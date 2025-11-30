@@ -2,7 +2,7 @@
 title: '3d'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 30'
 date: '2021-04-30'
-image: 'day30_3D.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day30_3D.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -10,7 +10,7 @@ execute:
    eval: false
 ---
 
-
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day30_3D.png)
 
 ### 3-D
 ### source: Tidytuesday week 9 
@@ -109,3 +109,5 @@ plot_gg(employment_3D,multicore=TRUE,width=5,height=5,scale=250,windowsize=c(140
         zoom = 0.55, phi = 30)
 render_snapshot("3D_day30")
 ```
+
+

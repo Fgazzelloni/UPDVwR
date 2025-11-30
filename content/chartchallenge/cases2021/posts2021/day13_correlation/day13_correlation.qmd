@@ -2,7 +2,7 @@
 title: 'Correlation'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 13'
 date: '2021-04-13'
-image: 'day13_correlation.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day13_correlation.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -11,7 +11,7 @@ execute:
 ---
 
 
-
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day13_correlation.png)
 ### correlation day 13
 
 ### Inspired by: TidyTuesday 2019/35 - Simpsons Guest Stars by Wikipedia - author: "Cedric Scherer"

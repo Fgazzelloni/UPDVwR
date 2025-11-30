@@ -2,7 +2,7 @@
 title: 'Physical'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 7'
 date: '2021-04-07'
-image: 'day7_physical.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day7_physical.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -10,7 +10,7 @@ execute:
    eval: false
 ---
 
-### Physics day6
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day7_physical.png)
 
 ### title:  How soil structure and soil hydraulic behavior change through time?
 

@@ -2,7 +2,7 @@
 title: 'Culture'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 17'
 date: '2021-04-17'
-image: 'day17_pop_culture.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day17_pop_culture.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -10,6 +10,8 @@ execute:
    eval: false
 ---
 
+
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day17_pop_culture.png)
 ```{r}
 
 library(viridis)

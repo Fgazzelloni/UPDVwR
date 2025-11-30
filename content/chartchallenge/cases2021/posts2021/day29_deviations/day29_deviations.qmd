@@ -2,7 +2,7 @@
 title: 'Deviations'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 29'
 date: '2021-04-29'
-image: 'day29_deviations.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day29_deviations.png'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -11,7 +11,7 @@ execute:
 ---
 
 
-
+![](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day29_deviations.png)
 ###  Deviations day29
 
 

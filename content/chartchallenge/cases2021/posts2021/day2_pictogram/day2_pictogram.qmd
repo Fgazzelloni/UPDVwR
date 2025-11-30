@@ -2,46 +2,45 @@
 title: 'Pictogram'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 2'
 date: '2021-04-02'
-image: 'day2_pictogram.png'
-image-alt: ''
-description: 'Networks'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day2_pictogram.png'
+image-alt: 'Covid-19'
+description: "Covid-19 Pictogram: this visualization shows the ICU bed capacity in different Italian regions from February 2020 to March 2021."
+categories: ['Covid-19','Pictogram']
 output: html_document
 execute: 
    eval: false
 ---
 
+## Overview
 
+This visualization shows the ICU bed capacity in different Italian regions from February 2020 to March 2021.
 
+![Covid-19](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day2_pictogram.png)
 
-### inspired by: https://github.com/ChrisWoodsSays/TidyTuesday/tree/master/2021/2021-03-23
-
-
+Inspired by: https://github.com/ChrisWoodsSays/TidyTuesday/tree/master/2021/2021-03-23
 
 ### Load packages
 ```{r}
-
 #install.packages("pacman")
 pacman::p_load(ihme.covid,
                tidyverse, lubridate, stringi, 
                unvotes, wesanderson)
-
-
-
 library(glue)
 library(patchwork)
 library(ggtext)
 #library(showtext)
 library(extrafont)
 library(hrbrthemes)
+```
 
 
-
-
+```{r}
 setwd(here::here("GBD/IHME/IHME_forked/Covid19"))
-
 ihme_covid<- read.csv("2021-01-15/reference_hospitalization_all_locs.csv",header=TRUE)
+```
 
 
+```{r}
 it_regions<-c("Abruzzo",
               "Valle d'Aosta",
               "Puglia",
@@ -63,9 +62,10 @@ it_regions<-c("Abruzzo",
               "Veneto",
               "Provincia autonoma di Bolzano",
               "Provincia autonoma di Trento")
+```
 
 
-
+```{r}
 ihme_covid_back_up<-ihme_covid
 
 ihme_covid_ICU<-ihme_covid_back_up%>%
@@ -86,43 +86,54 @@ icu_bed_var<-ihme_covid_ICU %>%
                 month = lubridate::month(date),
          week=week(date),
          proportion = 100 * count/sum(count))
+```
 
-
-
-
-##################################################################
-
+Define start and end date for x axis
+```{r}
 startDate <- min(icu_bed_var$week)
 endDate <- max(icu_bed_var$week)
-
 
 scaleFactor = 3
 
 innerLine <- 20 * scaleFactor
-
 middleLine <- 30 * scaleFactor
-
 outerLine <- 40 * scaleFactor
 
 alpha = 1
+```
 
+
+```{r}
 # Get palette
 Royal1 <- wesanderson::wes_palettes$Royal1
+```
 
 
+```{r}
 g <- ggplot() +
   
-  geom_ribbon(data = icu_bed_var %>% filter(comparison == "ICUbed_mean"), 
-              aes(x = week, ymin = middleLine - count, ymax = middleLine + count, 
+  geom_ribbon(data = icu_bed_var %>% 
+                filter(comparison == "ICUbed_mean"), 
+              aes(x = week, 
+                  ymin = middleLine - count, 
+                  ymax = middleLine + count, 
                   fill = comparison), 
               alpha = alpha/1, stat="identity", colour = NA) +
   
-  geom_ribbon(data = icu_bed_var %>% filter(comparison == "ICUbed_upper"), 
-              aes(x = week, ymin = outerLine , ymax = outerLine + count, fill = comparison), 
+  geom_ribbon(data = icu_bed_var %>% 
+                filter(comparison == "ICUbed_upper"), 
+              aes(x = week, 
+                  ymin = outerLine , 
+                  ymax = outerLine + count, 
+                  fill = comparison), 
               alpha = alpha, stat="identity", colour = NA) +
    
-  geom_ribbon(data = icu_bed_var %>% filter(comparison == "ICUbed_lower"), 
-              aes(x = week, ymin = innerLine, ymax = innerLine - count, fill = comparison), 
+  geom_ribbon(data = icu_bed_var %>% 
+                filter(comparison == "ICUbed_lower"), 
+              aes(x = week, 
+                  ymin = innerLine, 
+                  ymax = innerLine - count, 
+                  fill = comparison), 
               alpha = alpha, stat="identity", colour = NA) +
   
   labs(title = "Covid19 Italy regions - ICU beds capacity",
@@ -132,7 +143,9 @@ g <- ggplot() +
   theme_ft_rc() +
   coord_polar(direction=1) +
   
-  scale_x_continuous(breaks=seq(startDate, endDate, by=round((endDate - startDate)/2)), 
+  scale_x_continuous(breaks=seq(startDate, 
+                                endDate, 
+                                by=round((endDate - startDate)/2)), 
                      expand=c(0,0), lim=c(startDate, endDate)) +
   
   scale_fill_manual(values = Darjeeling1) +
@@ -149,37 +162,46 @@ g <- ggplot() +
         
         plot.background = element_rect(fill = "black", color = NA),
         panel.background = element_rect(fill = "black", color = NA),
-        plot.margin = margin(5,5,5,5)
-  ) +
+        plot.margin = margin(5,5,5,5)) +
   
   facet_wrap(~location_name,
-             labeller = label_wrap_gen()) 
-  
+             labeller = label_wrap_gen())
+```
 
 
-
-#######################################################################################
-
-
+```{r}
 # Create non radial legend with a sample of data
-dataLegend <- icu_bed_var  %>% filter(location_name == "Lazio" & year == "2020") 
+dataLegend <- icu_bed_var  %>% 
+  filter(location_name == "Lazio" & year == "2020") 
 
 dataLegend$comparison = factor(dataLegend$comparison, levels=c('ICUbed_upper','ICUbed_mean','ICUbed_lower'))
+```
 
+
+```{r}
 legend <- ggplot() +
   
-  geom_ribbon(data = dataLegend %>% filter(comparison == "ICUbed_mean"), 
+  geom_ribbon(data = dataLegend %>% 
+                filter(comparison == "ICUbed_mean"), 
               aes(x = week, 
-                  ymin = middleLine - count/2, ymax = middleLine + count/2, 
-                  fill = comparison), alpha = alpha/1, stat="identity", colour = NA) +
-  geom_ribbon(data = dataLegend %>% filter(comparison == "ICUbed_upper"),
+                  ymin = middleLine - count/2, 
+                  ymax = middleLine + count/2, 
+                  fill = comparison), 
+              alpha = alpha/1, stat="identity", colour = NA) +
+  geom_ribbon(data = dataLegend %>% 
+                filter(comparison == "ICUbed_upper"),
               aes(x = week, 
-                  ymin = 20, ymax = 20 + count, 
-                  fill = comparison), alpha = alpha, stat="identity", colour = NA) +
-  geom_ribbon(data = dataLegend %>% filter(comparison == "ICUbed_lower"),
+                  ymin = 20, 
+                  ymax = 20 + count, 
+                  fill = comparison), 
+              alpha = alpha, stat="identity", colour = NA) +
+  geom_ribbon(data = dataLegend %>% 
+                filter(comparison == "ICUbed_lower"),
               aes(x = week, 
-                  ymin = 23 - count/3, ymax = 23, 
-                  fill = comparison), alpha = alpha, stat="identity", colour = NA) +
+                  ymin = 23 - count/3, 
+                  ymax = 23, 
+                  fill = comparison), 
+              alpha = alpha, stat="identity", colour = NA) +
   
   theme_void() +
   coord_polar(direction=1) +
@@ -200,13 +222,11 @@ legend <- ggplot() +
         panel.background = element_rect(fill = "black", color = "black"),
         ) +
   facet_wrap(vars(comparison))
+```
 
 
-
-
+```{r}
 # Add facets, text and legend together and plot
-
-
 plot <- cowplot::ggdraw(g) +
   
   cowplot::draw_plot(legend, 0.4,0, 0.25, .2, scale=1.1) +
@@ -214,8 +234,10 @@ plot <- cowplot::ggdraw(g) +
   cowplot::draw_label("ICUbed_upper", x = 0.42, y = 0.15, colour = "#929299", size = 8, hjust = 0.5) +
   cowplot::draw_label("ICUbed_mean", x = 0.52, y = 0.15, colour = "#929299", size = 8, hjust = 0.5) +
   cowplot::draw_label("ICUbed_lower", x = 0.62, y = 0.15, colour = "#929299", size = 8, hjust = 0.5)
+```
 
 
+```{r}
 ggsave(here::here("GBD/IHME/IHME_forked", "covid19_icu.png"), 
        plot, device = "png", width = 29.65, height = 21, 
        units = "cm")

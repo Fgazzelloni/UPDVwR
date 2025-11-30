@@ -2,26 +2,39 @@
 title: 'Historical'
 subtitle: 'Welcome to #30DayChartChallenge 2021 day 3'
 date: '2021-04-03'
-image: 'day3_historical.png'
-image-alt: ''
-description: 'Networks'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day3_historical.png'
+image-alt: 'Historical'
+description: 'Historical pattern of daily deaths due to Covid19 in Italy from February 2020 to present.'
+categories: 
+  - Historical
+  - Covid19
+  - Italy
 output: html_document
 execute: 
    eval: false
 ---
 
 
-```{r}
+## Overview
 
+This is my submission for Day 3 - Historical of the #30DayChartChallenge 2021. In this plot I wanted to represent the historical pattern of daily deaths due to Covid19 in Italy from February 2020 to present.
+
+![Covid19](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2021/images/day3_historical.png)
+
+```{r}
 library(tidyverse)
 
 df <- read.csv("mean_values.csv")
 regions <- read.csv("Map_covid19_first_10_days_it.csv")
+```
 
-####################################################
 
+```{r}
 (g <- ggplot(df, aes(x = new_deaths, y = new_deaths+rnorm(nrow(df), sd = 20))))
+```
 
+
+```{r}
 deaths <- g + 
   geom_point(color = "firebrick") + 
   geom_rug() + 
@@ -52,9 +65,10 @@ deaths <- g +
         axis.line = element_line(colour="dodgerblue"),
         plot.margin = margin(t = 10, r = 0, b = 10, l = 0, unit = "pt")
   )
-        
+```
 
-###################################################################
+
+```{r}
 library(leaflet)
 
 img <- "https://www.r-project.org/logo/Rlogo.svg"
@@ -67,11 +81,11 @@ map <- leaflet(regions) %>%
   
   addCircleMarkers(~lon, ~lat, radius = 25, fillOpacity = .05, color = 'purple') %>%
   addMarkers(clusterOptions = markerClusterOptions()) %>%
-  addProviderTiles(providers$Stamen.TonerBackground) 
-  
-   
-##############################################################
+  addProviderTiles(providers$Stamen.TonerBackground)
+```
 
+
+```{r}
 library(ggimage)
 
 map_img="map.png"
