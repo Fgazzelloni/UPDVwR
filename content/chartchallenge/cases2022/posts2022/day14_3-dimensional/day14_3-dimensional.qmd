@@ -2,7 +2,7 @@
 title: '3-dimensional'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 14'
 date: '2022-04-14'
-image: 'day14_3-dimensional.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day1_part_to_whole.qmd'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -182,6 +182,7 @@ render_highquality(samples = 256,
                    environment_light = tempfilehdr, 
                    camera_lookat = c(0,-150,0))
 ```
+
 
 
 

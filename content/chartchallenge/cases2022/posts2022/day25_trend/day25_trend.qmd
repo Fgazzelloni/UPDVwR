@@ -2,7 +2,7 @@
 title: 'Trend'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 25'
 date: '2022-04-25'
-image: 'day25_trend.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day1_part_to_whole.qmd'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -205,4 +205,3 @@ ggplot(df1,aes(x=age1,y=low))+
   geom_line(aes(x=age2,y=t_anomaly),color="darkgreen")+
   theme_bw()
 ```
-

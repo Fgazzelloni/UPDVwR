@@ -2,20 +2,25 @@
 title: 'Data day'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 6'
 date: '2022-04-06'
-image: 'day6_data_day.png'
-image-alt: ''
-description: 'Networks'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day6_data_day.png'
+image-alt: 'Data day'
+description: 'Data day'
+categories: "Data day"
 output: html_document
 execute: 
    eval: false
 ---
 
 
+## Overview
 
+Today for day 6 of the #30DayChartChallenge2022 the theme is "Data day".
+I decided to use the "financing_healthcare" dataset from the {ourworldindata} R package to explore healthcare financing trends across different countries. The first visualization is a waffle chart that illustrates the distribution of different types of health insurance in the United States for selected years. The second visualization is a line plot comparing total health expenses across various countries over time, highlighting specific countries for better visibility.
+
+![Data day](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day6_data_day.png)
 
 ## Setup and loading packages
 ```{r}
-
 rm(list=ls())
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
@@ -29,10 +34,13 @@ easypackages::libraries("ourworldindata", "tidyverse", "lubridate", "countrycode
 
 
 #https://drsimonj.svbtle.com/ourworld-an-r-data-package
-?ourworldindata
+# ?ourworldindata
 
 financing_healthcare %>% names()
+```
 
+
+```{r}
 df <- financing_healthcare %>%
   select(year,country ,contains("insurance")) %>%
   pivot_longer(cols = contains("insurance"),names_to="types",values_to="values") %>%
@@ -41,15 +49,23 @@ df <- financing_healthcare %>%
   mutate(values=round(values/sum(values)*100)) %>%
   ungroup() %>%
   arrange(year)
+```
 
+
+```{r}
 df %>% summary(year)
 df %>% count(country)
 levels(df$types) <- unique(df$types)
+```
 
+
+```{r}
 library(waffle)
-?waffle()
+# ?waffle()
+```
 
 
+```{r}
 df2 <- df %>%
   filter(country=="United States") %>%
   filter(year %in% c(1989,1996,2005))
@@ -72,15 +88,19 @@ hrbrthemes::theme_ipsum_rc() +
         panel.grid.minor = element_blank(),
         axis.text.x = element_blank(),
         axis.text.y = element_blank())
+```
 
 
-
+```{r}
 df3 <- financing_healthcare %>% 
   filter(!is.na(health_exp_total)) %>%
   group_by(country,year) %>%
   summarize(exp=sum(health_exp_total),.groups="drop") %>%
-  ungroup() 
+  ungroup()
+```
 
+
+```{r}
 # df3%>%pull(exp)%>%summary()
 set.seed(123)
   ggplot(df3, aes(x=factor(year),y=exp,group=country)) +
@@ -116,7 +136,11 @@ set.seed(123)
           axis.title.y = element_text(size=10),
           plot.title = element_text(size=25),
           plot.subtitle = element_text(size=18))
-    
+```
+
+
+```{r}
 ggsave("day6_data_day.png",dpi = 320,
        width = 12,height = 10)
 ```
+

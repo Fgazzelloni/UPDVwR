@@ -2,7 +2,7 @@
 title: 'day11_circular'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 11'
 date: '2022-04-11'
-image: 'day11_circular.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day1_part_to_whole.qmd'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -113,3 +113,4 @@ ggsave("day11_circular.png",
        width = 10,height = 10)  
 
 ```
+

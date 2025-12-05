@@ -2,34 +2,49 @@
 title: 'Physical'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 7'
 date: '2022-04-07'
-image: 'day7_physical.png'
-image-alt: ''
-description: 'Networks'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day7_physical.png'
+image-alt: 'Physical'
+description: 'Physical: this could be anything related to physical activity, physical space, physical distance, physical health, etc.'
+categories: Physical
 output: html_document
 execute: 
    eval: false
 ---
 
 
-```{r}
+## Overview
 
+Today for day 7 of the #30DayChartChallenge2022 the theme is "Physical".
+
+![Physical](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day7_physical.png)
+
+```{r}
 rm(list=ls())
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+```
 
 
-
+```{r}
 # sources:
 # https://ourworldindata.org/grapher/violence-against-children?country=~OWID_WRL
+```
 
+
+```{r}
 library(tidyverse)
 df <- read.csv("violence-against-children.csv",header = T)
+```
 
+
+```{r}
 df %>% View()
+```
 
+
+```{r}
 # quote = "Proportion.of.children.aged.1-14.years.who.experienced.physical.punishment.and.or.psychological.aggression.by.caregivers"
 # quote <- gsub("\\."," ",title)
-
 
 names(df)[4] <- "proportion"
 
@@ -37,12 +52,21 @@ df1 <- df %>%
   janitor::clean_names() 
   
 df1 %>%count(entity)
+```
+
+
+```{r}
 library(ggtext)
 library(MetBrewer)
+```
 
 
+```{r}
 # density(df1$proportion)
+```
 
+
+```{r}
 df1 %>% 
   filter(!code=="") %>%
   arrange(proportion) %>%
@@ -95,11 +119,9 @@ df1 %>%
                 size=8, family="Roboto Condensed",
                 label="Protect Me with Love and Care",
                 fill = NA, label.color = NA) +
-  
 # bounds of the text
   # annotate("point", x=41.4,y=8e-03) +
   # annotate("point", x=86.72,y=3.2e-02,color="green") + # (3.2e-02 - 8e-03)/63
-
   geom_richtext(aes( x = 52 , y = 0.03),
                 size=10, family="Roboto Condensed",
                 fill = NA, label.color = NA,
@@ -108,8 +130,6 @@ df1 %>%
                size=10, family="Roboto Condensed",
                label="from 2008 to 2020",
                fill = NA, label.color = NA) +
- 
-  
   geom_richtext(aes( x = 55 , y = 0.024),
                 size=5, family="Roboto Condensed",
                 label="Proportion of children aged 1-14 years<br>who experienced physical punishment<br>and or psychological aggression<br>by caregivers in last month",
@@ -138,23 +158,23 @@ df1 %>%
         plot.caption = element_text(size = 9,
                                     family="Roboto Condensed",hjust = 0.5),
         plot.caption.position = "panel",
-        legend.position = "none") 
+        legend.position = "none")
+```
 
 
+```{r}
 ggsave("day7_physical3.png",
        width = 9,
       height =  8,
        dpi = 320)
+```
 
 
-dev.off()
-
+```{r}
 df1 %>% count(year)
   filter(!code=="") %>%
   ggplot(aes(x=factor(year),y=entity))+
   geom_hex(aes(fill=entity)) +
   theme(legend.position = "none")
-
-
-
 ```
+

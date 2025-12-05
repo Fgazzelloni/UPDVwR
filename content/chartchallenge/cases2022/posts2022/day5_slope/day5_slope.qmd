@@ -2,35 +2,49 @@
 title: 'Slope'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 5'
 date: '2022-04-05'
-image: 'day5_slope.png'
-image-alt: ''
-description: 'Networks'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day5_slope.png'
+image-alt: 'Slope'
+description: 'Slope'
+categories: Slope
 output: html_document
 execute: 
    eval: false
 ---
 
 
+## Overview
 
+Today for day 5 of the #30DayChartChallenge2022 the theme is "Slope". 
+
+I decided to use the Digital Publications dataset from Project Oasis to compare the editorial budget vs revenue generation budget of the publications founded in 2010. The slope chart shows how much budget is allocated to editorial activities compared to revenue generation activities for each publication. Each publication is represented by a line connecting two points: one for the editorial budget and another for the revenue generation budget. The logos of the publications are added to enhance visual appeal and provide context.
+
+![Slope](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day5_slope.png)
 
 
 ```{r}
-
 library(tidyverse)
+```
 
+
+```{r}
 #load data
 news_orgs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-04-05/news_orgs.csv')
 
 #news_orgs %>% head(50)%>% View
 
 #news_orgs%>% count(year_founded)
+```
 
+
+```{r}
 library(extrafont)
 loadfonts()
 library(showtext)
 #sysfonts::font_add_google("Public Sans","publicsans")
+```
 
-  
+
+```{r}
 df <- news_orgs %>%
   select(publication_name,year_founded,budget_percent_editorial,budget_percent_revenue_generation) %>% 
   drop_na() %>%
@@ -38,20 +52,23 @@ df <- news_orgs %>%
   filter(!budget_percent_editorial==budget_percent_revenue_generation,
          year_founded==2010) 
 
-
-
 df2 <- df %>%
   arrange(desc(budget_percent_editorial)) %>%
   mutate(photo=gsub(" ","",publication_name),.after=publication_name,
          photo=tolower(photo),
          photo=paste0("data/2022/w14_digital_pub/",photo,".png"))
+```
 
+
+```{r}
 library(hrbrthemes)
 library(ggbump)
 library(ggh4x)
 library(ggimage)
+```
 
 
+```{r}
 df2 %>%
   ggplot(aes(x=0,xend=1,
              y=budget_percent_editorial,yend=budget_percent_revenue_generation,
@@ -92,20 +109,26 @@ df2 %>%
         plot.caption = element_text(size=11),
         axis.title.x = element_text(size=10),
         axis.title.y = element_text(size=10))
+```
 
 
+```{r}
 ggsave("w14_digital_publications.png",
        width = 12, height = 8,
        dpi=320)
 
 dev.off()
+```
 
-# Second version:
-
+### Second version:
+```{r}
 library(sigmoid)
 
 z <- rev(seq(0,1.2,0.08571429))
+```
 
+
+```{r}
 df2 %>%
   ggplot(aes(x=0,xend=1,
              y=budget_percent_editorial,yend=budget_percent_revenue_generation,
@@ -151,3 +174,4 @@ df2 %>%
         axis.title.x = element_text(size=10,color="grey60"),
         axis.title.y = element_text(size=10,color="grey60"))
 ```
+

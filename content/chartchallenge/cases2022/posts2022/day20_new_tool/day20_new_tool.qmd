@@ -2,7 +2,7 @@
 title: 'New Tool'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 20'
 date: '2022-04-20'
-image: 'day20_new_tool.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day1_part_to_whole.qmd'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -28,4 +28,6 @@ df <- peace%>%select(-Entity,-Code)%>%
 ```{r}
 write_csv(df,"peacekeeping.csv")
 ```
+
+
 

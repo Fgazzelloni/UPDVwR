@@ -2,17 +2,23 @@
 title: 'Historical'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 3'
 date: '2022-04-03'
-image: 'day3_historical.png'
-image-alt: ''
-description: 'Networks'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day3_historical.png'
+image-alt: 'Historical chart'
+description: 'Historical: Visualizations that use historical data or have a historical theme.'
+categories: ['Historical']
 output: html_document
 execute: 
    eval: false
 ---
 
+## Overview
+
+This is my submission for the 2022 #30DayChartChallenge, day 3 - Historical. 
+
+![Historical chart](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day3_historical.png)
+
+
 ```{r}
-
-
 #30DayChartChallengre 2022 day3 - Historical
 
 # data from: https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022
@@ -21,22 +27,28 @@ execute:
 library(tidyverse)
 
 df <- read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2022/challenge08/data.csv")
+```
 
+
+```{r}
 library(hrbrthemes)
 library(showtext); showtext_auto()
 font_add_google("Rajdhani", "rajdhani")
 # font_add_google("Titillium Web", "web")
-# bg         <- "#e1d1c1" 
+# bg         <- "#e1d1c1"
+```
 
+
+```{r}
 df2 <- df %>%
   arrange(-Year)
 
 df2[7,1]  <- 1875
 df2[7,2]  <- 0
+```
 
 
-
-
+```{r}
 ch8 <-  df2 %>%  
   ggplot() + 
   
@@ -100,8 +112,10 @@ ch8 <-  df2 %>%
         aspect.ratio =2/1.95,
         plot.background = element_rect(color= "#d9ccbf", fill= "#d9ccbf"),
         plot.title = element_text(hjust=0.5))
+```
 
-    
+
+```{r}
 library(cowplot)    
 
 final <- ggdraw()+
@@ -118,9 +132,15 @@ final <- ggdraw()+
 
 
 final
+```
 
+
+```{r}
 ggsave("test3.png",final)
+```
 
+
+```{r}
 ragg::agg_png(here::here("test2.png"),
               #scaling=1.5,
               res = 300, 
@@ -132,4 +152,5 @@ dev.off()
     
 
 ```
+
 

@@ -2,7 +2,7 @@
 title: 'Mountains'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 8'
 date: '2022-04-08'
-image: 'day8_mountains.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day1_part_to_whole.qmd'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -62,3 +62,4 @@ ggsave("day8_mountains.png",
        bg="grey15",
        dpi=320)
 ```
+

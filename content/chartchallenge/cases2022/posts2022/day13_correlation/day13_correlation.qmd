@@ -2,7 +2,7 @@
 title: 'Correlation'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 13'
 date: '2022-04-13'
-image: 'day13_correlation.png'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day1_part_to_whole.qmd'
 image-alt: ''
 description: 'Networks'
 output: html_document
@@ -123,4 +123,5 @@ ggsave("day13_correlation2.png",
        dpi=320,
        width = 9, height = 6)
 ```
+
 

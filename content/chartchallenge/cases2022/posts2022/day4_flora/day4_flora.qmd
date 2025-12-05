@@ -2,19 +2,26 @@
 title: 'Flora'
 subtitle: 'Welcome to #30DayChartChallenge 2022 day 4'
 date: '2022-04-04'
-image: 'day4_flora.png'
-image-alt: ''
-description: 'Networks'
+image: 'https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day4_flora.png'
+image-alt: 'Flora'
+description: 'Flora: IRIS dataset petal length and width'
+categories: Flora
 output: html_document
 execute: 
    eval: false
 ---
 
+## Overview
+
+For day 4 of the #30DayChartChallenge2022 the theme is "Flora".   
+
+I decided to use the well known IRIS dataset and represent the petal length and width of the three species of iris flowers (setosa, versicolor and virginica) using polar rose curves. Each flower is represented by a rose curve where the petal length influences the rotation and the petal width the size of the flower. The flowers are placed on a grid with some random jitter to make it more lively. Stems are drawn from each flower to the bottom of the plot.
+
+![Flora](https://raw.githubusercontent.com/Fgazzelloni/30DayChartChallenge/refs/heads/main/data/Edition_2022/images/day4_flora.png)
 
 ### source: https://blog.k2h.se/post/polar-rose-garden/
 
 ```{r}
-
 library(tidyverse)
 theme_set(theme_void())
 
@@ -73,6 +80,10 @@ expand_grid(row = 1:5,
   theme(plot.title = element_text(hjust=0.5),
         plot.subtitle = element_text(hjust=0.5),
         plot.caption = element_text(hjust=0.5))
+```
 
+
+```{r}
 ggsave("day4_flora.png")
 ```
+
