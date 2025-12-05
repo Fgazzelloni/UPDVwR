@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-11-12">
+<meta name="description" content="South America Map: this map visualizes the total fertility rate by country in South America for the year 2021 using data from the US Census Bureau International Data Base API.">
 
 <title>South America – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="South America – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2023 day 12">
+<meta property="og:description" content="South America Map: this map visualizes the total fertility rate by country in South America for the year 2021 using data from the US Census Bureau International Data Base API.">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day12_south-america/day12_south-america.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="South America Map">
 <meta name="twitter:title" content="South America – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2023 day 12">
+<meta name="twitter:description" content="South America Map: this map visualizes the total fertility rate by country in South America for the year 2021 using data from the US Census Bureau International Data Base API.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day12_south-america/day12_south-america.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="South America Map">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,16 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">South America</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2023 day 12</p>
-                      </div>
+                  <div>
+        <div class="description">
+          South America Map: this map visualizes the total fertility rate by country in South America for the year 2021 using data from the US Census Bureau International Data Base API.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">South America</div>
+                <div class="quarto-category">Census Data</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -241,8 +253,7 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#census-data-with-idbr" id="toc-census-data-with-idbr" class="nav-link" data-scroll-target="#census-data-with-idbr">Census Data with {idbr}</a>
   <ul class="collapse">
   <li><a href="#get-data-for-all-countries" id="toc-get-data-for-all-countries" class="nav-link" data-scroll-target="#get-data-for-all-countries">Get data for all countries</a></li>
@@ -251,7 +262,6 @@ cookieconsent.run({
   <li><a href="#get-the-south-america-tfr-data" id="toc-get-the-south-america-tfr-data" class="nav-link" data-scroll-target="#get-the-south-america-tfr-data">Get the South America tfr data</a>
   <ul class="collapse">
   <li><a href="#save-it" id="toc-save-it" class="nav-link" data-scroll-target="#save-it">Save it!</a></li>
-  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2023/posts2023/day12_south-america/day12_south-america.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -263,14 +273,20 @@ cookieconsent.run({
 
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>For this challenge I look back at day 8 Africa and the <code>total fertility rate</code> for replicating the steps for <code>South America</code>.</p>
 <center>
-<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day12_south-america/day12_south-america.png" class="img-fluid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day12_south-america/day12_south-america.png" class="img-fluid figure-img"></p>
+<figcaption>South America</figcaption>
+</figure>
+</div>
 </center>
 <p>Datasource: <a href="https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data">Analyzing US Census Data: Methods, Maps, and Models in R</a>, and the <code>{idbr}</code> package R Interface to the US Census Bureau International Data Base API.</p>
 <p>Source: <a href="https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html" class="uri">https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html</a></p>
+</section>
 <section id="census-data-with-idbr" class="level2">
 <h2 class="anchored" data-anchor-id="census-data-with-idbr">Census Data with {idbr}</h2>
 <p>Now you are all set to get ready downloading your favorite census data.</p>
@@ -393,9 +409,8 @@ cookieconsent.run({
 
 </section>
 </section>
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2022-11-26">
+<meta name="description" content="Leaflet map of Islands - New Zealand Hydrographic Authority">
 
 <title>Islands – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="Islands – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2022 day 26">
+<meta property="og:description" content="Leaflet map of Islands - New Zealand Hydrographic Authority">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Islands">
 <meta name="twitter:title" content="Islands – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2022 day 26">
+<meta name="twitter:description" content="Leaflet map of Islands - New Zealand Hydrographic Authority">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Islands">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,15 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">Islands</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2022 day 26</p>
-                      </div>
+                  <div>
+        <div class="description">
+          Leaflet map of Islands - New Zealand Hydrographic Authority
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Islands</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -255,6 +266,12 @@ cookieconsent.run({
 <section id="overview" class="level1">
 <h1>Overview</h1>
 <p>A static <code>leaflet</code> map of <code>Islands</code>, data is from the <code>New Zealand Hydrographic Authority</code>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day26_islands/day26_islands.png" class="img-fluid figure-img"></p>
+<figcaption>Islands</figcaption>
+</figure>
+</div>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># library(leaflet.extras)</span></span>
@@ -314,7 +331,7 @@ cookieconsent.run({
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

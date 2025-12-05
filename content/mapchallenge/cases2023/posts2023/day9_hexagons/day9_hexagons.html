@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-11-09">
+<meta name="description" content="Hexagons map of Covid19 data in Italy using {covid19italy} package: this map visualizes Covid19 cases across different regions of Italy using hexagonal grid cells to represent data density and distribution.">
 
 <title>Hexagons – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="Hexagons – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2023 day 9">
+<meta property="og:description" content="Hexagons map of Covid19 data in Italy using {covid19italy} package: this map visualizes Covid19 cases across different regions of Italy using hexagonal grid cells to represent data density and distribution.">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day9_hexagons/day9_hexagons.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Hexagons Map">
 <meta name="twitter:title" content="Hexagons – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2023 day 9">
+<meta name="twitter:description" content="Hexagons map of Covid19 data in Italy using {covid19italy} package: this map visualizes Covid19 cases across different regions of Italy using hexagonal grid cells to represent data density and distribution.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day9_hexagons/day9_hexagons.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Hexagons Map">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,17 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">Hexagons</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2023 day 9</p>
-                      </div>
+                  <div>
+        <div class="description">
+          Hexagons map of Covid19 data in Italy using {covid19italy} package: this map visualizes Covid19 cases across different regions of Italy using hexagonal grid cells to represent data density and distribution.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Hexagons</div>
+                <div class="quarto-category">Italy</div>
+                <div class="quarto-category">Covid19</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -241,12 +254,10 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#italy-hexagons" id="toc-italy-hexagons" class="nav-link" data-scroll-target="#italy-hexagons">Italy Hexagons</a></li>
   <li><a href="#hexagons-by-region" id="toc-hexagons-by-region" class="nav-link" data-scroll-target="#hexagons-by-region">Hexagons by region</a></li>
   <li><a href="#covid-19-italy" id="toc-covid-19-italy" class="nav-link" data-scroll-target="#covid-19-italy">Covid-19 Italy</a></li>
-  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2023/posts2023/day9_hexagons/day9_hexagons.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -257,11 +268,16 @@ cookieconsent.run({
 
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>Hexagons map of Covid19 data in Italy. For this challenge I will be using the <code>{covid19italy}</code> package for mapping Covid19 cases in Italy.</p>
 <center>
-<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day9_hexagons/day9_hexagons.png" class="img-fluid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day9_hexagons/day9_hexagons.png" class="img-fluid figure-img"></p>
+<figcaption>Italy</figcaption>
+</figure>
+</div>
 </center>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"sf"</span>)</span>
@@ -300,6 +316,7 @@ cookieconsent.run({
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.key.size =</span> <span class="fu">unit</span>(<span class="dv">5</span>,<span class="at">units=</span><span class="st">"pt"</span>),</span>
 <span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">5</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+</section>
 <section id="italy-hexagons" class="level2">
 <h2 class="anchored" data-anchor-id="italy-hexagons">Italy Hexagons</h2>
 <div class="cell">
@@ -409,9 +426,8 @@ cookieconsent.run({
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

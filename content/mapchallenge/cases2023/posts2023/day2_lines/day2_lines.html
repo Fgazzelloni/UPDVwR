@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-11-02">
+<meta name="description" content="Lines Map: this map of New York uses topographic ridge lines to represent elevation data, creating a visually striking representation of the terrain.">
 
 <title>Lines – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="Lines – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2023 day 2">
+<meta property="og:description" content="Lines Map: this map of New York uses topographic ridge lines to represent elevation data, creating a visually striking representation of the terrain.">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day2_lines/day2_lines.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Lines Map">
 <meta name="twitter:title" content="Lines – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2023 day 2">
+<meta name="twitter:description" content="Lines Map: this map of New York uses topographic ridge lines to represent elevation data, creating a visually striking representation of the terrain.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day2_lines/day2_lines.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Lines Map">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,16 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">Lines</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2023 day 2</p>
-                      </div>
+                  <div>
+        <div class="description">
+          Lines Map: this map of New York uses topographic ridge lines to represent elevation data, creating a visually striking representation of the terrain.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Lines</div>
+                <div class="quarto-category">New York</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -241,10 +253,8 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#read-in-data" id="toc-read-in-data" class="nav-link" data-scroll-target="#read-in-data">Read in data</a></li>
-  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2023/posts2023/day2_lines/day2_lines.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -255,16 +265,22 @@ cookieconsent.run({
 
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This <code>NewYork</code> map data is from the USDA NRCS <code>Geospatial Data Gateway</code>. Made with {topo.ridges} package.</p>
 <center>
-<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day2_lines/day2_lines.png" class="img-fluid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day2_lines/day2_lines.png" class="img-fluid figure-img"></p>
+<figcaption>New York</figcaption>
+</figure>
+</div>
 </center>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"topo.ridges"</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+</section>
 <section id="read-in-data" class="level2">
 <h2 class="anchored" data-anchor-id="read-in-data">Read in data</h2>
 <pre><code>raster::raster()</code></pre>
@@ -298,9 +314,8 @@ cookieconsent.run({
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

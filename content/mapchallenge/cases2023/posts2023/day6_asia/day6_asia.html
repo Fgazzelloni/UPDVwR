@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-11-06">
+<meta name="description" content="Asia Map: This map visualizes population estimates for regions and major cities in Asia, using data from Wikipedia and geocodes obtained via the ggmap package.">
 
 <title>Asia – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="Asia – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2023 day 6">
+<meta property="og:description" content="Asia Map: This map visualizes population estimates for regions and major cities in Asia, using data from Wikipedia and geocodes obtained via the ggmap package.">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day6_asia/day6_asia.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Asia Map">
 <meta name="twitter:title" content="Asia – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2023 day 6">
+<meta name="twitter:description" content="Asia Map: This map visualizes population estimates for regions and major cities in Asia, using data from Wikipedia and geocodes obtained via the ggmap package.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day6_asia/day6_asia.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Asia Map">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,16 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">Asia</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2023 day 6</p>
-                      </div>
+                  <div>
+        <div class="description">
+          Asia Map: This map visualizes population estimates for regions and major cities in Asia, using data from Wikipedia and geocodes obtained via the ggmap package.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Asia</div>
+                <div class="quarto-category">Population</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -241,8 +253,7 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#asia-cities-and-population-by-wikipedia.org" id="toc-asia-cities-and-population-by-wikipedia.org" class="nav-link" data-scroll-target="#asia-cities-and-population-by-wikipedia.org">Asia Cities and Population by Wikipedia.org</a></li>
   <li><a href="#use-ggmap" id="toc-use-ggmap" class="nav-link" data-scroll-target="#use-ggmap">Use GGMAP</a></li>
   <li><a href="#mapping-asia-polygons" id="toc-mapping-asia-polygons" class="nav-link" data-scroll-target="#mapping-asia-polygons">Mapping Asia Polygons</a>
@@ -251,7 +262,6 @@ cookieconsent.run({
   </ul></li>
   <li><a href="#make-the-map" id="toc-make-the-map" class="nav-link" data-scroll-target="#make-the-map">Make the Map</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2023/posts2023/day6_asia/day6_asia.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -262,13 +272,19 @@ cookieconsent.run({
 
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>For this <code>#30DayMapChallenge 2023 Day6 - Asia</code> let’s explore the Population estimation for Regions and major Cities, from different sources.</p>
 <center>
-<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day6_asia/day6_asia.png" class="img-fluid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day6_asia/day6_asia.png" class="img-fluid figure-img"></p>
+<figcaption>Asia</figcaption>
+</figure>
+</div>
 </center>
 <p>Also, we will be looking at <code>how to get started with {ggmap}</code> to find the <code>geocodes</code> for the major cities in Asia.</p>
+</section>
 <section id="asia-cities-and-population-by-wikipedia.org" class="level2">
 <h2 class="anchored" data-anchor-id="asia-cities-and-population-by-wikipedia.org">Asia Cities and Population by Wikipedia.org</h2>
 <p>Let’s scrap the table of the Major Cities in Asia along with the Population level from <code>Wikipedia.org</code>.</p>
@@ -516,9 +532,8 @@ cookieconsent.run({
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

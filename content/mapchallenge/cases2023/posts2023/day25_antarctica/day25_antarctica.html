@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-11-25">
+<meta name="description" content="Antarctica Map: Composite Gazetteer of Antarctica via {antanym}">
 
 <title>Antarctica – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="Antarctica – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2023 day 25">
+<meta property="og:description" content="Antarctica Map: Composite Gazetteer of Antarctica via {antanym}">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Antarctica">
 <meta name="twitter:title" content="Antarctica – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2023 day 25">
+<meta name="twitter:description" content="Antarctica Map: Composite Gazetteer of Antarctica via {antanym}">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Antarctica">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,15 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">Antarctica</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2023 day 25</p>
-                      </div>
+                  <div>
+        <div class="description">
+          Antarctica Map: Composite Gazetteer of Antarctica via {antanym}
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Antarctica</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -241,12 +252,10 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#antarctic-geographic-place-name-information" id="toc-antarctic-geographic-place-name-information" class="nav-link" data-scroll-target="#antarctic-geographic-place-name-information">Antarctic geographic place name information</a></li>
   <li><a href="#ocean" id="toc-ocean" class="nav-link" data-scroll-target="#ocean">Ocean</a></li>
   <li><a href="#make-the-map" id="toc-make-the-map" class="nav-link" data-scroll-target="#make-the-map">Make the Map</a></li>
-  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2023/posts2023/day25_antarctica/day25_antarctica.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -257,14 +266,19 @@ cookieconsent.run({
 
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This is a Map of Antarctica made with the <code>rOpenSci {antanym}</code> package provided by</p>
 <blockquote class="blockquote">
-<p>Composite Gazetteer of Antarctica, Scientific Committee on Antarctic Research. GCMD Metadata (http://gcmd.nasa.gov/records/SCAR_Gazetteer.html)</p>
+<p>Composite Gazetteer of Antarctica, Scientific Committee on Antarctic Research. <a href="http://gcmd.nasa.gov/records/SCAR_Gazetteer.html">GCMD Metadata</a></p>
 </blockquote>
 <center>
-<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png" class="img-fluid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day25_antarctica/day25_antarctica.png" class="img-fluid figure-img"></p>
+<figcaption>Antarctica</figcaption>
+</figure>
+</div>
 </center>
 <p>Load libraries</p>
 <div class="cell">
@@ -279,6 +293,7 @@ cookieconsent.run({
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># remotes::install_github("ropensci/antanym")</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(antanym)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+</section>
 <section id="antarctic-geographic-place-name-information" class="level2">
 <h2 class="anchored" data-anchor-id="antarctic-geographic-place-name-information">Antarctic geographic place name information</h2>
 <p>The documentation recommend to use the cache and to select the names made available in “Poland” or “Germany” country languages.</p>
@@ -387,9 +402,8 @@ cookieconsent.run({
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

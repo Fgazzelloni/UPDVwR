@@ -164,15 +164,15 @@ window.Quarto = {
 
 <link rel="stylesheet" href="../../../rwds.css">
 <meta property="og:title" content="30DayChartChallenge 2023 – Unlocking the Power of Data Visualization with R">
-<meta property="og:image" content="https://bookdown.org/fede_gazzelloni/UPDVwR/content/chartchallenge/cases2023/images/chart_collage_2023.png">
+<meta property="og:image" content="https://bookdown.org/fede_gazzelloni/UPDVwR/content/chartchallenge/cases2023/collage/chart_collage_2023.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
-<meta property="og:image:height" content="245">
-<meta property="og:image:width" content="500">
+<meta property="og:image:height" content="1600">
+<meta property="og:image:width" content="2000">
 <meta name="twitter:title" content="30DayChartChallenge 2023 – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:image" content="https://bookdown.org/fede_gazzelloni/UPDVwR/content/chartchallenge/cases2023/images/chart_collage_2023.png">
+<meta name="twitter:image" content="https://bookdown.org/fede_gazzelloni/UPDVwR/content/chartchallenge/cases2023/collage/chart_collage_2023.png">
 <meta name="twitter:site" content="@fgazzelloni">
-<meta name="twitter:image-height" content="245">
-<meta name="twitter:image-width" content="500">
+<meta name="twitter:image-height" content="1600">
+<meta name="twitter:image-width" content="2000">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -270,6 +270,27 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1682805600000" data-listing-file-modified-sort="1692232512000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="590">
 <a href="../../../content/chartchallenge/cases2023/posts2023/day30_data_day/day30_data_day.html" class="quarto-grid-link">
@@ -996,7 +1017,7 @@ Apr 1, 2023
 <nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
-</div></main> <!-- /main -->
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

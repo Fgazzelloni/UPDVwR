@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2022-11-28">
+<meta name="description" content="3D Maps: Oregon Population Density made with Kontur Population Data and rayshader">
 
 <title>3d – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="3d – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2022 day 28">
+<meta property="og:description" content="3D Maps: Oregon Population Density made with Kontur Population Data and rayshader">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Oregon Population Density">
 <meta name="twitter:title" content="3d – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2022 day 28">
+<meta name="twitter:description" content="3D Maps: Oregon Population Density made with Kontur Population Data and rayshader">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Oregon Population Density">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,17 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">3d</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2022 day 28</p>
-                      </div>
+                  <div>
+        <div class="description">
+          3D Maps: Oregon Population Density made with Kontur Population Data and rayshader
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Oregon</div>
+                <div class="quarto-category">Population</div>
+                <div class="quarto-category">3D</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -252,9 +265,15 @@ cookieconsent.run({
 
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>Map of <code>Oregon Population Density</code>. Data is from <code>Kontur population US</code> and the <code>{tigris}</code> package.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day28_3D/day28_3D.png" class="img-fluid figure-img"></p>
+<figcaption>Oregon Population Density</figcaption>
+</figure>
+</div>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span>
@@ -357,7 +376,7 @@ cookieconsent.run({
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

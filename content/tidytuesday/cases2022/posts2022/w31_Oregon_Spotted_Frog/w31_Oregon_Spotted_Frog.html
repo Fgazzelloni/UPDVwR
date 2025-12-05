@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.25">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="dcterms.date" content="2022-08-02">
 <meta name="description" content="Networks">
+
 <title>Oregon Spotted Frog – Unlocking the Power of Data Visualization with R</title>
 <style>
 code{white-space: pre-wrap;}
@@ -56,6 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
+
 <script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../../../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
@@ -76,7 +80,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../../site_libs/bootstrap/bootstrap-0e6a3043d43c3daa70054b051f1093c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../../../../site_libs/bootstrap/bootstrap-0e6a3043d43c3daa70054b051f1093c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -102,13 +107,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-55K190Q6RX"></script><script type="text/plain" cookie-consent="tracking">
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-55K190Q6RX"></script>
+
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-55K190Q6RX', { 'anonymize_ip': true});
-</script><script type="text/javascript" charset="UTF-8">
+</script>
+
+<script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"headline",
@@ -123,7 +133,11 @@ cookieconsent.run({
 "language":"en"
   });
 });
-</script><style>html{ scroll-behavior: smooth; }</style>
+</script> 
+  
+<style>html{ scroll-behavior: smooth; }</style>
+
+
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="Oregon Spotted Frog – Unlocking the Power of Data Visualization with R">
 <meta property="og:description" content="Networks">
@@ -135,13 +149,18 @@ cookieconsent.run({
 <meta name="twitter:site" content="@fgazzelloni">
 <meta name="twitter:card" content="summary_large_image">
 </head>
+
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../../../images/UPDVwR.png" alt="Unlocking the Power of Data Visualization with R" class="navbar-logo light-content"><img src="../../../../../images/UPDVwR.png" alt="Unlocking the Power of Data Visualization with R" class="navbar-logo dark-content"></a>
+    <img src="../../../../../images/UPDVwR.png" alt="Unlocking the Power of Data Visualization with R" class="navbar-logo light-content">
+    <img src="../../../../../images/UPDVwR.png" alt="Unlocking the Power of Data Visualization with R" class="navbar-logo dark-content">
+    </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -149,7 +168,7 @@ cookieconsent.run({
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item">
+  <li class="nav-item">
     <a class="nav-link" href="../../../../../content/tidytuesday/index.html"> 
 <span class="menu-text">TidyTuesday</span></a>
   </li>  
@@ -169,8 +188,8 @@ cookieconsent.run({
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">
-<li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
     <a class="dropdown-item" href="../../../../../about.html">
  <span class="dropdown-text">Who I am</span></a>
   </li>  
@@ -183,13 +202,17 @@ cookieconsent.run({
  <span class="dropdown-text">Contacts</span></a>
   </li>  
     </ul>
-</li>
+  </li>
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Oregon Spotted Frog</h1>
             <p class="subtitle lead">Welcome to #TidyTuesday 2022 day 31</p>
@@ -223,66 +246,73 @@ cookieconsent.run({
         
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content"><p>This is the final code for assembling all plots saved in the container images folder using {cowplot} package. In addition, some annotations and grobs are included.</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>This is the final code for assembling all plots saved in the container images folder using {cowplot} package. In addition, some annotations and grobs are included.</p>
 <p>All separate scripts are selfcontainers.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">g</span> <span class="op">&lt;-</span> <span class="fu">grid</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/grid/grid.circle.html">circleGrob</a></span><span class="op">(</span>gp <span class="op">=</span> <span class="fu">grid</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/grid/gpar.html">gpar</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="cn">NA</span>,color<span class="op">=</span><span class="st">"gray"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>g <span class="ot">&lt;-</span> grid<span class="sc">::</span><span class="fu">circleGrob</span>(<span class="at">gp =</span> grid<span class="sc">::</span><span class="fu">gpar</span>(<span class="at">fill =</span> <span class="cn">NA</span>,<span class="at">color=</span><span class="st">"gray"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://wilkelab.org/cowplot/">cowplot</a></span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://wilkelab.org/cowplot/reference/ggdraw.html">ggdraw</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_label.html">draw_label</a></span><span class="op">(</span><span class="st">"Oregon Spotted a Frog!"</span>, </span>
-<span>             x<span class="op">=</span><span class="fl">0.227</span>,y<span class="op">=</span><span class="fl">0.95</span>,size<span class="op">=</span><span class="fl">34</span>,</span>
-<span>             fontface <span class="op">=</span> <span class="st">"bold"</span>,</span>
-<span>             fontfamily <span class="op">=</span> <span class="st">"Roboto Condensed"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_label.html">draw_label</a></span><span class="op">(</span>label<span class="op">=</span><span class="st">"Captured"</span>,x<span class="op">=</span><span class="fl">0.7</span>,y<span class="op">=</span><span class="fl">0.9</span>,fontfamily <span class="op">=</span> <span class="st">"Roboto Condensed"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_label.html">draw_label</a></span><span class="op">(</span>label<span class="op">=</span><span class="st">"Visual"</span>,x<span class="op">=</span><span class="fl">0.6</span>,y<span class="op">=</span><span class="fl">0.9</span>,fontfamily <span class="op">=</span> <span class="st">"Roboto Condensed"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_label.html">draw_label</a></span><span class="op">(</span>label<span class="op">=</span><span class="st">"Frequency"</span>,x<span class="op">=</span><span class="fl">0.5</span>,y<span class="op">=</span><span class="fl">0.9</span>,fontfamily <span class="op">=</span> <span class="st">"Roboto Condensed"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_label.html">draw_label</a></span><span class="op">(</span>label<span class="op">=</span><span class="st">"Radio-telemetry is used to study frogs (Rana pretiosa)\nat Crane Prairie Reservoir in Oregon.\nIndividual frog location tracking occurred roughly\nweekly between September and late November of 2018."</span>,</span>
-<span>             fontfamily <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.015</span>,y<span class="op">=</span><span class="fl">0.85</span>,hjust<span class="op">=</span><span class="fl">0</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_label.html">draw_label</a></span><span class="op">(</span>label<span class="op">=</span><span class="st">"On average more males are caught on radio-telemetry\nfrequencies than females. In the map the grey circles\nindicate the tracking location ranges based on mean\nrange difference among frequencies in same subsite. \n\nDataSource: #TidyTuesday 2022 week31\n@USGS data &amp; @fgazzelloni | DataViz: Federica Gazzelloni"</span>,</span>
-<span>             fontfamily <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.015</span>,y<span class="op">=</span><span class="fl">0.08</span>,hjust<span class="op">=</span><span class="fl">0</span>,size<span class="op">=</span><span class="fl">11</span><span class="op">)</span> <span class="op">+</span></span>
-<span>    <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_label.html">draw_label</a></span><span class="op">(</span>label<span class="op">=</span><span class="st">"On the left is the network\nof subsite and water type,\nit shows more frogs are\ncaptured in specific locations.\n\nOn the right is the models\nranking among many models.\nRandom Forest is the best\nperforming. Results shows on\naverage male are twice more\nlikely to get caught than\nfemales. More info:\nfedericagazzelloni.netlify.app"</span>,</span>
-<span>             fontfamily <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.668</span>,y<span class="op">=</span><span class="fl">0.13</span>,hjust<span class="op">=</span><span class="fl">0</span>,size<span class="op">=</span><span class="fl">8</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_image.html">draw_image</a></span><span class="op">(</span><span class="st">"container/images/globe.png"</span>,</span>
-<span>             scale<span class="op">=</span><span class="fl">0.18</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.4</span>,y<span class="op">=</span><span class="fl">0.38</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_image.html">draw_image</a></span><span class="op">(</span><span class="st">"container/images/network_plot.png"</span>,</span>
-<span>             scale<span class="op">=</span><span class="fl">0.29</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.022</span>,y<span class="op">=</span><span class="op">-</span><span class="fl">0.38</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_image.html">draw_image</a></span><span class="op">(</span><span class="st">"container/images/roc_plot.png"</span>,</span>
-<span>             scale<span class="op">=</span><span class="fl">0.245</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.4</span>,y<span class="op">=</span><span class="op">-</span><span class="fl">0.38</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_image.html">draw_image</a></span><span class="op">(</span><span class="st">"container/images/lake_map.png"</span>,</span>
-<span>             scale<span class="op">=</span><span class="fl">0.7</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.14</span>,y<span class="op">=</span><span class="fl">0.01</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_image.html">draw_image</a></span><span class="op">(</span><span class="st">"container/images/vip_plot.png"</span>,</span>
-<span>             scale<span class="op">=</span><span class="fl">0.62</span>,</span>
-<span>             x<span class="op">=</span><span class="op">-</span><span class="fl">0.3</span>,y<span class="op">=</span><span class="op">-</span><span class="fl">0.03</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_image.html">draw_image</a></span><span class="op">(</span><span class="st">"container/images/frog_logo_visual.png"</span>, </span>
-<span>              scale<span class="op">=</span><span class="fl">0.2</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.1</span>, y<span class="op">=</span><span class="fl">0.32</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_image.html">draw_image</a></span><span class="op">(</span><span class="st">"container/images/frog_logo_captured.png"</span>,</span>
-<span>              scale<span class="op">=</span><span class="fl">0.2</span>,</span>
-<span>             x<span class="op">=</span><span class="fl">0.2</span>, y<span class="op">=</span><span class="fl">0.32</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_grob.html">draw_grob</a></span><span class="op">(</span><span class="va">g</span>, scale <span class="op">=</span> <span class="fl">0.05</span>,x <span class="op">=</span> <span class="fl">0</span>,y <span class="op">=</span> <span class="fl">0.33</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_grob.html">draw_grob</a></span><span class="op">(</span><span class="va">g</span>, scale <span class="op">=</span> <span class="fl">0.025</span>,x <span class="op">=</span> <span class="fl">0</span>,y <span class="op">=</span> <span class="fl">0.33</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://wilkelab.org/cowplot/reference/draw_grob.html">draw_grob</a></span><span class="op">(</span><span class="va">g</span>, scale <span class="op">=</span> <span class="fl">0.01</span>,x <span class="op">=</span> <span class="fl">0</span>,y <span class="op">=</span> <span class="fl">0.33</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cowplot)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggdraw</span>() <span class="sc">+</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_label</span>(<span class="st">"Oregon Spotted a Frog!"</span>, </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.227</span>,<span class="at">y=</span><span class="fl">0.95</span>,<span class="at">size=</span><span class="dv">34</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>             <span class="at">fontface =</span> <span class="st">"bold"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>             <span class="at">fontfamily =</span> <span class="st">"Roboto Condensed"</span>) <span class="sc">+</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_label</span>(<span class="at">label=</span><span class="st">"Captured"</span>,<span class="at">x=</span><span class="fl">0.7</span>,<span class="at">y=</span><span class="fl">0.9</span>,<span class="at">fontfamily =</span> <span class="st">"Roboto Condensed"</span>) <span class="sc">+</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_label</span>(<span class="at">label=</span><span class="st">"Visual"</span>,<span class="at">x=</span><span class="fl">0.6</span>,<span class="at">y=</span><span class="fl">0.9</span>,<span class="at">fontfamily =</span> <span class="st">"Roboto Condensed"</span>) <span class="sc">+</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_label</span>(<span class="at">label=</span><span class="st">"Frequency"</span>,<span class="at">x=</span><span class="fl">0.5</span>,<span class="at">y=</span><span class="fl">0.9</span>,<span class="at">fontfamily =</span> <span class="st">"Roboto Condensed"</span>) <span class="sc">+</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_label</span>(<span class="at">label=</span><span class="st">"Radio-telemetry is used to study frogs (Rana pretiosa)</span><span class="sc">\n</span><span class="st">at Crane Prairie Reservoir in Oregon.</span><span class="sc">\n</span><span class="st">Individual frog location tracking occurred roughly</span><span class="sc">\n</span><span class="st">weekly between September and late November of 2018."</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>             <span class="at">fontfamily =</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.015</span>,<span class="at">y=</span><span class="fl">0.85</span>,<span class="at">hjust=</span><span class="dv">0</span>) <span class="sc">+</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_label</span>(<span class="at">label=</span><span class="st">"On average more males are caught on radio-telemetry</span><span class="sc">\n</span><span class="st">frequencies than females. In the map the grey circles</span><span class="sc">\n</span><span class="st">indicate the tracking location ranges based on mean</span><span class="sc">\n</span><span class="st">range difference among frequencies in same subsite. </span><span class="sc">\n\n</span><span class="st">DataSource: #TidyTuesday 2022 week31</span><span class="sc">\n</span><span class="st">@USGS data &amp; @fgazzelloni | DataViz: Federica Gazzelloni"</span>,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>             <span class="at">fontfamily =</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.015</span>,<span class="at">y=</span><span class="fl">0.08</span>,<span class="at">hjust=</span><span class="dv">0</span>,<span class="at">size=</span><span class="dv">11</span>) <span class="sc">+</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">draw_label</span>(<span class="at">label=</span><span class="st">"On the left is the network</span><span class="sc">\n</span><span class="st">of subsite and water type,</span><span class="sc">\n</span><span class="st">it shows more frogs are</span><span class="sc">\n</span><span class="st">captured in specific locations.</span><span class="sc">\n\n</span><span class="st">On the right is the models</span><span class="sc">\n</span><span class="st">ranking among many models.</span><span class="sc">\n</span><span class="st">Random Forest is the best</span><span class="sc">\n</span><span class="st">performing. Results shows on</span><span class="sc">\n</span><span class="st">average male are twice more</span><span class="sc">\n</span><span class="st">likely to get caught than</span><span class="sc">\n</span><span class="st">females. More info:</span><span class="sc">\n</span><span class="st">federicagazzelloni.netlify.app"</span>,</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>             <span class="at">fontfamily =</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.668</span>,<span class="at">y=</span><span class="fl">0.13</span>,<span class="at">hjust=</span><span class="dv">0</span>,<span class="at">size=</span><span class="dv">8</span>) <span class="sc">+</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_image</span>(<span class="st">"container/images/globe.png"</span>,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>             <span class="at">scale=</span><span class="fl">0.18</span>,</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.4</span>,<span class="at">y=</span><span class="fl">0.38</span>)<span class="sc">+</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_image</span>(<span class="st">"container/images/network_plot.png"</span>,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>             <span class="at">scale=</span><span class="fl">0.29</span>,</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.022</span>,<span class="at">y=</span><span class="sc">-</span><span class="fl">0.38</span>)<span class="sc">+</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_image</span>(<span class="st">"container/images/roc_plot.png"</span>,</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>             <span class="at">scale=</span><span class="fl">0.245</span>,</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.4</span>,<span class="at">y=</span><span class="sc">-</span><span class="fl">0.38</span>)<span class="sc">+</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_image</span>(<span class="st">"container/images/lake_map.png"</span>,</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>             <span class="at">scale=</span><span class="fl">0.7</span>,</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.14</span>,<span class="at">y=</span><span class="fl">0.01</span>) <span class="sc">+</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_image</span>(<span class="st">"container/images/vip_plot.png"</span>,</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>             <span class="at">scale=</span><span class="fl">0.62</span>,</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="sc">-</span><span class="fl">0.3</span>,<span class="at">y=</span><span class="sc">-</span><span class="fl">0.03</span>)<span class="sc">+</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_image</span>(<span class="st">"container/images/frog_logo_visual.png"</span>, </span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>              <span class="at">scale=</span><span class="fl">0.2</span>,</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.1</span>, <span class="at">y=</span><span class="fl">0.32</span>) <span class="sc">+</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_image</span>(<span class="st">"container/images/frog_logo_captured.png"</span>,</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>              <span class="at">scale=</span><span class="fl">0.2</span>,</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>             <span class="at">x=</span><span class="fl">0.2</span>, <span class="at">y=</span><span class="fl">0.32</span>) <span class="sc">+</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_grob</span>(g, <span class="at">scale =</span> <span class="fl">0.05</span>,<span class="at">x =</span> <span class="dv">0</span>,<span class="at">y =</span> <span class="fl">0.33</span>)<span class="sc">+</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_grob</span>(g, <span class="at">scale =</span> <span class="fl">0.025</span>,<span class="at">x =</span> <span class="dv">0</span>,<span class="at">y =</span> <span class="fl">0.33</span>)<span class="sc">+</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">draw_grob</span>(g, <span class="at">scale =</span> <span class="fl">0.01</span>,<span class="at">x =</span> <span class="dv">0</span>,<span class="at">y =</span> <span class="fl">0.33</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># ggsave("w31_frogs.png",</span></span>
-<span><span class="co">#        width=10,</span></span>
-<span><span class="co">#        height = 8,</span></span>
-<span><span class="co">#        dpi=320,</span></span>
-<span><span class="co">#        bg = "white")</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ggsave("w31_frogs.png",</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#        width=10,</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#        height = 8,</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#        dpi=320,</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#        bg = "white")</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 
 
-</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -688,13 +718,14 @@ cookieconsent.run({
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Copyright © 2025 <a href="https://federicagazzelloni.com/">Federica Gazzelloni</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
-<li class="nav-item compact">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/fgazzelloni">
       <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
@@ -731,12 +762,14 @@ cookieconsent.run({
     </a>
   </li>  
 </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/tidytuesday/cases2022/posts2022/w31_Oregon_Spotted_Frog/w31_Oregon_Spotted_Frog.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/tidytuesday/cases2022/posts2022/w31_Oregon_Spotted_Frog/w31_Oregon_Spotted_Frog.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
 <p><a href="../../../../../ts-and-cs.html">Terms &amp; Conditions</a></p>
 </div>
   </div>
 </footer>
+
+
 
 
 <script src="../../../../../site_libs/quarto-html/zenscroll-min.js"></script>

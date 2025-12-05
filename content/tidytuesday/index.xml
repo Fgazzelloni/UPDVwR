@@ -17,7 +17,7 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Mon, 17 Nov 2025 09:06:25 GMT</lastBuildDate>
+<lastBuildDate>Fri, 05 Dec 2025 20:39:17 GMT</lastBuildDate>
 <item>
   <title>TidyTuesday 2021</title>
   <link>https://bookdown.org/fede_gazzelloni/UPDVwR/content/tidytuesday/cases2021/</link>
@@ -31,6 +31,27 @@
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1640041200000" data-listing-file-modified-sort="1692377953000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="757">
 <a href="../../../content/tidytuesday/cases2021/posts2021/w52_Starbucks_drinks/w52_Starbucks_drinks.html" class="quarto-grid-link">
@@ -971,9 +992,9 @@ Mar 23, 2021
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 
-</div> ]]></description>
+</div><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <guid>https://bookdown.org/fede_gazzelloni/UPDVwR/content/tidytuesday/cases2021/</guid>
-  <pubDate>Mon, 17 Nov 2025 09:06:25 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 20:39:17 GMT</pubDate>
   <media:content url="https://bookdown.org/fede_gazzelloni/UPDVwR/content/tidytuesday/cases2021/images/collage2021.png" medium="image" type="image/png" height="115" width="144"/>
 </item>
 <item>
@@ -989,6 +1010,27 @@ Mar 23, 2021
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1672095600000" data-listing-file-modified-sort="1692372791000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="322">
 <a href="../../../content/tidytuesday/cases2022/posts2022/w52_Star_Trek_Timelines/w52_Star_Trek_Timelines.html" class="quarto-grid-link">
@@ -2241,9 +2283,9 @@ Jan 4, 2022
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 
-</div> ]]></description>
+</div><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <guid>https://bookdown.org/fede_gazzelloni/UPDVwR/content/tidytuesday/cases2022/</guid>
-  <pubDate>Mon, 17 Nov 2025 09:06:25 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 20:39:17 GMT</pubDate>
   <media:content url="https://bookdown.org/fede_gazzelloni/UPDVwR/content/tidytuesday/cases2022/images/collage2022.png" medium="image" type="image/png" height="115" width="144"/>
 </item>
 <item>
@@ -2259,6 +2301,27 @@ Jan 4, 2022
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1692391802000" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <a href="../../../content/tidytuesday/cases2023/posts2023/w25_UFO_Sightings_Redux/w25_UFO_Sightings_Redux.html" class="quarto-grid-link">
@@ -2910,9 +2973,9 @@ Jan 3, 2023
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 
-</div> ]]></description>
+</div><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <guid>https://bookdown.org/fede_gazzelloni/UPDVwR/content/tidytuesday/cases2023/</guid>
-  <pubDate>Mon, 17 Nov 2025 09:06:25 GMT</pubDate>
+  <pubDate>Fri, 05 Dec 2025 20:39:17 GMT</pubDate>
   <media:content url="https://bookdown.org/fede_gazzelloni/UPDVwR/content/tidytuesday/cases2023/images/collage2023.png" medium="image" type="image/png" height="115" width="144"/>
 </item>
 </channel>

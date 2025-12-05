@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2025-11-17">
+<meta name="description" content="Change Data - Yearly AVG Temp at Weather Stations.">
 
 <title>A New Tool – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -20,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -104,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="A New Tool – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2025 day 17">
-<meta property="og:image" content="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day17_a_new_tool/day17_a_new_tool.png">
+<meta property="og:description" content="Change Data - Yearly AVG Temp at Weather Stations.">
+<meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day17_a_new_tool/day17_new_tool.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Change Data - Yearly AVG Temp at Weather Stations.">
 <meta name="twitter:title" content="A New Tool – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2025 day 17">
-<meta name="twitter:image" content="https://bookdown.org/fede_gazzelloni/UPDVwR/content/mapchallenge/cases2025/posts2025/day17_a_new_tool/day17_a_new_tool.png">
+<meta name="twitter:description" content="Change Data - Yearly AVG Temp at Weather Stations.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day17_a_new_tool/day17_new_tool.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Change Data - Yearly AVG Temp at Weather Stations.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -180,7 +218,12 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">A New Tool</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2025 day 17</p>
-                                <div class="quarto-categories">
+                  <div>
+        <div class="description">
+          Change Data - Yearly AVG Temp at Weather Stations.
+        </div>
+      </div>
+                          <div class="quarto-categories">
                 <div class="quarto-category">New Tool</div>
               </div>
                   </div>
@@ -204,8 +247,24 @@ cookieconsent.run({
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#loading-and-inspecting-raw-data" id="toc-loading-and-inspecting-raw-data" class="nav-link" data-scroll-target="#loading-and-inspecting-raw-data">Loading and inspecting raw data</a>
+  <ul class="collapse">
+  <li><a href="#import-the-weather-station-raw-data" id="toc-import-the-weather-station-raw-data" class="nav-link" data-scroll-target="#import-the-weather-station-raw-data">Import the Weather Station Raw Data</a></li>
+  <li><a href="#clean-variable-names-filter-valid-stations" id="toc-clean-variable-names-filter-valid-stations" class="nav-link" data-scroll-target="#clean-variable-names-filter-valid-stations">Clean Variable Names &amp; Filter Valid Stations</a></li>
+  <li><a href="#import-temperature-data" id="toc-import-temperature-data" class="nav-link" data-scroll-target="#import-temperature-data">Import Temperature Data</a></li>
+  <li><a href="#join-temperature-and-elevation-data" id="toc-join-temperature-and-elevation-data" class="nav-link" data-scroll-target="#join-temperature-and-elevation-data">Join Temperature and Elevation Data</a></li>
+  <li><a href="#export-the-final-data" id="toc-export-the-final-data" class="nav-link" data-scroll-target="#export-the-final-data">Export the Final Data</a></li>
+  <li><a href="#preview-map-in-r-optional" id="toc-preview-map-in-r-optional" class="nav-link" data-scroll-target="#preview-map-in-r-optional">Preview Map in R (Optional)</a></li>
+  <li><a href="#using-the-data-in-felt.com" id="toc-using-the-data-in-felt.com" class="nav-link" data-scroll-target="#using-the-data-in-felt.com">Using the Data in Felt.com</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2025/posts2025/day17_a_new_tool/day17_a_new_tool.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -214,10 +273,167 @@ cookieconsent.run({
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/refs/heads/master/2025/day17_a_new_tool/day17_new_tool.png" class="img-fluid figure-img"></p>
+<figcaption>Change Data - Yearly AVG Temp at Weather Stations.</figcaption>
+</figure>
+</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>For today’s <strong>“New Tool”</strong> theme, I explored <a href="https://felt.com/" class="uri">https://felt.com/</a>, an intuitive browser-based mapping platform. Before creating the final map in Felt, I prepared the dataset entirely in R. Below is the full workflow you can use to reproduce the data cleaning, temperature aggregation, and spatial preparation steps.</p>
+<p>This project combines two datasets—from weather stations and their yearly temperature records—to build a clean, spatially ready table for mapping. The final dataset includes station location, elevation, country information, and average temperature, which is then exported and uploaded to Felt.com for fast visualization.</p>
+</section>
+<section id="loading-and-inspecting-raw-data" class="level2">
+<h2 class="anchored" data-anchor-id="loading-and-inspecting-raw-data">Loading and inspecting raw data</h2>
+<p>We use {tidyverse} for wrangling, {readxl} to import the Excel exam dataset, {sf} for spatial structure (when previewing maps), {rnaturalearth}, and {openxlsx} to save the file.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rnaturalearth)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(openxlsx)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<section id="import-the-weather-station-raw-data" class="level3">
+<h3 class="anchored" data-anchor-id="import-the-weather-station-raw-data">Import the Weather Station Raw Data</h3>
+<p>The first Excel sheet contains station locations and basic metadata. The dataset comes with checks against expected ranges. Before any spatial work, we inspect these variables and drop invalid or missing values.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>stations_raw <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"data/09_2023-1_model-solution.xlsx"</span>,<span class="at">sheet =</span> <span class="dv">1</span>) </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(stations_raw)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(data_raw) <span class="ot">&lt;-</span> data_raw[<span class="dv">1</span>,]</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> data_raw[<span class="sc">-</span><span class="dv">1</span>,]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="clean-variable-names-filter-valid-stations" class="level3">
+<h3 class="anchored" data-anchor-id="clean-variable-names-filter-valid-stations">Clean Variable Names &amp; Filter Valid Stations</h3>
+<p>We use <code>janitor::clean_names()</code> to standardize columns. Then we keep only rows where all quality checks are marked “Ok”. Coordinates and elevation are converted to numeric fields, while country/continent names are standardized to title case. Stations below sea level are removed for consistency. This results in a reliable set of station points.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>elev_data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(check_versus_expected_range<span class="sc">==</span><span class="st">"Ok"</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>         check_versus_expected_range_2<span class="sc">==</span><span class="st">"Ok"</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>         check_versus_expected_range_3<span class="sc">==</span><span class="st">"Ok"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(id,latitude,longitude,elevation,country,continent)<span class="sc">%&gt;%</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">latitude =</span><span class="fu">as.numeric</span>(latitude),</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>         <span class="at">longitude =</span><span class="fu">as.numeric</span>(longitude),</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>         <span class="at">elevation =</span><span class="fu">as.numeric</span>(elevation),</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>         <span class="at">country=</span><span class="fu">str_to_title</span>(country),</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>         <span class="at">continent=</span><span class="fu">str_to_title</span>(continent))<span class="sc">%&gt;%</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(elevation<span class="sc">&gt;=</span><span class="dv">0</span>)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>elev_data<span class="sc">%&gt;%</span><span class="fu">summary</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="import-temperature-data" class="level3">
+<h3 class="anchored" data-anchor-id="import-temperature-data">Import Temperature Data</h3>
+<p>This data contain monthly temperatures for each station and each year. We reshape the data from wide to long format, calculate average yearly temperature per station, then average again across years to obtain a long-term mean temperature.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>temperature_raw <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"data/09_2023-1_model-solution.xlsx"</span>,<span class="at">sheet =</span> <span class="dv">3</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(temperature_raw)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>temperature <span class="ot">&lt;-</span> temperature_raw <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">14</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="sc">-</span><span class="fu">c</span>(id,year),</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>               <span class="at">names_to =</span> <span class="st">"month"</span>,<span class="at">values_to =</span> <span class="st">"temp"</span>)<span class="sc">%&gt;%</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id,year)<span class="sc">%&gt;%</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">reframe</span>(<span class="at">avg_yr_temp=</span><span class="fu">mean</span>(temp))<span class="sc">%&gt;%</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id)<span class="sc">%&gt;%</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">reframe</span>(<span class="at">avg_tem=</span><span class="fu">round</span>(<span class="fu">mean</span>(avg_yr_temp),<span class="dv">3</span>))</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>temperature</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="join-temperature-and-elevation-data" class="level3">
+<h3 class="anchored" data-anchor-id="join-temperature-and-elevation-data">Join Temperature and Elevation Data</h3>
+<p>We link the elevation dataset and the temperature dataset by station id, creating a unified table called climate_data. This includes:</p>
+<ul>
+<li>latitude / longitude</li>
+<li>elevation</li>
+<li>country, continent</li>
+<li>long-term yearly average temperature</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>climate_data <span class="ot">&lt;-</span> elev_data<span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(temperature,<span class="at">by=</span><span class="st">"id"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>climate_data<span class="sc">%&gt;%</span><span class="fu">summary</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>This is the dataset exported to climate_data.xlsx.</p>
+</section>
+<section id="export-the-final-data" class="level3">
+<h3 class="anchored" data-anchor-id="export-the-final-data">Export the Final Data</h3>
+<p>The cleaned table is saved using <code>openxlsx::write.xlsx()</code>. This file is then uploaded to Felt.com, which automatically recognizes coordinates and places points on the map.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>openxlsx<span class="sc">::</span><span class="fu">write.xlsx</span>(climate_data, <span class="at">file =</span> <span class="st">"data/climate_data.xlsx"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="preview-map-in-r-optional" class="level3">
+<h3 class="anchored" data-anchor-id="preview-map-in-r-optional">Preview Map in R (Optional)</h3>
+<p>To check the dataset before exporting, we create two quick visual checks:</p>
+<ul>
+<li>A simple map using map_data</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>world <span class="ot">&lt;-</span> <span class="fu">map_data</span>(<span class="st">"world"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(climate_data)<span class="sc">+</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_map</span>(<span class="at">map =</span> world,</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>           <span class="fu">aes</span>(<span class="at">map_id=</span>country,</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>               <span class="at">fill=</span> avg_tem))<span class="sc">+</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">expand_limits</span>(<span class="at">x =</span> world<span class="sc">$</span>long, <span class="at">y =</span> world<span class="sc">$</span>lat)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul>
+<li>A more modern visualization using Natural Earth boundaries (<code>{rnaturalearth}</code>)</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>world <span class="ot">&lt;-</span> rnaturalearth<span class="sc">::</span><span class="fu">ne_countries</span>(<span class="at">returnclass =</span> <span class="st">"sf"</span>,</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>                                     <span class="at">scale =</span> <span class="st">"medium"</span>)<span class="sc">%&gt;%</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span>name<span class="sc">==</span><span class="st">"Antarctica"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>These previews allow us to confirm that:</p>
+<ul>
+<li>all stations plot correctly</li>
+<li>temperature values behave as expected</li>
+<li>no impossible coordinates remain</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(climate_data)<span class="sc">+</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="at">data =</span> world, </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>          <span class="fu">aes</span>(<span class="at">fill=</span>name),</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>          <span class="at">alpha=</span><span class="fl">0.5</span>,</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>          <span class="at">show.legend =</span> F,</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>          <span class="at">inherit.aes =</span> F) <span class="sc">+</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x=</span>longitude,<span class="at">y=</span>latitude,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>                 <span class="at">color=</span>avg_tem,<span class="at">size=</span>avg_tem),</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>          <span class="at">shape=</span><span class="dv">21</span>,<span class="at">stroke=</span><span class="fl">0.5</span>,</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>          <span class="at">fill=</span><span class="fu">alpha</span>(<span class="st">"black"</span>,<span class="fl">0.5</span>),</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>          <span class="at">show.legend =</span> F)<span class="sc">+</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_gradient</span>(<span class="at">low=</span><span class="st">"white"</span>,<span class="at">high=</span><span class="st">"red"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="using-the-data-in-felt.com" class="level3">
+<h3 class="anchored" data-anchor-id="using-the-data-in-felt.com">Using the Data in Felt.com</h3>
+<p>Once uploaded to Felt:</p>
+<ul>
+<li>You can style points by temperature</li>
+<li>Add elevation as labels or filters</li>
+<li>Apply basemaps and annotations</li>
+<li>Combine layers or create a shareable URL</li>
+</ul>
+<p>Check the map: <a href="https://felt.com/map/Yearly-Average-Temperature-at-Weather-Stations-Worldwide-EejSJfISQgmRw9CUMN9Ab59BD?share=1&amp;loc=27.62,7.9,2.35z" class="uri">https://felt.com/map/Yearly-Average-Temperature-at-Weather-Stations-Worldwide-EejSJfISQgmRw9CUMN9Ab59BD?share=1&amp;loc=27.62,7.9,2.35z</a></p>
 
 
+</section>
+</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -668,7 +884,7 @@ cookieconsent.run({
     </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2025/posts2025/day17_a_new_tool/day17_a_new_tool.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2025/posts2025/day17_a_new_tool/day17_a_new_tool.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
 <p><a href="../../../../../ts-and-cs.html">Terms &amp; Conditions</a></p>
 </div>

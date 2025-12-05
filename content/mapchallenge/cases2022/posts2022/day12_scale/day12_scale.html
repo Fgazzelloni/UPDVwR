@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2022-11-12">
+<meta name="description" content="Atlantic Ocean Storms: A static leaflet map of the Atlantic Ocean Storms in 2005 with scale bar and proportional symbols representing maximum wind speeds.">
 
 <title>Scale – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="Scale – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2022 day 12">
+<meta property="og:description" content="Atlantic Ocean Storms: A static leaflet map of the Atlantic Ocean Storms in 2005 with scale bar and proportional symbols representing maximum wind speeds.">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day12_scale/day12_scale.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Atlantic Ocean Storms">
 <meta name="twitter:title" content="Scale – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2022 day 12">
+<meta name="twitter:description" content="Atlantic Ocean Storms: A static leaflet map of the Atlantic Ocean Storms in 2005 with scale bar and proportional symbols representing maximum wind speeds.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day12_scale/day12_scale.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Atlantic Ocean Storms">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,17 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">Scale</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2022 day 12</p>
-                      </div>
+                  <div>
+        <div class="description">
+          Atlantic Ocean Storms: A static leaflet map of the Atlantic Ocean Storms in 2005 with scale bar and proportional symbols representing maximum wind speeds.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Scale</div>
+                <div class="quarto-category">Atlantic Ocean</div>
+                <div class="quarto-category">Storms</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -252,9 +265,15 @@ cookieconsent.run({
 
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This is a static <code>leaflet</code> map of the <code>Atlantic Ocean Storms</code> in 2005.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2022/day12_scale/day12_scale.png" class="img-fluid figure-img"></p>
+<figcaption>Atlantic Ocean Storms</figcaption>
+</figure>
+</div>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>hurricanecolors <span class="ot">&lt;-</span> RColorBrewer<span class="sc">::</span><span class="fu">brewer.pal</span>(<span class="dv">12</span>,<span class="st">"Paired"</span>)</span>
@@ -336,7 +355,7 @@ cookieconsent.run({
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -610,6 +610,8 @@ div.quarto-post a {
 .quarto-grid-item .card-title {
   margin-top: 0.5em;
   margin-bottom: 0.75em;
+  text-align: center !important;
+  width: 100%;
 }
 
 .quarto-grid-item .listing-categories {

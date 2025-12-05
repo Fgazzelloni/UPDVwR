@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-11-08">
+<meta name="description" content="Africa Map: this map shows the total fertility rate by country in Africa for the year 2021, using data from the US Census Bureau International Data Base API and visualized with R.">
 
 <title>Africa – Unlocking the Power of Data Visualization with R</title>
 <style>
@@ -139,13 +140,15 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../../../../rwds.css">
 <meta property="og:title" content="Africa – Unlocking the Power of Data Visualization with R">
-<meta property="og:description" content="Welcome to #30DayMapChallenge 2023 day 8">
+<meta property="og:description" content="Africa Map: this map shows the total fertility rate by country in Africa for the year 2021, using data from the US Census Bureau International Data Base API and visualized with R.">
 <meta property="og:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day8_africa/day8_africa.png">
 <meta property="og:site_name" content="Unlocking the Power of Data Visualization with R">
+<meta property="og:image:alt" content="Africa Map">
 <meta name="twitter:title" content="Africa – Unlocking the Power of Data Visualization with R">
-<meta name="twitter:description" content="Welcome to #30DayMapChallenge 2023 day 8">
+<meta name="twitter:description" content="Africa Map: this map shows the total fertility rate by country in Africa for the year 2021, using data from the US Census Bureau International Data Base API and visualized with R.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day8_africa/day8_africa.png">
 <meta name="twitter:site" content="@fgazzelloni">
+<meta name="twitter:image:alt" content="Africa Map">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -215,7 +218,16 @@ cookieconsent.run({
     <div class="quarto-title column-body">
       <h1 class="title">Africa</h1>
             <p class="subtitle lead">Welcome to #30DayMapChallenge 2023 day 8</p>
-                      </div>
+                  <div>
+        <div class="description">
+          Africa Map: this map shows the total fertility rate by country in Africa for the year 2021, using data from the US Census Bureau International Data Base API and visualized with R.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Africa</div>
+                <div class="quarto-category">Census Data</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -241,8 +253,7 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#api-key-from-tidycensus" id="toc-api-key-from-tidycensus" class="nav-link" data-scroll-target="#api-key-from-tidycensus">API key from {tidycensus}</a></li>
   <li><a href="#census-data-with-idbr" id="toc-census-data-with-idbr" class="nav-link" data-scroll-target="#census-data-with-idbr">Census Data with {idbr}</a>
   <ul class="collapse">
@@ -254,7 +265,6 @@ cookieconsent.run({
   <ul class="collapse">
   <li><a href="#save-it" id="toc-save-it" class="nav-link" data-scroll-target="#save-it">Save it!</a></li>
   </ul></li>
-  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Fgazzelloni/UPDVwR/edit/main/content/mapchallenge/cases2023/posts2023/day8_africa/day8_africa.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Fgazzelloni/UPDVwR/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -265,13 +275,19 @@ cookieconsent.run({
 
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>For this challenge I looked at an interesting resource: <a href="https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html?q=tfr#visualizing-idb-data">Analyzing US Census Data: Methods, Maps, and Models in R</a>, also found the <code>{idbr}</code> package R Interface to the US Census Bureau International Data Base API.</p>
 <center>
-<img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day8_africa/day8_africa.png" class="img-fluid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/Fgazzelloni/30DayMapChallenge/master/2023/day8_africa/day8_africa.png" class="img-fluid figure-img"></p>
+<figcaption>Africa</figcaption>
+</figure>
+</div>
 </center>
 <p>Source: <a href="https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html" class="uri">https://walker-data.com/census-r/working-with-census-data-outside-the-united-states.html</a></p>
+</section>
 <section id="api-key-from-tidycensus" class="level2">
 <h2 class="anchored" data-anchor-id="api-key-from-tidycensus">API key from {tidycensus}</h2>
 <p>You might need a <code>tidycensus</code> API key to use the {idbr} function <code>get_idb()</code> to donwload census data, then go to <a href="https://api.census.gov/data/key_signup.html" class="uri">https://api.census.gov/data/key_signup.html</a> and add your details. It will send you an email with the API key.</p>
@@ -422,9 +438,8 @@ Sys.getenv("CENSUS_API_KEY")</code></pre>
 
 </section>
 </section>
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
